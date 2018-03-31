@@ -1,0 +1,24 @@
+{
+  "name": "rate",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/uncovertruth/rate.git",
+  "author": "UNCOVER TRUTH Inc.",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@types/react": "^16.1.0",
+    "@types/react-dom": "^16.0.4",
+    "prettier": "^1.11.1",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.10.0",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.8.1",
+    "typescript-styled-plugin": "^0.6.0"
+  },
+  "dependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "styled-components": "^3.2.3"
+  }
+}
