@@ -1,10 +1,6 @@
 import { injectGlobal } from "styled-components";
 
 export default injectGlobal`
-/**
- * Use a better box model (opinionated).
- */
-
 html {
   box-sizing: border-box;
 }
@@ -46,7 +42,6 @@ button,
 
 input, textarea {
   border: none;
-  box-sizing: border-box;
   outline: none;
   font-size: 1rem;
 }
