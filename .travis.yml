@@ -1,0 +1,14 @@
+sudo: false
+language: node_js
+node_js: stable
+cache: yarn
+jobs:
+  include:
+  - stage: Lint
+    script: yarn lint
+  - stage: Test
+    script:
+    - yarn test
+    - yarn coverage
+notifications:
+  email: false

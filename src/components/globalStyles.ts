@@ -1,4 +1,4 @@
-import { injectGlobal } from "styled-components";
+import { injectGlobal } from 'styled-components'
 
 export default injectGlobal`
 html {
@@ -61,4 +61,4 @@ a:focus {
   color: #475876;
   text-decoration: none;
 }
-`;
+`
