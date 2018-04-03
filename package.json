@@ -1,0 +1,39 @@
+{
+  "name": "rate",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/uncovertruth/rate.git",
+  "author": "UNCOVER TRUTH Inc.",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.0",
+    "@storybook/addon-knobs": "^3.4.0",
+    "@storybook/addons": "^3.4.0",
+    "@storybook/cli": "^3.4.0",
+    "@storybook/react": "^3.4.0",
+    "@types/react": "^16.1.0",
+    "@types/react-dom": "^16.0.4",
+    "@types/storybook__addon-actions": "^3.0.3",
+    "@types/storybook__addon-knobs": "^3.2.3",
+    "@types/storybook__react": "^3.0.7",
+    "awesome-typescript-loader": "^4.0.1",
+    "babel-core": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "prettier": "^1.11.1",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.10.0",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.8.1",
+    "typescript-styled-plugin": "^0.6.0"
+  },
+  "dependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "styled-components": "^3.2.3"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
