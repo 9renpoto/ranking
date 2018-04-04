@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="Keywords" content="" />
+		<meta name="Description" content="" />
+		<meta property="og:title" content="" />
+		<meta property="og:type" content="" />
+		<meta property="og:url" content="" />
+		<meta property="og:description" content="" />
+		<meta property="og:image" content="" />
+		<meta property="og:site_name" content="" />
+		<title></title>
+		<link href="scss/style.min.css" rel="stylesheet" type="text/css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<nav class="nav">
+				<ul>
+					<li><a href="#"><i class="fas "></i></a></li>
+				</ul>
+			</nav>
+			<main class="Inner">
+				<form action="/posts" method="post" data-validate>
+					<div class="Input">
+						<input type="email" placeholder="example@example" required />
+						<i class="fas fa-envelope icon"></i>
+					</div>
+					<div class="Input">
+						<input type="password" placeholder="password" required />
+						<i class="fas fa-unlock icon"></i>
+					</div>
+					<button class="Button" type="submit" disabled>Sign In</button>
+				</form>
+			</main>
+		</div>
+
+		<script>
+			$(function(){
+		    $('form[data-validate]').on('input', function () {
+		      $(this).find(':submit').attr('disabled', !this.checkValidity());
+		    });
+		  });
+		</script>
+	</body>
+	</html>
