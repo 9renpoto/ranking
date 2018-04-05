@@ -14,6 +14,7 @@
     "@storybook/addons": "^3.4.0",
     "@storybook/cli": "^3.4.0",
     "@storybook/react": "^3.4.0",
+    "@types/jest": "^22.2.2",
     "@types/react": "^16.1.0",
     "@types/react-dom": "^16.0.4",
     "@types/storybook__addon-actions": "^3.0.3",
@@ -37,15 +38,17 @@
   },
   "jest": {
     "transform": {
-      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+      "^.+\\.tsx?$": "ts-jest"
     },
-    "testRegex": "(/components/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
     "collectCoverage": true,
     "moduleFileExtensions": [
       "ts",
       "tsx",
       "js",
-      "json"
+      "jsx",
+      "json",
+      "node"
     ]
   },
   "lint-staged": {
