@@ -20,9 +20,9 @@
 		<div class="wrapper">
 			<nav class="nav">
 				<ul>
-					<li><a href="#" class="active"><i class="fas fa-user"></i></a></li>
+					<li><a href="#"><i class="fas fa-user"></i></a></li>
 					<li><a href="#"><i class="fas fa-chart-bar"></i></a></li>
-					<li><a href="#"><i class="fas fa-edit"></i></a></li>
+					<li><a href="#" class="active"><i class="fas fa-edit"></i></a></li>
 				</ul>
 			</nav>
 			<main class="main">
@@ -39,46 +39,16 @@
 								<p>とても悪い</p>
 								<p>とても良い</p>
 							</div>
-							<div class="mypage-RangeBar">
-								<span style="left:50%;"></span>
+							<div class="edit-RangeBar">
+								<input type="range" step="25" />
 							</div>
 						</div>
 					</div>
-					<div class="mypage-Result">
-						<div class="mypage-ResultRank">
-							<div class="mypage-ResultRank_Inner">
-								<span>50人中</span>
-								10位
-							</div>
-						</div>
-						<p class="mypage-ResultComment">ここにコメントが入ります。ここにコメントが入ります。ここにコメントが入ります。ここにコメントが入ります。ここにコメントが入ります。ここにコメントが入ります。ここにコメントが入ります。</p>
+					<div class="mypage-Comment">
+						<textarea placeholder="コメント入力"></textarea>
 					</div>
 				</div>
-				<div class="mypage-Content">
-					<div>
-						<div class="mypage-Rank">
-							<span>1</span>
-							<div class="mypage-RankBar" style="width: 100%;">
-								<img src="https://dummyimage.com/300x300/000/fff" alt="" />
-								<p>name</p>
-							</div>
-						</div>
-						<div class="mypage-Rank">
-							<span>2</span>
-							<div class="mypage-RankBar" style="width: 75%;">
-								<img src="https://dummyimage.com/300x300/000/fff" alt="" />
-								<p>name</p>
-							</div>
-						</div>
-						<div class="mypage-Rank">
-							<span>3</span>
-							<div class="mypage-RankBar" style="width: 50%;">
-								<img src="https://dummyimage.com/300x300/000/fff" alt="" />
-								<p>name</p>
-							</div>
-						</div>
-					</div>
-				</div>
+				<p class="edit-Save"><button class="edit-SaveButton" type="submit">保存</button></p>
 			</main>
 		</div>
 	</body>
