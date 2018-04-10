@@ -75,7 +75,7 @@ input {
 
 textarea {
   width: 100%;
-  border: 0.063rem solid #7b7b7b;
+  border: 0.063rem solid #cccccc;
   resize: none;
   outline: none;
   padding: .5rem;
@@ -97,6 +97,35 @@ a:hover,
 a:focus {
   color: #475876;
   text-decoration: none;
+}
+
+
+.wrapper {
+  display: flex;
+  background-color: #f9f9f9;
+  min-height: 100%;
+}
+
+.nav {
+  text-align: center;
+  background-color: #000;
+
+  li {
+    a {
+      color: #fff;
+      display: block;
+      padding: .7rem;
+
+      &:hover,
+      &.active {
+        background-color: #3ebdaa;
+      }
+    }
+  }
+}
+
+.main {
+  flex: 1;
 }
 
 /* signin */
@@ -154,23 +183,254 @@ a:focus {
   }
 }
 
-.wrapper {
-  display: flex;
-  background-color: #f9f9f9;
+
+/* mypage */
+.mypage-Header {
+  width: 100%;
+  min-height: 7.5rem;
+  margin-bottom: 3.125rem;
+  position: relative;
+  @include Gradient($red, $yellow, 0.6);
+
+  .mypage-Inner {
+    display: flex;
+    position: absolute;
+    bottom: -30%;
+    left: 2rem;
+  }
+
+  .mypage-HeaderImg {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 0.063rem solid #ccc;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .mypage-HeaderName {
+    padding-top: 1rem;
+    margin-left:.5rem;
+    color: #fff;
+  }
 }
 
-.nav {
-  background-color: #000;
+[class^="mypage-Content"] {
+  margin: 0 2rem;
+
+  > div {
+    padding: 1.875rem 1.25rem;
+    background-color: #fff;
+    box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,.12);
+  }
+
+  + [class^="mypage-Content"] {
+    margin-top: 0.625rem;
+  }
+}
+
+.mypage-Content-2col {
+  display: flex;
+
+  > div {
+    width: 50%;
+
+    + div {
+      margin-left: 0.625rem;
+    }
+  }
+}
+
+.mypage-Range {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .mypage-Range_Inner {
+    width: 100%;
+  }
+
+  .mypage-Range_Valuation {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: #555;
+  }
+
+  .mypage-RangeBar {
+    position: relative;
+    border-bottom: 0.063rem solid $red;
+    margin-top: 1.25rem;
+    width: 100%;
+    height: 0.063rem;
+
+    span {
+      position: absolute;
+      border: 0.063rem solid $red;
+      width: 1.563rem;
+      height: 1.563rem;
+      border-radius: 50%;
+      top: 50%;
+      background-color: #fff;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.mypage-Result {
+  .mypage-ResultRank {
+    margin: 0 auto;
+    color: $blue;
+    font-size: 1.563rem;
+    font-weight: bold;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    border: 0.188rem solid $blue;
+    border-radius: 50%;
+
+    .mypage-ResultRank_Inner {
+      text-align: center;
+
+      span {
+        display: block;
+        font-size: 0.625rem;
+        font-weight: normal;
+        margin-bottom: 0.313rem;
+      }
+    }
+  }
+
+  .mypage-ResultComment {
+    margin-top: 0.938rem;
+    font-size: 0.875rem;
+    line-height: 1.4;
+  }
+}
+
+.mypage-Rank {
+  display: flex;
+  align-items: center;
+
+  + .mypage-Rank {
+    margin-top: 0.625rem;
+  }
+
+  span {
+    font-weight: bold;
+    margin-right: 1.875rem;
+  }
+
+  .mypage-RankBar {
+    display: flex;
+    align-items: center;
+    background-color: $green;
+    border-radius: 0.188rem;
+    padding: 0.313rem;
+
+    img {
+      width: 1.25rem;
+      height: 1.25rem;
+      border-radius: 0.188rem;
+      margin-right: 0.625rem;
+    }
+
+    p {
+      color: #fff;
+      font-size: 0.875rem;
+    }
+  }
+}
+
+/* edit */
+.edit-RangeBar {
+  margin-top: 1.25rem;
+
+  input[type=range] {
+    -webkit-appearance:none;
+    background-color: $red;
+    height: 1px;
+    width: 100%;
+    padding: 0;
+    cursor: pointer;
+  }
+  input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    background-color: #fff;
+    border: 1px solid $red;
+    width: 1.563rem;
+    height: 1.563rem;
+    border-radius: 50%;
+  }
+  input[type=range]::-ms-tooltip{
+    display: none;
+  }
+  input[type=range]::-moz-range-track{
+    height: 0;
+  }
+  input[type=range]::-moz-range-thumb{
+    background-color: #fff;
+    width: 1.563rem;
+    height: 1.563rem;
+    border: 1px solid $red;
+    border-radius:50%;
+  }
+}
+
+.mypage-Comment {
+  textarea {
+    height: 9.375rem;
+  }
+}
+
+.edit-Save {
+  margin: 3rem auto 0;
+  width: 8.125rem;
+
+  .edit-SaveButton {
+    @include Button($green, $blue);
+    display: block;
+    width: 100%;
+  }
 }
 
 /*----------------------------------------------------------
 	SP
 ----------------------------------------------------------*/
 @media (max-width: 48rem) {
+  .wrapper {
+    display: block;
+  }
+
+  .nav {
+    ul {
+      display: flex;
+    }
+  }
   .sigin_Wrapper {
     .signin_Inner {
       padding: 3rem 2rem;
       margin: 0 1rem;
+    }
+  }
+
+  .mypage-Content-2col {
+    display: block;
+
+    > div {
+      width: 100%;
+      box-sizing: border-box;
+
+      + div {
+        margin-left: 0;
+        margin-top: .625rem;
+      }
     }
   }
 }
