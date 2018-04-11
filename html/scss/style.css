@@ -249,11 +249,7 @@ a:focus {
   height: 0.063rem;
 }
 
-<<<<<<< HEAD
 .mypage-Range .mypage-RangeBar .mypage-RangeBar_Thumb {
-=======
-.mypage-Range .mypage-RangeBar span {
->>>>>>> html作成
   position: absolute;
   border: 0.063rem solid #eb2e3e;
   width: 1.563rem;
@@ -262,7 +258,6 @@ a:focus {
   top: 50%;
   background-color: #fff;
   transform: translate(-50%, -50%);
-<<<<<<< HEAD
   z-index: 2;
   box-sizing: border-box;
 }
@@ -296,8 +291,6 @@ a:focus {
 
 .mypage-Range .mypage-RangeBar span:nth-of-type(5) {
   left: 100%;
-=======
->>>>>>> html作成
 }
 
 .mypage-Result .mypage-ResultRank {
@@ -368,12 +361,8 @@ a:focus {
 
 /* edit */
 .edit-RangeBar {
-<<<<<<< HEAD
   margin-top: .5rem;
   position: relative;
-=======
-  margin-top: 1.25rem;
->>>>>>> html作成
 }
 
 .edit-RangeBar input[type=range] {
@@ -392,11 +381,8 @@ a:focus {
   width: 1.563rem;
   height: 1.563rem;
   border-radius: 50%;
-<<<<<<< HEAD
   position: relative;
   z-index: 2;
-=======
->>>>>>> html作成
 }
 
 .edit-RangeBar input[type=range]::-ms-tooltip {
@@ -414,8 +400,6 @@ a:focus {
   border: 1px solid #eb2e3e;
   border-radius: 50%;
 }
-
-<<<<<<< HEAD
 .edit-RangeBar span {
   position: absolute;
   display: block;
@@ -447,8 +431,6 @@ a:focus {
   left: 99.9%;
 }
 
-=======
->>>>>>> html作成
 .mypage-Comment textarea {
   height: 9.375rem;
 }
