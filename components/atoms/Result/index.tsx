@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const ResultRank = styled.div`
   margin: 0 auto;
@@ -13,25 +13,25 @@ const ResultRank = styled.div`
   justify-content: center;
   border: 0.188rem solid #3fa2fc;
   border-radius: 50%;
-`;
+`
 
 const ResultRankInner = styled.div`
   text-align: center;
 
-   span {
+  span {
     display: block;
     font-size: 0.625rem;
     font-weight: normal;
     margin-bottom: 0.313rem;
   }
-`;
+`
 
 const RangeValuation = styled.div`
   display: flex;
   justify-content: space-between;
   font-size: 0.75rem;
   color: #555;
-`;
+`
 
 const RangeBar = styled.div`
   position: relative;
@@ -83,7 +83,6 @@ const RangeBar = styled.div`
       left: 100%;
     }
   }
+`
 
-`;
-
-export default Range;
+export default Range
