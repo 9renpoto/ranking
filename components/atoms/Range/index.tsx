@@ -1,22 +1,22 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const Range = styled.div`
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-`;
+`
 
 const RangeInner = styled.div`
   width: 100%;
-`;
+`
 
 const RangeValuation = styled.div`
   display: flex;
   justify-content: space-between;
   font-size: 0.75rem;
   color: #555;
-`;
+`
 
 const RangeBar = styled.div`
   position: relative;
@@ -24,7 +24,7 @@ const RangeBar = styled.div`
   margin-top: 1.25rem;
   width: 100%;
   height: 0.063rem;
-`;
+`
 
 const RangeBarThumb = styled.div`
   position: absolute;
@@ -68,6 +68,6 @@ const RangeBarThumb = styled.div`
       left: 100%;
     }
   }
-`;
+`
 
-export default Range;
+export default Range
