@@ -13,7 +13,6 @@
     "removeComments": true,
     "importHelpers": true,
     "downlevelIteration": true,
-    "isolatedModules": false,
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
