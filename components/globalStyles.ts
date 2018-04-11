@@ -2,27 +2,25 @@ import { injectGlobal } from 'styled-components'
 
 export default injectGlobal`
 html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
   line-height: 1;
   color: #333333;
+  height: 100%;
+  padding: 0;
   margin: 0;
 }
 
-ul, ol {
+li {
   list-style: none;
 }
 
-h1, h3, h4, h5, h6, p, ol, ul, dl, dt, dd, figure ,button {
+h1, h3, h4, h5, h6, p, ol, ul, dl, dt, dd, figure, button {
   margin: 0;
   padding: 0;
 }
@@ -33,16 +31,22 @@ button {
   outline: none;
 }
 
-button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
-  -webkit-appearance: button;
+input {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  padding: .5rem;
+  font-size: 1rem;
 }
 
-input, textarea {
-  border: none;
+textarea {
+  width: 100%;
+  border: 0.063rem solid #cccccc;
+  resize: none;
   outline: none;
+  padding: .5rem;
+  box-sizing: border-box;
   font-size: 1rem;
 }
 
