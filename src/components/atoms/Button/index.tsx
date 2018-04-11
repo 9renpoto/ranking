@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Button = styled.input`
+const Button = styled.button`
   border-radius: 1.25rem;
   padding: 0 3rem;
   height: 2.5rem;
@@ -16,6 +16,15 @@ const Button = styled.input`
   &:hover {
     box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,.12), 0 0.125rem 0.125rem 0 rgba(0,0,0,.24);
   }
+
+  ${ props => props.disabled && css`
+    background: #ccc;
+
+    &:hover {
+      box-shadow: none;
+      cursor: default;
+    }
+  `}
 `;
 
 export default Buttons;
