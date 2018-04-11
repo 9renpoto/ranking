@@ -267,7 +267,7 @@ a:focus {
     width: 100%;
     height: 0.063rem;
 
-    span {
+    .mypage-RangeBar_Thumb {
       position: absolute;
       border: 0.063rem solid $red;
       width: 1.563rem;
@@ -276,6 +276,39 @@ a:focus {
       top: 50%;
       background-color: #fff;
       transform: translate(-50%, -50%);
+      z-index: 2;
+      box-sizing: border-box;
+    }
+
+    span {
+      position: absolute;
+      display: block;
+      width: 0.188rem;
+      height: 0.188rem;
+      border-radius: 50%;
+      background-color: $red;
+      top: 0;
+      z-index: 1;
+
+      &:nth-of-type(1) {
+        left: 0;
+      }
+
+      &:nth-of-type(2) {
+        left: 25%;
+      }
+
+      &:nth-of-type(3) {
+        left: 50%;
+      }
+
+      &:nth-of-type(4) {
+        left: 75%;
+      }
+
+      &:nth-of-type(5) {
+        left: 100%;
+      }
     }
   }
 }
@@ -350,7 +383,8 @@ a:focus {
 
 /* edit */
 .edit-RangeBar {
-  margin-top: 1.25rem;
+  margin-top: .5rem;
+  position: relative;
 
   input[type=range] {
     -webkit-appearance:none;
@@ -367,6 +401,8 @@ a:focus {
     width: 1.563rem;
     height: 1.563rem;
     border-radius: 50%;
+    position: relative;
+    z-index: 2;
   }
   input[type=range]::-ms-tooltip{
     display: none;
@@ -380,6 +416,37 @@ a:focus {
     height: 1.563rem;
     border: 1px solid $red;
     border-radius:50%;
+  }
+
+  span {
+    position: absolute;
+    display: block;
+    width: 0.188rem;
+    height: 0.188rem;
+    border-radius: 50%;
+    background-color: $red;
+    top: 75%;
+    z-index: 1;
+
+    &:nth-of-type(1) {
+      left: .2%;
+    }
+
+    &:nth-of-type(2) {
+      left: 25%;
+    }
+
+    &:nth-of-type(3) {
+      left: 50%;
+    }
+
+    &:nth-of-type(4) {
+      left: 75%;
+    }
+
+    &:nth-of-type(5) {
+      left: 99.9%;
+    }
   }
 }
 
