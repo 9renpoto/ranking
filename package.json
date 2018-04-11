@@ -17,11 +17,12 @@
     "@types/jest": "22.2.2",
     "@types/react": "16.3.8",
     "@types/react-dom": "16.0.5",
+    "@types/react-test-renderer": "16.0.1",
     "@types/storybook__addon-actions": "3.0.3",
     "@types/storybook__addon-knobs": "3.3.0",
     "@types/storybook__react": "3.0.7",
     "@uncovertruth/tslint-config": "4.3.0",
-    "awesome-typescript-loader": "5.0.0",
+    "awesome-typescript-loader": "4.0.0",
     "babel-core": "6.26.0",
     "babel-runtime": "6.26.0",
     "codecov": "3.0.0",
@@ -67,11 +68,11 @@
   "private": true,
   "repository": "ssh://git@github.com/uncovertruth/rate.git",
   "scripts": {
+    "build": "build-storybook",
     "coverage": "codecov -f ./coverage/lcov.info && codecov",
     "lint": "tslint 'components/**/*.ts'",
     "test": "jest",
-    "build": "build-storybook",
     "precommit": "lint-staged",
-    "start": "start-storybook -p 6006"
+    "start": "start-storybook -p 9001"
   }
 }
