@@ -1,4 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components'
+
+export type Props = {
+  '2col': string;
+}
 
 const Content = styled.div`
   margin: 0 2rem;
@@ -13,7 +17,9 @@ const Content = styled.div`
     margin-top: 0.625rem;
   }
 
-  ${ props => props.2col && css`
+  ${(props: Props) =>
+    props['2col'] &&
+    `
     display: flex;
 
     > div {
@@ -23,7 +29,7 @@ const Content = styled.div`
     > div + div {
       margin-left: 0.625rem;
     }
-  `}
-`;
+  `};
+`
 
-export default Content;
+export default Content
