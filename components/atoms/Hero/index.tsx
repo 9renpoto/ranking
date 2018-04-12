@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Hero = styled.div`
+export const Hero = styled.div`
   width: 100%;
   min-height: 7.5rem;
   margin-bottom: 3.125rem;
@@ -13,12 +13,9 @@ const Hero = styled.div`
   );
 `
 
-const HeroInner = styled.div`
+export const HeroInner = styled.div`
   display: flex;
   position: absolute;
   bottom: -30%;
   left: 2rem;
 `
-
-export Hero
-export HeroInner
