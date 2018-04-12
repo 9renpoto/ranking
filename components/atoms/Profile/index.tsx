@@ -1,34 +1,18 @@
 import styled from 'styled-components'
 
-const ProfileImg = styled.div`
-  width: 100%;
-  min-height: 7.5rem;
-  margin-bottom: 3.125rem;
-  position: relative;
-  background: #eb2e3e;
-  background: linear-gradient(
-    90deg,
-    rgba(235, 46, 62, 0.6),
-    rgba(249, 180, 45, 0.6)
-  );
+export const ProfileImg = styled.div`
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 0.063rem solid #ccc;
 
   img {
     border-radius: 50%;
   }
 `
 
-const ProfileName = styled.p`
-  width: 100%;
-  min-height: 7.5rem;
-  margin-bottom: 3.125rem;
-  position: relative;
-  background: #eb2e3e;
-  background: linear-gradient(
-    90deg,
-    rgba(235, 46, 62, 0.6),
-    rgba(249, 180, 45, 0.6)
-  );
+export const ProfileName = styled.p`
+  padding-top: 1rem;
+  margin-left:.5rem;
+  color: #fff;
 `
-
-export ProfileImg
-export ProfileName
