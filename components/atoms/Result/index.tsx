@@ -39,19 +39,18 @@ const RangeBar = styled.div`
   margin-top: 1.25rem;
   width: 100%;
   height: 0.063rem;
-
-  .mypage-RangeBar_Thumb {
-    position: absolute;
-    border: 0.063rem solid #eb2e3e;
-    width: 1.563rem;
-    height: 1.563rem;
-    border-radius: 50%;
-    top: 50%;
-    background-color: #fff;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    box-sizing: border-box;
-  }
+`
+const RangeBarThumb = styled.div`
+  position: absolute;
+  border: 0.063rem solid #eb2e3e;
+  width: 1.563rem;
+  height: 1.563rem;
+  border-radius: 50%;
+  top: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  box-sizing: border-box;
 
   span {
     position: absolute;

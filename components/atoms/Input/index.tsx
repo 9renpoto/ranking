@@ -1,8 +1,13 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const Input = styled.input`
-  padding: 0.5rem;
   width: 100%;
-`;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-bottom: 0.063rem solid #cccccc;
+`
 
-export default Input;
+export default Input
