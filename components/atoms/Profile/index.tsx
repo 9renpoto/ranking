@@ -30,5 +30,5 @@ const ProfileName = styled.p`
   );
 `
 
-export default ProfileImg
-export default ProfileName
+export ProfileImg
+export ProfileName
