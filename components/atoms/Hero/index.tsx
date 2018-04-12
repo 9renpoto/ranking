@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Hero = styled.duv`
+const Hero = styled.div`
   width: 100%;
   min-height: 7.5rem;
   margin-bottom: 3.125rem;
@@ -20,5 +20,5 @@ const HeroInner = styled.div`
   left: 2rem;
 `
 
-export default Hero
-export default HeroInner
+export Hero
+export HeroInner
