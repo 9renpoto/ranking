@@ -1,11 +1,14 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-const Textarea = styled.input`
-  border: 0.063rem solid #cccccc;
-  font-size: 1rem;
-  padding: 0.5rem;
-  resize: none;
+const Textarea = styled.textarea`
   width: 100%;
-`;
+  border: 0.063rem solid #cccccc;
+  resize: none;
+  outline: none;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+  height: 9.375rem;
+`
 
-export default Textarea;
+export default Textarea
