@@ -7,6 +7,12 @@ export const Input = styled.input`
   outline: none;
   padding: 0.5rem;
   font-size: 1rem;
+  border-bottom: 0.063rem solid #cccccc;
+
+  ::-webkit-input-placeholder {
+    color: #ccc;
+  }
+`
 
   ::-webkit-input-placeholder {
     color: #ccc;
