@@ -4,7 +4,7 @@ export type Props = {
   '2col': string;
 }
 
-const Content = styled.div`
+export const Content = styled.div`
   margin: 0 2rem;
 
   > div {
@@ -29,7 +29,19 @@ const Content = styled.div`
     > div + div {
       margin-left: 0.625rem;
     }
+
+    @media (max-width: 48rem) {
+      display: block;
+
+      > div {
+        width: 100%;
+        box-sizing: border-box;
+
+        + div {
+          margin-left: 0;
+          margin-top: .625rem;
+        }
+      }
+    }
   `};
 `
-
-export default Content
