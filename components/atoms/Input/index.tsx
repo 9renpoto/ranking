@@ -8,6 +8,10 @@ const Input = styled.input`
   padding: 0.5rem;
   font-size: 1rem;
   border-bottom: 0.063rem solid #cccccc;
+
+  ::-webkit-input-placeholder {
+    color: #ccc;
+  }
 `
 
 export default Input
