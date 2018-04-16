@@ -8205,12 +8205,12 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typescript-styled-plugin@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/typescript-styled-plugin/-/typescript-styled-plugin-0.6.0.tgz#ede4826907d88b84dbdf6ec0052ce862f5d3bd72"
+typescript-styled-plugin@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/typescript-styled-plugin/-/typescript-styled-plugin-0.6.1.tgz#2aff4ab5760927de17c2c7d1cbd00e52eb35185d"
   dependencies:
     typescript-template-language-service-decorator "^1.2.0"
-    vscode-css-languageservice "^3.0.5"
+    vscode-css-languageservice "^3.0.8"
     vscode-emmet-helper "1.1.36"
     vscode-languageserver-types "^3.6.0-next.1"
 
@@ -8499,7 +8499,7 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vscode-css-languageservice@^3.0.5:
+vscode-css-languageservice@^3.0.8:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/vscode-css-languageservice/-/vscode-css-languageservice-3.0.8.tgz#dc27a2f6eefd191bc603be6b9c0a59232a4c2b9f"
   dependencies:

@@ -32,7 +32,7 @@
     "tslint": "5.9.1",
     "tslint-react": "3.5.1",
     "typescript": "2.8.1",
-    "typescript-styled-plugin": "0.6.0"
+    "typescript-styled-plugin": "0.6.1"
   },
   "jest": {
     "transform": {
