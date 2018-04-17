@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Button = styled.button`
   border-radius: 1.25rem;
@@ -18,9 +18,9 @@ export const Button = styled.button`
       0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.24);
   }
 
-  ${props =>
+  ${(props) =>
     props.disabled &&
-    css`
+    `
       background: #ccc;
 
       &:hover {
@@ -28,4 +28,4 @@ export const Button = styled.button`
         cursor: default;
       }
     `};
-`;
+`
