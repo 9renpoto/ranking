@@ -1,23 +1,27 @@
+import { faEnvelope, faUnlock } from '@fortawesome/fontawesome-free-solid'
+import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import { storiesOf } from '@storybook/react'
+import { internet, random } from 'faker'
 import * as React from 'react'
 
 import { SigninWrapper, SigninWrapperInner, SigninWrapperInput } from '.'
 import { Button } from '../Button'
+import { Input } from '../Input'
 
-storiesOf('Signin', module).add('default', () =>
+storiesOf('Signin', module).add('default', () => (
   <SigninWrapper>
     <SigninWrapperInner>
-      <form action="/posts" method="post" data-validate>
+      <form action='#' method='post'>
         <SigninWrapperInput>
-          <input type="email" placeholder="example@example" required />
-          <i class="fas fa-envelope icon"></i>
+          <Input type='email' placeholder={internet.email()} />
+          <FontAwesomeIcon Icon={faEnvelope} />
         </SigninWrapperInput>
         <SigninWrapperInput>
-          <input type="password" placeholder="password" required />
-          <i class="fas fa-unlock icon"></i>
-        </div>
-        <Button>Sign In</Button>
-      </SigninWrapperInput>
+          <Input type='password' placeholder={random.word()} />
+          <FontAwesomeIcon Icon={faUnlock} />
+          <Button>Sign in</Button>
+        </SigninWrapperInput>
+      </form>
     </SigninWrapperInner>
   </SigninWrapper>
-)
+))
