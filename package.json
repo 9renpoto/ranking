@@ -22,7 +22,7 @@
     "@types/storybook__addon-actions": "3.0.3",
     "@types/storybook__addon-knobs": "3.3.1",
     "@types/storybook__react": "3.0.7",
-    "@uncovertruth/tslint-config": "4.3.0",
+    "@uncovertruth/tslint-config": "4.3.1",
     "awesome-typescript-loader": "4.0.1",
     "babel-core": "6.26.0",
     "babel-runtime": "6.26.0",
