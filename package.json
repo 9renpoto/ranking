@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "author": "UNCOVER TRUTH Inc.",
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "@fortawesome/fontawesome-free-solid": "^5.0.10",
+    "@fortawesome/react-fontawesome": "^0.0.18",
     "react": "16.3.2",
     "react-dom": "16.3.2",
     "styled-components": "3.2.5"
@@ -14,6 +17,7 @@
     "@storybook/addons": "3.4.1",
     "@storybook/cli": "3.4.1",
     "@storybook/react": "3.4.1",
+    "@types/faker": "4.1.2",
     "@types/jest": "22.2.3",
     "@types/storybook__addon-actions": "3.0.3",
     "@types/storybook__addon-knobs": "3.3.1",
@@ -23,6 +27,7 @@
     "babel-core": "6.26.0",
     "babel-runtime": "6.26.0",
     "codecov": "3.0.0",
+    "faker": "4.1.0",
     "husky": "0.14.3",
     "jest": "22.4.3",
     "lint-staged": "7.0.4",
@@ -49,6 +54,7 @@
       "node"
     ]
   },
+  "license": "MIT",
   "lint-staged": {
     "*.{ts,tsx}": [
       "prettier --write",
@@ -60,7 +66,6 @@
       "git add"
     ]
   },
-  "license": "MIT",
   "main": "n/a",
   "private": true,
   "repository": "ssh://git@github.com/uncovertruth/rate.git",
@@ -68,7 +73,8 @@
     "build": "build-storybook",
     "coverage": "codecov -f ./coverage/lcov.info && codecov",
     "lint": "tslint 'components/**/*.ts'",
-    "test": "jest",
-    "start": "start-storybook -p 9001"
+    "precommit": "lint-staged",
+    "start": "start-storybook -p 9001",
+    "test": "jest"
   }
 }
