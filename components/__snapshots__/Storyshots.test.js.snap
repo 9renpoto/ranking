@@ -1,8 +1,330 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Atoms.Button default 1`] = `
+<button
+  className="sc-bdVaJa kgbQgc"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Atoms.Hero default 1`] = `
+<div
+  className="sc-bwzfXH dGUCNu"
+>
+  <div
+    className="sc-htpNat eLepeH"
+  >
+    <div
+      className="sc-bxivhb kMqnGI"
+    >
+      <img
+        alt=""
+        src="http://lorempixel.com/300/300"
+      />
+    </div>
+    <p
+      className="sc-ifAKCX gxxghG"
+    >
+      name
+    </p>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Atoms.Input default 1`] = `
 <input
-  className="sc-bdVaJa clXhfb"
+  className="sc-EHOje bpjSsJ"
   placeholder="hello"
 />
+`;
+
+exports[`Storyshots Atoms.Nav default 1`] = `
+<nav
+  className="sc-bZQynM hwFeDs"
+>
+  <ul>
+    <li>
+      <a
+        className="active"
+        href="mypage.html"
+      />
+    </li>
+    <li>
+      <a
+        href="edit.html"
+      />
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Storyshots Atoms.Range default 1`] = `
+<div
+  className="sc-gzVnrw iTHlAC"
+>
+  <div
+    className="sc-htoDjs kKCJWi"
+  >
+    <div
+      className="sc-dnqmqq dxDhgA"
+    >
+      <p>
+        JBOD
+      </p>
+      <p>
+        partnerships
+      </p>
+    </div>
+    <div
+      className="sc-iwsKbI jKiUXF"
+    >
+      <div
+        className="sc-gZMcBi lohZi"
+        style={
+          Object {
+            "left": "50%",
+          }
+        }
+      />
+      <span />
+      <span />
+      <span />
+      <span />
+      <span />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms.Range input 1`] = `
+<div
+  className="sc-gzVnrw iTHlAC"
+>
+  <div
+    className="sc-htoDjs kKCJWi"
+  >
+    <div
+      className="sc-dnqmqq dxDhgA"
+    >
+      <p>
+        Manat
+      </p>
+      <p>
+        Investment Account
+      </p>
+    </div>
+    <div
+      className="sc-gqjmRU eyjbby"
+    >
+      <input
+        className="sc-VigVT eXNeRt"
+        step="25"
+        type="range"
+      />
+      <span />
+      <span />
+      <span />
+      <span />
+      <span />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms.Rank default 1`] = `
+<div
+  className="sc-jTzLTM gQlVVZ"
+>
+  <span>
+    626
+  </span>
+  <div
+    className="sc-fjdhpX lblgpK"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <img
+      alt=""
+      src="http://lorempixel.com/300.3/480"
+    />
+    <p>
+      name
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms.Result default 1`] = `
+Array [
+  <div
+    className="sc-jzJRlG cfgyFt"
+  >
+    <div
+      className="sc-cSHVUG kUhAaL"
+    >
+      <span>
+        50人中
+      </span>
+      10位
+    </div>
+  </div>,
+  <p
+    className="sc-kAzzGY hHiTst"
+  >
+    Gloves
+  </p>,
+]
+`;
+
+exports[`Storyshots Atoms.Textarea default 1`] = `
+<textarea
+  className="sc-kpOJdX funvsI"
+  placeholder="hello"
+/>
+`;
+
+exports[`Storyshots Signin default 1`] = `
+<div
+  className="sc-chPdSV kRRaru"
+>
+  <main
+    className="sc-kgoBCf bHDOux"
+  >
+    <form
+      action="/posts"
+      data-validate={true}
+      method="post"
+    >
+      <div
+        className="sc-kGXeez bOoQUx"
+      >
+        <input
+          placeholder="example@example"
+          required={true}
+          type="email"
+        />
+        <i
+          class="fas fa-envelope icon"
+        />
+      </div>
+      <div
+        className="sc-kGXeez bOoQUx"
+      >
+        <input
+          placeholder="password"
+          required={true}
+          type="password"
+        />
+        <i
+          class="fas fa-unlock icon"
+        />
+      </div>
+      <button
+        className="sc-bdVaJa kgbQgc"
+      >
+        Sign In
+      </button>
+    </form>
+  </main>
+</div>
+`;
+
+exports[`Storyshots Wrapper default 1`] = `
+<div
+  className="sc-dxgOiQ fmyLfR"
+>
+  <nav
+    className="sc-bZQynM hwFeDs"
+  >
+    <ul>
+      <li>
+        <a
+          class="active"
+          href="mypage.html"
+        >
+          <i
+            class="fas fa-user"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          href="edit.html"
+        >
+          <i
+            class="fas fa-edit"
+          />
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <main
+    className="sc-jKJlTe eYjonN"
+  >
+    <div
+      className="sc-bwzfXH dGUCNu"
+    >
+      <div
+        className="sc-htpNat eLepeH"
+      >
+        <div
+          className="sc-bxivhb kMqnGI"
+        >
+          <img
+            alt=""
+            src="https://dummyimage.com/300x300/000/fff"
+          />
+        </div>
+        <p
+          className="sc-ifAKCX gxxghG"
+        >
+          name
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ckVGcZ fuKGRP"
+    >
+      <div
+        className="sc-gzVnrw iTHlAC"
+      >
+        <div
+          className="sc-htoDjs kKCJWi"
+        >
+          <div
+            className="sc-dnqmqq dxDhgA"
+          >
+            <p>
+              とても悪い
+            </p>
+            <p>
+              とても良い
+            </p>
+          </div>
+          <div
+            className="sc-iwsKbI jKiUXF"
+          >
+            <div
+              className="sc-gZMcBi lohZi"
+              style={
+                Object {
+                  "left": "50%",
+                }
+              }
+            />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
 `;

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Textarea = styled.textarea`
+export const Textarea = styled.textarea`
   width: 100%;
   border: 0.063rem solid #cccccc;
   resize: none;
@@ -10,5 +10,3 @@ const Textarea = styled.textarea`
   font-size: 1rem;
   height: 9.375rem;
 `
-
-export default Textarea
