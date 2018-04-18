@@ -5,8 +5,11 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        exclude: /node_modules/,
-        loader: 'awesome-typescript-loader'
+        exclude: /(node_modules|pages)/,
+        loader: 'awesome-typescript-loader',
+        query: {
+          configFileName: 'tsconfig.storybook.json'
+        }
       }
     ]
   },

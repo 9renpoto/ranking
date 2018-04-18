@@ -13,6 +13,7 @@
     "react-dom": "16.3.2",
     "styled-components": "3.2.6"
   },
+  "private": true,
   "devDependencies": {
     "@storybook/addon-actions": "3.4.2",
     "@storybook/addon-knobs": "3.4.2",
@@ -87,8 +88,10 @@
     "build": "build-storybook",
     "coverage": "codecov -f ./coverage/lcov.info && codecov",
     "lint": "tslint 'components/**/*.ts{,x}'",
+    "next": "next",
     "precommit": "lint-staged",
-    "start": "start-storybook -p 9001",
+    "start": "concurrently -k 'yarn storybook' 'yarn next'",
+    "storybook": "start-storybook -p 9001",
     "test": "jest"
   }
 }
