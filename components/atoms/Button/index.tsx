@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 export const Button = styled.button`
+  display: block;
+  width: 100%;
   border-radius: 1.25rem;
   padding: 0 3rem;
   height: 2.5rem;
