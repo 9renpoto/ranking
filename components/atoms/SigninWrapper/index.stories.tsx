@@ -20,7 +20,7 @@ storiesOf('Signin', module).add('default', () => (
           <Input type='password' placeholder={random.word()} />
           <FontAwesomeIcon Icon={faUnlock} />
         </SigninWrapperInput>
-        <Button disabled>Sign in</Button>
+        <Button disabled={true}>Sign in</Button>
       </form>
     </SigninWrapperInner>
   </SigninWrapper>
