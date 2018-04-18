@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/react'
-import * as React from 'react'
 import { image, random } from 'faker'
+import * as React from 'react'
 
 import { Wrapper } from '.'
 import { Content, ContentInner } from '../Content'
@@ -15,8 +15,8 @@ import {
   RangeInner,
   RangeValuation
 } from '../Range'
-import { ResultComment, ResultRank, ResultRankInner } from '../Result'
 import { Rank, RankBar } from '../Ranking'
+import { ResultComment, ResultRank, ResultRankInner } from '../Result'
 
 storiesOf('Wrapper', module).add('default', () => (
   <Wrapper>
@@ -43,7 +43,7 @@ storiesOf('Wrapper', module).add('default', () => (
           <ProfileName>name</ProfileName>
         </HeroInner>
       </Hero>
-      <Content col2>
+      <Content col2={true}>
         <ContentInner>
           <Range>
             <RangeInner>
@@ -64,14 +64,14 @@ storiesOf('Wrapper', module).add('default', () => (
         </ContentInner>
         <ContentInner>
           <React.Fragment>
-              <ResultRank>
-                <ResultRankInner>
-                  <span>50人中</span>
-                  10位
-                </ResultRankInner>
-              </ResultRank>
-              <ResultComment>{random.word()}</ResultComment>
-            </React.Fragment>
+            <ResultRank>
+              <ResultRankInner>
+                <span>50人中</span>
+                10位
+              </ResultRankInner>
+            </ResultRank>
+            <ResultComment>{random.word()}</ResultComment>
+          </React.Fragment>
         </ContentInner>
       </Content>
       <Content>
