@@ -8,6 +8,10 @@ export const Rank = styled.div`
     font-weight: bold;
     margin-right: 1.875rem;
   }
+
+  & + & {
+    margin-top: 1rem;
+  }
 `
 
 export const RankBar = styled.div`

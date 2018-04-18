@@ -83,7 +83,6 @@
     "build": "build-storybook",
     "coverage": "codecov -f ./coverage/lcov.info && codecov",
     "lint": "tslint 'components/**/*.ts{,x}'",
-    "precommit": "lint-staged",
     "start": "start-storybook -p 9001",
     "test": "jest"
   }
