@@ -2,7 +2,7 @@
 
 exports[`Storyshots Atoms.Button default 1`] = `
 <button
-  className="sc-bdVaJa kgbQgc"
+  className="sc-bdVaJa bhUGjY"
 >
   Button
 </button>
@@ -34,7 +34,7 @@ exports[`Storyshots Atoms.Hero default 1`] = `
 
 exports[`Storyshots Atoms.Input default 1`] = `
 <input
-  className="sc-EHOje bpjSsJ"
+  className="sc-EHOje gPRTWD"
   placeholder="hello"
 />
 `;
@@ -70,10 +70,10 @@ exports[`Storyshots Atoms.Range default 1`] = `
       className="sc-dnqmqq dxDhgA"
     >
       <p>
-        JBOD
+        Swedish Krona
       </p>
       <p>
-        partnerships
+        global
       </p>
     </div>
     <div
@@ -108,10 +108,10 @@ exports[`Storyshots Atoms.Range input 1`] = `
       className="sc-dnqmqq dxDhgA"
     >
       <p>
-        Manat
+        Quality-focused
       </p>
       <p>
-        Investment Account
+        Puerto Rico
       </p>
     </div>
     <div
@@ -134,10 +134,10 @@ exports[`Storyshots Atoms.Range input 1`] = `
 
 exports[`Storyshots Atoms.Rank default 1`] = `
 <div
-  className="sc-jTzLTM gQlVVZ"
+  className="sc-jTzLTM kZBYtr"
 >
   <span>
-    626
+    71946
   </span>
   <div
     className="sc-fjdhpX lblgpK"
@@ -175,7 +175,7 @@ Array [
   <p
     className="sc-kAzzGY hHiTst"
   >
-    Gloves
+    Berkshire
   </p>,
 ]
 `;
@@ -189,44 +189,38 @@ exports[`Storyshots Atoms.Textarea default 1`] = `
 
 exports[`Storyshots Signin default 1`] = `
 <div
-  className="sc-chPdSV kRRaru"
+  className="sc-chPdSV gfmRqc"
 >
   <main
-    className="sc-kgoBCf bHDOux"
+    className="sc-kgoBCf gHMjHZ"
   >
     <form
-      action="/posts"
-      data-validate={true}
+      action="#"
       method="post"
     >
       <div
-        className="sc-kGXeez bOoQUx"
+        className="sc-kGXeez fzXwqT"
       >
         <input
-          placeholder="example@example"
-          required={true}
+          className="sc-EHOje gPRTWD"
+          placeholder="Willa_Jast48@hotmail.com"
           type="email"
-        />
-        <i
-          class="fas fa-envelope icon"
         />
       </div>
       <div
-        className="sc-kGXeez bOoQUx"
+        className="sc-kGXeez fzXwqT"
       >
         <input
-          placeholder="password"
-          required={true}
+          className="sc-EHOje gPRTWD"
+          placeholder="Cotton"
           type="password"
-        />
-        <i
-          class="fas fa-unlock icon"
         />
       </div>
       <button
-        className="sc-bdVaJa kgbQgc"
+        className="sc-bdVaJa fnyDze"
+        disabled={true}
       >
-        Sign In
+        Sign in
       </button>
     </form>
   </main>
@@ -235,7 +229,7 @@ exports[`Storyshots Signin default 1`] = `
 
 exports[`Storyshots Wrapper default 1`] = `
 <div
-  className="sc-dxgOiQ fmyLfR"
+  className="sc-dxgOiQ gBTuGX"
 >
   <nav
     className="sc-bZQynM hwFeDs"
@@ -243,11 +237,11 @@ exports[`Storyshots Wrapper default 1`] = `
     <ul>
       <li>
         <a
-          class="active"
+          className="active"
           href="mypage.html"
         >
           <i
-            class="fas fa-user"
+            className="fas fa-user"
           />
         </a>
       </li>
@@ -256,14 +250,14 @@ exports[`Storyshots Wrapper default 1`] = `
           href="edit.html"
         >
           <i
-            class="fas fa-edit"
+            className="fas fa-edit"
           />
         </a>
       </li>
     </ul>
   </nav>
   <main
-    className="sc-jKJlTe eYjonN"
+    className="sc-eNQAEJ gfNwNo"
   >
     <div
       className="sc-bwzfXH dGUCNu"
@@ -287,40 +281,119 @@ exports[`Storyshots Wrapper default 1`] = `
       </div>
     </div>
     <div
-      className="sc-ckVGcZ fuKGRP"
+      className="sc-ckVGcZ keKDZk"
     >
       <div
-        className="sc-gzVnrw iTHlAC"
+        className="sc-jKJlTe jpniOT"
       >
         <div
-          className="sc-htoDjs kKCJWi"
+          className="sc-gzVnrw iTHlAC"
         >
           <div
-            className="sc-dnqmqq dxDhgA"
-          >
-            <p>
-              とても悪い
-            </p>
-            <p>
-              とても良い
-            </p>
-          </div>
-          <div
-            className="sc-iwsKbI jKiUXF"
+            className="sc-htoDjs kKCJWi"
           >
             <div
-              className="sc-gZMcBi lohZi"
-              style={
-                Object {
-                  "left": "50%",
+              className="sc-dnqmqq dxDhgA"
+            >
+              <p>
+                とても悪い
+              </p>
+              <p>
+                とても良い
+              </p>
+            </div>
+            <div
+              className="sc-iwsKbI jKiUXF"
+            >
+              <div
+                className="sc-gZMcBi lohZi"
+                style={
+                  Object {
+                    "left": "50%",
+                  }
                 }
+              />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jKJlTe jpniOT"
+      >
+        <div
+          className="sc-jzJRlG cfgyFt"
+        >
+          <div
+            className="sc-cSHVUG kUhAaL"
+          >
+            <span>
+              50人中
+            </span>
+            10位
+          </div>
+        </div>
+        <p
+          className="sc-kAzzGY hHiTst"
+        >
+          harness
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ckVGcZ cuKafE"
+    >
+      <div
+        className="sc-jKJlTe jpniOT"
+      >
+        <div
+          className="sc-jTzLTM kZBYtr"
+        >
+          <span>
+            62731
+          </span>
+          <div
+            className="sc-fjdhpX lblgpK"
+            style={
+              Object {
+                "width": "100%",
               }
+            }
+          >
+            <img
+              alt=""
+              src="http://lorempixel.com/300.3/480"
             />
-            <span />
-            <span />
-            <span />
-            <span />
-            <span />
+            <p>
+              name
+            </p>
+          </div>
+        </div>
+        <div
+          className="sc-jTzLTM kZBYtr"
+        >
+          <span>
+            72904
+          </span>
+          <div
+            className="sc-fjdhpX lblgpK"
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          >
+            <img
+              alt=""
+              src="http://lorempixel.com/300.3/480"
+            />
+            <p>
+              name
+            </p>
           </div>
         </div>
       </div>
