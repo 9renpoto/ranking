@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "env": {
     "jest/globals": true
   },
@@ -19,4 +20,17 @@
     "jest/globals": true
   }
 >>>>>>> refactor(components) Added eslint  (#36)
+=======
+  "env": {
+    "jest/globals": true
+  },
+  "extends": [
+    "@uncovertruth/eslint-config",
+    "@uncovertruth/eslint-config-react"
+  ],
+  "parser": "typescript-eslint-parser",
+  "plugins": [
+    "jest"
+  ]
+>>>>>>> cat *.json | jq . -S
 }
