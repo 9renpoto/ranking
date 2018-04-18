@@ -8,8 +8,6 @@ import { Main } from '../Main'
 import { Nav } from '../Nav'
 import { ProfileImg, ProfileName } from '../Profile'
 import {
-  EditRange,
-  EditRangeInput,
   Range,
   RangeBar,
   RangeBarThumb,
@@ -22,13 +20,13 @@ storiesOf('Wrapper', module).add('default', () => (
     <Nav>
       <ul>
         <li>
-          <a href='mypage.html' class='active'>
-            <i class='fas fa-user' />
+          <a href='mypage.html' className='active'>
+            <i className='fas fa-user' />
           </a>
         </li>
         <li>
           <a href='edit.html'>
-            <i class='fas fa-edit' />
+            <i className='fas fa-edit' />
           </a>
         </li>
       </ul>

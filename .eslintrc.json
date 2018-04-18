@@ -1,0 +1,8 @@
+{
+  "parser": "typescript-eslint-parser",
+  "extends": ["@uncovertruth/eslint-config", "@uncovertruth/eslint-config-react"],
+  "plugins": ["jest"],
+  "env": {
+    "jest/globals": true
+  }
+}
