@@ -23,21 +23,26 @@
     "@types/storybook__addon-actions": "3.0.3",
     "@types/storybook__addon-knobs": "3.3.1",
     "@types/storybook__react": "3.0.7",
+    "@uncovertruth/eslint-config": "4.2.0",
+    "@uncovertruth/eslint-config-react": "4.3.1",
     "@uncovertruth/tslint-config": "4.3.1",
     "awesome-typescript-loader": "4.0.1",
     "babel-core": "6.26.0",
     "babel-runtime": "6.26.0",
     "codecov": "3.0.0",
     "faker": "4.1.0",
+    "eslint": "4.19.1",
+    "eslint-plugin-jest": "21.15.0",
     "husky": "0.14.3",
     "jest": "22.4.3",
     "lint-staged": "7.0.4",
-    "prettier": "1.12.1",
+    "prettier-eslint-cli": "4.7.1",
     "react-test-renderer": "16.3.2",
     "ts-jest": "22.4.3",
     "tslint": "5.9.1",
     "tslint-react": "3.5.1",
     "typescript": "2.8.1",
+    "typescript-eslint-parser": "15.0.0",
     "typescript-styled-plugin": "0.6.1"
   },
   "jest": {
@@ -58,11 +63,15 @@
   "license": "MIT",
   "lint-staged": {
     "*.{ts,tsx}": [
-      "prettier --write",
+      "prettier-eslint --write",
       "tslint --fix",
       "git add"
     ],
-    "*.{md,js}": [
+    "*.js": [
+      "prettier-eslint --write",
+      "git add"
+    ],
+    "*.md": [
       "prettier --write",
       "git add"
     ]
@@ -73,7 +82,7 @@
   "scripts": {
     "build": "build-storybook",
     "coverage": "codecov -f ./coverage/lcov.info && codecov",
-    "lint": "tslint 'components/**/*.ts'",
+    "lint": "tslint 'components/**/*.ts{,x}'",
     "precommit": "lint-staged",
     "start": "start-storybook -p 9001",
     "test": "jest"
