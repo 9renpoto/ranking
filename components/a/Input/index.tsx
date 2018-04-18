@@ -12,8 +12,3 @@ export const Input = styled.input`
     color: #ccc;
   }
 `
-
-  ::-webkit-input-placeholder {
-    color: #ccc;
-  }
-`

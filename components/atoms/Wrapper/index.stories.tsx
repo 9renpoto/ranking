@@ -1,8 +1,10 @@
 import { storiesOf } from '@storybook/react'
 import * as React from 'react'
+import { random } from 'faker'
+import { image, random } from 'faker'
 
 import { Wrapper } from '.'
-import { Content } from '../Content'
+import { Content, ContentInner } from '../Content'
 import { Hero, HeroInner } from '../Hero'
 import { Main } from '../Main'
 import { Nav } from '../Nav'
@@ -14,6 +16,8 @@ import {
   RangeInner,
   RangeValuation
 } from '../Range'
+import { ResultComment, ResultRank, ResultRankInner } from '../Result'
+import { Rank, RankBar } from '../Ranking'
 
 storiesOf('Wrapper', module).add('default', () => (
   <Wrapper>
@@ -40,23 +44,54 @@ storiesOf('Wrapper', module).add('default', () => (
           <ProfileName>name</ProfileName>
         </HeroInner>
       </Hero>
+      <Content col2>
+        <ContentInner>
+          <Range>
+            <RangeInner>
+              <RangeValuation>
+                <p>とても悪い</p>
+                <p>とても良い</p>
+              </RangeValuation>
+              <RangeBar>
+                <RangeBarThumb style={{ left: '50%' }} />
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
+              </RangeBar>
+            </RangeInner>
+          </Range>
+        </ContentInner>
+        <ContentInner>
+          <React.Fragment>
+              <ResultRank>
+                <ResultRankInner>
+                  <span>50人中</span>
+                  10位
+                </ResultRankInner>
+              </ResultRank>
+              <ResultComment>{random.word()}</ResultComment>
+            </React.Fragment>
+        </ContentInner>
+      </Content>
       <Content>
-        <Range>
-          <RangeInner>
-            <RangeValuation>
-              <p>とても悪い</p>
-              <p>とても良い</p>
-            </RangeValuation>
-            <RangeBar>
-              <RangeBarThumb style={{ left: '50%' }} />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-            </RangeBar>
-          </RangeInner>
-        </Range>
+        <ContentInner>
+          <Rank>
+            <span>{random.number()}</span>
+            <RankBar style={{ width: '100%' }}>
+              <img src={image.imageUrl(300.3)} alt='' />
+              <p>name</p>
+            </RankBar>
+          </Rank>
+          <Rank>
+            <span>{random.number()}</span>
+            <RankBar style={{ width: '100%' }}>
+              <img src={image.imageUrl(300.3)} alt='' />
+              <p>name</p>
+            </RankBar>
+          </Rank>
+        </ContentInner>
       </Content>
     </Main>
   </Wrapper>
