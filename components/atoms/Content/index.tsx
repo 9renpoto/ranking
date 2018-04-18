@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export type Props = {
-  col2: string;
+  col2: boolean;
 }
 
 export const Content = styled.div`
