@@ -63,7 +63,12 @@
       "jsx",
       "json",
       "node"
-    ]
+    ],
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.storybook.json"
+      }
+    }
   },
   "license": "MIT",
   "lint-staged": {
@@ -88,9 +93,9 @@
     "build": "build-storybook",
     "coverage": "codecov -f ./coverage/lcov.info && codecov",
     "lint": "tslint 'components/**/*.ts{,x}'",
-    "next": "next",
+    "start": "next",
     "precommit": "lint-staged",
-    "start": "concurrently -k 'yarn storybook' 'yarn next'",
+    "dev": "concurrently -k 'yarn storybook' 'yarn start'",
     "storybook": "start-storybook -p 9001",
     "test": "jest"
   }
