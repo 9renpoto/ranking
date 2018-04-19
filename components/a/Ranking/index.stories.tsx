@@ -1,20 +1,15 @@
 import { storiesOf } from '@storybook/react'
 import { image, random } from 'faker'
-import React from 'react'
+import * as React from 'react'
 
-import { Bar } from '.'
-import { Avatar } from '../Avatar'
-import { Name } from '../User'
+import { Rank, RankBar } from '.'
 
-export const DefaultRankBar = () => (
-  <Bar style={{ width: `${random.number({ max: 100 })}%` }}>
-    <Avatar width={0.938} height={0.938}>
-      <img src={image.imageUrl(300, 300)} alt={random.word()} />
-    </Avatar>
-    <Name white padding={0}>
-      {random.word()}
-    </Name>
-  </Bar>
-)
-
-storiesOf('Atoms.RankBar', module).add('default', () => <DefaultRankBar />)
+storiesOf('Atoms.Rank', module).add('default', () => (
+  <Rank>
+    <span>{random.number()}</span>
+    <RankBar style={{ width: '100%' }}>
+      <img src={image.imageUrl(300.3)} alt='' />
+      <p>name</p>
+    </RankBar>
+  </Rank>
+))

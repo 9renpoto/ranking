@@ -24,7 +24,36 @@ export const RangeBar = styled.div`
   margin-top: 1.25rem;
   width: 100%;
   height: 0.063rem;
-  box-sizing: border-box;
+
+  span {
+    position: absolute;
+    display: block;
+    width: 0.188rem;
+    height: 0.188rem;
+    border-radius: 50%;
+    background-color: #eb2e3e;
+    top: 0;
+    z-index: 1;
+
+    &:nth-of-type(1) {
+      left: 0;
+    }
+
+    &:nth-of-type(2) {
+      left: 25%;
+    }
+
+    &:nth-of-type(3) {
+      left: 50%;
+    }
+
+    &:nth-of-type(4) {
+      left: 75%;
+    }
+
+    &:nth-of-type(5) {
+      left: 100%;
+    }
   }
 `
 
@@ -41,26 +70,47 @@ export const RangeBarThumb = styled.div`
   box-sizing: border-box;
 `
 
-export const RangeValue = styled.span`
-  position: absolute;
-  top: 85%;
-  transform: translate(-50%, -50%);
-  z-index: 3;
-  font-size: 0.75rem;
-  color: #777;
-`
-
 export const EditRange = styled.div`
   margin-top: 0.5rem;
   position: relative;
+
+  span {
+    position: absolute;
+    display: block;
+    width: 0.188rem;
+    height: 0.188rem;
+    border-radius: 50%;
+    background-color: #eb2e3e;
+    top: 75%;
+    z-index: 1;
+
+    &:nth-of-type(1) {
+      left: 0.2%;
+    }
+
+    &:nth-of-type(2) {
+      left: 25%;
+    }
+
+    &:nth-of-type(3) {
+      left: 50%;
+    }
+
+    &:nth-of-type(4) {
+      left: 75%;
+    }
+
+    &:nth-of-type(5) {
+      left: 99.9%;
+    }
+  }
 `
 
 export const EditRangeInput = styled.input`
-  appearance: none;
+  -webkit-appearance: none;
   background-color: #eb2e3e;
   height: 0.063rem;
   width: 100%;
-  margin: 0;
   padding: 0;
   cursor: pointer;
 
@@ -77,20 +127,14 @@ export const EditRangeInput = styled.input`
   &::-ms-tooltip {
     display: none;
   }
-  ::-moz-focus-outer {
-    border: 0;
-  }
   &::-moz-range-track {
     height: 0;
   }
   &::-moz-range-thumb {
-    appearance: none;
     background-color: #fff;
     width: 1.563rem;
     height: 1.563rem;
     border: 0.063rem solid #eb2e3e;
     border-radius: 50%;
-    position: relative;
-    z-index: 2;
   }
 `

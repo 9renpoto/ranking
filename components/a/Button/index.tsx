@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 export const Button = styled.button`
+  display: block;
+  width: 100%;
   border-radius: 1.25rem;
   padding: 0 3rem;
   height: 2.5rem;
@@ -8,7 +10,7 @@ export const Button = styled.button`
   text-align: center;
   color: #fff;
   font-size: 1rem;
-  background-color: #3ebdaa;
+  background: #3ebdaa;
   background: linear-gradient(90deg, #3ebdaa, #3fa2fc);
   transition: all 0.3s;
   cursor: pointer;
