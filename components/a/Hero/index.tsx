@@ -13,7 +13,7 @@ export const Hero = styled.div`
   );
 `
 
-export const HeroInner = styled.div`
+export const Inner = styled.div`
   display: flex;
   position: absolute;
   bottom: -30%;
