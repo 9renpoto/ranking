@@ -13,6 +13,6 @@ export const ProfileImg = styled.div`
 
 export const ProfileName = styled.p`
   padding-top: 1rem;
-  margin-left:.5rem;
+  margin-left: 0.5rem;
   color: #fff;
 `

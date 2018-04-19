@@ -43,7 +43,7 @@ storiesOf('Wrapper', module).add('default', () => (
           <ProfileName>name</ProfileName>
         </HeroInner>
       </Hero>
-      <Content col2={true}>
+      <Content col2>
         <ContentInner>
           <Range>
             <RangeInner>
