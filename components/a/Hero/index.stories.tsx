@@ -1,17 +1,15 @@
 import { storiesOf } from '@storybook/react'
-import { image } from 'faker'
-import * as React from 'react'
+import React from 'react'
 
-import { Hero, HeroInner } from '.'
-import { ProfileImg, ProfileName } from '../Profile'
+import { Hero, Inner } from '.'
+import { DefaultProfile } from '../Profile/index.stories'
 
-storiesOf('Atoms.Hero', module).add('default', () => (
+export const DefaultHero = () => (
   <Hero>
-    <HeroInner>
-      <ProfileImg>
-        <img src={image.imageUrl(300, 300)} alt='' />
-      </ProfileImg>
-      <ProfileName>name</ProfileName>
-    </HeroInner>
+    <Inner>
+      <DefaultProfile />
+    </Inner>
   </Hero>
-))
+)
+
+storiesOf('Atoms.Hero', module).add('default', () => <DefaultHero />)
