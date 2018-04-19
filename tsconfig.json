@@ -39,6 +39,9 @@
     "strictPropertyInitialization": true,
     "target": "esnext"
   },
+  "include": [
+    "app"
+  ], 
   "exclude": [
     "node_modules",
     "dist"
