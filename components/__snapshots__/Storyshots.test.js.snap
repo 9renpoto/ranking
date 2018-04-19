@@ -199,7 +199,7 @@ exports[`Storyshots Signin default 1`] = `
       method="post"
     >
       <div
-        className="sc-kGXeez fzXwqT"
+        className="sc-kGXeez ioXhbN"
       >
         <input
           className="sc-EHOje gPRTWD"
@@ -208,7 +208,7 @@ exports[`Storyshots Signin default 1`] = `
         />
       </div>
       <div
-        className="sc-kGXeez fzXwqT"
+        className="sc-kGXeez ioXhbN"
       >
         <input
           className="sc-EHOje gPRTWD"
