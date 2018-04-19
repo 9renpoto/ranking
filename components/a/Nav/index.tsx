@@ -9,7 +9,7 @@ export const Nav = styled.nav`
     a {
       color: #fff;
       display: block;
-      padding: .7rem;
+      padding: 0.7rem;
 
       &:hover,
       &.active {

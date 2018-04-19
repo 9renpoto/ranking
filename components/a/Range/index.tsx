@@ -71,7 +71,7 @@ export const RangeBarThumb = styled.div`
 `
 
 export const EditRange = styled.div`
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   position: relative;
 
   span {
@@ -85,7 +85,7 @@ export const EditRange = styled.div`
     z-index: 1;
 
     &:nth-of-type(1) {
-      left: .2%;
+      left: 0.2%;
     }
 
     &:nth-of-type(2) {
@@ -107,15 +107,15 @@ export const EditRange = styled.div`
 `
 
 export const EditRangeInput = styled.input`
-  -webkit-appearance:none;
+  -webkit-appearance: none;
   background-color: #eb2e3e;
   height: 0.063rem;
   width: 100%;
   padding: 0;
   cursor: pointer;
 
-  &::-webkit-slider-thumb{
-    -webkit-appearance:none;
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
     background-color: #fff;
     border: 0.063rem solid #eb2e3e;
     width: 1.563rem;
@@ -124,17 +124,17 @@ export const EditRangeInput = styled.input`
     position: relative;
     z-index: 2;
   }
-  &::-ms-tooltip{
+  &::-ms-tooltip {
     display: none;
   }
-  &::-moz-range-track{
+  &::-moz-range-track {
     height: 0;
   }
-  &::-moz-range-thumb{
+  &::-moz-range-thumb {
     background-color: #fff;
     width: 1.563rem;
     height: 1.563rem;
     border: 0.063rem solid #eb2e3e;
-    border-radius:50%;
+    border-radius: 50%;
   }
 `
