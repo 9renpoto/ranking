@@ -392,10 +392,17 @@ exports[`Storyshots Molecules.Range input 1`] = `
       className="sc-jzJRlG dSJXLd"
     >
       <p>
+<<<<<<< HEAD
         synergistic
       </p>
       <p>
         e-services
+=======
+        Administrator
+      </p>
+      <p>
+        Metical
+>>>>>>> chore(components) wrapped story
       </p>
     </div>
     <div
