@@ -1,8 +1,7 @@
-import React, { Children } from 'react'
 import styled from 'styled-components'
 
 export type Props = {
-  children?: React.ReactNode
+  col2: boolean
 }
 
 export const Content = styled.div`
@@ -13,7 +12,7 @@ export const Content = styled.div`
   }
 
   ${(props: Props) =>
-    Children.count(props.children) === 2 &&
+    props.col2 &&
     `
     display: flex;
 

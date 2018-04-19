@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Img = styled.div`
+export const ProfileImg = styled.div`
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
@@ -11,7 +11,7 @@ export const Img = styled.div`
   }
 `
 
-export const Name = styled.p`
+export const ProfileName = styled.p`
   padding-top: 1rem;
   margin-left: 0.5rem;
   color: #fff;

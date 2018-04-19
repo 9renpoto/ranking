@@ -14,7 +14,7 @@ export const Rank = styled.div`
   }
 `
 
-export const Bar = styled.div`
+export const RankBar = styled.div`
   display: flex;
   align-items: center;
   background-color: #3ebdaa;
