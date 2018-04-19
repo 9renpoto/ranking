@@ -7,7 +7,7 @@ import { Content, ContentInner } from '../Content'
 import { Hero, HeroInner } from '../Hero'
 import { Main } from '../Main'
 import { Nav } from '../Nav'
-import { ProfileImg, ProfileName } from '../Profile'
+import { DefaultProfile } from '../Profile/index.stories'
 import {
   Range,
   RangeBar,
@@ -37,10 +37,7 @@ storiesOf('Wrapper', module).add('default', () => (
     <Main>
       <Hero>
         <HeroInner>
-          <ProfileImg>
-            <img src='https://dummyimage.com/300x300/000/fff' alt='' />
-          </ProfileImg>
-          <ProfileName>name</ProfileName>
+          <DefaultProfile />
         </HeroInner>
       </Hero>
       <Content col2>
