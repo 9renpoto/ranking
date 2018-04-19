@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const SigninWrapper = styled.div`
+export const Wrapper = styled.div`
   background: #3ebdaa;
   background: linear-gradient(
     90deg,
@@ -13,7 +13,7 @@ export const SigninWrapper = styled.div`
   align-items: center;
 `
 
-export const SigninWrapperInner = styled.main`
+export const Inner = styled.main`
   background-color: #fff;
   padding: 3rem;
   width: 24rem;
@@ -24,7 +24,7 @@ export const SigninWrapperInner = styled.main`
   }
 `
 
-export const SigninWrapperInput = styled.div`
+export const Input = styled.div`
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
@@ -36,7 +36,7 @@ export const SigninWrapperInput = styled.div`
   }
 
   input {
-    margin-left: .5rem;
+    margin-left: 0.5rem;
   }
 
   input:valid + svg {
