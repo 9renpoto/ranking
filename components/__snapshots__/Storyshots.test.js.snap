@@ -24,7 +24,7 @@ exports[`Storyshots Atoms.Hero default 1`] = `
       />
     </div>
     <p
-      className="sc-ifAKCX gxxghG"
+      className="sc-ifAKCX gnFXsa"
     >
       name
     </p>
@@ -41,7 +41,7 @@ exports[`Storyshots Atoms.Input default 1`] = `
 
 exports[`Storyshots Atoms.Nav default 1`] = `
 <nav
-  className="sc-bZQynM hwFeDs"
+  className="sc-bZQynM ertwvO"
 >
   <ul>
     <li>
@@ -115,10 +115,10 @@ exports[`Storyshots Atoms.Range input 1`] = `
       </p>
     </div>
     <div
-      className="sc-gqjmRU eyjbby"
+      className="sc-gqjmRU eCheCq"
     >
       <input
-        className="sc-VigVT eXNeRt"
+        className="sc-VigVT cKSSGf"
         step="25"
         type="range"
       />
@@ -232,7 +232,7 @@ exports[`Storyshots Wrapper default 1`] = `
   className="sc-dxgOiQ gBTuGX"
 >
   <nav
-    className="sc-bZQynM hwFeDs"
+    className="sc-bZQynM ertwvO"
   >
     <ul>
       <li>
@@ -274,7 +274,7 @@ exports[`Storyshots Wrapper default 1`] = `
           />
         </div>
         <p
-          className="sc-ifAKCX gxxghG"
+          className="sc-ifAKCX gnFXsa"
         >
           name
         </p>
