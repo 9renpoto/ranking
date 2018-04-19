@@ -15,6 +15,7 @@
     "react-dom": "16.3.2",
     "styled-components": "3.2.6"
   },
+  "private": true,
   "devDependencies": {
     "@9renpoto/eslint-config": "4.4.0",
     "@9renpoto/eslint-config-react": "4.3.0",
@@ -44,6 +45,7 @@
     "faker": "4.1.0",
     "eslint": "4.19.1",
     "eslint-plugin-jest": "21.15.0",
+    "faker": "4.1.0",
     "husky": "0.14.3",
     "jest": "22.4.3",
     "lint-staged": "7.1.0",
@@ -95,7 +97,6 @@
     ]
   },
   "main": "n/a",
-  "private": true,
   "repository": "ssh://git@github.com/uncovertruth/rate.git",
   "scripts": {
     "build": "run-p build:*",

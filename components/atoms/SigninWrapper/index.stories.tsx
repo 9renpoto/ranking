@@ -4,7 +4,11 @@ import { storiesOf } from '@storybook/react'
 import { internet, random } from 'faker'
 import * as React from 'react'
 
-import { SigninWrapper, SigninWrapperInner, SigninWrapperInput } from '.'
+import {
+  Inner as SigninWrapperInner,
+  Input as SigninWrapperInput,
+  Wrapper as SigninWrapper
+} from '.'
 import { Button } from '../Button'
 import { Input } from '../Input'
 
@@ -20,7 +24,7 @@ storiesOf('Signin', module).add('default', () => (
           <Input type='password' placeholder={random.word()} />
           <FontAwesomeIcon Icon={faUnlock} />
         </SigninWrapperInput>
-        <Button disabled={true}>Sign in</Button>
+        <Button disabled>Sign in</Button>
       </form>
     </SigninWrapperInner>
   </SigninWrapper>
