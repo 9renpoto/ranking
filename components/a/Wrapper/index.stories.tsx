@@ -1,13 +1,12 @@
 import { storiesOf } from '@storybook/react'
-import { image, random } from 'faker'
+import { random } from 'faker'
 import * as React from 'react'
 
 import { Wrapper } from '.'
 import { Content, ContentInner } from '../Content'
-import { Hero, HeroInner } from '../Hero'
+import { DefaultHero } from '../Hero/index.stories'
 import { Main } from '../Main'
 import { Nav } from '../Nav'
-import { DefaultProfile } from '../Profile/index.stories'
 import {
   Range,
   RangeBar,
@@ -15,7 +14,7 @@ import {
   RangeInner,
   RangeValuation
 } from '../Range'
-import { Rank, RankBar } from '../Ranking'
+import { DefaultRank } from '../Ranking/index.stories'
 import { ResultComment, ResultRank, ResultRankInner } from '../Result'
 
 storiesOf('Wrapper', module).add('default', () => (
@@ -35,12 +34,8 @@ storiesOf('Wrapper', module).add('default', () => (
       </ul>
     </Nav>
     <Main>
-      <Hero>
-        <HeroInner>
-          <DefaultProfile />
-        </HeroInner>
-      </Hero>
-      <Content col2>
+      <DefaultHero />
+      <Content>
         <ContentInner>
           <Range>
             <RangeInner>
@@ -73,20 +68,8 @@ storiesOf('Wrapper', module).add('default', () => (
       </Content>
       <Content>
         <ContentInner>
-          <Rank>
-            <span>{random.number()}</span>
-            <RankBar style={{ width: '100%' }}>
-              <img src={image.imageUrl(300.3)} alt='' />
-              <p>name</p>
-            </RankBar>
-          </Rank>
-          <Rank>
-            <span>{random.number()}</span>
-            <RankBar style={{ width: '100%' }}>
-              <img src={image.imageUrl(300.3)} alt='' />
-              <p>name</p>
-            </RankBar>
-          </Rank>
+          <DefaultRank />
+          <DefaultRank />
         </ContentInner>
       </Content>
     </Main>
