@@ -59,6 +59,30 @@ exports[`Storyshots Atoms.Nav default 1`] = `
 </nav>
 `;
 
+exports[`Storyshots Atoms.Profile default 1`] = `
+<div
+  style={
+    Object {
+      "background-color": "#1111",
+    }
+  }
+>
+  <div
+    className="sc-bxivhb kMqnGI"
+  >
+    <img
+      alt="Swedish Krona"
+      src="http://lorempixel.com/300/300"
+    />
+  </div>
+  <p
+    className="sc-ifAKCX gnFXsa"
+  >
+    global
+  </p>
+</div>
+`;
+
 exports[`Storyshots Atoms.Range default 1`] = `
 <div
   className="sc-gzVnrw iTHlAC"
@@ -70,10 +94,10 @@ exports[`Storyshots Atoms.Range default 1`] = `
       className="sc-dnqmqq dxDhgA"
     >
       <p>
-        Swedish Krona
+        Quality-focused
       </p>
       <p>
-        global
+        Puerto Rico
       </p>
     </div>
     <div
@@ -108,10 +132,10 @@ exports[`Storyshots Atoms.Range input 1`] = `
       className="sc-dnqmqq dxDhgA"
     >
       <p>
-        Quality-focused
+        sensor
       </p>
       <p>
-        Puerto Rico
+        users
       </p>
     </div>
     <div
@@ -137,7 +161,7 @@ exports[`Storyshots Atoms.Rank default 1`] = `
   className="sc-jTzLTM kZBYtr"
 >
   <span>
-    71946
+    98076
   </span>
   <div
     className="sc-fjdhpX lblgpK"
@@ -175,7 +199,7 @@ Array [
   <p
     className="sc-kAzzGY hHiTst"
   >
-    Berkshire
+    infomediaries
   </p>,
 ]
 `;
@@ -203,7 +227,7 @@ exports[`Storyshots Signin default 1`] = `
       >
         <input
           className="sc-EHOje gPRTWD"
-          placeholder="Willa_Jast48@hotmail.com"
+          placeholder="Jayde.Connelly@yahoo.com"
           type="email"
         />
       </div>
@@ -212,7 +236,7 @@ exports[`Storyshots Signin default 1`] = `
       >
         <input
           className="sc-EHOje gPRTWD"
-          placeholder="Cotton"
+          placeholder="extensible"
           type="password"
         />
       </div>
@@ -269,14 +293,14 @@ exports[`Storyshots Wrapper default 1`] = `
           className="sc-bxivhb kMqnGI"
         >
           <img
-            alt=""
-            src="https://dummyimage.com/300x300/000/fff"
+            alt="Handcrafted Cotton Soap"
+            src="http://lorempixel.com/300/300"
           />
         </div>
         <p
           className="sc-ifAKCX gnFXsa"
         >
-          name
+          alarm
         </p>
       </div>
     </div>
@@ -340,7 +364,7 @@ exports[`Storyshots Wrapper default 1`] = `
         <p
           className="sc-kAzzGY hHiTst"
         >
-          harness
+          card
         </p>
       </div>
     </div>
@@ -354,7 +378,7 @@ exports[`Storyshots Wrapper default 1`] = `
           className="sc-jTzLTM kZBYtr"
         >
           <span>
-            62731
+            43857
           </span>
           <div
             className="sc-fjdhpX lblgpK"
@@ -377,7 +401,7 @@ exports[`Storyshots Wrapper default 1`] = `
           className="sc-jTzLTM kZBYtr"
         >
           <span>
-            72904
+            24475
           </span>
           <div
             className="sc-fjdhpX lblgpK"
