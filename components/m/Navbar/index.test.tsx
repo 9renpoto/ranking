@@ -3,7 +3,7 @@ import { create } from 'react-test-renderer'
 
 import { Navbar } from '.'
 
-jest.mock('../../../app/route')
+jest.mock('../../../app/routes')
 
 describe('Molecules.Navbar', () => {
   it('render', () => {
