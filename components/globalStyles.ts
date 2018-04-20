@@ -65,4 +65,8 @@ a:focus {
   color: #475876;
   text-decoration: none;
 }
+
+#__next {
+  height: 100%;
+}
 `
