@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 export type Props = {
   children?: React.ReactNode
+  fixed?: boolean
 }
 
 export const Content = styled.div`

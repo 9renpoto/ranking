@@ -1,5 +1,345 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Atoms.Admire default 1`] = `
+<div
+  className="sc-htpNat hPjcHe"
+>
+  <div
+    className="sc-bxivhb dBJUSI"
+  >
+    <div
+      className="sc-bdVaJa hkNAOM"
+    >
+      <div
+        className="sc-bwzfXH jkUxdz"
+      >
+        <img
+          alt="Swedish Krona"
+          src="http://lorempixel.com/300/300"
+        />
+        <p>
+          Edison
+        </p>
+      </div>
+      <div
+        className="sc-ifAKCX eDmglp"
+      >
+        <div
+          className="sc-EHOje YINzU"
+        >
+          <div
+            className="sc-bZQynM trpgI"
+          >
+            <p>
+              eyeballs
+            </p>
+            <p>
+              Rufiyaa
+            </p>
+          </div>
+          <div
+            className="sc-dnqmqq iNyBIh"
+          >
+            <input
+              className="sc-iwsKbI dJxEby"
+              step="25"
+              type="range"
+            />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa hkNAOM"
+    >
+      <div
+        className="sc-bwzfXH jkUxdz"
+      >
+        <img
+          alt="monitor"
+          src="http://lorempixel.com/300/300"
+        />
+        <p>
+          Jennings
+        </p>
+      </div>
+      <div
+        className="sc-ifAKCX eDmglp"
+      >
+        <div
+          className="sc-EHOje YINzU"
+        >
+          <div
+            className="sc-bZQynM trpgI"
+          >
+            <p>
+              users
+            </p>
+            <p>
+              Administrator
+            </p>
+          </div>
+          <div
+            className="sc-dnqmqq iNyBIh"
+          >
+            <input
+              className="sc-iwsKbI dJxEby"
+              step="25"
+              type="range"
+            />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa hkNAOM"
+    >
+      <div
+        className="sc-bwzfXH jkUxdz"
+      >
+        <img
+          alt="Metical"
+          src="http://lorempixel.com/300/300"
+        />
+        <p>
+          Jayde
+        </p>
+      </div>
+      <div
+        className="sc-ifAKCX eDmglp"
+      >
+        <div
+          className="sc-EHOje YINzU"
+        >
+          <div
+            className="sc-bZQynM trpgI"
+          >
+            <p>
+              Cotton
+            </p>
+            <p>
+              harness
+            </p>
+          </div>
+          <div
+            className="sc-dnqmqq iNyBIh"
+          >
+            <input
+              className="sc-iwsKbI dJxEby"
+              step="25"
+              type="range"
+            />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa hkNAOM"
+    >
+      <div
+        className="sc-bwzfXH jkUxdz"
+      >
+        <img
+          alt="Credit Card Account"
+          src="http://lorempixel.com/300/300"
+        />
+        <p>
+          Enrique
+        </p>
+      </div>
+      <div
+        className="sc-ifAKCX eDmglp"
+      >
+        <div
+          className="sc-EHOje YINzU"
+        >
+          <div
+            className="sc-bZQynM trpgI"
+          >
+            <p>
+              communities
+            </p>
+            <p>
+              Handcrafted Cotton Soap
+            </p>
+          </div>
+          <div
+            className="sc-dnqmqq iNyBIh"
+          >
+            <input
+              className="sc-iwsKbI dJxEby"
+              step="25"
+              type="range"
+            />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa hkNAOM"
+    >
+      <div
+        className="sc-bwzfXH jkUxdz"
+      >
+        <img
+          alt="alarm"
+          src="http://lorempixel.com/300/300"
+        />
+        <p>
+          Chris
+        </p>
+      </div>
+      <div
+        className="sc-ifAKCX eDmglp"
+      >
+        <div
+          className="sc-EHOje YINzU"
+        >
+          <div
+            className="sc-bZQynM trpgI"
+          >
+            <p>
+              initiatives
+            </p>
+            <p>
+              Awesome
+            </p>
+          </div>
+          <div
+            className="sc-dnqmqq iNyBIh"
+          >
+            <input
+              className="sc-iwsKbI dJxEby"
+              step="25"
+              type="range"
+            />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa hkNAOM"
+    >
+      <div
+        className="sc-bwzfXH jkUxdz"
+      >
+        <img
+          alt="firewall"
+          src="http://lorempixel.com/300/300"
+        />
+        <p>
+          Hettie
+        </p>
+      </div>
+      <div
+        className="sc-ifAKCX eDmglp"
+      >
+        <div
+          className="sc-EHOje YINzU"
+        >
+          <div
+            className="sc-bZQynM trpgI"
+          >
+            <p>
+              withdrawal
+            </p>
+            <p>
+              indexing
+            </p>
+          </div>
+          <div
+            className="sc-dnqmqq iNyBIh"
+          >
+            <input
+              className="sc-iwsKbI dJxEby"
+              step="25"
+              type="range"
+            />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa hkNAOM"
+    >
+      <div
+        className="sc-bwzfXH jkUxdz"
+      >
+        <img
+          alt="monitor"
+          src="http://lorempixel.com/300/300"
+        />
+        <p>
+          Leonor
+        </p>
+      </div>
+      <div
+        className="sc-ifAKCX eDmglp"
+      >
+        <div
+          className="sc-EHOje YINzU"
+        >
+          <div
+            className="sc-bZQynM trpgI"
+          >
+            <p>
+              synergistic
+            </p>
+            <p>
+              e-services
+            </p>
+          </div>
+          <div
+            className="sc-dnqmqq iNyBIh"
+          >
+            <input
+              className="sc-iwsKbI dJxEby"
+              step="25"
+              type="range"
+            />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Atoms.Button default 1`] = `
 <button
   className="sc-bdVaJa eDyxov"
@@ -972,7 +1312,7 @@ exports[`Storyshots Pages.Mypage default 1`] = `
     </ul>
   </nav>
   <main
-    className="sc-ckVGcZ idqjDH"
+    className="sc-eNQAEJ gfNwNo"
   >
     <div
       className="sc-kgoBCf hYfJhg"
