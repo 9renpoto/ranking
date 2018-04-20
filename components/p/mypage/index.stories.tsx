@@ -2,20 +2,20 @@ import { storiesOf } from '@storybook/react'
 import { random } from 'faker'
 import * as React from 'react'
 
-import { Wrapper } from '.'
-import { Content, ContentInner } from '../Content'
-import { DefaultHero } from '../Hero/index.stories'
-import { Main } from '../Main'
-import { Nav } from '../Nav'
+import { Content, Inner as ContentInner } from '../../a/Content'
+import { DefaultHero } from '../../a/Hero/index.stories'
+import { Main } from '../../a/Main'
+import { Nav } from '../../a/Nav'
 import {
   Range,
   RangeBar,
   RangeBarThumb,
   RangeInner,
   RangeValuation
-} from '../Range'
-import { DefaultRank } from '../Ranking/index.stories'
-import { ResultComment, ResultRank, ResultRankInner } from '../Result'
+} from '../../a/Range'
+import { DefaultRank } from '../../a/Ranking/index.stories'
+import { ResultComment, ResultRank, ResultRankInner } from '../../a/Result'
+import { Wrapper } from '../../a/Wrapper'
 
 storiesOf('Wrapper', module).add('default', () => (
   <Wrapper>
