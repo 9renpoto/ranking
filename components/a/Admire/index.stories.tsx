@@ -2,7 +2,7 @@ import { storiesOf } from '@storybook/react'
 import { image, name, random } from 'faker'
 import React from 'react'
 
-import { Admire, Name } from '.'
+import { Admire, Inner, Name } from '.'
 import { Content } from '../Content'
 import {
   EditRange,
@@ -16,26 +16,162 @@ import {
 
 export const DefaultAdmire = () => (
   <Content fixed>
-    <Name>
-      <img src={image.imageUrl(300, 300)} alt={random.word()} />
-      <p>{name.firstName()}</p>
-    </Name>
-    <Range>
-      <RangeInner>
-        <RangeValuation>
-          <p>{random.word()}</p>
-          <p>{random.word()}</p>
-        </RangeValuation>
-        <EditRange>
-          <EditRangeInput type='range' step='25' />
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
-        </EditRange>
-      </RangeInner>
-    </Range>
+    <Inner>
+      <Admire>
+        <Name>
+          <img src={image.imageUrl(300, 300)} alt={random.word()} />
+          <p>{name.firstName()}</p>
+        </Name>
+        <Range>
+          <RangeInner>
+            <RangeValuation>
+              <p>{random.word()}</p>
+              <p>{random.word()}</p>
+            </RangeValuation>
+            <EditRange>
+              <EditRangeInput type='range' step='25' />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </EditRange>
+          </RangeInner>
+        </Range>
+      </Admire>
+      <Admire>
+        <Name>
+          <img src={image.imageUrl(300, 300)} alt={random.word()} />
+          <p>{name.firstName()}</p>
+        </Name>
+        <Range>
+          <RangeInner>
+            <RangeValuation>
+              <p>{random.word()}</p>
+              <p>{random.word()}</p>
+            </RangeValuation>
+            <EditRange>
+              <EditRangeInput type='range' step='25' />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </EditRange>
+          </RangeInner>
+        </Range>
+      </Admire>
+      <Admire>
+        <Name>
+          <img src={image.imageUrl(300, 300)} alt={random.word()} />
+          <p>{name.firstName()}</p>
+        </Name>
+        <Range>
+          <RangeInner>
+            <RangeValuation>
+              <p>{random.word()}</p>
+              <p>{random.word()}</p>
+            </RangeValuation>
+            <EditRange>
+              <EditRangeInput type='range' step='25' />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </EditRange>
+          </RangeInner>
+        </Range>
+      </Admire>
+      <Admire>
+        <Name>
+          <img src={image.imageUrl(300, 300)} alt={random.word()} />
+          <p>{name.firstName()}</p>
+        </Name>
+        <Range>
+          <RangeInner>
+            <RangeValuation>
+              <p>{random.word()}</p>
+              <p>{random.word()}</p>
+            </RangeValuation>
+            <EditRange>
+              <EditRangeInput type='range' step='25' />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </EditRange>
+          </RangeInner>
+        </Range>
+      </Admire>
+      <Admire>
+        <Name>
+          <img src={image.imageUrl(300, 300)} alt={random.word()} />
+          <p>{name.firstName()}</p>
+        </Name>
+        <Range>
+          <RangeInner>
+            <RangeValuation>
+              <p>{random.word()}</p>
+              <p>{random.word()}</p>
+            </RangeValuation>
+            <EditRange>
+              <EditRangeInput type='range' step='25' />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </EditRange>
+          </RangeInner>
+        </Range>
+      </Admire>
+      <Admire>
+        <Name>
+          <img src={image.imageUrl(300, 300)} alt={random.word()} />
+          <p>{name.firstName()}</p>
+        </Name>
+        <Range>
+          <RangeInner>
+            <RangeValuation>
+              <p>{random.word()}</p>
+              <p>{random.word()}</p>
+            </RangeValuation>
+            <EditRange>
+              <EditRangeInput type='range' step='25' />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </EditRange>
+          </RangeInner>
+        </Range>
+      </Admire>
+      <Admire>
+        <Name>
+          <img src={image.imageUrl(300, 300)} alt={random.word()} />
+          <p>{name.firstName()}</p>
+        </Name>
+        <Range>
+          <RangeInner>
+            <RangeValuation>
+              <p>{random.word()}</p>
+              <p>{random.word()}</p>
+            </RangeValuation>
+            <EditRange>
+              <EditRangeInput type='range' step='25' />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </EditRange>
+          </RangeInner>
+        </Range>
+      </Admire>
+    </Inner>
   </Content>
 )
 
