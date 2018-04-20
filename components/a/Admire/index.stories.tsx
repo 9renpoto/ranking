@@ -16,7 +16,7 @@ import {
 
 export const DefaultAdmire = () => (
   <Content fixed>
-    <Inner>
+    <Inner fixed>
       <Admire>
         <Name>
           <img src={image.imageUrl(300, 300)} alt={random.word()} />

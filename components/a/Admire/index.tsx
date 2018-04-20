@@ -4,8 +4,11 @@ export const Admire = styled.div`
   display: flex;
   padding: 1.25rem;
 
+  > * {
+    width: 50%;
+  }
+
   & + & {
-    margin-top: 1rem;
     border-top: 1px solid #ccc;
   }
 `
