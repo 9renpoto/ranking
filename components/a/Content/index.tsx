@@ -55,7 +55,7 @@ export const Inner = styled.div`
   background-color: #fff;
   box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.12);
 
-  ${(props) =>
+  ${(props: { fixed?: boolean }) =>
     props.fixed &&
     `
       height: 100%;
