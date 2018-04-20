@@ -1,6 +1,5 @@
-import { faEnvelope, faUnlock } from '@fortawesome/fontawesome-free-solid'
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-
+import { faEnvelope, faUnlock } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Button } from '../components/a/Button'
 import { Input } from '../components/a/Input'
 import {
@@ -15,11 +14,11 @@ export default () => (
       <form action='#' method='post'>
         <SigninWrapperInput>
           <Input type='email' placeholder={'email'} />
-          <FontAwesomeIcon Icon={faEnvelope} />
+          <FontAwesomeIcon icon={faEnvelope} />
         </SigninWrapperInput>
         <SigninWrapperInput>
           <Input type='password' placeholder={'password'} />
-          <FontAwesomeIcon Icon={faUnlock} />
+          <FontAwesomeIcon icon={faUnlock} />
         </SigninWrapperInput>
         <Button disabled>Sign in</Button>
       </form>
