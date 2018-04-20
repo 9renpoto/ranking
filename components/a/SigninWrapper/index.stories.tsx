@@ -1,9 +1,8 @@
-import { faEnvelope, faUnlock } from '@fortawesome/fontawesome-free-solid'
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import { faEnvelope, faUnlock } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { storiesOf } from '@storybook/react'
 import { internet, random } from 'faker'
-import * as React from 'react'
-
+import React from 'react'
 import {
   Inner as SigninWrapperInner,
   Input as SigninWrapperInput,
@@ -18,11 +17,11 @@ storiesOf('Signin', module).add('default', () => (
       <form action='#' method='post'>
         <SigninWrapperInput>
           <Input type='email' placeholder={internet.email()} />
-          <FontAwesomeIcon Icon={faEnvelope} />
+          <FontAwesomeIcon icon={faEnvelope} />
         </SigninWrapperInput>
         <SigninWrapperInput>
           <Input type='password' placeholder={random.word()} />
-          <FontAwesomeIcon Icon={faUnlock} />
+          <FontAwesomeIcon icon={faUnlock} />
         </SigninWrapperInput>
         <Button disabled>Sign in</Button>
       </form>

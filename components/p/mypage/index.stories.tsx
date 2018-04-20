@@ -1,7 +1,8 @@
+import { faEdit, faUser } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { storiesOf } from '@storybook/react'
 import { random } from 'faker'
-import * as React from 'react'
-
+import React from 'react'
 import { Content, Inner as ContentInner } from '../../a/Content'
 import { DefaultHero } from '../../a/Hero/index.stories'
 import { Main } from '../../a/Main'
@@ -22,13 +23,13 @@ storiesOf('Wrapper', module).add('default', () => (
     <Nav>
       <ul>
         <li>
-          <a href='mypage.html' className='active'>
-            <i className='fas fa-user' />
+          <a href='#' className='active'>
+            <FontAwesomeIcon icon={faUser} />
           </a>
         </li>
         <li>
-          <a href='edit.html'>
-            <i className='fas fa-edit' />
+          <a href='#'>
+            <FontAwesomeIcon icon={faEdit} />
           </a>
         </li>
       </ul>
