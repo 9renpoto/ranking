@@ -2,8 +2,8 @@ import { storiesOf } from '@storybook/react'
 import { image, name, random } from 'faker'
 import React from 'react'
 
-import { Admire, Inner, Name } from '.'
-import { Content } from '../Content'
+import { Admire, Name } from '.'
+import { Content, Inner } from '../Content'
 import {
   EditRange,
   EditRangeInput,
