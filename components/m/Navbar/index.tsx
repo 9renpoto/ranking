@@ -5,14 +5,15 @@ import Routes from '../../../app/routes'
 import { Nav } from '../../a/Nav'
 
 export type Props = {
-  id: string
+  orgId: string
+  memberId: string
 }
 
-export const Navbar = ({ id }: Props) => (
+export const Navbar = (props: Props) => (
   <Nav>
     <ul>
       <li>
-        <Routes.Link route='mypage' params={{ id }}>
+        <Routes.Link route='mypage' params={props}>
           <a>
             <FontAwesomeIcon icon={faUser} />
           </a>

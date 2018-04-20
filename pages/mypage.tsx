@@ -27,25 +27,22 @@ import { Navbar } from '../components/m/Navbar'
 type Props = {
   url: {
     query: {
-      id: string
+      orgId: string
+      memberId: string
     }
   }
 }
 
-export default ({
-  url: {
-    query: { id }
-  }
-}: Props) => (
+export default ({ url: { query } }: Props) => (
   <Wrapper>
-    <Navbar id={id} />
+    <Navbar {...query} />
     <Main>
       <Hero>
         <ProfileInner>
           <ProfileImg>
             <img src={image.imageUrl(300, 300)} alt={random.word()} />
           </ProfileImg>
-          <ProfileName>{id}</ProfileName>
+          <ProfileName>{query.memberId}</ProfileName>
         </ProfileInner>
       </Hero>
       <Content>
