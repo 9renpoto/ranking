@@ -1,7 +1,9 @@
+import { image, name, random } from 'faker'
 import { Content, ContentInner } from '../components/a/Content/index'
-// import { DefaultHero } from '../components/a/Hero/index.stories'
+import { Hero, Inner as HeroInner } from '../components/a/Hero'
 import { Main } from '../components/a/Main/index'
 import { Nav } from '../components/a/Nav/index'
+import { Img as ProfileImg, Name as ProfileName } from '../components/a/Profile'
 import {
   Range,
   RangeBar,
@@ -9,7 +11,7 @@ import {
   RangeInner,
   RangeValuation
 } from '../components/a/Range/index'
-// import { DefaultRank } from '../components/a/Ranking/index.stories'
+import { Bar as RankBar, Rank } from '../components/a/Ranking'
 import {
   ResultComment,
   ResultRank,
@@ -46,7 +48,14 @@ export default ({
       </ul>
     </Nav>
     <Main>
-      {/* <DefaultHero /> */}
+      <Hero>
+        <HeroInner>
+          <ProfileImg>
+            <img src={image.imageUrl(300, 300)} alt={random.word()} />
+          </ProfileImg>
+          <ProfileName>{id}</ProfileName>
+        </HeroInner>
+      </Hero>
       <Content>
         <ContentInner>
           <Range>
@@ -80,8 +89,20 @@ export default ({
       </Content>
       <Content>
         <ContentInner>
-          <DefaultRank />
-          <DefaultRank />
+          <Rank>
+            <span>{random.number()}</span>
+            <RankBar style={{ width: `${random.number({ max: 100 })}%` }}>
+              <img src={image.imageUrl(300, 300)} alt={random.word()} />
+              <p>{name.firstName()}</p>
+            </RankBar>
+          </Rank>
+          <Rank>
+            <span>{random.number()}</span>
+            <RankBar style={{ width: `${random.number({ max: 100 })}%` }}>
+              <img src={image.imageUrl(300, 300)} alt={random.word()} />
+              <p>{name.firstName()}</p>
+            </RankBar>
+          </Rank>
         </ContentInner>
       </Content>
     </Main>
