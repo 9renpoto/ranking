@@ -24,6 +24,7 @@ export const RangeBar = styled.div`
   margin-top: 1.25rem;
   width: 100%;
   height: 0.063rem;
+  box-sizing: border-box;
 
   span {
     position: absolute;
@@ -32,7 +33,7 @@ export const RangeBar = styled.div`
     height: 0.188rem;
     border-radius: 50%;
     background-color: #eb2e3e;
-    top: 0;
+    top: -1px;
     z-index: 1;
 
     &:nth-of-type(1) {
@@ -52,7 +53,7 @@ export const RangeBar = styled.div`
     }
 
     &:nth-of-type(5) {
-      left: 100%;
+      right: 0;
     }
   }
 `
@@ -81,11 +82,11 @@ export const EditRange = styled.div`
     height: 0.188rem;
     border-radius: 50%;
     background-color: #eb2e3e;
-    top: 75%;
-    z-index: 1;
+    top: 77%;
+    z-index: -1;
 
     &:nth-of-type(1) {
-      left: 0.2%;
+      left: 0%;
     }
 
     &:nth-of-type(2) {
@@ -101,16 +102,17 @@ export const EditRange = styled.div`
     }
 
     &:nth-of-type(5) {
-      left: 99.9%;
+      right: 0;
     }
   }
 `
 
 export const EditRangeInput = styled.input`
-  -webkit-appearance: none;
+  appearance: none;
   background-color: #eb2e3e;
   height: 0.063rem;
   width: 100%;
+  margin: 0;
   padding: 0;
   cursor: pointer;
 
@@ -126,6 +128,9 @@ export const EditRangeInput = styled.input`
   }
   &::-ms-tooltip {
     display: none;
+  }
+  ::-moz-focus-outer {
+    border: 0;
   }
   &::-moz-range-track {
     height: 0;
