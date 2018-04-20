@@ -2,6 +2,7 @@
 .tmp
 lib
 storybook-static
+.envrc
 
 # Logs
 logs
