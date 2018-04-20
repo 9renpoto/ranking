@@ -1,9 +1,13 @@
 import { image, name, random } from 'faker'
 import React from 'react'
 import { Content, Inner as ContentInner } from '../components/a/Content'
-import { Hero, Inner as HeroInner } from '../components/a/Hero'
+import { Hero } from '../components/a/Hero'
 import { Main } from '../components/a/Main'
-import { Img as ProfileImg, Name as ProfileName } from '../components/a/Profile'
+import {
+  Img as ProfileImg,
+  Inner as ProfileInner,
+  Name as ProfileName
+} from '../components/a/Profile'
 import {
   Range,
   RangeBar,
@@ -37,12 +41,12 @@ export default ({
     <Navbar id={id} />
     <Main>
       <Hero>
-        <HeroInner>
+        <ProfileInner>
           <ProfileImg>
             <img src={image.imageUrl(300, 300)} alt={random.word()} />
           </ProfileImg>
           <ProfileName>{id}</ProfileName>
-        </HeroInner>
+        </ProfileInner>
       </Hero>
       <Content>
         <ContentInner>
