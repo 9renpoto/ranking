@@ -1,8 +1,9 @@
-import { faEdit, faUser } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { storiesOf } from '@storybook/react'
-import React from 'react'
-import { Box, Inner as BoxInner } from '../../a/Box'
+import { random } from 'faker'
+import * as React from 'react'
+
+import { Content, Inner as ContentInner } from '../../a/Content'
+import { DefaultHero } from '../../a/Hero/index.stories'
 import { Main } from '../../a/Main'
 import { Nav } from '../../a/Nav'
 import {
@@ -10,34 +11,32 @@ import {
   RangeBar,
   RangeBarThumb,
   RangeInner,
-  RangeValue
+  RangeValuation
 } from '../../a/Range'
-import { RangeValuation } from '../../a/RangeValuation'
+import { DefaultRank } from '../../a/Ranking/index.stories'
+import { ResultComment, ResultRank, ResultRankInner } from '../../a/Result'
 import { Wrapper } from '../../a/Wrapper'
-import { DefaultHero } from '../../m/Hero/index.stories'
-import { DefaultRank } from '../../m/Ranking/index.stories'
-import { DefaultResult } from '../../m/Result/index.stories'
 
-storiesOf('Pages.Mypage', module).add('default', () => (
+storiesOf('Wrapper', module).add('default', () => (
   <Wrapper>
     <Nav>
       <ul>
         <li>
-          <a href='#' className='active'>
-            <FontAwesomeIcon icon={faUser} />
+          <a href='mypage.html' className='active'>
+            <i className='fas fa-user' />
           </a>
         </li>
         <li>
-          <a href='#'>
-            <FontAwesomeIcon icon={faEdit} />
+          <a href='edit.html'>
+            <i className='fas fa-edit' />
           </a>
         </li>
       </ul>
     </Nav>
     <Main>
       <DefaultHero />
-      <Box>
-        <BoxInner>
+      <Content>
+        <ContentInner>
           <Range>
             <RangeInner>
               <RangeValuation>
@@ -46,21 +45,33 @@ storiesOf('Pages.Mypage', module).add('default', () => (
               </RangeValuation>
               <RangeBar>
                 <RangeBarThumb style={{ left: '50%' }} />
-                <RangeValue style={{ left: '50%' }}>3</RangeValue>
+                <span />
+                <span />
+                <span />
+                <span />
+                <span />
               </RangeBar>
             </RangeInner>
           </Range>
-        </BoxInner>
-        <BoxInner>
-          <DefaultResult />
-        </BoxInner>
-      </Box>
-      <Box>
-        <BoxInner>
+        </ContentInner>
+        <ContentInner>
+          <React.Fragment>
+            <ResultRank>
+              <ResultRankInner>
+                <span>50人中</span>
+                10位
+              </ResultRankInner>
+            </ResultRank>
+            <ResultComment>{random.word()}</ResultComment>
+          </React.Fragment>
+        </ContentInner>
+      </Content>
+      <Content>
+        <ContentInner>
           <DefaultRank />
           <DefaultRank />
-        </BoxInner>
-      </Box>
+        </ContentInner>
+      </Content>
     </Main>
   </Wrapper>
 ))

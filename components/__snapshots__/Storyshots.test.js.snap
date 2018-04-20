@@ -392,17 +392,10 @@ exports[`Storyshots Molecules.Range input 1`] = `
       className="sc-jzJRlG dSJXLd"
     >
       <p>
-<<<<<<< HEAD
         synergistic
       </p>
       <p>
         e-services
-=======
-        Administrator
-      </p>
-      <p>
-        Metical
->>>>>>> chore(components) wrapped story
       </p>
     </div>
     <div
@@ -979,7 +972,7 @@ exports[`Storyshots Pages.Mypage default 1`] = `
     </ul>
   </nav>
   <main
-    className="sc-eNQAEJ gfNwNo"
+    className="sc-ckVGcZ idqjDH"
   >
     <div
       className="sc-kgoBCf hYfJhg"
