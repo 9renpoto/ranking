@@ -1,14 +1,5 @@
-// tslint:disable-next-line:no-var-requires
-import React, { Component } from 'react'
-
-class Link extends Component<any> {
-  public render () {
-    return <div />
-  }
-}
-
-// tslint:disable-next-line:no-var-requires
-module.exports = require('next-routes')({
-  Link,
+import routes from 'next-routes'
+export default routes({
+  Link: () => <div />,
   Router: {}
 })

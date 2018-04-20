@@ -1,5 +1,5 @@
 import { image, name, random } from 'faker'
-import { Content, ContentInner } from '../components/a/Content/index'
+import { Content, Inner as ContentInner } from '../components/a/Content/index'
 import { Hero, Inner as HeroInner } from '../components/a/Hero'
 import { Main } from '../components/a/Main/index'
 import { Nav } from '../components/a/Nav/index'
