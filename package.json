@@ -4,8 +4,9 @@
   "author": "UNCOVER TRUTH Inc.",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.5",
-    "@fortawesome/fontawesome-free-solid": "^5.0.10",
-    "@fortawesome/react-fontawesome": "^0.0.18",
+    "@fortawesome/fontawesome-svg-core": "^1.2.0-11",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0-8",
+    "@fortawesome/react-fontawesome": "^0.1.0-8",
     "@types/next": "^2.4.9",
     "next": "^5.1.0",
     "next-routes": "9renpoto/next-routes#build",
@@ -14,7 +15,6 @@
     "react-dom": "16.3.2",
     "styled-components": "3.2.6"
   },
-  "private": true,
   "devDependencies": {
     "@storybook/addon-actions": "3.4.2",
     "@storybook/addon-knobs": "3.4.2",
@@ -91,18 +91,19 @@
     ]
   },
   "main": "n/a",
+  "private": true,
   "repository": "ssh://git@github.com/uncovertruth/rate.git",
   "scripts": {
     "build": "run-p build:*",
-    "build:storybook": "build-storybook",
     "build:app": "tsc -m commonjs",
+    "build:storybook": "build-storybook",
     "coverage": "codecov -f ./coverage/lcov.info && codecov",
     "lint": "tslint '{app,components,pages}/**/*.ts{,x}'",
+    "next": "tsc -m commonjs && node lib/server.js",
+    "precommit": "lint-staged",
     "preprod": "tsc -m commonjs && next build",
     "prod": "cross-env NODE_ENV=production node lib/server.js",
-    "precommit": "lint-staged",
     "start": "concurrently -k 'yarn storybook' 'yarn next'",
-    "next": "tsc -m commonjs && node lib/server.js",
     "storybook": "start-storybook -p 9001",
     "test": "jest"
   }

@@ -3,7 +3,6 @@ import React from 'react'
 import { Content, Inner as ContentInner } from '../components/a/Content'
 import { Hero, Inner as HeroInner } from '../components/a/Hero'
 import { Main } from '../components/a/Main'
-import { Nav } from '../components/a/Nav'
 import { Img as ProfileImg, Name as ProfileName } from '../components/a/Profile'
 import {
   Range,
@@ -19,6 +18,7 @@ import {
   ResultRankInner
 } from '../components/a/Result'
 import { Wrapper } from '../components/a/Wrapper'
+import { Navbar } from '../components/m/Navbar'
 
 type Props = {
   url: {
@@ -34,20 +34,7 @@ export default ({
   }
 }: Props) => (
   <Wrapper>
-    <Nav>
-      <ul>
-        <li>
-          <a href='mypage.html' className='active'>
-            <i className='fas fa-user' />
-          </a>
-        </li>
-        <li>
-          <a href='edit.html'>
-            <i className='fas fa-edit' />
-          </a>
-        </li>
-      </ul>
-    </Nav>
+    <Navbar id={id} />
     <Main>
       <Hero>
         <HeroInner>
