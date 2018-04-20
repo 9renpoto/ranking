@@ -47,6 +47,8 @@ export const Content = styled.div`
       overflow: scroll;
       height: 100%;
       box-sizing: border-box;
+      background-color: #fff;
+      box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.12);
     `};
 `
 
