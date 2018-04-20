@@ -1,14 +1,12 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
 
-import { Hero, Inner } from '.'
+import { Hero } from '.'
 import { DefaultProfile } from '../Profile/index.stories'
 
 export const DefaultHero = () => (
   <Hero>
-    <Inner>
-      <DefaultProfile />
-    </Inner>
+    <DefaultProfile />
   </Hero>
 )
 

@@ -39,6 +39,16 @@ export const Content = styled.div`
       }
     }
   `};
+
+  ${(props) =>
+    props.fixed &&
+    `
+      padding: 2rem;
+      margin: 2rem;
+      overflow: scroll;
+      height: 100%;
+      box-sizing: border-box;
+    `};
 `
 
 export const ContentInner = styled.div`
