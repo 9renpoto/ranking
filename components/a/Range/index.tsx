@@ -83,7 +83,7 @@ export const EditRange = styled.div`
     border-radius: 50%;
     background-color: #eb2e3e;
     top: 77%;
-    z-index: -1;
+    z-index: 1;
 
     &:nth-of-type(1) {
       left: 0%;
@@ -136,10 +136,13 @@ export const EditRangeInput = styled.input`
     height: 0;
   }
   &::-moz-range-thumb {
+    appearance: none;
     background-color: #fff;
     width: 1.563rem;
     height: 1.563rem;
     border: 0.063rem solid #eb2e3e;
     border-radius: 50%;
+    position: relative;
+    z-index: 2;
   }
 `
