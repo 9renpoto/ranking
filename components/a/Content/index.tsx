@@ -43,12 +43,9 @@ export const Content = styled.div`
   ${(props) =>
     props.fixed &&
     `
-      padding: 2rem;
-      overflow: scroll;
       height: 100%;
+      padding: 2rem;
       box-sizing: border-box;
-      background-color: #fff;
-      box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.12);
     `};
 `
 
@@ -56,4 +53,12 @@ export const Inner = styled.div`
   padding: 1.875rem 1.25rem;
   background-color: #fff;
   box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.12);
+
+  ${(props) =>
+    props.fixed &&
+    `
+      height: 100%;
+      overflow: scroll;
+      box-sizing: border-box;
+    `};
 `
