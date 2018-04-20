@@ -14,7 +14,7 @@ export const DefaultProfile = () => (
 )
 
 storiesOf('Atoms.Profile', module).add('default', () => (
-  <div style={{ 'background-color': '#1111' }}>
+  <div style={{ backgroundColor: '#1111' }}>
     <DefaultProfile />
   </div>
 ))

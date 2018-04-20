@@ -39,31 +39,11 @@ exports[`Storyshots Atoms.Input default 1`] = `
 />
 `;
 
-exports[`Storyshots Atoms.Nav default 1`] = `
-<nav
-  className="sc-bZQynM ertwvO"
->
-  <ul>
-    <li>
-      <a
-        className="active"
-        href="mypage.html"
-      />
-    </li>
-    <li>
-      <a
-        href="edit.html"
-      />
-    </li>
-  </ul>
-</nav>
-`;
-
 exports[`Storyshots Atoms.Profile default 1`] = `
 <div
   style={
     Object {
-      "background-color": "#1111",
+      "backgroundColor": "#1111",
     }
   }
 >
@@ -85,13 +65,13 @@ exports[`Storyshots Atoms.Profile default 1`] = `
 
 exports[`Storyshots Atoms.Range default 1`] = `
 <div
-  className="sc-gzVnrw iTHlAC"
+  className="sc-bZQynM bwHnQu"
 >
   <div
-    className="sc-htoDjs kKCJWi"
+    className="sc-gzVnrw lfdfns"
   >
     <div
-      className="sc-dnqmqq dxDhgA"
+      className="sc-htoDjs jvMEcJ"
     >
       <p>
         sensor
@@ -101,10 +81,10 @@ exports[`Storyshots Atoms.Range default 1`] = `
       </p>
     </div>
     <div
-      className="sc-iwsKbI jKiUXF"
+      className="sc-dnqmqq cGmsmw"
     >
       <div
-        className="sc-gZMcBi lohZi"
+        className="sc-iwsKbI IvXSS"
         style={
           Object {
             "left": "50%",
@@ -123,13 +103,13 @@ exports[`Storyshots Atoms.Range default 1`] = `
 
 exports[`Storyshots Atoms.Range input 1`] = `
 <div
-  className="sc-gzVnrw iTHlAC"
+  className="sc-bZQynM bwHnQu"
 >
   <div
-    className="sc-htoDjs kKCJWi"
+    className="sc-gzVnrw lfdfns"
   >
     <div
-      className="sc-dnqmqq dxDhgA"
+      className="sc-htoDjs jvMEcJ"
     >
       <p>
         Administrator
@@ -139,10 +119,10 @@ exports[`Storyshots Atoms.Range input 1`] = `
       </p>
     </div>
     <div
-      className="sc-gqjmRU eCheCq"
+      className="sc-gZMcBi ibHfwa"
     >
       <input
-        className="sc-VigVT cKSSGf"
+        className="sc-gqjmRU bCeypN"
         step="25"
         type="range"
       />
@@ -158,13 +138,13 @@ exports[`Storyshots Atoms.Range input 1`] = `
 
 exports[`Storyshots Atoms.Rank default 1`] = `
 <div
-  className="sc-jTzLTM kZBYtr"
+  className="sc-VigVT ldGSkn"
 >
   <span>
     48093
   </span>
   <div
-    className="sc-fjdhpX lblgpK"
+    className="sc-jTzLTM krEKHx"
     style={
       Object {
         "width": "14%",
@@ -185,10 +165,10 @@ exports[`Storyshots Atoms.Rank default 1`] = `
 exports[`Storyshots Atoms.Result default 1`] = `
 Array [
   <div
-    className="sc-jzJRlG cfgyFt"
+    className="sc-fjdhpX jMjblm"
   >
     <div
-      className="sc-cSHVUG kUhAaL"
+      className="sc-jzJRlG jZtvXR"
     >
       <span>
         50人中
@@ -197,7 +177,7 @@ Array [
     </div>
   </div>,
   <p
-    className="sc-kAzzGY hHiTst"
+    className="sc-cSHVUG eSTEPE"
   >
     Credit Card Account
   </p>,
@@ -206,24 +186,24 @@ Array [
 
 exports[`Storyshots Atoms.Textarea default 1`] = `
 <textarea
-  className="sc-kpOJdX funvsI"
+  className="sc-kGXeez jMJnTm"
   placeholder="hello"
 />
 `;
 
 exports[`Storyshots Signin default 1`] = `
 <div
-  className="sc-chPdSV gfmRqc"
+  className="sc-kAzzGY olNwO"
 >
   <main
-    className="sc-kgoBCf gHMjHZ"
+    className="sc-chPdSV hkvTGi"
   >
     <form
       action="#"
       method="post"
     >
       <div
-        className="sc-kGXeez ioXhbN"
+        className="sc-kgoBCf eKcaoV"
       >
         <input
           className="sc-EHOje gPRTWD"
@@ -232,7 +212,7 @@ exports[`Storyshots Signin default 1`] = `
         />
       </div>
       <div
-        className="sc-kGXeez ioXhbN"
+        className="sc-kgoBCf eKcaoV"
       >
         <input
           className="sc-EHOje gPRTWD"
@@ -253,10 +233,10 @@ exports[`Storyshots Signin default 1`] = `
 
 exports[`Storyshots Wrapper default 1`] = `
 <div
-  className="sc-dxgOiQ gBTuGX"
+  className="sc-eNQAEJ hiQJOI"
 >
   <nav
-    className="sc-bZQynM ertwvO"
+    className="sc-jKJlTe iOzEuP"
   >
     <ul>
       <li>
@@ -281,7 +261,7 @@ exports[`Storyshots Wrapper default 1`] = `
     </ul>
   </nav>
   <main
-    className="sc-eNQAEJ gfNwNo"
+    className="sc-ckVGcZ idqjDH"
   >
     <div
       className="sc-bwzfXH dGUCNu"
@@ -305,19 +285,19 @@ exports[`Storyshots Wrapper default 1`] = `
       </div>
     </div>
     <div
-      className="sc-ckVGcZ keKDZk"
+      className="sc-kpOJdX djlqjM"
     >
       <div
-        className="sc-jKJlTe jpniOT"
+        className="sc-dxgOiQ bArREt"
       >
         <div
-          className="sc-gzVnrw iTHlAC"
+          className="sc-bZQynM bwHnQu"
         >
           <div
-            className="sc-htoDjs kKCJWi"
+            className="sc-gzVnrw lfdfns"
           >
             <div
-              className="sc-dnqmqq dxDhgA"
+              className="sc-htoDjs jvMEcJ"
             >
               <p>
                 とても悪い
@@ -327,10 +307,10 @@ exports[`Storyshots Wrapper default 1`] = `
               </p>
             </div>
             <div
-              className="sc-iwsKbI jKiUXF"
+              className="sc-dnqmqq cGmsmw"
             >
               <div
-                className="sc-gZMcBi lohZi"
+                className="sc-iwsKbI IvXSS"
                 style={
                   Object {
                     "left": "50%",
@@ -347,13 +327,13 @@ exports[`Storyshots Wrapper default 1`] = `
         </div>
       </div>
       <div
-        className="sc-jKJlTe jpniOT"
+        className="sc-dxgOiQ bArREt"
       >
         <div
-          className="sc-jzJRlG cfgyFt"
+          className="sc-fjdhpX jMjblm"
         >
           <div
-            className="sc-cSHVUG kUhAaL"
+            className="sc-jzJRlG jZtvXR"
           >
             <span>
               50人中
@@ -362,26 +342,26 @@ exports[`Storyshots Wrapper default 1`] = `
           </div>
         </div>
         <p
-          className="sc-kAzzGY hHiTst"
+          className="sc-cSHVUG eSTEPE"
         >
           alarm
         </p>
       </div>
     </div>
     <div
-      className="sc-ckVGcZ cuKafE"
+      className="sc-kpOJdX hBHHKW"
     >
       <div
-        className="sc-jKJlTe jpniOT"
+        className="sc-dxgOiQ bArREt"
       >
         <div
-          className="sc-jTzLTM kZBYtr"
+          className="sc-VigVT ldGSkn"
         >
           <span>
             53155
           </span>
           <div
-            className="sc-fjdhpX lblgpK"
+            className="sc-jTzLTM krEKHx"
             style={
               Object {
                 "width": "71%",
@@ -398,13 +378,13 @@ exports[`Storyshots Wrapper default 1`] = `
           </div>
         </div>
         <div
-          className="sc-jTzLTM kZBYtr"
+          className="sc-VigVT ldGSkn"
         >
           <span>
             29778
           </span>
           <div
-            className="sc-fjdhpX lblgpK"
+            className="sc-jTzLTM krEKHx"
             style={
               Object {
                 "width": "85%",
