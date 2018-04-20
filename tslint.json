@@ -2,5 +2,9 @@
   "extends": [
     "tslint-react",
     "@uncovertruth/tslint-config"
-  ]
+  ],
+  "rules": {
+    "jsx-no-multiline-js": false,
+    "jsx-boolean-value": false
+  }
 }

@@ -1,8 +1,427 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Atoms.Button default 1`] = `
+<button
+  className="sc-bdVaJa bhUGjY"
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Atoms.Hero default 1`] = `
+<div
+  className="sc-bwzfXH dGUCNu"
+>
+  <div
+    className="sc-htpNat eLepeH"
+  >
+    <div
+      className="sc-bxivhb kMqnGI"
+    >
+      <img
+        alt="Quality-focused"
+        src="http://lorempixel.com/300/300"
+      />
+    </div>
+    <p
+      className="sc-ifAKCX gnFXsa"
+    >
+      Puerto Rico
+    </p>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Atoms.Input default 1`] = `
 <input
-  className="sc-bdVaJa clXhfb"
+  className="sc-EHOje gPRTWD"
   placeholder="hello"
 />
+`;
+
+exports[`Storyshots Atoms.Nav default 1`] = `
+<nav
+  className="sc-bZQynM ertwvO"
+>
+  <ul>
+    <li>
+      <a
+        className="active"
+        href="mypage.html"
+      />
+    </li>
+    <li>
+      <a
+        href="edit.html"
+      />
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Storyshots Atoms.Profile default 1`] = `
+<div
+  style={
+    Object {
+      "background-color": "#1111",
+    }
+  }
+>
+  <div
+    className="sc-bxivhb kMqnGI"
+  >
+    <img
+      alt="Swedish Krona"
+      src="http://lorempixel.com/300/300"
+    />
+  </div>
+  <p
+    className="sc-ifAKCX gnFXsa"
+  >
+    global
+  </p>
+</div>
+`;
+
+exports[`Storyshots Atoms.Range default 1`] = `
+<div
+  className="sc-gzVnrw iTHlAC"
+>
+  <div
+    className="sc-htoDjs kKCJWi"
+  >
+    <div
+      className="sc-dnqmqq dxDhgA"
+    >
+      <p>
+        sensor
+      </p>
+      <p>
+        users
+      </p>
+    </div>
+    <div
+      className="sc-iwsKbI jKiUXF"
+    >
+      <div
+        className="sc-gZMcBi lohZi"
+        style={
+          Object {
+            "left": "50%",
+          }
+        }
+      />
+      <span />
+      <span />
+      <span />
+      <span />
+      <span />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms.Range input 1`] = `
+<div
+  className="sc-gzVnrw iTHlAC"
+>
+  <div
+    className="sc-htoDjs kKCJWi"
+  >
+    <div
+      className="sc-dnqmqq dxDhgA"
+    >
+      <p>
+        Administrator
+      </p>
+      <p>
+        Metical
+      </p>
+    </div>
+    <div
+      className="sc-gqjmRU eCheCq"
+    >
+      <input
+        className="sc-VigVT cKSSGf"
+        step="25"
+        type="range"
+      />
+      <span />
+      <span />
+      <span />
+      <span />
+      <span />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms.Rank default 1`] = `
+<div
+  className="sc-jTzLTM kZBYtr"
+>
+  <span>
+    48093
+  </span>
+  <div
+    className="sc-fjdhpX lblgpK"
+    style={
+      Object {
+        "width": "14%",
+      }
+    }
+  >
+    <img
+      alt="synergize"
+      src="http://lorempixel.com/300/300"
+    />
+    <p>
+      Everardo
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms.Result default 1`] = `
+Array [
+  <div
+    className="sc-jzJRlG cfgyFt"
+  >
+    <div
+      className="sc-cSHVUG kUhAaL"
+    >
+      <span>
+        50人中
+      </span>
+      10位
+    </div>
+  </div>,
+  <p
+    className="sc-kAzzGY hHiTst"
+  >
+    Credit Card Account
+  </p>,
+]
+`;
+
+exports[`Storyshots Atoms.Textarea default 1`] = `
+<textarea
+  className="sc-kpOJdX funvsI"
+  placeholder="hello"
+/>
+`;
+
+exports[`Storyshots Signin default 1`] = `
+<div
+  className="sc-chPdSV gfmRqc"
+>
+  <main
+    className="sc-kgoBCf gHMjHZ"
+  >
+    <form
+      action="#"
+      method="post"
+    >
+      <div
+        className="sc-kGXeez ioXhbN"
+      >
+        <input
+          className="sc-EHOje gPRTWD"
+          placeholder="Ian69@gmail.com"
+          type="email"
+        />
+      </div>
+      <div
+        className="sc-kGXeez ioXhbN"
+      >
+        <input
+          className="sc-EHOje gPRTWD"
+          placeholder="engage"
+          type="password"
+        />
+      </div>
+      <button
+        className="sc-bdVaJa fnyDze"
+        disabled={true}
+      >
+        Sign in
+      </button>
+    </form>
+  </main>
+</div>
+`;
+
+exports[`Storyshots Wrapper default 1`] = `
+<div
+  className="sc-dxgOiQ gBTuGX"
+>
+  <nav
+    className="sc-bZQynM ertwvO"
+  >
+    <ul>
+      <li>
+        <a
+          className="active"
+          href="mypage.html"
+        >
+          <i
+            className="fas fa-user"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          href="edit.html"
+        >
+          <i
+            className="fas fa-edit"
+          />
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <main
+    className="sc-eNQAEJ gfNwNo"
+  >
+    <div
+      className="sc-bwzfXH dGUCNu"
+    >
+      <div
+        className="sc-htpNat eLepeH"
+      >
+        <div
+          className="sc-bxivhb kMqnGI"
+        >
+          <img
+            alt="Table"
+            src="http://lorempixel.com/300/300"
+          />
+        </div>
+        <p
+          className="sc-ifAKCX gnFXsa"
+        >
+          Computer
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ckVGcZ keKDZk"
+    >
+      <div
+        className="sc-jKJlTe jpniOT"
+      >
+        <div
+          className="sc-gzVnrw iTHlAC"
+        >
+          <div
+            className="sc-htoDjs kKCJWi"
+          >
+            <div
+              className="sc-dnqmqq dxDhgA"
+            >
+              <p>
+                とても悪い
+              </p>
+              <p>
+                とても良い
+              </p>
+            </div>
+            <div
+              className="sc-iwsKbI jKiUXF"
+            >
+              <div
+                className="sc-gZMcBi lohZi"
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jKJlTe jpniOT"
+      >
+        <div
+          className="sc-jzJRlG cfgyFt"
+        >
+          <div
+            className="sc-cSHVUG kUhAaL"
+          >
+            <span>
+              50人中
+            </span>
+            10位
+          </div>
+        </div>
+        <p
+          className="sc-kAzzGY hHiTst"
+        >
+          alarm
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-ckVGcZ cuKafE"
+    >
+      <div
+        className="sc-jKJlTe jpniOT"
+      >
+        <div
+          className="sc-jTzLTM kZBYtr"
+        >
+          <span>
+            53155
+          </span>
+          <div
+            className="sc-fjdhpX lblgpK"
+            style={
+              Object {
+                "width": "71%",
+              }
+            }
+          >
+            <img
+              alt="Israel"
+              src="http://lorempixel.com/300/300"
+            />
+            <p>
+              Lorenza
+            </p>
+          </div>
+        </div>
+        <div
+          className="sc-jTzLTM kZBYtr"
+        >
+          <span>
+            29778
+          </span>
+          <div
+            className="sc-fjdhpX lblgpK"
+            style={
+              Object {
+                "width": "85%",
+              }
+            }
+          >
+            <img
+              alt="Buckinghamshire"
+              src="http://lorempixel.com/300/300"
+            />
+            <p>
+              Nakia
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
 `;
