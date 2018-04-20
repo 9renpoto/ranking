@@ -1,15 +1,12 @@
+import { random } from 'faker'
 import React from 'react'
 import { createRenderer } from 'react-test-renderer/shallow'
-
 import { Navbar } from '.'
 
-const renderer = createRenderer()
-
-jest.mock('../../../app/routes')
-
 describe('Molecules.Navbar', () => {
+  const renderer = createRenderer()
   it('render', () => {
-    const tree = renderer.render(<Navbar />)
+    const tree = renderer.render(<Navbar id={random.uuid()} />)
     expect(tree).toMatchSnapshot()
   })
 })
