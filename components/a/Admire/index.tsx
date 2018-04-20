@@ -10,11 +10,6 @@ export const Admire = styled.div`
   }
 `
 
-export const Inner = styled.div`
-  background-color: #fff;
-  box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.12);
-`
-
 export const Name = styled.div`
   display: flex;
   align-items: center;
