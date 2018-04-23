@@ -9,7 +9,7 @@ import {
   Inner as SigninWrapperInner,
   Input as SigninWrapperInput,
   Wrapper as SigninWrapper
-} from '../../a/SigninWrapper'
+} from './'
 
 storiesOf('Signin', module).add('default', () => (
   <SigninWrapper>

@@ -4,12 +4,12 @@ import React from 'react'
 import { Hero } from '../../a/Hero'
 import { Img } from '../../a/ProfileImg'
 import { Name } from '../../a/ProfileName'
-import { Inner } from '../../a/ProfileWrapper'
+import { Inner } from './'
 
 export const DefaultHero = () => (
   <Hero>
     <Inner>
-      <Img>
+      <Img circle>
         <img src={image.imageUrl(300, 300)} alt={random.word()} />
       </Img>
       <Name>{random.word()}</Name>

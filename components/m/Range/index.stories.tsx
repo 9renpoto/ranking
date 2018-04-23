@@ -8,11 +8,12 @@ import {
   Range,
   RangeBar,
   RangeBarThumb,
-  RangeInner,
-  RangeValuation
-} from '.'
+  RangeInner
+} from '../../a/Range'
 
-storiesOf('Atoms.Range', module)
+import { RangeValuation } from '../../a/RangeValuation'
+
+storiesOf('Molecules.Range', module)
   .add('default', () => (
     <Range>
       <RangeInner>
@@ -22,11 +23,6 @@ storiesOf('Atoms.Range', module)
         </RangeValuation>
         <RangeBar>
           <RangeBarThumb style={{ left: '50%' }} />
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
         </RangeBar>
       </RangeInner>
     </Range>
@@ -40,11 +36,6 @@ storiesOf('Atoms.Range', module)
         </RangeValuation>
         <EditRange>
           <EditRangeInput type='range' step='25' />
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
         </EditRange>
       </RangeInner>
     </Range>

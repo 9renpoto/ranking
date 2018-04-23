@@ -5,4 +5,13 @@ export const Inner = styled.div`
   position: absolute;
   bottom: -30%;
   left: 2rem;
+
+  img {
+    border-radius: 50%;
+  }
+
+  p {
+    padding-top: 1rem;
+    color: #fff;
+  }
 `

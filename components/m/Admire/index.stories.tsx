@@ -1,28 +1,23 @@
 import { storiesOf } from '@storybook/react'
 import { image, name, random } from 'faker'
 import React from 'react'
-import { AdmireWrapper } from '../../a/AdmireWrapper'
-import { Content, Inner } from '../../a/Content'
+import { Content, Inner as ContentInner } from '../../a/Content'
 import { Img } from '../../a/ProfileImg'
 import { Name } from '../../a/ProfileName'
-import { Inner } from '../../a/ProfileWrapper'
-
-import {
-  EditRange,
-  EditRangeInput,
-  Range,
-  RangeInner,
-  RangeValuation
-} from '../Range'
+import { EditRange, EditRangeInput, Range, RangeInner } from '../../a/Range'
+import { RangeValuation } from '../../a/RangeValuation'
+import { Admire, Inner } from './'
 
 export const DefaultAdmire = () => (
   <Content fixed>
-    <Inner fixed>
+    <ContentInner fixed>
       <Admire>
-        <Name>
-          <img src={image.imageUrl(300, 300)} alt={random.word()} />
-          <p>{name.firstName()}</p>
-        </Name>
+        <Inner>
+          <Img>
+            <img src={image.imageUrl(300, 300)} alt={random.word()} />
+          </Img>
+          <Name>{random.word()}</Name>
+        </Inner>
         <Range>
           <RangeInner>
             <RangeValuation>
@@ -31,20 +26,17 @@ export const DefaultAdmire = () => (
             </RangeValuation>
             <EditRange>
               <EditRangeInput type='range' step='25' />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
             </EditRange>
           </RangeInner>
         </Range>
       </Admire>
       <Admire>
-        <Name>
-          <img src={image.imageUrl(300, 300)} alt={random.word()} />
-          <p>{name.firstName()}</p>
-        </Name>
+        <Inner>
+          <Img>
+            <img src={image.imageUrl(300, 300)} alt={random.word()} />
+          </Img>
+          <Name>{random.word()}</Name>
+        </Inner>
         <Range>
           <RangeInner>
             <RangeValuation>
@@ -53,20 +45,17 @@ export const DefaultAdmire = () => (
             </RangeValuation>
             <EditRange>
               <EditRangeInput type='range' step='25' />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
             </EditRange>
           </RangeInner>
         </Range>
       </Admire>
       <Admire>
-        <Name>
-          <img src={image.imageUrl(300, 300)} alt={random.word()} />
-          <p>{name.firstName()}</p>
-        </Name>
+        <Inner>
+          <Img>
+            <img src={image.imageUrl(300, 300)} alt={random.word()} />
+          </Img>
+          <Name>{random.word()}</Name>
+        </Inner>
         <Range>
           <RangeInner>
             <RangeValuation>
@@ -75,20 +64,17 @@ export const DefaultAdmire = () => (
             </RangeValuation>
             <EditRange>
               <EditRangeInput type='range' step='25' />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
             </EditRange>
           </RangeInner>
         </Range>
       </Admire>
       <Admire>
-        <Name>
-          <img src={image.imageUrl(300, 300)} alt={random.word()} />
-          <p>{name.firstName()}</p>
-        </Name>
+        <Inner>
+          <Img>
+            <img src={image.imageUrl(300, 300)} alt={random.word()} />
+          </Img>
+          <Name>{random.word()}</Name>
+        </Inner>
         <Range>
           <RangeInner>
             <RangeValuation>
@@ -97,83 +83,12 @@ export const DefaultAdmire = () => (
             </RangeValuation>
             <EditRange>
               <EditRangeInput type='range' step='25' />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
             </EditRange>
           </RangeInner>
         </Range>
       </Admire>
-      <Admire>
-        <Name>
-          <img src={image.imageUrl(300, 300)} alt={random.word()} />
-          <p>{name.firstName()}</p>
-        </Name>
-        <Range>
-          <RangeInner>
-            <RangeValuation>
-              <p>{random.word()}</p>
-              <p>{random.word()}</p>
-            </RangeValuation>
-            <EditRange>
-              <EditRangeInput type='range' step='25' />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-            </EditRange>
-          </RangeInner>
-        </Range>
-      </Admire>
-      <Admire>
-        <Name>
-          <img src={image.imageUrl(300, 300)} alt={random.word()} />
-          <p>{name.firstName()}</p>
-        </Name>
-        <Range>
-          <RangeInner>
-            <RangeValuation>
-              <p>{random.word()}</p>
-              <p>{random.word()}</p>
-            </RangeValuation>
-            <EditRange>
-              <EditRangeInput type='range' step='25' />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-            </EditRange>
-          </RangeInner>
-        </Range>
-      </Admire>
-      <Admire>
-        <Name>
-          <img src={image.imageUrl(300, 300)} alt={random.word()} />
-          <p>{name.firstName()}</p>
-        </Name>
-        <Range>
-          <RangeInner>
-            <RangeValuation>
-              <p>{random.word()}</p>
-              <p>{random.word()}</p>
-            </RangeValuation>
-            <EditRange>
-              <EditRangeInput type='range' step='25' />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-            </EditRange>
-          </RangeInner>
-        </Range>
-      </Admire>
-    </Inner>
+    </ContentInner>
   </Content>
 )
 
-storiesOf('Atoms.Admire', module).add('default', () => <DefaultAdmire />)
+storiesOf('Molecules.Admire', module).add('default', () => <DefaultAdmire />)

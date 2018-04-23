@@ -7,18 +7,20 @@ import { Content, Inner as ContentInner } from '../../a/Content'
 import { Main } from '../../a/Main'
 import { Nav } from '../../a/Nav'
 import {
+  EditRange,
+  EditRangeInput,
   Range,
   RangeBar,
   RangeBarThumb,
-  RangeInner,
-  RangeValuation
+  RangeInner
 } from '../../a/Range'
-import { DefaultRank } from '../../a/Ranking/index.stories'
-import { ResultComment, ResultRank, ResultRankInner } from '../../a/Result'
+import { RangeValuation } from '../../a/RangeValuation'
 import { Wrapper } from '../../a/Wrapper'
 import { DefaultHero } from '../../m/Hero/index.stories'
+import { DefaultRank } from '../../m/Ranking/index.stories'
+import { DefaultResult } from '../../m/Result/index.stories'
 
-storiesOf('Wrapper', module).add('default', () => (
+storiesOf('Mypage', module).add('default', () => (
   <Wrapper>
     <Nav>
       <ul>
@@ -46,25 +48,12 @@ storiesOf('Wrapper', module).add('default', () => (
               </RangeValuation>
               <RangeBar>
                 <RangeBarThumb style={{ left: '50%' }} />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
               </RangeBar>
             </RangeInner>
           </Range>
         </ContentInner>
         <ContentInner>
-          <React.Fragment>
-            <ResultRank>
-              <ResultRankInner>
-                <span>50人中</span>
-                10位
-              </ResultRankInner>
-            </ResultRank>
-            <ResultComment>{random.word()}</ResultComment>
-          </React.Fragment>
+          <DefaultResult />
         </ContentInner>
       </Content>
       <Content>

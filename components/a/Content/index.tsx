@@ -47,6 +47,7 @@ export const Content = styled.div`
       height: 100%;
       padding: 2rem;
       box-sizing: border-box;
+      position: relative;
     `};
 `
 
@@ -58,7 +59,9 @@ export const Inner = styled.div`
   ${(props: { fixed?: boolean }) =>
     props.fixed &&
     `
+      padding: 0 1.25rem 4.5rem;
       height: 100%;
+      width: 100%;
       overflow: scroll;
       box-sizing: border-box;
     `};

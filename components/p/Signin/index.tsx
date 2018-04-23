@@ -19,8 +19,10 @@ export const Inner = styled.main`
   width: 24rem;
   box-sizing: border-box;
   box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.1);
+
   button {
     margin-top: 3.75rem;
+    width: 100%;
   }
 `
 

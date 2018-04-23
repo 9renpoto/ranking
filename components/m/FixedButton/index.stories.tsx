@@ -1,11 +1,16 @@
 import { storiesOf } from '@storybook/react'
+import { random } from 'faker'
 import * as React from 'react'
 
 import { Fixed } from '.'
 import { Button } from '../../a/Button'
 
-storiesOf('Molecules.FixedButton', module).add('default', () => (
+export const DefaultFixedButton = () => (
   <Fixed>
-    <Button>Button</Button>
+    <Button>{random.word()}</Button>
   </Fixed>
+)
+
+storiesOf('Molecules.FixedButton', module).add('default', () => (
+  <DefaultFixedButton />
 ))

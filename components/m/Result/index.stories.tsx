@@ -2,9 +2,10 @@ import { storiesOf } from '@storybook/react'
 import { random } from 'faker'
 import * as React from 'react'
 
-import { ResultComment, ResultRank, ResultRankInner } from '.'
+import { ResultComment } from '../../a/ResultComment'
+import { ResultRank, ResultRankInner } from '../../a/ResultRanking'
 
-storiesOf('Atoms.Result', module).add('default', () => (
+export const DefaultResult = () => (
   <React.Fragment>
     <ResultRank>
       <ResultRankInner>
@@ -14,4 +15,6 @@ storiesOf('Atoms.Result', module).add('default', () => (
     </ResultRank>
     <ResultComment>{random.word()}</ResultComment>
   </React.Fragment>
-))
+)
+
+storiesOf('Molecules.Result', module).add('default', () => <DefaultResult />)
