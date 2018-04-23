@@ -4,7 +4,6 @@ import { storiesOf } from '@storybook/react'
 import { random } from 'faker'
 import React from 'react'
 import { Content, Inner as ContentInner } from '../../a/Content'
-import { DefaultHero } from '../../a/Hero/index.stories'
 import { Main } from '../../a/Main'
 import { Nav } from '../../a/Nav'
 import {
@@ -17,6 +16,7 @@ import {
 import { DefaultRank } from '../../a/Ranking/index.stories'
 import { ResultComment, ResultRank, ResultRankInner } from '../../a/Result'
 import { Wrapper } from '../../a/Wrapper'
+import { DefaultHero } from '../../m/Hero/index.stories'
 
 storiesOf('Wrapper', module).add('default', () => (
   <Wrapper>

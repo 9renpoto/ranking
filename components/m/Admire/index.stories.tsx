@@ -1,8 +1,12 @@
 import { storiesOf } from '@storybook/react'
 import { image, name, random } from 'faker'
 import React from 'react'
-import { Admire, Name } from '.'
-import { Content, Inner } from '../Content'
+import { AdmireWrapper } from '../../a/AdmireWrapper'
+import { Content, Inner } from '../../a/Content'
+import { Img } from '../../a/ProfileImg'
+import { Name } from '../../a/ProfileName'
+import { Inner } from '../../a/ProfileWrapper'
+
 import {
   EditRange,
   EditRangeInput,
