@@ -8,8 +8,7 @@ import {
   Range,
   RangeBar,
   RangeBarThumb,
-  RangeInner,
-  RangeValue
+  RangeInner
 } from '../../a/Range'
 
 import { RangeValuation } from '../../a/RangeValuation'
@@ -24,7 +23,6 @@ storiesOf('Molecules.Range', module)
         </RangeValuation>
         <RangeBar>
           <RangeBarThumb style={{ left: '50%' }} />
-          <RangeValue style={{ left: '50%' }}>3</RangeValue>
         </RangeBar>
       </RangeInner>
     </Range>
@@ -38,7 +36,6 @@ storiesOf('Molecules.Range', module)
         </RangeValuation>
         <EditRange>
           <EditRangeInput type='range' step='25' />
-          <RangeValue style={{ left: '50%' }}>3</RangeValue>
         </EditRange>
       </RangeInner>
     </Range>

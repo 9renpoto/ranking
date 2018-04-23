@@ -1,6 +1,7 @@
 import { faEdit, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { storiesOf } from '@storybook/react'
+<<<<<<< HEAD
 import { image, random } from 'faker'
 import React from 'react'
 import { Avatar } from '../../a/Avatar'
@@ -16,11 +17,26 @@ import {
 } from '../../a/Range'
 import { RangeValuation } from '../../a/RangeValuation'
 import { Name } from '../../a/User'
+=======
+import { image, name, random } from 'faker'
+import React from 'react'
+import { Content, Inner as ContentInner } from '../../a/Content'
+import { Main } from '../../a/Main'
+import { Nav } from '../../a/Nav'
+import { Img } from '../../a/ProfileImg'
+import { Name } from '../../a/ProfileName'
+import { EditRange, EditRangeInput, Range, RangeInner } from '../../a/Range'
+import { RangeValuation } from '../../a/RangeValuation'
+>>>>>>> コンポーネント整理
 import { Wrapper } from '../../a/Wrapper'
 import { Admire, Inner } from '../../m/Admire'
 import { DefaultFixedButton } from '../../m/FixedButton/index.stories'
 
+<<<<<<< HEAD
 storiesOf('Pages.Admire', module).add('default', () => (
+=======
+storiesOf('Admire', module).add('default', () => (
+>>>>>>> コンポーネント整理
   <Wrapper>
     <Nav>
       <ul>
@@ -37,6 +53,7 @@ storiesOf('Pages.Admire', module).add('default', () => (
       </ul>
     </Nav>
     <Main>
+<<<<<<< HEAD
       <Box fixed>
         <BoxInner fixed>
           <Admire>
@@ -45,6 +62,16 @@ storiesOf('Pages.Admire', module).add('default', () => (
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
               </Avatar>
               <Name padding={0}>{random.word()}</Name>
+=======
+      <Content fixed>
+        <ContentInner fixed>
+          <Admire>
+            <Inner>
+              <Img>
+                <img src={image.imageUrl(300, 300)} alt={random.word()} />
+              </Img>
+              <Name>{random.word()}</Name>
+>>>>>>> コンポーネント整理
             </Inner>
             <Range>
               <RangeInner>
@@ -54,16 +81,25 @@ storiesOf('Pages.Admire', module).add('default', () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+<<<<<<< HEAD
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
+=======
+>>>>>>> コンポーネント整理
                 </EditRange>
               </RangeInner>
             </Range>
           </Admire>
           <Admire>
             <Inner>
+<<<<<<< HEAD
               <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
               </Avatar>
+=======
+              <Img>
+                <img src={image.imageUrl(300, 300)} alt={random.word()} />
+              </Img>
+>>>>>>> コンポーネント整理
               <Name>{random.word()}</Name>
             </Inner>
             <Range>
@@ -74,16 +110,25 @@ storiesOf('Pages.Admire', module).add('default', () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+<<<<<<< HEAD
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
+=======
+>>>>>>> コンポーネント整理
                 </EditRange>
               </RangeInner>
             </Range>
           </Admire>
           <Admire>
             <Inner>
+<<<<<<< HEAD
               <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
               </Avatar>
+=======
+              <Img>
+                <img src={image.imageUrl(300, 300)} alt={random.word()} />
+              </Img>
+>>>>>>> コンポーネント整理
               <Name>{random.word()}</Name>
             </Inner>
             <Range>
@@ -94,16 +139,25 @@ storiesOf('Pages.Admire', module).add('default', () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+<<<<<<< HEAD
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
+=======
+>>>>>>> コンポーネント整理
                 </EditRange>
               </RangeInner>
             </Range>
           </Admire>
           <Admire>
             <Inner>
+<<<<<<< HEAD
               <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
               </Avatar>
+=======
+              <Img>
+                <img src={image.imageUrl(300, 300)} alt={random.word()} />
+              </Img>
+>>>>>>> コンポーネント整理
               <Name>{random.word()}</Name>
             </Inner>
             <Range>
@@ -114,16 +168,25 @@ storiesOf('Pages.Admire', module).add('default', () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+<<<<<<< HEAD
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
+=======
+>>>>>>> コンポーネント整理
                 </EditRange>
               </RangeInner>
             </Range>
           </Admire>
           <Admire>
             <Inner>
+<<<<<<< HEAD
               <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
               </Avatar>
+=======
+              <Img>
+                <img src={image.imageUrl(300, 300)} alt={random.word()} />
+              </Img>
+>>>>>>> コンポーネント整理
               <Name>{random.word()}</Name>
             </Inner>
             <Range>
@@ -134,16 +197,25 @@ storiesOf('Pages.Admire', module).add('default', () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+<<<<<<< HEAD
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
+=======
+>>>>>>> コンポーネント整理
                 </EditRange>
               </RangeInner>
             </Range>
           </Admire>
           <Admire>
             <Inner>
+<<<<<<< HEAD
               <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
               </Avatar>
+=======
+              <Img>
+                <img src={image.imageUrl(300, 300)} alt={random.word()} />
+              </Img>
+>>>>>>> コンポーネント整理
               <Name>{random.word()}</Name>
             </Inner>
             <Range>
@@ -154,14 +226,23 @@ storiesOf('Pages.Admire', module).add('default', () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+<<<<<<< HEAD
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
+=======
+>>>>>>> コンポーネント整理
                 </EditRange>
               </RangeInner>
             </Range>
           </Admire>
+<<<<<<< HEAD
         </BoxInner>
         <DefaultFixedButton />
       </Box>
+=======
+        </ContentInner>
+        <DefaultFixedButton />
+      </Content>
+>>>>>>> コンポーネント整理
     </Main>
   </Wrapper>
 ))

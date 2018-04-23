@@ -11,6 +11,13 @@ export const RangeInner = styled.div`
   width: 100%;
 `
 
+export const RangeValuation = styled.div`
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #555;
+`
+
 export const RangeBar = styled.div`
   border-bottom: 0.063rem solid #eb2e3e;
   margin-top: 1.25rem;
