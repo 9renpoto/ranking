@@ -69,4 +69,8 @@ a:focus {
 #__next {
   height: 100%;
 }
+
+#root {
+  height: 100%;
+}
 `

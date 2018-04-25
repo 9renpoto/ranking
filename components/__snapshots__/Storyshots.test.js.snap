@@ -1,8 +1,348 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Atoms.Admire default 1`] = `
+<div
+  className="sc-htpNat hPjcHe"
+>
+  <div
+    className="sc-bxivhb dBJUSI"
+  >
+    <div
+      className="sc-bdVaJa hkNAOM"
+    >
+      <div
+        className="sc-bwzfXH jkUxdz"
+      >
+        <img
+          alt="Swedish Krona"
+          src="http://lorempixel.com/300/300"
+        />
+        <p>
+          Edison
+        </p>
+      </div>
+      <div
+        className="sc-ifAKCX eDmglp"
+      >
+        <div
+          className="sc-EHOje YINzU"
+        >
+          <div
+            className="sc-bZQynM trpgI"
+          >
+            <p>
+              eyeballs
+            </p>
+            <p>
+              Rufiyaa
+            </p>
+          </div>
+          <div
+            className="sc-dnqmqq iNyBIh"
+          >
+            <input
+              className="sc-iwsKbI dJxEby"
+              step="25"
+              type="range"
+            />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa hkNAOM"
+    >
+      <div
+        className="sc-bwzfXH jkUxdz"
+      >
+        <img
+          alt="monitor"
+          src="http://lorempixel.com/300/300"
+        />
+        <p>
+          Jennings
+        </p>
+      </div>
+      <div
+        className="sc-ifAKCX eDmglp"
+      >
+        <div
+          className="sc-EHOje YINzU"
+        >
+          <div
+            className="sc-bZQynM trpgI"
+          >
+            <p>
+              users
+            </p>
+            <p>
+              Administrator
+            </p>
+          </div>
+          <div
+            className="sc-dnqmqq iNyBIh"
+          >
+            <input
+              className="sc-iwsKbI dJxEby"
+              step="25"
+              type="range"
+            />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa hkNAOM"
+    >
+      <div
+        className="sc-bwzfXH jkUxdz"
+      >
+        <img
+          alt="Metical"
+          src="http://lorempixel.com/300/300"
+        />
+        <p>
+          Jayde
+        </p>
+      </div>
+      <div
+        className="sc-ifAKCX eDmglp"
+      >
+        <div
+          className="sc-EHOje YINzU"
+        >
+          <div
+            className="sc-bZQynM trpgI"
+          >
+            <p>
+              Cotton
+            </p>
+            <p>
+              harness
+            </p>
+          </div>
+          <div
+            className="sc-dnqmqq iNyBIh"
+          >
+            <input
+              className="sc-iwsKbI dJxEby"
+              step="25"
+              type="range"
+            />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa hkNAOM"
+    >
+      <div
+        className="sc-bwzfXH jkUxdz"
+      >
+        <img
+          alt="Credit Card Account"
+          src="http://lorempixel.com/300/300"
+        />
+        <p>
+          Enrique
+        </p>
+      </div>
+      <div
+        className="sc-ifAKCX eDmglp"
+      >
+        <div
+          className="sc-EHOje YINzU"
+        >
+          <div
+            className="sc-bZQynM trpgI"
+          >
+            <p>
+              communities
+            </p>
+            <p>
+              Handcrafted Cotton Soap
+            </p>
+          </div>
+          <div
+            className="sc-dnqmqq iNyBIh"
+          >
+            <input
+              className="sc-iwsKbI dJxEby"
+              step="25"
+              type="range"
+            />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa hkNAOM"
+    >
+      <div
+        className="sc-bwzfXH jkUxdz"
+      >
+        <img
+          alt="alarm"
+          src="http://lorempixel.com/300/300"
+        />
+        <p>
+          Chris
+        </p>
+      </div>
+      <div
+        className="sc-ifAKCX eDmglp"
+      >
+        <div
+          className="sc-EHOje YINzU"
+        >
+          <div
+            className="sc-bZQynM trpgI"
+          >
+            <p>
+              initiatives
+            </p>
+            <p>
+              Awesome
+            </p>
+          </div>
+          <div
+            className="sc-dnqmqq iNyBIh"
+          >
+            <input
+              className="sc-iwsKbI dJxEby"
+              step="25"
+              type="range"
+            />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa hkNAOM"
+    >
+      <div
+        className="sc-bwzfXH jkUxdz"
+      >
+        <img
+          alt="firewall"
+          src="http://lorempixel.com/300/300"
+        />
+        <p>
+          Hettie
+        </p>
+      </div>
+      <div
+        className="sc-ifAKCX eDmglp"
+      >
+        <div
+          className="sc-EHOje YINzU"
+        >
+          <div
+            className="sc-bZQynM trpgI"
+          >
+            <p>
+              withdrawal
+            </p>
+            <p>
+              indexing
+            </p>
+          </div>
+          <div
+            className="sc-dnqmqq iNyBIh"
+          >
+            <input
+              className="sc-iwsKbI dJxEby"
+              step="25"
+              type="range"
+            />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-bdVaJa hkNAOM"
+    >
+      <div
+        className="sc-bwzfXH jkUxdz"
+      >
+        <img
+          alt="monitor"
+          src="http://lorempixel.com/300/300"
+        />
+        <p>
+          Leonor
+        </p>
+      </div>
+      <div
+        className="sc-ifAKCX eDmglp"
+      >
+        <div
+          className="sc-EHOje YINzU"
+        >
+          <div
+            className="sc-bZQynM trpgI"
+          >
+            <p>
+              synergistic
+            </p>
+            <p>
+              e-services
+            </p>
+          </div>
+          <div
+            className="sc-dnqmqq iNyBIh"
+          >
+            <input
+              className="sc-iwsKbI dJxEby"
+              step="25"
+              type="range"
+            />
+            <span />
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Atoms.Button default 1`] = `
 <button
-  className="sc-bdVaJa bhUGjY"
+  className="sc-gZMcBi daaHIz"
 >
   Button
 </button>
@@ -10,23 +350,23 @@ exports[`Storyshots Atoms.Button default 1`] = `
 
 exports[`Storyshots Atoms.Hero default 1`] = `
 <div
-  className="sc-bwzfXH dGUCNu"
+  className="sc-gqjmRU cecOQe"
 >
   <div
-    className="sc-htpNat eLepeH"
+    className="sc-VigVT iZYFfB"
   >
     <div
-      className="sc-bxivhb kMqnGI"
+      className="sc-jTzLTM iVEdAs"
     >
       <img
-        alt="Quality-focused"
+        alt="Focused"
         src="http://lorempixel.com/300/300"
       />
     </div>
     <p
-      className="sc-ifAKCX gnFXsa"
+      className="sc-fjdhpX eyRLzg"
     >
-      Puerto Rico
+      Orchestrator
     </p>
   </div>
 </div>
@@ -34,77 +374,63 @@ exports[`Storyshots Atoms.Hero default 1`] = `
 
 exports[`Storyshots Atoms.Input default 1`] = `
 <input
-  className="sc-EHOje gPRTWD"
+  className="sc-jzJRlG uDyPQ"
   placeholder="hello"
 />
-`;
-
-exports[`Storyshots Atoms.Nav default 1`] = `
-<nav
-  className="sc-bZQynM ertwvO"
->
-  <ul>
-    <li>
-      <a
-        className="active"
-        href="mypage.html"
-      />
-    </li>
-    <li>
-      <a
-        href="edit.html"
-      />
-    </li>
-  </ul>
-</nav>
 `;
 
 exports[`Storyshots Atoms.Profile default 1`] = `
 <div
   style={
     Object {
-      "background-color": "#1111",
+      "backgroundColor": "#1111",
+      "height": "7.5rem",
+      "position": "relative",
     }
   }
 >
   <div
-    className="sc-bxivhb kMqnGI"
+    className="sc-VigVT iZYFfB"
   >
-    <img
-      alt="Swedish Krona"
-      src="http://lorempixel.com/300/300"
-    />
+    <div
+      className="sc-jTzLTM iVEdAs"
+    >
+      <img
+        alt="withdrawal"
+        src="http://lorempixel.com/300/300"
+      />
+    </div>
+    <p
+      className="sc-fjdhpX eyRLzg"
+    >
+      architect
+    </p>
   </div>
-  <p
-    className="sc-ifAKCX gnFXsa"
-  >
-    global
-  </p>
 </div>
 `;
 
 exports[`Storyshots Atoms.Range default 1`] = `
 <div
-  className="sc-gzVnrw iTHlAC"
+  className="sc-ifAKCX eDmglp"
 >
   <div
-    className="sc-htoDjs kKCJWi"
+    className="sc-EHOje YINzU"
   >
     <div
-      className="sc-dnqmqq dxDhgA"
+      className="sc-bZQynM trpgI"
     >
       <p>
-        sensor
+        bypass
       </p>
       <p>
-        users
+        index
       </p>
     </div>
     <div
-      className="sc-iwsKbI jKiUXF"
+      className="sc-gzVnrw kqhujh"
     >
       <div
-        className="sc-gZMcBi lohZi"
+        className="sc-htoDjs bpkMqq"
         style={
           Object {
             "left": "50%",
@@ -123,26 +449,26 @@ exports[`Storyshots Atoms.Range default 1`] = `
 
 exports[`Storyshots Atoms.Range input 1`] = `
 <div
-  className="sc-gzVnrw iTHlAC"
+  className="sc-ifAKCX eDmglp"
 >
   <div
-    className="sc-htoDjs kKCJWi"
+    className="sc-EHOje YINzU"
   >
     <div
-      className="sc-dnqmqq dxDhgA"
+      className="sc-bZQynM trpgI"
     >
       <p>
-        Administrator
+        Grocery
       </p>
       <p>
-        Metical
+        Shoes
       </p>
     </div>
     <div
-      className="sc-gqjmRU eCheCq"
+      className="sc-dnqmqq iNyBIh"
     >
       <input
-        className="sc-VigVT cKSSGf"
+        className="sc-iwsKbI dJxEby"
         step="25"
         type="range"
       />
@@ -158,25 +484,25 @@ exports[`Storyshots Atoms.Range input 1`] = `
 
 exports[`Storyshots Atoms.Rank default 1`] = `
 <div
-  className="sc-jTzLTM kZBYtr"
+  className="sc-cSHVUG fDgrek"
 >
   <span>
-    48093
+    15408
   </span>
   <div
-    className="sc-fjdhpX lblgpK"
+    className="sc-kAzzGY iniNcS"
     style={
       Object {
-        "width": "14%",
+        "width": "43%",
       }
     }
   >
     <img
-      alt="synergize"
+      alt="Incredible"
       src="http://lorempixel.com/300/300"
     />
     <p>
-      Everardo
+      Sienna
     </p>
   </div>
 </div>
@@ -185,10 +511,10 @@ exports[`Storyshots Atoms.Rank default 1`] = `
 exports[`Storyshots Atoms.Result default 1`] = `
 Array [
   <div
-    className="sc-jzJRlG cfgyFt"
+    className="sc-chPdSV lnfMSe"
   >
     <div
-      className="sc-cSHVUG kUhAaL"
+      className="sc-kgoBCf nESmU"
     >
       <span>
         50人中
@@ -197,51 +523,83 @@ Array [
     </div>
   </div>,
   <p
-    className="sc-kAzzGY hHiTst"
+    className="sc-kGXeez jJmPBp"
   >
-    Credit Card Account
+    deliverables
   </p>,
 ]
 `;
 
 exports[`Storyshots Atoms.Textarea default 1`] = `
 <textarea
-  className="sc-kpOJdX funvsI"
+  className="sc-jKJlTe ilZjEG"
   placeholder="hello"
 />
 `;
 
 exports[`Storyshots Signin default 1`] = `
 <div
-  className="sc-chPdSV gfmRqc"
+  className="sc-kpOJdX dZsjdt"
 >
   <main
-    className="sc-kgoBCf gHMjHZ"
+    className="sc-dxgOiQ jVyPxG"
   >
     <form
       action="#"
       method="post"
     >
       <div
-        className="sc-kGXeez ioXhbN"
+        className="sc-ckVGcZ kzoZwI"
       >
         <input
-          className="sc-EHOje gPRTWD"
-          placeholder="Ian69@gmail.com"
+          className="sc-jzJRlG uDyPQ"
+          placeholder="Matt_Welch@hotmail.com"
           type="email"
         />
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-envelope fa-w-16 "
+          data-icon="envelope"
+          data-prefix="fas"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
       </div>
       <div
-        className="sc-kGXeez ioXhbN"
+        className="sc-ckVGcZ kzoZwI"
       >
         <input
-          className="sc-EHOje gPRTWD"
-          placeholder="engage"
+          className="sc-jzJRlG uDyPQ"
+          placeholder="Plaza"
           type="password"
         />
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-unlock fa-w-14 "
+          data-icon="unlock"
+          data-prefix="fas"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M400 256H152V152.9c0-39.6 31.7-72.5 71.3-72.9 40-.4 72.7 32.1 72.7 72v16c0 13.3 10.7 24 24 24h32c13.3 0 24-10.7 24-24v-16C376 68 307.5-.3 223.5 0 139.5.3 72 69.5 72 153.5V256H48c-26.5 0-48 21.5-48 48v160c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
       </div>
       <button
-        className="sc-bdVaJa fnyDze"
+        className="sc-gZMcBi dtLsXJ"
         disabled={true}
       >
         Sign in
@@ -253,29 +611,55 @@ exports[`Storyshots Signin default 1`] = `
 
 exports[`Storyshots Wrapper default 1`] = `
 <div
-  className="sc-dxgOiQ gBTuGX"
+  className="sc-kEYyzF bfPhKh"
 >
   <nav
-    className="sc-bZQynM ertwvO"
+    className="sc-hMqMXs FzZNF"
   >
     <ul>
       <li>
         <a
           className="active"
-          href="mypage.html"
+          href="#"
         >
-          <i
-            className="fas fa-user"
-          />
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-user fa-w-16 "
+            data-icon="user"
+            data-prefix="fas"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 0c88.366 0 160 71.634 160 160s-71.634 160-160 160S96 248.366 96 160 167.634 0 256 0zm183.283 333.821l-71.313-17.828c-74.923 53.89-165.738 41.864-223.94 0l-71.313 17.828C29.981 344.505 0 382.903 0 426.955V464c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48v-37.045c0-44.052-29.981-82.45-72.717-93.134z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
         </a>
       </li>
       <li>
         <a
-          href="edit.html"
+          href="#"
         >
-          <i
-            className="fas fa-edit"
-          />
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-edit fa-w-18 "
+            data-icon="edit"
+            data-prefix="fas"
+            role="img"
+            style={Object {}}
+            viewBox="0 0 576 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M402.6 83.2l90.2 90.2c3.8 3.8 3.8 10 0 13.8L274.4 405.6l-92.8 10.3c-12.4 1.4-22.9-9.1-21.5-21.5l10.3-92.8L388.8 83.2c3.8-3.8 10-3.8 13.8 0zm162-22.9l-48.8-48.8c-15.2-15.2-39.9-15.2-55.2 0l-35.4 35.4c-3.8 3.8-3.8 10 0 13.8l90.2 90.2c3.8 3.8 10 3.8 13.8 0l35.4-35.4c15.2-15.3 15.2-40 0-55.2zM384 346.2V448H64V128h229.8c3.2 0 6.2-1.3 8.5-3.5l40-40c7.6-7.6 2.2-20.5-8.5-20.5H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V306.2c0-10.7-12.9-16-20.5-8.5l-40 40c-2.2 2.3-3.5 5.3-3.5 8.5z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
         </a>
       </li>
     </ul>
@@ -284,40 +668,40 @@ exports[`Storyshots Wrapper default 1`] = `
     className="sc-eNQAEJ gfNwNo"
   >
     <div
-      className="sc-bwzfXH dGUCNu"
+      className="sc-gqjmRU cecOQe"
     >
       <div
-        className="sc-htpNat eLepeH"
+        className="sc-VigVT iZYFfB"
       >
         <div
-          className="sc-bxivhb kMqnGI"
+          className="sc-jTzLTM iVEdAs"
         >
           <img
-            alt="Table"
+            alt="extranet"
             src="http://lorempixel.com/300/300"
           />
         </div>
         <p
-          className="sc-ifAKCX gnFXsa"
+          className="sc-fjdhpX eyRLzg"
         >
-          Computer
+          Berkshire
         </p>
       </div>
     </div>
     <div
-      className="sc-ckVGcZ keKDZk"
+      className="sc-htpNat ifLzIR"
     >
       <div
-        className="sc-jKJlTe jpniOT"
+        className="sc-bxivhb bGLXIj"
       >
         <div
-          className="sc-gzVnrw iTHlAC"
+          className="sc-ifAKCX eDmglp"
         >
           <div
-            className="sc-htoDjs kKCJWi"
+            className="sc-EHOje YINzU"
           >
             <div
-              className="sc-dnqmqq dxDhgA"
+              className="sc-bZQynM trpgI"
             >
               <p>
                 とても悪い
@@ -327,10 +711,10 @@ exports[`Storyshots Wrapper default 1`] = `
               </p>
             </div>
             <div
-              className="sc-iwsKbI jKiUXF"
+              className="sc-gzVnrw kqhujh"
             >
               <div
-                className="sc-gZMcBi lohZi"
+                className="sc-htoDjs bpkMqq"
                 style={
                   Object {
                     "left": "50%",
@@ -347,13 +731,13 @@ exports[`Storyshots Wrapper default 1`] = `
         </div>
       </div>
       <div
-        className="sc-jKJlTe jpniOT"
+        className="sc-bxivhb bGLXIj"
       >
         <div
-          className="sc-jzJRlG cfgyFt"
+          className="sc-chPdSV lnfMSe"
         >
           <div
-            className="sc-cSHVUG kUhAaL"
+            className="sc-kgoBCf nESmU"
           >
             <span>
               50人中
@@ -362,61 +746,61 @@ exports[`Storyshots Wrapper default 1`] = `
           </div>
         </div>
         <p
-          className="sc-kAzzGY hHiTst"
+          className="sc-kGXeez jJmPBp"
         >
-          alarm
+          Colorado
         </p>
       </div>
     </div>
     <div
-      className="sc-ckVGcZ cuKafE"
+      className="sc-htpNat dySbNc"
     >
       <div
-        className="sc-jKJlTe jpniOT"
+        className="sc-bxivhb bGLXIj"
       >
         <div
-          className="sc-jTzLTM kZBYtr"
+          className="sc-cSHVUG fDgrek"
         >
           <span>
-            53155
+            68326
           </span>
           <div
-            className="sc-fjdhpX lblgpK"
+            className="sc-kAzzGY iniNcS"
             style={
               Object {
-                "width": "71%",
+                "width": "87%",
               }
             }
           >
             <img
-              alt="Israel"
+              alt="Future"
               src="http://lorempixel.com/300/300"
             />
             <p>
-              Lorenza
+              Bernardo
             </p>
           </div>
         </div>
         <div
-          className="sc-jTzLTM kZBYtr"
+          className="sc-cSHVUG fDgrek"
         >
           <span>
-            29778
+            48303
           </span>
           <div
-            className="sc-fjdhpX lblgpK"
+            className="sc-kAzzGY iniNcS"
             style={
               Object {
-                "width": "85%",
+                "width": "50%",
               }
             }
           >
             <img
-              alt="Buckinghamshire"
+              alt="Manager"
               src="http://lorempixel.com/300/300"
             />
             <p>
-              Nakia
+              Josiane
             </p>
           </div>
         </div>

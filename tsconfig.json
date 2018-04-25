@@ -41,9 +41,10 @@
   },
   "include": [
     "app"
-  ], 
+  ],
   "exclude": [
     "node_modules",
-    "dist"
+    "dist",
+    "**/__mocks__"
   ]
 }

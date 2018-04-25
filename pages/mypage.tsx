@@ -1,60 +1,49 @@
 import { image, name, random } from 'faker'
-import { Content, ContentInner } from '../components/a/Content/index'
-import { Hero, Inner as HeroInner } from '../components/a/Hero'
-import { Main } from '../components/a/Main/index'
-import { Nav } from '../components/a/Nav/index'
-import { Img as ProfileImg, Name as ProfileName } from '../components/a/Profile'
+import React from 'react'
+import { Content, Inner as ContentInner } from '../components/a/Content'
+import { Hero } from '../components/a/Hero'
+import { Main } from '../components/a/Main'
+import {
+  Img as ProfileImg,
+  Inner as ProfileInner,
+  Name as ProfileName
+} from '../components/a/Profile'
 import {
   Range,
   RangeBar,
   RangeBarThumb,
   RangeInner,
   RangeValuation
-} from '../components/a/Range/index'
+} from '../components/a/Range'
 import { Bar as RankBar, Rank } from '../components/a/Ranking'
 import {
   ResultComment,
   ResultRank,
   ResultRankInner
-} from '../components/a/Result/index'
-import { Wrapper } from '../components/a/Wrapper/index'
+} from '../components/a/Result'
+import { Wrapper } from '../components/a/Wrapper'
+import { Navbar } from '../components/m/Navbar'
 
 type Props = {
   url: {
     query: {
-      id: string
+      orgId: string
+      memberId: string
     }
   }
 }
 
-export default ({
-  url: {
-    query: { id }
-  }
-}: Props) => (
+export default ({ url: { query } }: Props) => (
   <Wrapper>
-    <Nav>
-      <ul>
-        <li>
-          <a href='mypage.html' className='active'>
-            <i className='fas fa-user' />
-          </a>
-        </li>
-        <li>
-          <a href='edit.html'>
-            <i className='fas fa-edit' />
-          </a>
-        </li>
-      </ul>
-    </Nav>
+    <Navbar {...query} />
     <Main>
       <Hero>
-        <HeroInner>
+        <ProfileInner>
           <ProfileImg>
             <img src={image.imageUrl(300, 300)} alt={random.word()} />
           </ProfileImg>
-          <ProfileName>{id}</ProfileName>
-        </HeroInner>
+          <ProfileName>{query.memberId}</ProfileName>
+        </ProfileInner>
       </Hero>
       <Content>
         <ContentInner>
@@ -76,15 +65,13 @@ export default ({
           </Range>
         </ContentInner>
         <ContentInner>
-          <React.Fragment>
-            <ResultRank>
-              <ResultRankInner>
-                <span>50人中</span>
-                10位
-              </ResultRankInner>
-            </ResultRank>
-            <ResultComment>{random.word()}</ResultComment>
-          </React.Fragment>
+          <ResultRank>
+            <ResultRankInner>
+              <span>50人中</span>
+              10位
+            </ResultRankInner>
+          </ResultRank>
+          <ResultComment>{random.word()}</ResultComment>
         </ContentInner>
       </Content>
       <Content>

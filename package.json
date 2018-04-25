@@ -4,13 +4,12 @@
   "author": "UNCOVER TRUTH Inc.",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.5",
-    "@fortawesome/fontawesome-free-solid": "^5.0.10",
-    "@fortawesome/react-fontawesome": "^0.0.18",
+    "@fortawesome/fontawesome-svg-core": "^1.2.0-11",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0-8",
+    "@fortawesome/react-fontawesome": "^0.1.0-8",
     "@types/next": "^2.4.9",
-    "firebase": "^4.13.0",
     "next": "^5.1.0",
-    "next-routes": "^1.4.1",
-    "octonode": "^0.9.2",
+    "next-routes": "9renpoto/next-routes#build",
     "prop-types": "^15.6.1",
     "react": "16.3.2",
     "react-dom": "16.3.2",
@@ -27,6 +26,7 @@
     "@types/faker": "4.1.2",
     "@types/jest": "22.2.3",
     "@types/node": "^9.6.5",
+    "@types/react-test-renderer": "16.0.1",
     "@types/storybook__addon-actions": "3.0.3",
     "@types/storybook__addon-knobs": "3.3.1",
     "@types/storybook__react": "3.0.7",
@@ -52,7 +52,8 @@
     "tslint": "5.9.1",
     "tslint-react": "3.5.1",
     "typescript": "2.8.3",
-    "typescript-styled-plugin": "0.6.3"
+    "typescript-eslint-parser": "15.0.0",
+    "typescript-styled-plugin": "0.6.2"
   },
   "jest": {
     "transform": {
@@ -94,14 +95,15 @@
   "repository": "ssh://git@github.com/uncovertruth/rate.git",
   "scripts": {
     "build": "run-p build:*",
-    "build:storybook": "build-storybook",
     "build:app": "tsc -m commonjs",
+    "build:storybook": "build-storybook",
     "coverage": "codecov -f ./coverage/lcov.info && codecov",
-    "lint": "tslint 'components/**/*.ts{,x}'",
-    "start": "tsc -m commonjs && cross-env NODE_ENV=production node lib/server.js",
-    "precommit": "lint-staged",
-    "dev": "concurrently -k 'yarn storybook' 'yarn next'",
+    "lint": "tslint '{app,components,pages}/**/*.ts{,x}'",
     "next": "tsc -m commonjs && node lib/server.js",
+    "precommit": "lint-staged",
+    "preprod": "tsc -m commonjs && next build",
+    "prod": "cross-env NODE_ENV=production node lib/server.js",
+    "start": "concurrently -k 'yarn storybook' 'yarn next'",
     "storybook": "start-storybook -p 9001",
     "test": "jest"
   }

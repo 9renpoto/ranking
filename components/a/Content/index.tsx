@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 export type Props = {
   children?: React.ReactNode
+  fixed?: boolean
 }
 
 export const Content = styled.div`
@@ -39,10 +40,29 @@ export const Content = styled.div`
       }
     }
   `};
+
+  ${(props) =>
+    props.fixed &&
+    `
+      height: 100%;
+      padding: 2rem;
+      box-sizing: border-box;
+      position: relative;
+    `};
 `
 
-export const ContentInner = styled.div`
+export const Inner = styled.div`
   padding: 1.875rem 1.25rem;
   background-color: #fff;
   box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.12);
+
+  ${(props: { fixed?: boolean }) =>
+    props.fixed &&
+    `
+      padding: 0 1.25rem 4.5rem;
+      height: 100%;
+      width: 100%;
+      overflow: scroll;
+      box-sizing: border-box;
+    `};
 `
