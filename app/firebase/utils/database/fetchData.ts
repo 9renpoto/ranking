@@ -1,6 +1,6 @@
 import Firebase from '../../'
 
-function fetchData (messages: string, key?: string) {
+function fetchData (messages: string) {
   Firebase.database()
     .ref(messages)
     .on('value', (d) => d)
