@@ -1,7 +1,7 @@
 import { faEdit, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { storiesOf } from '@storybook/react'
-import { image, name, random } from 'faker'
+import { image, random } from 'faker'
 import React from 'react'
 import { Content, Inner as ContentInner } from '../../a/Content'
 import { Main } from '../../a/Main'

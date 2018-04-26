@@ -9,7 +9,7 @@ import { Inner } from './'
 export const DefaultHero = () => (
   <Hero>
     <Inner>
-      <Img circle>
+      <Img isCircle>
         <img src={image.imageUrl(300, 300)} alt={random.word()} />
       </Img>
       <Name>{random.word()}</Name>

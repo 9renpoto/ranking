@@ -1,19 +1,11 @@
 import { faEdit, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { storiesOf } from '@storybook/react'
-import { random } from 'faker'
 import React from 'react'
 import { Content, Inner as ContentInner } from '../../a/Content'
 import { Main } from '../../a/Main'
 import { Nav } from '../../a/Nav'
-import {
-  EditRange,
-  EditRangeInput,
-  Range,
-  RangeBar,
-  RangeBarThumb,
-  RangeInner
-} from '../../a/Range'
+import { Range, RangeBar, RangeBarThumb, RangeInner } from '../../a/Range'
 import { RangeValuation } from '../../a/RangeValuation'
 import { Wrapper } from '../../a/Wrapper'
 import { DefaultHero } from '../../m/Hero/index.stories'

@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 
+export type Props = {
+  isCircle?: boolean
+}
+
 export const Img = styled.div`
   img {
     border-radius: 0.188rem;
@@ -8,8 +12,8 @@ export const Img = styled.div`
     border: 0.063rem solid #ccc;
   }
 
-  ${(props) =>
-    props.circle &&
+  ${(props: Props) =>
+    props.isCircle &&
     `
       border-radius: 50%;
 
