@@ -6,7 +6,9 @@ import { Navbar } from '.'
 describe('Molecules.Navbar', () => {
   const renderer = createRenderer()
   it('render', () => {
-    const tree = renderer.render(<Navbar id={random.uuid()} />)
+    const tree = renderer.render(
+      <Navbar orgId={random.uuid()} memberId={random.uuid()} />
+    )
     expect(tree).toMatchSnapshot()
   })
 })

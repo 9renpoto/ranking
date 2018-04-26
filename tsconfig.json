@@ -25,7 +25,10 @@
     "outDir": "./lib",
     "plugins": [
       {
-        "name": "typescript-styled-plugin"
+        "name": "typescript-styled-plugin",
+        "lint": {
+          "unknownVendorSpecificProperties": "error"
+        }
       }
     ],
     "preserveConstEnums": true,
