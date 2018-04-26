@@ -3,6 +3,12 @@
   "compilerOptions": {
     "jsx": "react",
     "module": "commonjs",
+    "outDir": ".tmp",
     "target": "es6"
-  }
+  },
+  "include": [
+    "app",
+    "components"
+  ]
 }
+
