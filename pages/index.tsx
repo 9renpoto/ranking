@@ -6,7 +6,7 @@ import {
   Inner as SigninWrapperInner,
   Input as SigninWrapperInput,
   Wrapper as SigninWrapper
-} from '../components/a/SigninWrapper'
+} from '../components/p/Signin'
 
 export default () => (
   <SigninWrapper>
