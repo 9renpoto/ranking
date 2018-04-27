@@ -1,5 +1,5 @@
 import { storiesOf } from '@storybook/react'
-import { image, name, random } from 'faker'
+import { image, random } from 'faker'
 import React from 'react'
 
 import { Bar } from '.'
