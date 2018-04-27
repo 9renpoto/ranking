@@ -78,15 +78,23 @@ export default ({
           <Rank>
             <span>{random.number()}</span>
             <RankBar style={{ width: `${random.number({ max: 100 })}%` }}>
-              <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              <p>{name.firstName()}</p>
+              <Avatar width={0.938} height={0.938}>
+                <img src={image.imageUrl(300, 300)} alt={random.word()} />
+              </Avatar>
+              <Name white padding={0}>
+                {random.word()}
+              </Name>
             </RankBar>
           </Rank>
           <Rank>
             <span>{random.number()}</span>
             <RankBar style={{ width: `${random.number({ max: 100 })}%` }}>
-              <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              <p>{name.firstName()}</p>
+              <Avatar width={0.938} height={0.938}>
+                <img src={image.imageUrl(300, 300)} alt={random.word()} />
+              </Avatar>
+              <Name white padding={0}>
+                {random.word()}
+              </Name>
             </RankBar>
           </Rank>
         </BoxInner>
