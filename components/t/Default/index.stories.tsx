@@ -1,7 +1,7 @@
 import { faEdit, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { storiesOf } from '@storybook/react'
-import React, { Children } from 'react'
+import React from 'react'
 import { Main } from '../../a/Main'
 import { Nav } from '../../a/Nav'
 import { Wrapper } from '../../a/Wrapper'
@@ -22,6 +22,6 @@ storiesOf('Templates.Default', module).add('default', () => (
         </li>
       </ul>
     </Nav>
-    <Main>{Children}</Main>
+    <Main />
   </Wrapper>
 ))
