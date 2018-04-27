@@ -44,7 +44,7 @@ export default ({
             <img src={image.imageUrl(300, 300)} alt={random.word()} />
           </Avatar>
           <Name white padding={1}>
-            {random.word()}
+            {memberId}
           </Name>
         </HeroInner>
       </Hero>
