@@ -4,7 +4,13 @@ import React from 'react'
 import { Content, Inner as ContentInner } from '../../a/Content'
 import { Img } from '../../a/ProfileImg'
 import { Name } from '../../a/ProfileName'
-import { EditRange, EditRangeInput, Range, RangeInner } from '../../a/Range'
+import {
+  EditRange,
+  EditRangeInput,
+  Range,
+  RangeInner,
+  RangeValue
+} from '../../a/Range'
 import { RangeValuation } from '../../a/RangeValuation'
 import { Admire, Inner } from './'
 
@@ -24,6 +30,7 @@ export const DefaultAdmire = () => (
         </RangeValuation>
         <EditRange>
           <EditRangeInput type='range' step='25' />
+          <RangeValue style={{ left: '50%' }}>3</RangeValue>
         </EditRange>
       </RangeInner>
     </Range>

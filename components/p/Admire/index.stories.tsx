@@ -8,7 +8,13 @@ import { Main } from '../../a/Main'
 import { Nav } from '../../a/Nav'
 import { Img } from '../../a/ProfileImg'
 import { Name } from '../../a/ProfileName'
-import { EditRange, EditRangeInput, Range, RangeInner } from '../../a/Range'
+import {
+  EditRange,
+  EditRangeInput,
+  Range,
+  RangeInner,
+  RangeValue
+} from '../../a/Range'
 import { RangeValuation } from '../../a/RangeValuation'
 import { Wrapper } from '../../a/Wrapper'
 import { Admire, Inner } from '../../m/Admire'
@@ -48,6 +54,7 @@ storiesOf('Admire', module).add('default', () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>
@@ -67,6 +74,7 @@ storiesOf('Admire', module).add('default', () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>
@@ -86,6 +94,7 @@ storiesOf('Admire', module).add('default', () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>
@@ -105,6 +114,7 @@ storiesOf('Admire', module).add('default', () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>
@@ -124,6 +134,7 @@ storiesOf('Admire', module).add('default', () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>
@@ -143,6 +154,7 @@ storiesOf('Admire', module).add('default', () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>

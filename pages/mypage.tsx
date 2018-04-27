@@ -1,48 +1,46 @@
 import { image, name, random } from 'faker'
 import React from 'react'
 import { Content, Inner as ContentInner } from '../components/a/Content'
-import { Hero } from '../components/a/Hero'
+import { Hero, Inner as HeroInner } from '../components/a/Hero'
 import { Main } from '../components/a/Main'
 import { Img as ProfileImg } from '../components/a/ProfileImg'
 import { Name as ProfileName } from '../components/a/ProfileName'
 import {
-  EditRange,
-  EditRangeInput,
   Range,
   RangeBar,
   RangeBarThumb,
-  RangeInner
+  RangeInner,
+  RangeValuation,
+  RangeValue
 } from '../components/a/Range'
-import { Inner as HeroInner } from '../components/m/Hero'
-
-import { RangeValuation } from '../components/a/RangeValuation'
-
-import { Bar } from '../components/a/Ranking'
+import { Bar as RankBar, Rank } from '../components/a/Ranking'
 import { ResultComment } from '../components/a/ResultComment'
 import { ResultRank, ResultRankInner } from '../components/a/ResultRanking'
 import { Wrapper } from '../components/a/Wrapper'
 import { Navbar } from '../components/m/Navbar'
-import { Rank } from '../components/m/Ranking'
 
 type Props = {
   url: {
     query: {
-      orgId: string
-      memberId: string
+      id: string
     }
   }
 }
 
-export default ({ url: { query } }: Props) => (
+export default ({
+  url: {
+    query: { id }
+  }
+}: Props) => (
   <Wrapper>
-    <Navbar {...query} />
+    <Navbar id={id} />
     <Main>
       <Hero>
         <HeroInner>
           <ProfileImg>
             <img src={image.imageUrl(300, 300)} alt={random.word()} />
           </ProfileImg>
-          <ProfileName>{query.memberId}</ProfileName>
+          <ProfileName>{id}</ProfileName>
         </HeroInner>
       </Hero>
       <Content>
@@ -50,11 +48,12 @@ export default ({ url: { query } }: Props) => (
           <Range>
             <RangeInner>
               <RangeValuation>
-                <p>{random.word()}</p>
-                <p>{random.word()}</p>
+                <p>とても悪い</p>
+                <p>とても良い</p>
               </RangeValuation>
               <RangeBar>
                 <RangeBarThumb style={{ left: '50%' }} />
+                <RangeValue style={{ left: '50%' }}>3</RangeValue>
               </RangeBar>
             </RangeInner>
           </Range>
@@ -73,17 +72,17 @@ export default ({ url: { query } }: Props) => (
         <ContentInner>
           <Rank>
             <span>{random.number()}</span>
-            <Bar style={{ width: `${random.number({ max: 100 })}%` }}>
+            <RankBar style={{ width: `${random.number({ max: 100 })}%` }}>
               <img src={image.imageUrl(300, 300)} alt={random.word()} />
               <p>{name.firstName()}</p>
-            </Bar>
+            </RankBar>
           </Rank>
           <Rank>
             <span>{random.number()}</span>
-            <Bar style={{ width: `${random.number({ max: 100 })}%` }}>
+            <RankBar style={{ width: `${random.number({ max: 100 })}%` }}>
               <img src={image.imageUrl(300, 300)} alt={random.word()} />
               <p>{name.firstName()}</p>
-            </Bar>
+            </RankBar>
           </Rank>
         </ContentInner>
       </Content>

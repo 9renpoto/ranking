@@ -13,7 +13,8 @@ import {
   EditRange,
   EditRangeInput,
   Range,
-  RangeInner
+  RangeInner,
+  RangeValue
 } from '../components/a/Range'
 import { RangeValuation } from '../components/a/RangeValuation'
 import { Wrapper } from '../components/a/Wrapper'
@@ -63,6 +64,7 @@ export default () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>
@@ -82,6 +84,7 @@ export default () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>
@@ -101,6 +104,7 @@ export default () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>
@@ -120,6 +124,7 @@ export default () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>
@@ -139,6 +144,7 @@ export default () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>
@@ -158,6 +164,7 @@ export default () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>
@@ -177,6 +184,7 @@ export default () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>
@@ -196,6 +204,7 @@ export default () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>
@@ -215,6 +224,7 @@ export default () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>
@@ -234,6 +244,7 @@ export default () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>
@@ -253,6 +264,7 @@ export default () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>
@@ -272,6 +284,7 @@ export default () => (
                 </RangeValuation>
                 <EditRange>
                   <EditRangeInput type='range' step='25' />
+                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
             </Range>

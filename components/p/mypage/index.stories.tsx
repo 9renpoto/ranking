@@ -5,7 +5,13 @@ import React from 'react'
 import { Content, Inner as ContentInner } from '../../a/Content'
 import { Main } from '../../a/Main'
 import { Nav } from '../../a/Nav'
-import { Range, RangeBar, RangeBarThumb, RangeInner } from '../../a/Range'
+import {
+  Range,
+  RangeBar,
+  RangeBarThumb,
+  RangeInner,
+  RangeValue
+} from '../../a/Range'
 import { RangeValuation } from '../../a/RangeValuation'
 import { Wrapper } from '../../a/Wrapper'
 import { DefaultHero } from '../../m/Hero/index.stories'
@@ -40,6 +46,7 @@ storiesOf('Mypage', module).add('default', () => (
               </RangeValuation>
               <RangeBar>
                 <RangeBarThumb style={{ left: '50%' }} />
+                <RangeValue style={{ left: '50%' }}>3</RangeValue>
               </RangeBar>
             </RangeInner>
           </Range>
