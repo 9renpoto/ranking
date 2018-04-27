@@ -1,7 +1,7 @@
 import { image, name, random } from 'faker'
 import React from 'react'
 import { Content, Inner as ContentInner } from '../components/a/Content'
-import { Hero, Inner as HeroInner } from '../components/a/Hero'
+import { Hero } from '../components/a/Hero'
 import { Main } from '../components/a/Main'
 import { Img as ProfileImg } from '../components/a/ProfileImg'
 import { Name as ProfileName } from '../components/a/ProfileName'
@@ -13,34 +13,37 @@ import {
   RangeValuation,
   RangeValue
 } from '../components/a/Range'
-import { Bar as RankBar, Rank } from '../components/a/Ranking'
+import { Bar as RankBar } from '../components/a/Ranking'
 import { ResultComment } from '../components/a/ResultComment'
 import { ResultRank, ResultRankInner } from '../components/a/ResultRanking'
 import { Wrapper } from '../components/a/Wrapper'
+import { Inner as HeroInner } from '../components/m/Hero'
 import { Navbar } from '../components/m/Navbar'
+import { Rank } from '../components/m/Ranking'
 
 type Props = {
   url: {
     query: {
-      id: string
+      orgId: string
+      memberId: string
     }
   }
 }
 
 export default ({
   url: {
-    query: { id }
+    query: { orgId, memberId }
   }
 }: Props) => (
   <Wrapper>
-    <Navbar id={id} />
+    <Navbar orgId={orgId} memberId={memberId} />
     <Main>
       <Hero>
         <HeroInner>
           <ProfileImg>
             <img src={image.imageUrl(300, 300)} alt={random.word()} />
           </ProfileImg>
-          <ProfileName>{id}</ProfileName>
+          <ProfileName>{memberId}</ProfileName>
         </HeroInner>
       </Hero>
       <Content>
