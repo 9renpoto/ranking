@@ -6,10 +6,10 @@ export type Props = {
   fixed?: boolean
 }
 
-export const Content = styled.div`
+export const Box = styled.div`
   margin: 0 2rem;
 
-  & + & {
+  * + & {
     margin: 0.625rem 2rem 0;
   }
 

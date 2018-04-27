@@ -1,18 +1,20 @@
 import { storiesOf } from '@storybook/react'
 import { image, random } from 'faker'
 import React from 'react'
+import { Avatar } from '../../a/Avatar'
 import { Hero } from '../../a/Hero'
-import { Img } from '../../a/ProfileImg'
-import { Name } from '../../a/ProfileName'
+import { Name } from '../../a/User'
 import { Inner } from './'
 
 export const DefaultHero = () => (
   <Hero>
     <Inner>
-      <Img isCircle>
+      <Avatar isCircle width={4.688} height={4.688}>
         <img src={image.imageUrl(300, 300)} alt={random.word()} />
-      </Img>
-      <Name>{random.word()}</Name>
+      </Avatar>
+      <Name white padding={1}>
+        {random.word()}
+      </Name>
     </Inner>
   </Hero>
 )

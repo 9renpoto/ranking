@@ -1,9 +1,8 @@
 import { storiesOf } from '@storybook/react'
 import { image, random } from 'faker'
 import React from 'react'
-import { Content, Inner as ContentInner } from '../../a/Content'
-import { Img } from '../../a/ProfileImg'
-import { Name } from '../../a/ProfileName'
+import { Avatar } from '../../a/Avatar'
+import { Box, Inner as BoxInner } from '../../a/Box'
 import {
   EditRange,
   EditRangeInput,
@@ -12,15 +11,16 @@ import {
   RangeValue
 } from '../../a/Range'
 import { RangeValuation } from '../../a/RangeValuation'
+import { Name } from '../../a/User'
 import { Admire, Inner } from './'
 
 export const DefaultAdmire = () => (
   <Admire>
     <Inner>
-      <Img>
+      <Avatar width={2.5} height={2.5}>
         <img src={image.imageUrl(300, 300)} alt={random.word()} />
-      </Img>
-      <Name>{random.word()}</Name>
+      </Avatar>
+      <Name padding={0}>{random.word()}</Name>
     </Inner>
     <Range>
       <RangeInner>
@@ -38,12 +38,12 @@ export const DefaultAdmire = () => (
 )
 
 storiesOf('Molecules.Admire', module).add('default', () => (
-  <Content fixed>
-    <ContentInner fixed>
+  <Box fixed>
+    <BoxInner fixed>
       <DefaultAdmire />
       <DefaultAdmire />
       <DefaultAdmire />
       <DefaultAdmire />
-    </ContentInner>
-  </Content>
+    </BoxInner>
+  </Box>
 ))

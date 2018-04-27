@@ -3,12 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { image, name, random } from 'faker'
 import React from 'react'
 import Routes from '../app/routes'
+import { Avatar } from '../components/a/Avatar'
+import { Box, Inner as BoxInner } from '../components/a/Box'
 import { Button } from '../components/a/Button'
-import { Content, Inner as ContentInner } from '../components/a/Content'
 import { Main } from '../components/a/Main'
 import { Nav } from '../components/a/Nav'
-import { Img } from '../components/a/ProfileImg'
-import { Name } from '../components/a/ProfileName'
 import {
   EditRange,
   EditRangeInput,
@@ -17,6 +16,7 @@ import {
   RangeValue
 } from '../components/a/Range'
 import { RangeValuation } from '../components/a/RangeValuation'
+import { Name } from '../components/a/User'
 import { Wrapper } from '../components/a/Wrapper'
 import { Admire, Inner } from '../components/m/Admire'
 import { Fixed } from '../components/m/FixedButton'
@@ -47,14 +47,14 @@ export default () => (
       </ul>
     </Nav>
     <Main>
-      <Content fixed>
-        <ContentInner fixed>
+      <Box fixed>
+        <BoxInner fixed>
           <Admire>
             <Inner>
-              <Img>
+              <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Img>
-              <Name>{random.word()}</Name>
+              </Avatar>
+              <Name padding={0}>{random.word()}</Name>
             </Inner>
             <Range>
               <RangeInner>
@@ -71,10 +71,10 @@ export default () => (
           </Admire>
           <Admire>
             <Inner>
-              <Img>
+              <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Img>
-              <Name>{random.word()}</Name>
+              </Avatar>
+              <Name padding={0}>{random.word()}</Name>
             </Inner>
             <Range>
               <RangeInner>
@@ -91,10 +91,10 @@ export default () => (
           </Admire>
           <Admire>
             <Inner>
-              <Img>
+              <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Img>
-              <Name>{random.word()}</Name>
+              </Avatar>
+              <Name padding={0}>{random.word()}</Name>
             </Inner>
             <Range>
               <RangeInner>
@@ -111,10 +111,10 @@ export default () => (
           </Admire>
           <Admire>
             <Inner>
-              <Img>
+              <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Img>
-              <Name>{random.word()}</Name>
+              </Avatar>
+              <Name padding={0}>{random.word()}</Name>
             </Inner>
             <Range>
               <RangeInner>
@@ -131,10 +131,10 @@ export default () => (
           </Admire>
           <Admire>
             <Inner>
-              <Img>
+              <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Img>
-              <Name>{random.word()}</Name>
+              </Avatar>
+              <Name padding={0}>{random.word()}</Name>
             </Inner>
             <Range>
               <RangeInner>
@@ -151,10 +151,10 @@ export default () => (
           </Admire>
           <Admire>
             <Inner>
-              <Img>
+              <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Img>
-              <Name>{random.word()}</Name>
+              </Avatar>
+              <Name padding={0}>{random.word()}</Name>
             </Inner>
             <Range>
               <RangeInner>
@@ -171,10 +171,10 @@ export default () => (
           </Admire>
           <Admire>
             <Inner>
-              <Img>
+              <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Img>
-              <Name>{random.word()}</Name>
+              </Avatar>
+              <Name padding={0}>{random.word()}</Name>
             </Inner>
             <Range>
               <RangeInner>
@@ -191,10 +191,10 @@ export default () => (
           </Admire>
           <Admire>
             <Inner>
-              <Img>
+              <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Img>
-              <Name>{random.word()}</Name>
+              </Avatar>
+              <Name padding={0}>{random.word()}</Name>
             </Inner>
             <Range>
               <RangeInner>
@@ -211,10 +211,10 @@ export default () => (
           </Admire>
           <Admire>
             <Inner>
-              <Img>
+              <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Img>
-              <Name>{random.word()}</Name>
+              </Avatar>
+              <Name padding={0}>{random.word()}</Name>
             </Inner>
             <Range>
               <RangeInner>
@@ -231,10 +231,10 @@ export default () => (
           </Admire>
           <Admire>
             <Inner>
-              <Img>
+              <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Img>
-              <Name>{random.word()}</Name>
+              </Avatar>
+              <Name padding={0}>{random.word()}</Name>
             </Inner>
             <Range>
               <RangeInner>
@@ -251,10 +251,10 @@ export default () => (
           </Admire>
           <Admire>
             <Inner>
-              <Img>
+              <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Img>
-              <Name>{random.word()}</Name>
+              </Avatar>
+              <Name padding={0}>{random.word()}</Name>
             </Inner>
             <Range>
               <RangeInner>
@@ -271,10 +271,10 @@ export default () => (
           </Admire>
           <Admire>
             <Inner>
-              <Img>
+              <Avatar width={2.5} height={2.5}>
                 <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Img>
-              <Name>{random.word()}</Name>
+              </Avatar>
+              <Name padding={0}>{random.word()}</Name>
             </Inner>
             <Range>
               <RangeInner>
@@ -289,11 +289,11 @@ export default () => (
               </RangeInner>
             </Range>
           </Admire>
-        </ContentInner>
+        </BoxInner>
         <Fixed>
           <Button>{random.word()}</Button>
         </Fixed>
-      </Content>
+      </Box>
     </Main>
   </Wrapper>
 )

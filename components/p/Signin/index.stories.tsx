@@ -11,7 +11,7 @@ import {
   Wrapper as SigninWrapper
 } from './'
 
-storiesOf('Signin', module).add('default', () => (
+storiesOf('Pages.Signin', module).add('default', () => (
   <SigninWrapper>
     <SigninWrapperInner>
       <form action='#' method='post'>

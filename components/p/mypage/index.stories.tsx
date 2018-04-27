@@ -2,7 +2,7 @@ import { faEdit, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import { Content, Inner as ContentInner } from '../../a/Content'
+import { Box, Inner as BoxInner } from '../../a/Box'
 import { Main } from '../../a/Main'
 import { Nav } from '../../a/Nav'
 import {
@@ -18,7 +18,7 @@ import { DefaultHero } from '../../m/Hero/index.stories'
 import { DefaultRank } from '../../m/Ranking/index.stories'
 import { DefaultResult } from '../../m/Result/index.stories'
 
-storiesOf('Mypage', module).add('default', () => (
+storiesOf('Pages.Mypage', module).add('default', () => (
   <Wrapper>
     <Nav>
       <ul>
@@ -36,8 +36,8 @@ storiesOf('Mypage', module).add('default', () => (
     </Nav>
     <Main>
       <DefaultHero />
-      <Content>
-        <ContentInner>
+      <Box>
+        <BoxInner>
           <Range>
             <RangeInner>
               <RangeValuation>
@@ -50,17 +50,17 @@ storiesOf('Mypage', module).add('default', () => (
               </RangeBar>
             </RangeInner>
           </Range>
-        </ContentInner>
-        <ContentInner>
+        </BoxInner>
+        <BoxInner>
           <DefaultResult />
-        </ContentInner>
-      </Content>
-      <Content>
-        <ContentInner>
+        </BoxInner>
+      </Box>
+      <Box>
+        <BoxInner>
           <DefaultRank />
           <DefaultRank />
-        </ContentInner>
-      </Content>
+        </BoxInner>
+      </Box>
     </Main>
   </Wrapper>
 ))
