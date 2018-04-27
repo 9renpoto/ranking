@@ -11,13 +11,21 @@ export const RangeInner = styled.div`
   width: 100%;
 `
 
+export const RangeValuation = styled.div`
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #555;
+`
+
 export const RangeBar = styled.div`
+  position: relative;
   border-bottom: 0.063rem solid #eb2e3e;
   margin-top: 1.25rem;
   width: 100%;
   height: 0.063rem;
   box-sizing: border-box;
-  position: relative;
+  }
 `
 
 export const RangeBarThumb = styled.div`
@@ -33,8 +41,18 @@ export const RangeBarThumb = styled.div`
   box-sizing: border-box;
 `
 
+export const RangeValue = styled.span`
+  position: absolute;
+  top: 85%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  font-size: 0.75rem;
+  color: #777;
+`
+
 export const EditRange = styled.div`
   margin-top: 0.5rem;
+  position: relative;
 `
 
 export const EditRangeInput = styled.input`
