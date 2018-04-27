@@ -2,10 +2,10 @@
 
 exports[`Storyshots Admire default 1`] = `
 <div
-  className="sc-eNQAEJ fZJqfA"
+  className="sc-kEYyzF bhYHMi"
 >
   <nav
-    className="sc-jKJlTe iOzEuP"
+    className="sc-hMqMXs FzZNF"
   >
     <ul>
       <li>
@@ -56,7 +56,7 @@ exports[`Storyshots Admire default 1`] = `
     </ul>
   </nav>
   <main
-    className="sc-ckVGcZ idqjDH"
+    className="sc-eNQAEJ gfNwNo"
   >
     <div
       className="sc-ifAKCX bvoyhE"
@@ -65,10 +65,10 @@ exports[`Storyshots Admire default 1`] = `
         className="sc-EHOje bCWCtV"
       >
         <div
-          className="sc-fjdhpX jZsQfU"
+          className="sc-cSHVUG dvcTzm"
         >
           <div
-            className="sc-jzJRlG fswDQX"
+            className="sc-kAzzGY kiNndn"
           >
             <div
               className="sc-bZQynM jsZPtf"
@@ -91,7 +91,7 @@ exports[`Storyshots Admire default 1`] = `
               className="sc-dnqmqq dvJRiU"
             >
               <div
-                className="sc-jTzLTM eKCpqE"
+                className="sc-jzJRlG dSJXLd"
               >
                 <p>
                   Grocery
@@ -101,22 +101,32 @@ exports[`Storyshots Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="sc-gqjmRU bcbiTC"
+                className="sc-jTzLTM frDUCa"
               >
                 <input
-                  className="sc-VigVT iTWbSz"
+                  className="sc-fjdhpX iVsRuW"
                   step="25"
                   type="range"
                 />
+                <span
+                  className="sc-VigVT ccHtUk"
+                  style={
+                    Object {
+                      "left": "50%",
+                    }
+                  }
+                >
+                  3
+                </span>
               </div>
             </div>
           </div>
         </div>
         <div
-          className="sc-fjdhpX jZsQfU"
+          className="sc-cSHVUG dvcTzm"
         >
           <div
-            className="sc-jzJRlG fswDQX"
+            className="sc-kAzzGY kiNndn"
           >
             <div
               className="sc-bZQynM jsZPtf"
@@ -139,7 +149,7 @@ exports[`Storyshots Admire default 1`] = `
               className="sc-dnqmqq dvJRiU"
             >
               <div
-                className="sc-jTzLTM eKCpqE"
+                className="sc-jzJRlG dSJXLd"
               >
                 <p>
                   District
@@ -149,22 +159,32 @@ exports[`Storyshots Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="sc-gqjmRU bcbiTC"
+                className="sc-jTzLTM frDUCa"
               >
                 <input
-                  className="sc-VigVT iTWbSz"
+                  className="sc-fjdhpX iVsRuW"
                   step="25"
                   type="range"
                 />
+                <span
+                  className="sc-VigVT ccHtUk"
+                  style={
+                    Object {
+                      "left": "50%",
+                    }
+                  }
+                >
+                  3
+                </span>
               </div>
             </div>
           </div>
         </div>
         <div
-          className="sc-fjdhpX jZsQfU"
+          className="sc-cSHVUG dvcTzm"
         >
           <div
-            className="sc-jzJRlG fswDQX"
+            className="sc-kAzzGY kiNndn"
           >
             <div
               className="sc-bZQynM jsZPtf"
@@ -187,7 +207,7 @@ exports[`Storyshots Admire default 1`] = `
               className="sc-dnqmqq dvJRiU"
             >
               <div
-                className="sc-jTzLTM eKCpqE"
+                className="sc-jzJRlG dSJXLd"
               >
                 <p>
                   Plaza
@@ -197,22 +217,32 @@ exports[`Storyshots Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="sc-gqjmRU bcbiTC"
+                className="sc-jTzLTM frDUCa"
               >
                 <input
-                  className="sc-VigVT iTWbSz"
+                  className="sc-fjdhpX iVsRuW"
                   step="25"
                   type="range"
                 />
+                <span
+                  className="sc-VigVT ccHtUk"
+                  style={
+                    Object {
+                      "left": "50%",
+                    }
+                  }
+                >
+                  3
+                </span>
               </div>
             </div>
           </div>
         </div>
         <div
-          className="sc-fjdhpX jZsQfU"
+          className="sc-cSHVUG dvcTzm"
         >
           <div
-            className="sc-jzJRlG fswDQX"
+            className="sc-kAzzGY kiNndn"
           >
             <div
               className="sc-bZQynM jsZPtf"
@@ -235,7 +265,7 @@ exports[`Storyshots Admire default 1`] = `
               className="sc-dnqmqq dvJRiU"
             >
               <div
-                className="sc-jTzLTM eKCpqE"
+                className="sc-jzJRlG dSJXLd"
               >
                 <p>
                   Vatu
@@ -245,22 +275,32 @@ exports[`Storyshots Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="sc-gqjmRU bcbiTC"
+                className="sc-jTzLTM frDUCa"
               >
                 <input
-                  className="sc-VigVT iTWbSz"
+                  className="sc-fjdhpX iVsRuW"
                   step="25"
                   type="range"
                 />
+                <span
+                  className="sc-VigVT ccHtUk"
+                  style={
+                    Object {
+                      "left": "50%",
+                    }
+                  }
+                >
+                  3
+                </span>
               </div>
             </div>
           </div>
         </div>
         <div
-          className="sc-fjdhpX jZsQfU"
+          className="sc-cSHVUG dvcTzm"
         >
           <div
-            className="sc-jzJRlG fswDQX"
+            className="sc-kAzzGY kiNndn"
           >
             <div
               className="sc-bZQynM jsZPtf"
@@ -283,7 +323,7 @@ exports[`Storyshots Admire default 1`] = `
               className="sc-dnqmqq dvJRiU"
             >
               <div
-                className="sc-jTzLTM eKCpqE"
+                className="sc-jzJRlG dSJXLd"
               >
                 <p>
                   Open-architected
@@ -293,22 +333,32 @@ exports[`Storyshots Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="sc-gqjmRU bcbiTC"
+                className="sc-jTzLTM frDUCa"
               >
                 <input
-                  className="sc-VigVT iTWbSz"
+                  className="sc-fjdhpX iVsRuW"
                   step="25"
                   type="range"
                 />
+                <span
+                  className="sc-VigVT ccHtUk"
+                  style={
+                    Object {
+                      "left": "50%",
+                    }
+                  }
+                >
+                  3
+                </span>
               </div>
             </div>
           </div>
         </div>
         <div
-          className="sc-fjdhpX jZsQfU"
+          className="sc-cSHVUG dvcTzm"
         >
           <div
-            className="sc-jzJRlG fswDQX"
+            className="sc-kAzzGY kiNndn"
           >
             <div
               className="sc-bZQynM jsZPtf"
@@ -331,7 +381,7 @@ exports[`Storyshots Admire default 1`] = `
               className="sc-dnqmqq dvJRiU"
             >
               <div
-                className="sc-jTzLTM eKCpqE"
+                className="sc-jzJRlG dSJXLd"
               >
                 <p>
                   multi-byte
@@ -341,20 +391,30 @@ exports[`Storyshots Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="sc-gqjmRU bcbiTC"
+                className="sc-jTzLTM frDUCa"
               >
                 <input
-                  className="sc-VigVT iTWbSz"
+                  className="sc-fjdhpX iVsRuW"
                   step="25"
                   type="range"
                 />
+                <span
+                  className="sc-VigVT ccHtUk"
+                  style={
+                    Object {
+                      "left": "50%",
+                    }
+                  }
+                >
+                  3
+                </span>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div
-        className="sc-cSHVUG cMGaJS"
+        className="sc-chPdSV bjPbMK"
       >
         <button
           className="sc-bdVaJa eDyxov"
@@ -416,10 +476,10 @@ exports[`Storyshots Molecules.Admire default 1`] = `
     className="sc-EHOje bCWCtV"
   >
     <div
-      className="sc-fjdhpX jZsQfU"
+      className="sc-cSHVUG dvcTzm"
     >
       <div
-        className="sc-jzJRlG fswDQX"
+        className="sc-kAzzGY kiNndn"
       >
         <div
           className="sc-bZQynM jsZPtf"
@@ -442,7 +502,7 @@ exports[`Storyshots Molecules.Admire default 1`] = `
           className="sc-dnqmqq dvJRiU"
         >
           <div
-            className="sc-jTzLTM eKCpqE"
+            className="sc-jzJRlG dSJXLd"
           >
             <p>
               sensor
@@ -452,22 +512,32 @@ exports[`Storyshots Molecules.Admire default 1`] = `
             </p>
           </div>
           <div
-            className="sc-gqjmRU bcbiTC"
+            className="sc-jTzLTM frDUCa"
           >
             <input
-              className="sc-VigVT iTWbSz"
+              className="sc-fjdhpX iVsRuW"
               step="25"
               type="range"
             />
+            <span
+              className="sc-VigVT ccHtUk"
+              style={
+                Object {
+                  "left": "50%",
+                }
+              }
+            >
+              3
+            </span>
           </div>
         </div>
       </div>
     </div>
     <div
-      className="sc-fjdhpX jZsQfU"
+      className="sc-cSHVUG dvcTzm"
     >
       <div
-        className="sc-jzJRlG fswDQX"
+        className="sc-kAzzGY kiNndn"
       >
         <div
           className="sc-bZQynM jsZPtf"
@@ -490,7 +560,7 @@ exports[`Storyshots Molecules.Admire default 1`] = `
           className="sc-dnqmqq dvJRiU"
         >
           <div
-            className="sc-jTzLTM eKCpqE"
+            className="sc-jzJRlG dSJXLd"
           >
             <p>
               Crossing
@@ -500,22 +570,32 @@ exports[`Storyshots Molecules.Admire default 1`] = `
             </p>
           </div>
           <div
-            className="sc-gqjmRU bcbiTC"
+            className="sc-jTzLTM frDUCa"
           >
             <input
-              className="sc-VigVT iTWbSz"
+              className="sc-fjdhpX iVsRuW"
               step="25"
               type="range"
             />
+            <span
+              className="sc-VigVT ccHtUk"
+              style={
+                Object {
+                  "left": "50%",
+                }
+              }
+            >
+              3
+            </span>
           </div>
         </div>
       </div>
     </div>
     <div
-      className="sc-fjdhpX jZsQfU"
+      className="sc-cSHVUG dvcTzm"
     >
       <div
-        className="sc-jzJRlG fswDQX"
+        className="sc-kAzzGY kiNndn"
       >
         <div
           className="sc-bZQynM jsZPtf"
@@ -538,7 +618,7 @@ exports[`Storyshots Molecules.Admire default 1`] = `
           className="sc-dnqmqq dvJRiU"
         >
           <div
-            className="sc-jTzLTM eKCpqE"
+            className="sc-jzJRlG dSJXLd"
           >
             <p>
               communities
@@ -548,22 +628,32 @@ exports[`Storyshots Molecules.Admire default 1`] = `
             </p>
           </div>
           <div
-            className="sc-gqjmRU bcbiTC"
+            className="sc-jTzLTM frDUCa"
           >
             <input
-              className="sc-VigVT iTWbSz"
+              className="sc-fjdhpX iVsRuW"
               step="25"
               type="range"
             />
+            <span
+              className="sc-VigVT ccHtUk"
+              style={
+                Object {
+                  "left": "50%",
+                }
+              }
+            >
+              3
+            </span>
           </div>
         </div>
       </div>
     </div>
     <div
-      className="sc-fjdhpX jZsQfU"
+      className="sc-cSHVUG dvcTzm"
     >
       <div
-        className="sc-jzJRlG fswDQX"
+        className="sc-kAzzGY kiNndn"
       >
         <div
           className="sc-bZQynM jsZPtf"
@@ -586,7 +676,7 @@ exports[`Storyshots Molecules.Admire default 1`] = `
           className="sc-dnqmqq dvJRiU"
         >
           <div
-            className="sc-jTzLTM eKCpqE"
+            className="sc-jzJRlG dSJXLd"
           >
             <p>
               Computer
@@ -596,13 +686,23 @@ exports[`Storyshots Molecules.Admire default 1`] = `
             </p>
           </div>
           <div
-            className="sc-gqjmRU bcbiTC"
+            className="sc-jTzLTM frDUCa"
           >
             <input
-              className="sc-VigVT iTWbSz"
+              className="sc-fjdhpX iVsRuW"
               step="25"
               type="range"
             />
+            <span
+              className="sc-VigVT ccHtUk"
+              style={
+                Object {
+                  "left": "50%",
+                }
+              }
+            >
+              3
+            </span>
           </div>
         </div>
       </div>
@@ -613,7 +713,7 @@ exports[`Storyshots Molecules.Admire default 1`] = `
 
 exports[`Storyshots Molecules.FixedButton default 1`] = `
 <div
-  className="sc-cSHVUG cMGaJS"
+  className="sc-chPdSV bjPbMK"
 >
   <button
     className="sc-bdVaJa eDyxov"
@@ -625,10 +725,10 @@ exports[`Storyshots Molecules.FixedButton default 1`] = `
 
 exports[`Storyshots Molecules.Hero default 1`] = `
 <div
-  className="sc-kAzzGY eHqQoH"
+  className="sc-kgoBCf hYfJhg"
 >
   <div
-    className="sc-chPdSV jCLjFx"
+    className="sc-kGXeez wVpVo"
   >
     <div
       className="sc-bZQynM kCRCpA"
@@ -655,7 +755,7 @@ exports[`Storyshots Molecules.Range default 1`] = `
     className="sc-dnqmqq dvJRiU"
   >
     <div
-      className="sc-jTzLTM eKCpqE"
+      className="sc-jzJRlG dSJXLd"
     >
       <p>
         monitor
@@ -665,16 +765,26 @@ exports[`Storyshots Molecules.Range default 1`] = `
       </p>
     </div>
     <div
-      className="sc-iwsKbI lbYruT"
+      className="sc-gZMcBi kEHtbG"
     >
       <div
-        className="sc-gZMcBi lohZi"
+        className="sc-gqjmRU iwdFBH"
         style={
           Object {
             "left": "50%",
           }
         }
       />
+      <span
+        className="sc-VigVT ccHtUk"
+        style={
+          Object {
+            "left": "50%",
+          }
+        }
+      >
+        3
+      </span>
     </div>
   </div>
 </div>
@@ -688,7 +798,7 @@ exports[`Storyshots Molecules.Range input 1`] = `
     className="sc-dnqmqq dvJRiU"
   >
     <div
-      className="sc-jTzLTM eKCpqE"
+      className="sc-jzJRlG dSJXLd"
     >
       <p>
         system
@@ -698,13 +808,23 @@ exports[`Storyshots Molecules.Range input 1`] = `
       </p>
     </div>
     <div
-      className="sc-gqjmRU bcbiTC"
+      className="sc-jTzLTM frDUCa"
     >
       <input
-        className="sc-VigVT iTWbSz"
+        className="sc-fjdhpX iVsRuW"
         step="25"
         type="range"
       />
+      <span
+        className="sc-VigVT ccHtUk"
+        style={
+          Object {
+            "left": "50%",
+          }
+        }
+      >
+        3
+      </span>
     </div>
   </div>
 </div>
@@ -712,7 +832,7 @@ exports[`Storyshots Molecules.Range input 1`] = `
 
 exports[`Storyshots Molecules.Rank default 1`] = `
 <div
-  className="sc-kgoBCf bNYcup"
+  className="sc-kpOJdX eaiwUm"
 >
   <span>
     36178
@@ -739,10 +859,10 @@ exports[`Storyshots Molecules.Rank default 1`] = `
 exports[`Storyshots Molecules.Result default 1`] = `
 Array [
   <div
-    className="sc-kpOJdX jzNNEf"
+    className="sc-ckVGcZ cnHhRl"
   >
     <div
-      className="sc-dxgOiQ fSNiTF"
+      className="sc-jKJlTe fhgCOb"
     >
       <span>
         50人中
@@ -751,7 +871,7 @@ Array [
     </div>
   </div>,
   <p
-    className="sc-kGXeez jJmPBp"
+    className="sc-dxgOiQ knIlda"
   >
     Orchestrator
   </p>,
@@ -760,10 +880,10 @@ Array [
 
 exports[`Storyshots Mypage default 1`] = `
 <div
-  className="sc-eNQAEJ fZJqfA"
+  className="sc-kEYyzF bhYHMi"
 >
   <nav
-    className="sc-jKJlTe iOzEuP"
+    className="sc-hMqMXs FzZNF"
   >
     <ul>
       <li>
@@ -814,13 +934,13 @@ exports[`Storyshots Mypage default 1`] = `
     </ul>
   </nav>
   <main
-    className="sc-ckVGcZ idqjDH"
+    className="sc-eNQAEJ gfNwNo"
   >
     <div
-      className="sc-kAzzGY eHqQoH"
+      className="sc-kgoBCf hYfJhg"
     >
       <div
-        className="sc-chPdSV jCLjFx"
+        className="sc-kGXeez wVpVo"
       >
         <div
           className="sc-bZQynM kCRCpA"
@@ -850,7 +970,7 @@ exports[`Storyshots Mypage default 1`] = `
             className="sc-dnqmqq dvJRiU"
           >
             <div
-              className="sc-jTzLTM eKCpqE"
+              className="sc-jzJRlG dSJXLd"
             >
               <p>
                 とても悪い
@@ -860,16 +980,26 @@ exports[`Storyshots Mypage default 1`] = `
               </p>
             </div>
             <div
-              className="sc-iwsKbI lbYruT"
+              className="sc-gZMcBi kEHtbG"
             >
               <div
-                className="sc-gZMcBi lohZi"
+                className="sc-gqjmRU iwdFBH"
                 style={
                   Object {
                     "left": "50%",
                   }
                 }
               />
+              <span
+                className="sc-VigVT ccHtUk"
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              >
+                3
+              </span>
             </div>
           </div>
         </div>
@@ -878,10 +1008,10 @@ exports[`Storyshots Mypage default 1`] = `
         className="sc-EHOje BfQjE"
       >
         <div
-          className="sc-kpOJdX jzNNEf"
+          className="sc-ckVGcZ cnHhRl"
         >
           <div
-            className="sc-dxgOiQ fSNiTF"
+            className="sc-jKJlTe fhgCOb"
           >
             <span>
               50人中
@@ -890,7 +1020,7 @@ exports[`Storyshots Mypage default 1`] = `
           </div>
         </div>
         <p
-          className="sc-kGXeez jJmPBp"
+          className="sc-dxgOiQ knIlda"
         >
           Pound Sterling
         </p>
@@ -903,7 +1033,7 @@ exports[`Storyshots Mypage default 1`] = `
         className="sc-EHOje BfQjE"
       >
         <div
-          className="sc-kgoBCf bNYcup"
+          className="sc-kpOJdX eaiwUm"
         >
           <span>
             58593
@@ -926,7 +1056,7 @@ exports[`Storyshots Mypage default 1`] = `
           </div>
         </div>
         <div
-          className="sc-kgoBCf bNYcup"
+          className="sc-kpOJdX eaiwUm"
         >
           <span>
             53006
@@ -956,17 +1086,17 @@ exports[`Storyshots Mypage default 1`] = `
 
 exports[`Storyshots Signin default 1`] = `
 <div
-  className="sc-hMqMXs bvlZSN"
+  className="sc-kkGfuU gjPFBq"
 >
   <main
-    className="sc-kEYyzF jBZLBM"
+    className="sc-iAyFgw kcgQxE"
   >
     <form
       action="#"
       method="post"
     >
       <div
-        className="sc-kkGfuU crstfb"
+        className="sc-hSdWYo gDyYIo"
       >
         <input
           className="sc-bwzfXH gvLEdO"
@@ -991,7 +1121,7 @@ exports[`Storyshots Signin default 1`] = `
         </svg>
       </div>
       <div
-        className="sc-kkGfuU crstfb"
+        className="sc-hSdWYo gDyYIo"
       >
         <input
           className="sc-bwzfXH gvLEdO"
