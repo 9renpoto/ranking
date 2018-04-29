@@ -2,6 +2,29 @@
 # yarn lockfile v1
 
 
+"@9renpoto/eslint-config-react@^4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@9renpoto/eslint-config-react/-/eslint-config-react-4.3.0.tgz#78b35c7654d5d1309613079fe2416c71000c497b"
+  dependencies:
+    eslint-config-standard-react "^6.0.0"
+    eslint-plugin-react "^7.7.0"
+
+"@9renpoto/eslint-config@^4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@9renpoto/eslint-config/-/eslint-config-4.4.0.tgz#8cf57b5ae09eef9e55afec2c2085fe1cfb1e12ed"
+  dependencies:
+    eslint-config-standard "^11.0.0"
+    eslint-plugin-import "^2.9.0"
+    eslint-plugin-node "^6.0.1"
+    eslint-plugin-promise "^3.6.0"
+    eslint-plugin-standard "^3.0.1"
+
+"@9renpoto/tslint-config@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@9renpoto/tslint-config/-/tslint-config-4.0.0.tgz#05ea287b1ade8c53f6b9913bd447a541232ad4b0"
+  dependencies:
+    tslint-config-standard "^7.0.0"
+
 "@babel/code-frame@^7.0.0-beta.35":
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.0.0-beta.44.tgz#2a02643368de80916162be70865c97774f3adbd9"
@@ -364,30 +387,6 @@
 "@types/webpack-env@*":
   version "1.13.6"
   resolved "https://registry.yarnpkg.com/@types/webpack-env/-/webpack-env-1.13.6.tgz#128d1685a7c34d31ed17010fc87d6a12c1de6976"
-
-"@uncovertruth/eslint-config-react@4.3.1":
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/@uncovertruth/eslint-config-react/-/eslint-config-react-4.3.1.tgz#77c87f0c382b656363a910ee1339144d4b2b88f4"
-  dependencies:
-    eslint-config-standard-react "^6.0.0"
-    eslint-plugin-react "^7.7.0"
-
-"@uncovertruth/eslint-config@4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@uncovertruth/eslint-config/-/eslint-config-4.2.0.tgz#be24586f4840239d837cf5d3fb64035db0739004"
-  dependencies:
-    eslint-config-standard "^11.0.0"
-    eslint-plugin-eslint-comments "^2.0.2"
-    eslint-plugin-import "^2.9.0"
-    eslint-plugin-node "^6.0.1"
-    eslint-plugin-promise "^3.7.0"
-    eslint-plugin-standard "^3.0.1"
-
-"@uncovertruth/tslint-config@4.3.1":
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/@uncovertruth/tslint-config/-/tslint-config-4.3.1.tgz#cfb400c1cbad998f1ad8c04a7f62203703907989"
-  dependencies:
-    tslint-config-standard "^7.0.0"
 
 "@zeit/check-updates@1.1.1":
   version "1.1.1"
@@ -3443,13 +3442,6 @@ eslint-module-utils@^2.2.0:
     debug "^2.6.8"
     pkg-dir "^1.0.0"
 
-eslint-plugin-eslint-comments@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-eslint-comments/-/eslint-plugin-eslint-comments-2.0.2.tgz#006e1c834beffe6ff3014e84a3ae69acfa539a28"
-  dependencies:
-    escape-string-regexp "^1.0.5"
-    ignore "^3.3.7"
-
 eslint-plugin-import@^2.9.0:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.11.0.tgz#15aeea37a67499d848e8e981806d4627b5503816"
@@ -3478,7 +3470,7 @@ eslint-plugin-node@^6.0.1:
     resolve "^1.3.3"
     semver "^5.4.1"
 
-eslint-plugin-promise@^3.7.0:
+eslint-plugin-promise@^3.6.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.7.0.tgz#f4bde5c2c77cdd69557a8f69a24d1ad3cfc9e67e"
 
@@ -4690,7 +4682,7 @@ iferr@^0.1.5:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/iferr/-/iferr-0.1.5.tgz#c60eed69e6d8fdb6b3104a1fcbca1c192dc5b501"
 
-ignore@^3.2.7, ignore@^3.3.3, ignore@^3.3.6, ignore@^3.3.7:
+ignore@^3.2.7, ignore@^3.3.3, ignore@^3.3.6:
   version "3.3.7"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.3.7.tgz#612289bfb3c220e186a58118618d5be8c1bab021"
 

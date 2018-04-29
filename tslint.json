@@ -1,7 +1,7 @@
 {
   "extends": [
     "tslint-react",
-    "@uncovertruth/tslint-config"
+    "@9renpoto/tslint-config"
   ],
   "rules": {
     "jsx-no-multiline-js": false,

@@ -16,6 +16,9 @@
     "styled-components": "3.2.6"
   },
   "devDependencies": {
+    "@9renpoto/eslint-config": "^4.4.0",
+    "@9renpoto/eslint-config-react": "^4.3.0",
+    "@9renpoto/tslint-config": "^4.0.0",
     "@storybook/addon-actions": "3.4.2",
     "@storybook/addon-knobs": "3.4.2",
     "@storybook/addon-storyshots": "3.4.2",
@@ -29,9 +32,6 @@
     "@types/storybook__addon-actions": "3.0.3",
     "@types/storybook__addon-knobs": "3.3.1",
     "@types/storybook__react": "3.0.7",
-    "@uncovertruth/eslint-config": "4.2.0",
-    "@uncovertruth/eslint-config-react": "4.3.1",
-    "@uncovertruth/tslint-config": "4.3.1",
     "@zeit/next-typescript": "0.1.1",
     "awesome-typescript-loader": "4.0.1",
     "babel-core": "6.26.0",
