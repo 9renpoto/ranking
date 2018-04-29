@@ -1,43 +1,53 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "jsx": "preserve",
     "lib": [
       "dom",
-      "es6"
+      "es6",
+      "es2016"
     ],
-    "jsx": "react",
-    "declaration": true,
-    "sourceMap": true,
-    "outDir": "./lib",
-    "removeComments": true,
-    "importHelpers": true,
-    "downlevelIteration": true,
-    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "strictPropertyInitialization": true,
+    "noImplicitReturns": true,
     "noImplicitThis": true,
-    "alwaysStrict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "preserveSymlinks": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
+    "outDir": "./lib",
     "plugins": [
       {
-        "name": "typescript-styled-plugin"
+        "name": "typescript-styled-plugin",
+        "lint": {
+          "unknownVendorSpecificProperties": "error"
+        }
       }
-    ]
+    ],
+    "preserveConstEnums": true,
+    "preserveSymlinks": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "target": "esnext"
   },
+  "include": [
+    "app"
+  ],
   "exclude": [
     "node_modules",
-    "dist"
+    "dist",
+    "**/__mocks__"
   ]
 }
