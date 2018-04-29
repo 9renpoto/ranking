@@ -3,8 +3,8 @@
     "jest/globals": true
   },
   "extends": [
-    "@uncovertruth/eslint-config",
-    "@uncovertruth/eslint-config-react"
+    "@9renpoto/eslint-config",
+    "@9renpoto/eslint-config-react"
   ],
   "parser": "typescript-eslint-parser",
   "plugins": [
