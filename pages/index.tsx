@@ -8,20 +8,39 @@ import {
   Wrapper as SigninWrapper
 } from '../components/p/Signin'
 
-export default () => (
-  <SigninWrapper>
-    <SigninWrapperInner>
-      <form action='#' method='post'>
-        <SigninWrapperInput>
-          <Input type='email' placeholder={'email'} />
-          <FontAwesomeIcon icon={faEnvelope} />
-        </SigninWrapperInput>
-        <SigninWrapperInput>
-          <Input type='password' placeholder={'password'} />
-          <FontAwesomeIcon icon={faUnlock} />
-        </SigninWrapperInput>
-        <Button disabled>Sign in</Button>
-      </form>
-    </SigninWrapperInner>
-  </SigninWrapper>
-)
+import * as React from 'react'
+import initialize from '../app/firebase/initialize'
+import signinWithGithub from '../app/firebase/signin'
+import routes from '../app/routes'
+
+export default class Index extends React.Component {
+  render () {
+    return (
+      <SigninWrapper>
+        <SigninWrapperInner>
+          <SigninWrapperInput>
+            <Input type='email' placeholder={'email'} />
+            <FontAwesomeIcon icon={faEnvelope} />
+          </SigninWrapperInput>
+          <SigninWrapperInput>
+            <Input type='password' placeholder={'password'} />
+            <FontAwesomeIcon icon={faUnlock} />
+          </SigninWrapperInput>
+          <Button onClick={this.onClick}>Sign in</Button>
+        </SigninWrapperInner>
+      </SigninWrapper>
+    )
+  }
+
+  onClick () {
+    signinWithGithub().then(result => {
+      routes.Router.pushRoute(`/gh/org/${result.user.displayName}`, {
+        photoURL: result.user.photoURL
+      })
+    })
+  }
+
+  componentDidMount () {
+    initialize()
+  }
+}
