@@ -24,14 +24,16 @@ const signIn = () => {
 export default () => (
   <SigninWrapper>
     <SigninWrapperInner>
-      <SigninWrapperInput>
-        <Input type='email' placeholder={'email'} />
-        <FontAwesomeIcon icon={faEnvelope} />
-      </SigninWrapperInput>
-      <SigninWrapperInput>
-        <Input type='password' placeholder={'password'} />
-        <FontAwesomeIcon icon={faUnlock} />
-      </SigninWrapperInput>
+      <form action='#' method='post'>
+        <SigninWrapperInput>
+          <Input type='email' placeholder={'email'} />
+          <FontAwesomeIcon icon={faEnvelope} />
+        </SigninWrapperInput>
+        <SigninWrapperInput>
+          <Input type='password' placeholder={'password'} />
+          <FontAwesomeIcon icon={faUnlock} />
+        </SigninWrapperInput>
+      </form>
       <Button onClick={signIn}>Sign in</Button>
     </SigninWrapperInner>
   </SigninWrapper>
