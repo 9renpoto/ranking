@@ -27,7 +27,7 @@
     "@storybook/react": "3.4.6",
     "@types/faker": "4.1.2",
     "@types/jest": "23.0.0",
-    "@types/node": "9.6.20",
+    "@types/node": "9.6.21",
     "@types/react-test-renderer": "16.0.1",
     "@types/storybook__addon-actions": "3.0.3",
     "@types/storybook__addon-knobs": "3.3.1",
