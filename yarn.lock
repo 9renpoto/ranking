@@ -699,11 +699,11 @@
     react-inspector "^2.2.2"
     uuid "^3.2.1"
 
-"@storybook/addon-knobs@3.4.6":
-  version "3.4.6"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-knobs/-/addon-knobs-3.4.6.tgz#900586a218e12540256884af7a0ba1f684f1f436"
+"@storybook/addon-knobs@3.4.7":
+  version "3.4.7"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-knobs/-/addon-knobs-3.4.7.tgz#9e8f7827e3743ec76d773dd65a3857d538d0aa02"
   dependencies:
-    "@storybook/components" "3.4.6"
+    "@storybook/components" "3.4.7"
     babel-runtime "^6.26.0"
     deep-equal "^1.0.1"
     global "^4.3.2"
@@ -784,14 +784,6 @@
   resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-3.4.7.tgz#8a3be8ab76aa3f717343d7dee2b5f4dc1f5d5bbe"
   dependencies:
     jscodeshift "^0.5.0"
-
-"@storybook/components@3.4.6":
-  version "3.4.6"
-  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-3.4.6.tgz#34bddcfa21bddc59ef57a052d157285fab7ba003"
-  dependencies:
-    glamor "^2.20.40"
-    glamorous "^4.12.1"
-    prop-types "^15.6.1"
 
 "@storybook/components@3.4.7":
   version "3.4.7"
