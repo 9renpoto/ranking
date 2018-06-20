@@ -5,7 +5,7 @@
   "dependencies": {
     "@fortawesome/fontawesome": "1.1.8",
     "@fortawesome/fontawesome-svg-core": "1.2.0-14",
-    "@fortawesome/free-solid-svg-icons": "5.1.0-11",
+    "@fortawesome/free-solid-svg-icons": "5.1.0",
     "@fortawesome/react-fontawesome": "0.1.0-11",
     "@types/next": "6.0.1",
     "next": "6.0.3",
