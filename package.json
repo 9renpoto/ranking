@@ -53,7 +53,7 @@
     "tslint": "5.10.0",
     "tslint-react": "3.6.0",
     "typescript": "2.9.2",
-    "typescript-eslint-parser": "16.0.0",
+    "typescript-eslint-parser": "16.0.1",
     "typescript-styled-plugin": "0.7.0"
   },
   "jest": {
