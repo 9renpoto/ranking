@@ -949,9 +949,9 @@
   version "23.3.1"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-23.3.1.tgz#a4319aedb071d478e6f407d1c4578ec8156829cf"
 
-"@types/next@6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@types/next/-/next-6.1.1.tgz#fbf2c9217f5d029fb03d0607a8249c32995c7491"
+"@types/next@6.1.2":
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@types/next/-/next-6.1.2.tgz#8a653ba609e3cc33f3955bb6e4615313d70aa362"
   dependencies:
     "@types/node" "*"
     "@types/node-fetch" "*"
