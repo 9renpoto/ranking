@@ -30,7 +30,7 @@
     "@types/node": "10.5.7",
     "@types/react-test-renderer": "16.0.2",
     "@types/storybook__addon-actions": "3.4.1",
-    "@types/storybook__addon-knobs": "3.3.1",
+    "@types/storybook__addon-knobs": "3.4.0",
     "@types/storybook__react": "3.0.9",
     "@zeit/next-typescript": "1.1.0",
     "awesome-typescript-loader": "5.2.0",
