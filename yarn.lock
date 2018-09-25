@@ -2,11 +2,11 @@
 # yarn lockfile v1
 
 
-"@9renpoto/eslint-config-react@4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@9renpoto/eslint-config-react/-/eslint-config-react-4.3.0.tgz#78b35c7654d5d1309613079fe2416c71000c497b"
+"@9renpoto/eslint-config-react@4.6.0":
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/@9renpoto/eslint-config-react/-/eslint-config-react-4.6.0.tgz#7ecb347cfc918ed862b5b619b36aaef2277da875"
   dependencies:
-    eslint-config-standard-react "^6.0.0"
+    eslint-config-standard-react "^7.0.0"
     eslint-plugin-react "^7.7.0"
 
 "@9renpoto/eslint-config@4.6.0":
@@ -4319,15 +4319,15 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-standard-jsx@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard-jsx/-/eslint-config-standard-jsx-5.0.0.tgz#4abfac554f38668e0078c664569e7b2384e5d2aa"
+eslint-config-standard-jsx@^6.0.1:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-jsx/-/eslint-config-standard-jsx-6.0.2.tgz#90c9aa16ac2c4f8970c13fc7efc608bacd02da70"
 
-eslint-config-standard-react@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard-react/-/eslint-config-standard-react-6.0.0.tgz#d366d6c3c092426fd3ae794a4ca0b3cb131f2964"
+eslint-config-standard-react@^7.0.0:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-react/-/eslint-config-standard-react-7.0.2.tgz#80b51a0e0c371ef987679ee134768457a5b6db92"
   dependencies:
-    eslint-config-standard-jsx "^5.0.0"
+    eslint-config-standard-jsx "^6.0.1"
 
 eslint-config-standard@^12.0.0:
   version "12.0.0"
