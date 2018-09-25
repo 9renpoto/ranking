@@ -9,15 +9,15 @@
     eslint-config-standard-react "^6.0.0"
     eslint-plugin-react "^7.7.0"
 
-"@9renpoto/eslint-config@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@9renpoto/eslint-config/-/eslint-config-4.4.0.tgz#8cf57b5ae09eef9e55afec2c2085fe1cfb1e12ed"
+"@9renpoto/eslint-config@4.6.0":
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/@9renpoto/eslint-config/-/eslint-config-4.6.0.tgz#5ef95d415e25a7afc646f605daa6c65e19f6e4d1"
   dependencies:
-    eslint-config-standard "^11.0.0"
+    eslint-config-standard "^12.0.0"
     eslint-plugin-import "^2.9.0"
-    eslint-plugin-node "^6.0.1"
-    eslint-plugin-promise "^3.6.0"
-    eslint-plugin-standard "^3.0.1"
+    eslint-plugin-node "^7.0.0"
+    eslint-plugin-promise "^4.0.0"
+    eslint-plugin-standard "^4.0.0"
 
 "@9renpoto/tslint-config@4.0.0":
   version "4.0.0"
@@ -4329,9 +4329,9 @@ eslint-config-standard-react@^6.0.0:
   dependencies:
     eslint-config-standard-jsx "^5.0.0"
 
-eslint-config-standard@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-11.0.0.tgz#87ee0d3c9d95382dc761958cbb23da9eea31e0ba"
+eslint-config-standard@^12.0.0:
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-12.0.0.tgz#638b4c65db0bd5a41319f96bba1f15ddad2107d9"
 
 eslint-import-resolver-node@^0.3.1:
   version "0.3.2"
@@ -4346,6 +4346,13 @@ eslint-module-utils@^2.2.0:
   dependencies:
     debug "^2.6.8"
     pkg-dir "^1.0.0"
+
+eslint-plugin-es@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-es/-/eslint-plugin-es-1.3.1.tgz#5acb2565db4434803d1d46a9b4cbc94b345bd028"
+  dependencies:
+    eslint-utils "^1.3.0"
+    regexpp "^2.0.0"
 
 eslint-plugin-import@^2.9.0:
   version "2.11.0"
@@ -4366,18 +4373,20 @@ eslint-plugin-jest@21.22.1:
   version "21.22.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-21.22.1.tgz#bc805e9b1c75c3bc92e47c44dd41370c1af7ebcc"
 
-eslint-plugin-node@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-6.0.1.tgz#bf19642298064379315d7a4b2a75937376fa05e4"
+eslint-plugin-node@^7.0.0:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-7.0.1.tgz#a6e054e50199b2edd85518b89b4e7b323c9f36db"
   dependencies:
-    ignore "^3.3.6"
+    eslint-plugin-es "^1.3.1"
+    eslint-utils "^1.3.1"
+    ignore "^4.0.2"
     minimatch "^3.0.4"
-    resolve "^1.3.3"
-    semver "^5.4.1"
+    resolve "^1.8.1"
+    semver "^5.5.0"
 
-eslint-plugin-promise@^3.6.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.7.0.tgz#f4bde5c2c77cdd69557a8f69a24d1ad3cfc9e67e"
+eslint-plugin-promise@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-4.0.1.tgz#2d074b653f35a23d1ba89d8e976a985117d1c6a2"
 
 eslint-plugin-react@^7.7.0:
   version "7.7.0"
@@ -4388,9 +4397,9 @@ eslint-plugin-react@^7.7.0:
     jsx-ast-utils "^2.0.1"
     prop-types "^15.6.0"
 
-eslint-plugin-standard@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-standard/-/eslint-plugin-standard-3.0.1.tgz#34d0c915b45edc6f010393c7eef3823b08565cf2"
+eslint-plugin-standard@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-standard/-/eslint-plugin-standard-4.0.0.tgz#f845b45109c99cd90e77796940a344546c8f6b5c"
 
 eslint-scope@^3.7.1:
   version "3.7.1"
@@ -4406,7 +4415,7 @@ eslint-scope@^4.0.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-utils@^1.3.1:
+eslint-utils@^1.3.0, eslint-utils@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/eslint-utils/-/eslint-utils-1.3.1.tgz#9a851ba89ee7c460346f97cf8939c7298827e512"
 
@@ -5688,11 +5697,11 @@ ignore-walk@^3.0.1:
   dependencies:
     minimatch "^3.0.4"
 
-ignore@^3.2.7, ignore@^3.3.3, ignore@^3.3.6:
+ignore@^3.2.7, ignore@^3.3.3:
   version "3.3.7"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.3.7.tgz#612289bfb3c220e186a58118618d5be8c1bab021"
 
-ignore@^4.0.6:
+ignore@^4.0.2, ignore@^4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
 
@@ -9590,7 +9599,7 @@ resolve@1.5.0:
   dependencies:
     path-parse "^1.0.5"
 
-resolve@^1.1.6, resolve@^1.3.2, resolve@^1.3.3, resolve@^1.5.0, resolve@^1.6.0:
+resolve@^1.1.6, resolve@^1.3.2, resolve@^1.5.0, resolve@^1.6.0:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.7.1.tgz#aadd656374fd298aee895bc026b8297418677fd3"
   dependencies:
