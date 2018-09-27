@@ -41,6 +41,7 @@ exports[`Molecules.Navbar render 1`] = `
             size={null}
             spin={false}
             symbol={false}
+            title=""
             transform={null}
           />
         </a>
