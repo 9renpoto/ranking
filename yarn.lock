@@ -995,9 +995,9 @@
   version "10.11.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.11.1.tgz#adc48781dd50b2635a8a7854d99c759a26ede840"
 
-"@types/node@10.11.3":
-  version "10.11.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.11.3.tgz#c055536ac8a5e871701aa01914be5731539d01ee"
+"@types/node@10.11.4":
+  version "10.11.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.11.4.tgz#e8bd933c3f78795d580ae41d86590bfc1f4f389d"
 
 "@types/prop-types@*":
   version "15.5.6"
