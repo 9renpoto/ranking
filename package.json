@@ -26,7 +26,7 @@
     "@storybook/cli": "3.4.11",
     "@storybook/react": "3.4.11",
     "@types/faker": "4.1.4",
-    "@types/jest": "23.3.7",
+    "@types/jest": "23.3.8",
     "@types/node": "10.12.0",
     "@types/react-test-renderer": "16.0.3",
     "@types/storybook__addon-actions": "3.4.1",
