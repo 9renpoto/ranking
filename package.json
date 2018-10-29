@@ -20,7 +20,7 @@
     "@9renpoto/eslint-config-react": "4.6.0",
     "@9renpoto/tslint-config": "4.6.0",
     "@storybook/addon-actions": "3.4.11",
-    "@storybook/addon-knobs": "3.4.11",
+    "@storybook/addon-knobs": "4.0.0",
     "@storybook/addon-storyshots": "3.4.11",
     "@storybook/addons": "3.4.11",
     "@storybook/cli": "3.4.11",
