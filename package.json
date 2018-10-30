@@ -19,12 +19,13 @@
     "@9renpoto/eslint-config": "4.6.0",
     "@9renpoto/eslint-config-react": "4.6.0",
     "@9renpoto/tslint-config": "4.6.0",
-    "@storybook/addon-actions": "3.4.11",
-    "@storybook/addon-knobs": "3.4.11",
-    "@storybook/addon-storyshots": "3.4.11",
-    "@storybook/addons": "3.4.11",
-    "@storybook/cli": "3.4.11",
-    "@storybook/react": "3.4.11",
+    "@babel/core": "^7.1.2",
+    "@storybook/addon-actions": "4.0.0",
+    "@storybook/addon-knobs": "4.0.0",
+    "@storybook/addon-storyshots": "4.0.0",
+    "@storybook/addons": "4.0.0",
+    "@storybook/cli": "4.0.0",
+    "@storybook/react": "4.0.0",
     "@types/faker": "4.1.4",
     "@types/jest": "23.3.8",
     "@types/node": "10.12.1",
@@ -33,9 +34,10 @@
     "@types/storybook__addon-knobs": "3.4.1",
     "@types/storybook__react": "3.0.9",
     "@zeit/next-typescript": "1.1.1",
-    "awesome-typescript-loader": "5.2.1",
-    "babel-core": "6.26.3",
-    "babel-runtime": "6.26.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-jest": "23.6.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-require-context-hook": "^1.0.0",
     "codecov": "3.1.0",
     "concurrently": "4.0.1",
     "cross-env": "5.2.0",
@@ -58,9 +60,13 @@
   },
   "jest": {
     "transform": {
-      "^.+\\.tsx?$": "ts-jest"
+      "^.+\\.tsx?$": "ts-jest",
+      "^.+\\.jsx?$": "babel-jest"
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "setupFiles": [
+      "./.storybook/setup.js"
+    ],
     "collectCoverage": true,
     "moduleFileExtensions": [
       "ts",

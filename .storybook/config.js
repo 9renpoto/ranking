@@ -1,7 +1,7 @@
-import { configure, addDecorator } from '@storybook/react'
-import { withKnobs } from '@storybook/addon-knobs'
+const { configure, addDecorator } = require('@storybook/react')
+const { withKnobs } = require('@storybook/addon-knobs')
 
-import '../components/globalStyles'
+require('../components/globalStyles')
 
 const req = require.context('../components', true, /.stories.tsx?$/)
 const loadStories = () => req.keys().forEach(filename => req(filename))
