@@ -1084,17 +1084,17 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@storybook/addon-actions@4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-4.0.0.tgz#7dfd5f2c2d180d38faa29d111ed3ed31ce1e84e0"
-  integrity sha512-yg+oCofxOxoYq4K7V7r0fwpuIUnmGvCkwrT8Rx/TOtAVk47PqSToLWCJDmy58b+yWa9nl+EukclVpr/H9AmZVA==
+"@storybook/addon-actions@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-4.0.1.tgz#d254be6cc77caea9c4ea8c19ded40a1b2905d1f6"
+  integrity sha512-tetUV0xfrK8C4wIax5JH4GcIKUDrmqq8RLi02t5ydYlhW1vfymDT49YMVOXFukEjNt+TlpodqBeF0SOjAwYkQQ==
   dependencies:
     "@emotion/core" "^0.13.1"
     "@emotion/provider" "^0.11.2"
     "@emotion/styled" "^0.10.6"
-    "@storybook/addons" "4.0.0"
-    "@storybook/components" "4.0.0"
-    "@storybook/core-events" "4.0.0"
+    "@storybook/addons" "4.0.1"
+    "@storybook/components" "4.0.1"
+    "@storybook/core-events" "4.0.1"
     deep-equal "^1.0.1"
     global "^4.3.2"
     lodash "^4.17.11"
