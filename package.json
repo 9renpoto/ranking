@@ -24,7 +24,7 @@
     "@storybook/addon-knobs": "4.0.1",
     "@storybook/addon-storyshots": "4.0.0",
     "@storybook/addons": "4.0.1",
-    "@storybook/cli": "4.0.0",
+    "@storybook/cli": "4.0.1",
     "@storybook/react": "4.0.0",
     "@types/faker": "4.1.4",
     "@types/jest": "23.3.9",

@@ -1173,17 +1173,17 @@
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-4.0.1.tgz#5e8de19c01ab7c988952f64a6f7e2de75a3eb93e"
   integrity sha512-AhwOwv6dFSt0k5byM2bIJ5BFtCIk2VpFNE2JkCTJhnCpuYYalGth6ia04SE6fB0+r3CeqZopKp25rBMSWdzDkQ==
 
-"@storybook/cli@4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-4.0.0.tgz#81219261db56bceaf2bc67ff16b8a1836b3fc0fe"
-  integrity sha512-/HUgAielI55pFboB1gnQZmNKWVx1t4OzEiSYyUPhBXfi7ybI2Wip/7pDVj52BYw/wxKEtFkIiGwszKr4pI6ryA==
+"@storybook/cli@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-4.0.1.tgz#b53f4c57b9b4a5a96d6dccfa921388bc05ee4428"
+  integrity sha512-EKkCBv5UFhLWSCD082n9rCdfLaeXrKEY3RusNmLQWx+idxqZHLS7J+I3pM5DfcRbXFuAMP3mTG0Pnhk++E458w==
   dependencies:
     "@babel/core" "^7.1.2"
     "@babel/plugin-transform-runtime" "^7.1.0"
     "@babel/preset-env" "^7.1.0"
     "@babel/register" "^7.0.0"
     "@babel/runtime" "^7.1.2"
-    "@storybook/codemod" "4.0.0"
+    "@storybook/codemod" "4.0.1"
     chalk "^2.4.1"
     child-process-promise "^2.2.1"
     commander "^2.19.0"
@@ -1201,10 +1201,10 @@
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-4.0.0.tgz#19bc4bda50cb9f0ceae0f58b3473337fb973b803"
   integrity sha512-5V17VvvPck/dnqo2h04AeSeWTiy+x6KgXgjjIIoZzH8hD+ZhOVniacx8+beijzc1e4mIcZfW/7Hjuqogi6UQDQ==
 
-"@storybook/codemod@4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-4.0.0.tgz#bd2dcdcadd9b186a7cea6ec3aeee65e28de1efab"
-  integrity sha512-aa7T13AXeNJclL1f+wWBx67UAn1cYb8P1xS1os+7b+j/FDjhyL5PnNhjLqzNdLlAgTB4ryTenGIaW4nR5NYKGg==
+"@storybook/codemod@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-4.0.1.tgz#d8708bc3c2a8a283b08f2c984c54f9ae3de9f47a"
+  integrity sha512-ZJZ2Cg6Q+iiJy5TCXy8pNBBaURhimEs4gKWCopeBcndKnLSMck2C2ZG4sL3YkjbZEccXen8pgkPkcLCw4Wk0/g==
   dependencies:
     "@babel/runtime" "^7.1.2"
     jscodeshift "^0.5.1"
