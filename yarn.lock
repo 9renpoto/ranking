@@ -1144,6 +1144,16 @@
     global "^4.3.2"
     util-deprecate "^1.0.2"
 
+"@storybook/addons@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-4.0.1.tgz#40fb67fe76915abdc11684c67a3ef8a39bf8d7f7"
+  integrity sha512-boLX9eV2ouOZMD6fFgq5Zcp+08R4msr4/8u0XcJvUqEbvyCP+MkGCRCLIGGPrtysc+d06AMNF+mhv7UnpEWKaA==
+  dependencies:
+    "@storybook/channels" "4.0.1"
+    "@storybook/components" "4.0.1"
+    global "^4.3.2"
+    util-deprecate "^1.0.2"
+
 "@storybook/channel-postmessage@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@storybook/channel-postmessage/-/channel-postmessage-4.0.0.tgz#08d3911776f3ca559c42f5c978f80164ae848f01"
@@ -1157,6 +1167,11 @@
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-4.0.0.tgz#b712d711f67966028dbff5c57e6ddc6f53d5cbac"
   integrity sha512-VJdct5WajZweZgl532ufGZKefk0kI8QI+SCWW93YEPrvgo+vGPBOlsZpWNZw0ozhESgnJwvSjNWYZYsSt/j1dQ==
+
+"@storybook/channels@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-4.0.1.tgz#5e8de19c01ab7c988952f64a6f7e2de75a3eb93e"
+  integrity sha512-AhwOwv6dFSt0k5byM2bIJ5BFtCIk2VpFNE2JkCTJhnCpuYYalGth6ia04SE6fB0+r3CeqZopKp25rBMSWdzDkQ==
 
 "@storybook/cli@4.0.0":
   version "4.0.0"
@@ -1198,6 +1213,22 @@
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-4.0.0.tgz#5006f5b423eb1ae8b97fc82710b532c0e1b45805"
   integrity sha512-H/jXW96OTUdDuJBltt5Cx+svLFH7BnAvU+XAb+/O/55ikxLoYJjtq+HnyZx3oY/y6br6mBESdOiovZisAnffhQ==
+  dependencies:
+    "@emotion/core" "^0.13.1"
+    "@emotion/provider" "^0.11.2"
+    "@emotion/styled" "^0.10.6"
+    global "^4.3.2"
+    lodash "^4.17.11"
+    prop-types "^15.6.2"
+    react-inspector "^2.3.0"
+    react-split-pane "^0.1.84"
+    react-textarea-autosize "^7.0.4"
+    render-fragment "^0.1.1"
+
+"@storybook/components@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-4.0.1.tgz#0e9d9f719936967403529151f7975866857b1793"
+  integrity sha512-nUuRrejOGSw03N2lKdY1d3S6ibxVVm4oXsfznkHaOQqywIUR7gI41Inur22B006xzGD/+bDVLEhjs1e8cvMTRQ==
   dependencies:
     "@emotion/core" "^0.13.1"
     "@emotion/provider" "^0.11.2"
