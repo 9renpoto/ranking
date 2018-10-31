@@ -1122,13 +1122,13 @@
     react-lifecycles-compat "^3.0.4"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-storyshots@4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-4.0.0.tgz#836dec662eb071d07f5e06fcb9bf798631b74289"
-  integrity sha512-bwvwszQd6/FIppImgAZJo+fcE/7erAziCxhdborj2n/uG/TiSMP9JPbjtoviEHqjK75q9nu0hbpcfvloGqqGnQ==
+"@storybook/addon-storyshots@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-4.0.1.tgz#a5cca9e2f61cc60ff87cdaadfa14e8136b8ba2bf"
+  integrity sha512-sJBpBbVlOhXF61QUDuMpvHrdUB8kAyO5HuC9Paq48jmuyv91Ma8KzJ8sD/cwc1/8nd+Lw7vIc8+EfzRaOHJH8Q==
   dependencies:
     "@babel/runtime" "^7.1.2"
-    "@storybook/addons" "4.0.0"
+    "@storybook/addons" "4.0.1"
     glob "^7.1.3"
     global "^4.3.2"
     jest-specific-snapshot "^1.0.0"
