@@ -41,7 +41,7 @@
     "codecov": "3.1.0",
     "concurrently": "4.0.1",
     "cross-env": "5.2.0",
-    "eslint": "5.8.0",
+    "eslint": "5.9.0",
     "eslint-plugin-jest": "21.27.2",
     "faker": "4.1.0",
     "husky": "1.1.3",
