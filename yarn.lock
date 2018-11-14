@@ -21,10 +21,10 @@
     eslint-plugin-promise "^4.0.0"
     eslint-plugin-standard "^4.0.0"
 
-"@9renpoto/tslint-config@4.6.0":
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/@9renpoto/tslint-config/-/tslint-config-4.6.0.tgz#229f121acda973a61d4d648bcce2912e713bcbde"
-  integrity sha512-y9NQlfpVWUaTDpiAuFz5WAN4WsPi1Z/bG0csUPf4lq96qhFr8WsYUCD2N9n7JGgvBa0szEg6bEwOAU+gzv/oFg==
+"@9renpoto/tslint-config@4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@9renpoto/tslint-config/-/tslint-config-4.7.0.tgz#c7741049cdcd60cab39a57f99e4f328c1396e201"
+  integrity sha512-+29jfsxDTWLIqk7z4q9BvRW6wGjalixwzCdoyNA4n5JBqTOl5vd2OJ1kjn27x2HDkWNaJnc97U05ssL9NljTmQ==
   dependencies:
     tslint-config-standard "^8.0.0"
 
