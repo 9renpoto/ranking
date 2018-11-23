@@ -1,5 +1,4 @@
 import { image, name, random } from 'faker'
-import React from 'react'
 import { Avatar } from '../components/a/Avatar'
 import { Box, Inner as BoxInner } from '../components/a/Box'
 import { Hero } from '../components/a/Hero'
@@ -21,18 +20,23 @@ import { Inner as HeroInner } from '../components/m/Hero'
 import { Navbar } from '../components/m/Navbar'
 import { Rank } from '../components/m/Ranking'
 
+import * as firebase from 'firebase'
+import * as React from 'react'
+import routes from '../app/routes'
+
 type Props = {
   url: {
     query: {
       orgId: string
       memberId: string
+      photoURL: string
     }
   }
 }
 
 export default ({
   url: {
-    query: { orgId, memberId }
+    query: { orgId, memberId, photoURL }
   }
 }: Props) => (
   <Wrapper>
@@ -41,7 +45,7 @@ export default ({
       <Hero>
         <HeroInner>
           <Avatar isCircle width={4.688} height={4.688}>
-            <img src={image.imageUrl(300, 300)} alt={random.word()} />
+            <img src={photoURL} alt={random.word()} />
           </Avatar>
           <Name white padding={1}>
             {memberId}

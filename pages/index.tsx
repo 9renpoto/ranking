@@ -8,6 +8,19 @@ import {
   Wrapper as SigninWrapper
 } from '../components/p/Signin'
 
+import * as React from 'react'
+import initFirebase from '../app/firebase/initialize'
+import signinWithGithub from '../app/firebase/signin'
+import routes from '../app/routes'
+
+const signIn = () => {
+  initFirebase()
+  signinWithGithub().then(result => {
+    const mypageURL: string = `/gh/org/${result.user.displayName}`
+    routes.Router.pushRoute(mypageURL, { photoURL: result.user.photoURL })
+  })
+}
+
 export default () => (
   <SigninWrapper>
     <SigninWrapperInner>
@@ -20,8 +33,8 @@ export default () => (
           <Input type='password' placeholder={'password'} />
           <FontAwesomeIcon icon={faUnlock} />
         </SigninWrapperInput>
-        <Button disabled>Sign in</Button>
       </form>
+      <Button onClick={signIn}>Sign in</Button>
     </SigninWrapperInner>
   </SigninWrapper>
 )
