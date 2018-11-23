@@ -7,7 +7,7 @@ routes
   .add('new', '/gh/:orgId/:termId/new', 'new')
   .add('mypage', '/gh/:orgId/:memberId', 'mypage')
 
-Router.onRouteChangeStart = (url: string) => {
+Router.onRouteChangeStart = () => {
   if (!firebase.auth().currentUser) {
     routes.Router.pushRoute('/')
   }
