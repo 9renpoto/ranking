@@ -1,7 +1,7 @@
 {
   "name": "rate",
   "version": "0.0.1",
-  "author": "UNCOVER TRUTH Inc.",
+  "author": "9renpoto",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.5.0",
     "@fortawesome/fontawesome-svg-core": "1.2.8",
@@ -10,6 +10,7 @@
     "@types/next": "7.0.5",
     "firebase":"5.5.9",
     "graphql-request": "1.8.2",
+    "@types/styled-components": "4.1.1",
     "next": "7.0.2",
     "next-routes": "9renpoto/next-routes#build",
     "prop-types": "15.6.2",
@@ -91,18 +92,14 @@
       "tslint --fix",
       "git add"
     ],
-    "*.js": [
-      "prettier-eslint --write",
-      "git add"
-    ],
-    "*.md": [
+    "*.{md,js}": [
       "prettier --write",
       "git add"
     ]
   },
   "main": "n/a",
   "private": true,
-  "repository": "ssh://git@github.com/uncovertruth/rate.git",
+  "repository": "ssh://git@github.com/g59/rate.git",
   "scripts": {
     "build": "run-p build:*",
     "build:app": "tsc -m commonjs",
