@@ -30,7 +30,7 @@
     "@storybook/cli": "4.0.9",
     "@storybook/react": "4.0.9",
     "@types/faker": "4.1.4",
-    "@types/jest": "23.3.9",
+    "@types/jest": "23.3.10",
     "@types/node": "10.12.10",
     "@types/react-test-renderer": "16.0.3",
     "@types/storybook__addon-actions": "3.4.1",
