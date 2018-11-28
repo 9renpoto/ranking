@@ -10,13 +10,13 @@
     "@types/next": "7.0.5",
     "firebase":"5.5.9",
     "graphql-request": "1.8.2",
-    "@types/styled-components": "4.1.1",
+    "@types/styled-components": "4.1.2",
     "next": "7.0.2",
     "next-routes": "9renpoto/next-routes#build",
     "prop-types": "15.6.2",
     "react": "16.6.3",
     "react-dom": "16.6.3",
-    "styled-components": "4.1.1"
+    "styled-components": "4.1.2"
   },
   "devDependencies": {
     "@9renpoto/eslint-config": "4.7.0",
