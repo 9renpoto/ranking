@@ -8471,8 +8471,9 @@ neo-async@^2.5.0:
   integrity sha512-MFh0d/Wa7vkKO3Y3LlacqAEeHK0mckVqzDieUKTT+KGxi+zIpeVsFxymkIiRpbpDziHc290Xr9A1O4Om7otoRA==
 
 next-routes@9renpoto/next-routes#build:
-  version "1.4.1"
-  resolved "https://codeload.github.com/9renpoto/next-routes/tar.gz/e8c692465715b60687dec1f97b181ae88dc441db"
+  version "1.4.2"
+  uid "08c60dc6d2b67a8000bbdc3509752ff8eea67433"
+  resolved "https://codeload.github.com/9renpoto/next-routes/tar.gz/08c60dc6d2b67a8000bbdc3509752ff8eea67433"
   dependencies:
     path-to-regexp "^2.1.0"
 
