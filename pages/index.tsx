@@ -1,5 +1,9 @@
 import { faEnvelope, faUnlock } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import * as React from 'react'
+import initFirebase from '../app/firebase/initialize'
+import signinWithGithub from '../app/firebase/signin'
+import routes from '../app/routes'
 import { Button } from '../components/a/Button'
 import { Input } from '../components/a/Input'
 import {
@@ -7,11 +11,6 @@ import {
   Input as SigninWrapperInput,
   Wrapper as SigninWrapper
 } from '../components/p/Signin'
-
-import * as React from 'react'
-import initFirebase from '../app/firebase/initialize'
-import signinWithGithub from '../app/firebase/signin'
-import routes from '../app/routes'
 
 const signIn = () => {
   initFirebase()

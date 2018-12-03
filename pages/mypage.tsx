@@ -1,4 +1,7 @@
 import { image, name, random } from 'faker'
+import * as firebase from 'firebase'
+import * as React from 'react'
+import routes from '../app/routes'
 import { Avatar } from '../components/a/Avatar'
 import { Box, Inner as BoxInner } from '../components/a/Box'
 import { Hero } from '../components/a/Hero'
@@ -19,10 +22,6 @@ import { Wrapper } from '../components/a/Wrapper'
 import { Inner as HeroInner } from '../components/m/Hero'
 import { Navbar } from '../components/m/Navbar'
 import { Rank } from '../components/m/Ranking'
-
-import * as firebase from 'firebase'
-import * as React from 'react'
-import routes from '../app/routes'
 
 type Props = {
   url: {

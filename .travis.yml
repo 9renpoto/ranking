@@ -12,8 +12,8 @@ env:
   matrix:
   - CMD=test
   - CMD=lint
-script:
-- npm run $CMD
+  - CMD=build
+script: npm run $CMD
 after_success:
 - '[ "CMD" == master ] && npm run coverage'
 notifications:
