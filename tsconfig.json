@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "alwaysStrict": true,
     "downlevelIteration": true,
@@ -11,8 +10,7 @@
     "jsx": "preserve",
     "lib": [
       "dom",
-      "es6",
-      "es2016"
+      "esnext"
     ],
     "module": "esnext",
     "moduleResolution": "node",
