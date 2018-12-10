@@ -2,6 +2,7 @@
   "name": "rate",
   "version": "0.0.1",
   "author": "9renpoto",
+  "description": "TBD",
   "dependencies": {
     "@firebase/app-types": "0.3.2",
     "@fortawesome/fontawesome-free": "5.6.0",
@@ -9,11 +10,10 @@
     "@fortawesome/free-solid-svg-icons": "5.6.0",
     "@fortawesome/react-fontawesome": "0.1.3",
     "@types/next": "7.0.5",
-    "firebase":"5.7.0",
-    "graphql-request": "1.8.2",
     "@types/styled-components": "4.1.4",
+    "firebase": "5.7.0",
+    "graphql-request": "1.8.2",
     "next": "7.0.2",
-    "next-routes": "9renpoto/next-routes#build",
     "prop-types": "15.6.2",
     "react": "16.6.3",
     "react-dom": "16.6.3",
@@ -40,7 +40,9 @@
     "@types/storybook__react": "4.0.0",
     "@zeit/next-typescript": "1.1.1",
     "awesome-typescript-loader": "5.2.1",
+    "babel-jest": "23.6.0",
     "babel-loader": "8.0.4",
+    "babel-plugin-require-context-hook": "1.0.0",
     "codecov": "3.1.0",
     "concurrently": "4.1.0",
     "cross-env": "5.2.0",
@@ -53,7 +55,6 @@
     "npm-run-all": "4.1.5",
     "prettier-eslint-cli": "4.7.1",
     "react-test-renderer": "16.6.3",
-    "require-context": "1.1.0",
     "rimraf": "2.6.2",
     "ts-jest": "23.10.5",
     "tslint": "5.11.0",
@@ -62,12 +63,21 @@
     "typescript-eslint-parser": "21.0.2",
     "typescript-styled-plugin": "0.13.0"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "jest": {
     "transform": {
-      "^.+\\.tsx?$": "ts-jest"
+      "^.+\\.tsx?$": "ts-jest",
+      "^.+\\.jsx?$": "babel-jest"
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(ts|tsx)$",
     "collectCoverage": true,
+    "setupFiles": [
+      "./.storybook/setup.js"
+    ],
     "moduleFileExtensions": [
       "ts",
       "tsx",
@@ -108,10 +118,5 @@
     "start": "concurrently -k 'yarn storybook' 'yarn next'",
     "storybook": "start-storybook -p 9001",
     "test": "jest"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }

@@ -31,7 +31,6 @@
     "preserveConstEnums": true,
     "preserveSymlinks": true,
     "removeComments": true,
-    "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
     "strictFunctionTypes": true,

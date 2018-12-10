@@ -1,7 +1,6 @@
 import { storiesOf } from '@storybook/react'
 import { random } from 'faker'
-import * as React from 'react'
-
+import React from 'react'
 import {
   EditRange,
   EditRangeInput,
