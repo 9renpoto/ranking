@@ -1,4 +1,4 @@
-import firebase from 'firebase'
+import * as firebase from 'firebase'
 import { Routes } from 'next-routes'
 import Router from 'next/router'
 
