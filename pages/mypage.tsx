@@ -1,7 +1,5 @@
-import { image, name, random } from 'faker'
-import * as firebase from 'firebase'
+import { image, random } from 'faker'
 import * as React from 'react'
-import routes from '../app/routes'
 import { Avatar } from '../components/a/Avatar'
 import { Box, Inner as BoxInner } from '../components/a/Box'
 import { Hero } from '../components/a/Hero'
