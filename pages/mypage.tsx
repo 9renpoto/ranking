@@ -24,7 +24,6 @@ import { Rank } from '../components/m/Ranking'
 type Props = {
   url: {
     query: {
-      orgId: string
       memberId: string
       photoURL: string
     }
@@ -33,11 +32,11 @@ type Props = {
 
 export default ({
   url: {
-    query: { orgId, memberId, photoURL }
+    query: { memberId, photoURL }
   }
 }: Props) => (
   <Wrapper>
-    <Navbar orgId={orgId} memberId={memberId} />
+    <Navbar memberId={memberId} />
     <Main>
       <Hero>
         <HeroInner>
