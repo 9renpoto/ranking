@@ -1,8 +1,8 @@
 import { faEnvelope, faUnlock } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import * as React from 'react'
+import Router from 'next/router'
+import React from 'react'
 import firebase from '../app/firebase'
-import routes from '../app/routes'
 import { Button } from '../components/a/Button'
 import { Input } from '../components/a/Input'
 import {
@@ -16,11 +16,7 @@ const signIn = () => {
   firebase
     .auth()
     .signInWithPopup(provier)
-    .then(result =>
-      routes.Router.pushRoute(`/gh/org/${result.user.displayName}`, {
-        photoURL: result.user.photoURL
-      })
-    )
+    .then(result => Router.push(`/gh/org/${result.user.displayName}`))
 }
 
 export default () => (

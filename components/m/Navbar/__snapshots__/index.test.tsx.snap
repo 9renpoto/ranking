@@ -4,14 +4,8 @@ exports[`Molecules.Navbar render 1`] = `
 <ForwardRef>
   <ul>
     <li>
-      <LinkRoutes
-        params={
-          Object {
-            "memberId": "a27218b8-6a4d-47bb-95b6-5a55334fac1c",
-            "orgId": "bb463b8b-b76c-4f6a-9726-65ab5730b69b",
-          }
-        }
-        route="mypage"
+      <Link
+        href="/mypage/a27218b8-6a4d-47bb-95b6-5a55334fac1c"
       >
         <a>
           <FontAwesomeIcon
@@ -45,7 +39,7 @@ exports[`Molecules.Navbar render 1`] = `
             transform={null}
           />
         </a>
-      </LinkRoutes>
+      </Link>
     </li>
   </ul>
 </ForwardRef>
