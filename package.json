@@ -75,12 +75,7 @@
       "jsx",
       "json",
       "node"
-    ],
-    "globals": {
-      "ts-jest": {
-        "tsConfigFile": "tsconfig.storybook.json"
-      }
-    }
+    ]
   },
   "license": "MIT",
   "lint-staged": {
@@ -104,7 +99,7 @@
     "clean": "rimraf lib .tmp",
     "coverage": "codecov -f ./coverage/lcov.info && codecov",
     "lint": "run-p lint:*",
-    "lint:tsc": "tsc -p tsconfig.storybook.json",
+    "lint:tsc": "tsc",
     "lint:tslint": "tslint '{app,components,pages}/**/*.ts{,x}'",
     "next": "tsc -m commonjs && node lib/server.js",
     "preprod": "tsc -m commonjs && next build",
