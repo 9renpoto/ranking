@@ -1,9 +1,6 @@
 {
-  "env": {
-    "test": {
-      "plugins": [
-        "require-context-hook"
-      ]
-    }
-  }
+  "presets": [
+    "next/babel",
+    "@zeit/next-typescript/babel"
+  ]
 }

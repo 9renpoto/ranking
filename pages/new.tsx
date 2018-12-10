@@ -1,8 +1,7 @@
 import { faEdit, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { image, name, random } from 'faker'
+import { image, random } from 'faker'
 import React from 'react'
-import Routes from '../app/routes'
 import { Avatar } from '../components/a/Avatar'
 import { Box, Inner as BoxInner } from '../components/a/Box'
 import { Button } from '../components/a/Button'
@@ -20,15 +19,6 @@ import { Name } from '../components/a/User'
 import { Wrapper } from '../components/a/Wrapper'
 import { Admire, Inner } from '../components/m/Admire'
 import { Fixed } from '../components/m/FixedButton'
-
-type Props = {
-  url: {
-    query: {
-      orgId: string
-      termId: string
-    }
-  }
-}
 
 export default () => (
   <Wrapper>

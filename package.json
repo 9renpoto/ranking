@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "author": "9renpoto",
   "dependencies": {
+    "@firebase/app-types": "0.x",
     "@fortawesome/fontawesome-free": "5.6.0",
     "@fortawesome/fontawesome-svg-core": "1.2.9",
     "@fortawesome/free-solid-svg-icons": "5.6.0",
@@ -35,12 +36,11 @@
     "@types/react-test-renderer": "16.0.3",
     "@types/storybook__addon-actions": "3.4.1",
     "@types/storybook__addon-knobs": "3.4.1",
+    "@types/storybook__addon-storyshots": "3.4.3",
     "@types/storybook__react": "4.0.0",
     "@zeit/next-typescript": "1.1.1",
     "awesome-typescript-loader": "5.2.1",
-    "babel-jest": "23.6.0",
     "babel-loader": "8.0.4",
-    "babel-plugin-require-context-hook": "1.0.0",
     "codecov": "3.1.0",
     "concurrently": "4.1.0",
     "cross-env": "5.2.0",
@@ -53,6 +53,7 @@
     "npm-run-all": "4.1.5",
     "prettier-eslint-cli": "4.7.1",
     "react-test-renderer": "16.6.3",
+    "require-context": "1.1.0",
     "rimraf": "2.6.2",
     "ts-jest": "23.10.5",
     "tslint": "5.11.0",
@@ -63,13 +64,9 @@
   },
   "jest": {
     "transform": {
-      "^.+\\.tsx?$": "ts-jest",
-      "^.+\\.jsx?$": "babel-jest"
+      "^.+\\.tsx?$": "ts-jest"
     },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "setupFiles": [
-      "./.storybook/setup.js"
-    ],
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(ts|tsx)$",
     "collectCoverage": true,
     "moduleFileExtensions": [
       "ts",
