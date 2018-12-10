@@ -9,6 +9,9 @@ module.exports = {
       }
     ]
   },
+  node: {
+    fs: "empty"
+  },
   plugins: [new CheckerPlugin()],
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".jsx"]
