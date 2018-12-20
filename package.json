@@ -11,7 +11,7 @@
     "@fortawesome/react-fontawesome": "0.1.3",
     "@types/next": "7.0.5",
     "@types/styled-components": "4.1.4",
-    "firebase": "5.7.0",
+    "firebase": "5.7.1",
     "graphql-request": "1.8.2",
     "next": "7.0.2",
     "prop-types": "15.6.2",
