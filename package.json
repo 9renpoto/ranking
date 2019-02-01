@@ -9,7 +9,7 @@
     "@fortawesome/fontawesome-svg-core": "1.2.13",
     "@fortawesome/free-solid-svg-icons": "5.7.0",
     "@fortawesome/react-fontawesome": "0.1.4",
-    "@types/next": "7.0.7",
+    "@types/next": "7.0.8",
     "@types/styled-components": "4.1.6",
     "firebase": "5.8.1",
     "graphql-request": "1.8.2",
