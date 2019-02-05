@@ -2195,10 +2195,10 @@
     "@types/react" "*"
     "@types/storybook__react" "*"
 
-"@types/storybook__addon-storyshots@3.4.4":
-  version "3.4.4"
-  resolved "https://registry.yarnpkg.com/@types/storybook__addon-storyshots/-/storybook__addon-storyshots-3.4.4.tgz#bc34d425b8ca2f1e73e3c1ecb6afc178b9fa9ace"
-  integrity sha512-Zwu+fk/zqCNAnRnLlOvLRMPi2KrUuXMW/HWZ4RMOHfu2OGqp9bkNF59whI4XwLM/aZUN27nne8bGaHIDL0rRTg==
+"@types/storybook__addon-storyshots@3.4.5":
+  version "3.4.5"
+  resolved "https://registry.yarnpkg.com/@types/storybook__addon-storyshots/-/storybook__addon-storyshots-3.4.5.tgz#eafd8f768e3216cbe4aba6967b7d4c6959005302"
+  integrity sha512-Ov5oHfBlq3X1WXMvJ0DqqNJ7QHjk09F89dgvfXXgpKsvo1mMUOgdjpsCw+T4O77PXPWAuMDrxsFcK52WjEQAyQ==
   dependencies:
     "@types/puppeteer" "*"
     "@types/react" "*"
