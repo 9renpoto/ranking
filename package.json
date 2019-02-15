@@ -4,7 +4,7 @@
   "author": "9renpoto",
   "description": "TBD",
   "dependencies": {
-    "@firebase/app-types": "0.3.3",
+    "@firebase/app-types": "0.3.4",
     "@fortawesome/fontawesome-free": "5.7.2",
     "@fortawesome/fontawesome-svg-core": "1.2.15",
     "@fortawesome/free-solid-svg-icons": "5.7.2",
