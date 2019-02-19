@@ -1590,28 +1590,18 @@
     react-lifecycles-compat "^3.0.4"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-storyshots@4.1.11":
-  version "4.1.11"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-4.1.11.tgz#f93ff1a306af1e3b41a4364fddf09ac398d6eb30"
-  integrity sha512-hJfpiAPTGpQJuENuL7bLnDtm2A6MX3a+a0wPo5Jd53dFIICTpbWwISKtFhT0zw8CRRxkHtnLjcQS0qhXqN9TgQ==
+"@storybook/addon-storyshots@4.1.12":
+  version "4.1.12"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-4.1.12.tgz#46fc96d1beb48c9c00e86233e72507026c61b67a"
+  integrity sha512-UoDRS8eGQmL1cPyWFGRaXKk/vH6yUUj/gpjF59GabAhEzK7Vn4e5V4Dh7y/lCQx7oWaJwUnrNphZ9ongREloVQ==
   dependencies:
-    "@storybook/addons" "4.1.11"
+    "@storybook/addons" "4.1.12"
     core-js "^2.5.7"
     glob "^7.1.3"
     global "^4.3.2"
     jest-specific-snapshot "^1.0.0"
     read-pkg-up "^4.0.0"
     regenerator-runtime "^0.12.1"
-
-"@storybook/addons@4.1.11":
-  version "4.1.11"
-  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-4.1.11.tgz#a0d537bd10d123ecee6cb1f5f149b148ce250e57"
-  integrity sha512-n9oDs7GgJbiN5NYPkR3B3e5W0Tr6bIZvFfcJzgyP4dn50AUvS1IE1CEthezfn1L/nc2suw/8Oe30bOXOyTl/SQ==
-  dependencies:
-    "@storybook/channels" "4.1.11"
-    "@storybook/components" "4.1.11"
-    global "^4.3.2"
-    util-deprecate "^1.0.2"
 
 "@storybook/addons@4.1.12":
   version "4.1.12"
@@ -1631,11 +1621,6 @@
     "@storybook/channels" "4.1.12"
     global "^4.3.2"
     json-stringify-safe "^5.0.1"
-
-"@storybook/channels@4.1.11":
-  version "4.1.11"
-  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-4.1.11.tgz#d161497fa3cd848cc9d518aa1c37052857e22e3c"
-  integrity sha512-zYusY8cno4keMozn2lDpBgyNSOueFh+hrPETioSB5Z8Kd3F5OjM7681vJC8QA67yOBEie2hHk0CVxRpuxziMwA==
 
 "@storybook/channels@4.1.12":
   version "4.1.12"
@@ -1676,22 +1661,6 @@
     core-js "^2.5.7"
     jscodeshift "^0.5.1"
     regenerator-runtime "^0.12.1"
-
-"@storybook/components@4.1.11":
-  version "4.1.11"
-  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-4.1.11.tgz#25458a4a4f2edd836b1e4b944cfcfcb4a3567036"
-  integrity sha512-KJA8Nr8MbXiibDLcndx1GRVmVDyBBL2Tbb1kfQfr58vDwz6qhYxempejY6W+voaEqohnFxrOtnnbqlCyf8peUQ==
-  dependencies:
-    "@emotion/core" "^0.13.1"
-    "@emotion/provider" "^0.11.2"
-    "@emotion/styled" "^0.10.6"
-    global "^4.3.2"
-    lodash "^4.17.11"
-    prop-types "^15.6.2"
-    react-inspector "^2.3.0"
-    react-split-pane "^0.1.84"
-    react-textarea-autosize "^7.0.4"
-    render-fragment "^0.1.1"
 
 "@storybook/components@4.1.12":
   version "4.1.12"
