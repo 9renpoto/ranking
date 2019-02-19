@@ -27,7 +27,7 @@
     "@storybook/addon-actions": "4.1.12",
     "@storybook/addon-knobs": "4.1.11",
     "@storybook/addon-storyshots": "4.1.11",
-    "@storybook/addons": "4.1.11",
+    "@storybook/addons": "4.1.12",
     "@storybook/cli": "4.1.12",
     "@storybook/react": "4.1.12",
     "@types/faker": "4.1.5",
