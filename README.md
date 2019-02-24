@@ -3,17 +3,17 @@
 [![Build Status](https://travis-ci.com/g59/rate.svg?branch=master)](https://travis-ci.com/g59/rate)
 [![dependencies Status](https://david-dm.org/g59/rate/status.svg)](https://david-dm.org/g59/rate)
 [![devDependencies Status](https://david-dm.org/g59/rate/dev-status.svg)](https://david-dm.org/g59/rate?type=dev)
-[![codebeat badge](https://codebeat.co/badges/10dbbdb7-d4c3-4e15-92da-61155b79942d)](https://codebeat.co/projects/github-com-g59-rate-master)
+[![codebeat badge](https://codebeat.co/badges/a53d7a0a-bb1d-4d01-b276-c065acf807b0)](https://codebeat.co/projects/github-com-g59-rate-master)
 
 > TBA
 
 ## Table of Contents
 
-* [Installation](#install)
-* [Usage](#usage)
-* [Tests](#tests)
-* [Contribute](#contribute)
-* [License](#license)
+- [Installation](#install)
+- [Usage](#usage)
+- [Tests](#tests)
+- [Contribute](#contribute)
+- [License](#license)
 
 ## Install
 

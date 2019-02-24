@@ -6,7 +6,7 @@
     "@9renpoto/eslint-config",
     "@9renpoto/eslint-config-react"
   ],
-  "parser": "typescript-eslint-parser",
+  "parser": "@typescript-eslint/parser",
   "plugins": [
     "jest"
   ]
