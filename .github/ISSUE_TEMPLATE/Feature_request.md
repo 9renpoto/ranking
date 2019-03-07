@@ -1,7 +1,9 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-
+title: "Bug report"
+labels: "Type: Feature"
+projects: g59/2
 ---
 
 **Is your feature request related to a problem? Please describe.**
