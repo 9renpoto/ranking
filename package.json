@@ -37,7 +37,7 @@
     "@types/storybook__addon-knobs": "4.0.4",
     "@types/storybook__addon-storyshots": "3.4.8",
     "@types/storybook__react": "4.0.1",
-    "@typescript-eslint/parser": "1.4.2",
+    "@typescript-eslint/parser": "1.5.0",
     "@zeit/next-typescript": "1.1.1",
     "awesome-typescript-loader": "5.2.1",
     "babel-jest": "24.1.0",
