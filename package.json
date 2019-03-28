@@ -24,7 +24,7 @@
     "@9renpoto/eslint-config-react": "4.7.0",
     "@babel/core": "7.4.0",
     "@storybook/addon-actions": "4.1.13",
-    "@storybook/addon-knobs": "4.1.13",
+    "@storybook/addon-knobs": "5.0.5",
     "@storybook/addon-storyshots": "4.1.13",
     "@storybook/addons": "4.1.13",
     "@storybook/cli": "4.1.13",
