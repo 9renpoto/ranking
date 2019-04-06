@@ -58,7 +58,7 @@
     "rimraf": "2.6.3",
     "ts-jest": "24.0.1",
     "typescript": "3.4.1",
-    "typescript-styled-plugin": "0.13.0"
+    "typescript-styled-plugin": "0.14.0"
   },
   "husky": {
     "hooks": {
