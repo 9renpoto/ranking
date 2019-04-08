@@ -10,7 +10,7 @@
     "@fortawesome/free-solid-svg-icons": "5.8.1",
     "@fortawesome/react-fontawesome": "0.1.4",
     "@types/next": "8.0.3",
-    "@types/styled-components": "4.1.13",
+    "@types/styled-components": "4.1.14",
     "firebase": "5.9.3",
     "graphql-request": "1.8.2",
     "next": "8.0.4",
