@@ -1545,15 +1545,15 @@
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-4.1.16.tgz#b935a5e5b762ba0f7ebb6d833e35a57dbfc02858"
   integrity sha512-1lQ52C5eGXFuIFxaoaghNpszKSeW0UPF/BU1Yjd3F0k5Ud43PPPhhdQ0CpnWYj+UbfhwWFZmf2bhT/qpzpCQcQ==
 
-"@storybook/cli@4.1.16":
-  version "4.1.16"
-  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-4.1.16.tgz#964cc51e55113b97b9e886060a8743e1b90a9c5d"
-  integrity sha512-TS0XkQJW23mWXrHJ7oF+amhHUt3bXRcvFrtNqYwIEka0WI64Np0vDYCMjUXscZGtksxEy7bF+/Tw8VUyOV475w==
+"@storybook/cli@4.1.18":
+  version "4.1.18"
+  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-4.1.18.tgz#0ba22f3b7c9baa94b414026c1fe57ddc4faacf35"
+  integrity sha512-RsHumrO3avO5uNCSHCinr8gxBmDfYeFGyI9VafKXlFUZc1Lxe2n3n+OkKvlv/5xJYBOYjkYUoBZlfs1z9tlQhw==
   dependencies:
     "@babel/core" "^7.2.0"
     "@babel/preset-env" "^7.2.0"
     "@babel/register" "^7.0.0"
-    "@storybook/codemod" "4.1.16"
+    "@storybook/codemod" "4.1.18"
     chalk "^2.4.1"
     commander "^2.19.0"
     core-js "^2.5.7"
@@ -1571,10 +1571,10 @@
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-4.1.16.tgz#be9ffda433fdbf6a3cfe6b99ec62bcea35966140"
   integrity sha512-20M2MLxoKYQpSAIYnOBypnPmEPxm91MDV8d2vv5YcPJ7ZtjigOVtyxRL1/SA/2Lo0jd/ZGBgt+XdHjfhreLRmg==
 
-"@storybook/codemod@4.1.16":
-  version "4.1.16"
-  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-4.1.16.tgz#4fbf633d2a52d2b565544219fb5905347addc340"
-  integrity sha512-OqNsIeusODUIlkL8qDXSROFPWIEvZKa2TjPYvgI6mmsCAfuPxZx7U7TYVvRVzTFYruTTF7VlIxhz6k002TY6wQ==
+"@storybook/codemod@4.1.18":
+  version "4.1.18"
+  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-4.1.18.tgz#fdf43be9cee784d56ae0b1f1d14870f0349d427c"
+  integrity sha512-14lv00ajsWPbD6X22t4ImdE+Fl29NWbWkDxRthEp3/Rov9rgswGfXnDE91QwsiOixD2pWOyqITte+I8SKH3+Cg==
   dependencies:
     core-js "^2.5.7"
     jscodeshift "^0.5.1"
