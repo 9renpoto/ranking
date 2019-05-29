@@ -18,7 +18,7 @@
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "styled-components": "4.2.0",
-    "snyk": "1.167.2"
+    "snyk": "1.169.2"
   },
   "devDependencies": {
     "@9renpoto/eslint-config": "4.7.0",
