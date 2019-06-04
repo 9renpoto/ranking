@@ -10,14 +10,14 @@
     "@fortawesome/free-solid-svg-icons": "5.8.2",
     "@fortawesome/react-fontawesome": "0.1.4",
     "@types/next": "8.0.4",
-    "@types/styled-components": "4.1.14",
+    "@types/styled-components": "4.1.16",
     "firebase": "6.1.0",
     "graphql-request": "1.8.2",
     "next": "8.1.0",
     "prop-types": "15.7.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "styled-components": "4.2.0",
+    "styled-components": "4.2.1",
     "snyk": "1.170.0"
   },
   "devDependencies": {
