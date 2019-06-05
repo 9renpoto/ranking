@@ -8,8 +8,8 @@ export const Button = styled.button`
   text-align: center;
   color: #fff;
   font-size: 1rem;
-  background-color: #3ebdaa;
   background: linear-gradient(90deg, #3ebdaa, #3fa2fc);
+  background-color: #3ebdaa;
   transition: all 0.3s;
   cursor: pointer;
 
@@ -18,7 +18,7 @@ export const Button = styled.button`
       0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.24);
   }
 
-  ${(props) =>
+  ${props =>
     props.disabled &&
     `
       background: #ccc;
