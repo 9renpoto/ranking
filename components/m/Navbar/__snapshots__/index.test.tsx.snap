@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Molecules.Navbar render 1`] = `
-<ForwardRef>
+<styled.nav>
   <ul>
     <li>
       <Link
@@ -42,5 +42,5 @@ exports[`Molecules.Navbar render 1`] = `
       </Link>
     </li>
   </ul>
-</ForwardRef>
+</styled.nav>
 `;

@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components'
+import { injectGlobal } from 'styled-components'
 
-export default createGlobalStyle`
+export default injectGlobal`
 html {
   height: 100%;
   padding: 0;
@@ -10,7 +10,7 @@ html {
 body {
   font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
   line-height: 1;
-  color: #333333;
+  color: #333;
   height: 100%;
   padding: 0;
   margin: 0;
@@ -42,7 +42,7 @@ input {
 
 textarea {
   width: 100%;
-  border: 0.063rem solid #cccccc;
+  border: 0.063rem solid #ccc;
   resize: none;
   outline: none;
   padding: .5rem;

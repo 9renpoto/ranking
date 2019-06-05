@@ -25,7 +25,6 @@ export const RangeBar = styled.div`
   width: 100%;
   height: 0.063rem;
   box-sizing: border-box;
-  }
 `
 
 export const RangeBarThumb = styled.div`
@@ -65,7 +64,6 @@ export const EditRangeInput = styled.input`
   cursor: pointer;
 
   &::-webkit-slider-thumb {
-    -webkit-appearance: none;
     background-color: #fff;
     border: 0.063rem solid #eb2e3e;
     width: 1.563rem;
@@ -74,15 +72,19 @@ export const EditRangeInput = styled.input`
     position: relative;
     z-index: 2;
   }
+
   &::-ms-tooltip {
     display: none;
   }
+
   ::-moz-focus-outer {
     border: 0;
   }
+
   &::-moz-range-track {
     height: 0;
   }
+
   &::-moz-range-thumb {
     appearance: none;
     background-color: #fff;

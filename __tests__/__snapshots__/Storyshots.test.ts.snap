@@ -1,23 +1,83 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Atoms.Button default 1`] = `
+.c0 {
+  border-radius: 1.25rem;
+  padding: 0 3rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  background: linear-gradient(90deg,#3ebdaa,#3fa2fc);
+  background-color: #3ebdaa;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.c0:hover {
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12), 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
+}
+
 <button
-  className="sc-bdVaJa eDyxov"
+  className="c0"
 >
   Button
 </button>
 `;
 
 exports[`Storyshots Atoms.Input default 1`] = `
+.c0 {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #ccc;
+}
+
 <input
-  className="sc-bwzfXH gvLEdO"
+  className="c0"
   placeholder="hello"
 />
 `;
 
 exports[`Storyshots Atoms.RankBar default 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #3ebdaa;
+  border-radius: 0.188rem;
+  padding: 0.313rem;
+}
+
+.c1 {
+  overflow: hidden;
+  border-radius: 0.188rem;
+  border: 0.063rem solid #ccc;
+  width: 0.938rem;
+  height: 0.938rem;
+}
+
+.c2 {
+  margin-left: 0.5rem;
+  padding-top: 0rem;
+  color: #fff;
+}
+
 <div
-  className="sc-htpNat fgxaRJ"
+  className="c0"
   style={
     Object {
       "width": "70%",
@@ -25,7 +85,7 @@ exports[`Storyshots Atoms.RankBar default 1`] = `
   }
 >
   <div
-    className="sc-bxivhb dvtXuC"
+    className="c1"
     height={0.938}
     width={0.938}
   >
@@ -35,7 +95,7 @@ exports[`Storyshots Atoms.RankBar default 1`] = `
     />
   </div>
   <p
-    className="sc-ifAKCX hWSpPf"
+    className="c2"
   >
     eyeballs
   </p>
@@ -43,20 +103,193 @@ exports[`Storyshots Atoms.RankBar default 1`] = `
 `;
 
 exports[`Storyshots Molecules.Admire default 1`] = `
+.c4 {
+  overflow: hidden;
+  border-radius: 0.188rem;
+  border: 0.063rem solid #ccc;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.c5 {
+  margin-left: 0.5rem;
+  padding-top: 0rem;
+}
+
+.c0 {
+  margin: 0 2rem;
+  height: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+* + .c0 {
+  margin: 0.625rem 2rem 0;
+}
+
+.c1 {
+  padding: 1.875rem 1.25rem;
+  background-color: #fff;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12);
+  padding: 0 1.25rem 4.5rem;
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+  box-sizing: border-box;
+}
+
+.c6 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c7 {
+  width: 100%;
+}
+
+.c11 {
+  position: absolute;
+  top: 85%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 3;
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.c9 {
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.c10 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #eb2e3e;
+  height: 0.063rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.c10::-webkit-slider-thumb {
+  background-color: #fff;
+  border: 0.063rem solid #eb2e3e;
+  width: 1.563rem;
+  height: 1.563rem;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.c10::-ms-tooltip {
+  display: none;
+}
+
+.c10::-ms-tooltip {
+  display: none;
+}
+
+.c10::-moz-focus-outer {
+  border: 0;
+}
+
+.c10::-moz-range-track {
+  height: 0;
+}
+
+.c10::-moz-range-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  width: 1.563rem;
+  height: 1.563rem;
+  border: 0.063rem solid #eb2e3e;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #555;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.25rem;
+}
+
+.c2 > * {
+  width: 50%;
+}
+
+.c2 + .c2 {
+  border-top: 1px solid #ccc;
+}
+
+.c2 img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.625rem;
+}
+
+.c2 p {
+  font-size: 0.875rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="sc-EHOje fWRrTQ"
+  className="c0"
 >
   <div
-    className="sc-bZQynM iPTzAH"
+    className="c1"
   >
     <div
-      className="sc-jzJRlG eFnDJv"
+      className="c2"
     >
       <div
-        className="sc-cSHVUG hDNPdi"
+        className="c3"
       >
         <div
-          className="sc-bxivhb erSvWL"
+          className="c4"
           height={2.5}
           width={2.5}
         >
@@ -66,19 +299,19 @@ exports[`Storyshots Molecules.Admire default 1`] = `
           />
         </div>
         <p
-          className="sc-ifAKCX gEwQFi"
+          className="c5"
         >
           monitor
         </p>
       </div>
       <div
-        className="sc-gzVnrw iTHlAC"
+        className="c6"
       >
         <div
-          className="sc-htoDjs kKCJWi"
+          className="c7"
         >
           <div
-            className="sc-fjdhpX cXokxj"
+            className="c8"
           >
             <p>
               Berkshire
@@ -88,15 +321,15 @@ exports[`Storyshots Molecules.Admire default 1`] = `
             </p>
           </div>
           <div
-            className="sc-VigVT dbgfCt"
+            className="c9"
           >
             <input
-              className="sc-jTzLTM dnHjZJ"
+              className="c10"
               step="25"
               type="range"
             />
             <span
-              className="sc-gqjmRU kBrdhZ"
+              className="c11"
               style={
                 Object {
                   "left": "50%",
@@ -110,13 +343,13 @@ exports[`Storyshots Molecules.Admire default 1`] = `
       </div>
     </div>
     <div
-      className="sc-jzJRlG eFnDJv"
+      className="c2"
     >
       <div
-        className="sc-cSHVUG hDNPdi"
+        className="c3"
       >
         <div
-          className="sc-bxivhb erSvWL"
+          className="c4"
           height={2.5}
           width={2.5}
         >
@@ -126,19 +359,19 @@ exports[`Storyshots Molecules.Admire default 1`] = `
           />
         </div>
         <p
-          className="sc-ifAKCX gEwQFi"
+          className="c5"
         >
           Missouri
         </p>
       </div>
       <div
-        className="sc-gzVnrw iTHlAC"
+        className="c6"
       >
         <div
-          className="sc-htoDjs kKCJWi"
+          className="c7"
         >
           <div
-            className="sc-fjdhpX cXokxj"
+            className="c8"
           >
             <p>
               Cotton
@@ -148,15 +381,15 @@ exports[`Storyshots Molecules.Admire default 1`] = `
             </p>
           </div>
           <div
-            className="sc-VigVT dbgfCt"
+            className="c9"
           >
             <input
-              className="sc-jTzLTM dnHjZJ"
+              className="c10"
               step="25"
               type="range"
             />
             <span
-              className="sc-gqjmRU kBrdhZ"
+              className="c11"
               style={
                 Object {
                   "left": "50%",
@@ -170,13 +403,13 @@ exports[`Storyshots Molecules.Admire default 1`] = `
       </div>
     </div>
     <div
-      className="sc-jzJRlG eFnDJv"
+      className="c2"
     >
       <div
-        className="sc-cSHVUG hDNPdi"
+        className="c3"
       >
         <div
-          className="sc-bxivhb erSvWL"
+          className="c4"
           height={2.5}
           width={2.5}
         >
@@ -186,19 +419,19 @@ exports[`Storyshots Molecules.Admire default 1`] = `
           />
         </div>
         <p
-          className="sc-ifAKCX gEwQFi"
+          className="c5"
         >
           help-desk
         </p>
       </div>
       <div
-        className="sc-gzVnrw iTHlAC"
+        className="c6"
       >
         <div
-          className="sc-htoDjs kKCJWi"
+          className="c7"
         >
           <div
-            className="sc-fjdhpX cXokxj"
+            className="c8"
           >
             <p>
               Balanced
@@ -208,15 +441,15 @@ exports[`Storyshots Molecules.Admire default 1`] = `
             </p>
           </div>
           <div
-            className="sc-VigVT dbgfCt"
+            className="c9"
           >
             <input
-              className="sc-jTzLTM dnHjZJ"
+              className="c10"
               step="25"
               type="range"
             />
             <span
-              className="sc-gqjmRU kBrdhZ"
+              className="c11"
               style={
                 Object {
                   "left": "50%",
@@ -230,13 +463,13 @@ exports[`Storyshots Molecules.Admire default 1`] = `
       </div>
     </div>
     <div
-      className="sc-jzJRlG eFnDJv"
+      className="c2"
     >
       <div
-        className="sc-cSHVUG hDNPdi"
+        className="c3"
       >
         <div
-          className="sc-bxivhb erSvWL"
+          className="c4"
           height={2.5}
           width={2.5}
         >
@@ -246,19 +479,19 @@ exports[`Storyshots Molecules.Admire default 1`] = `
           />
         </div>
         <p
-          className="sc-ifAKCX gEwQFi"
+          className="c5"
         >
           deposit
         </p>
       </div>
       <div
-        className="sc-gzVnrw iTHlAC"
+        className="c6"
       >
         <div
-          className="sc-htoDjs kKCJWi"
+          className="c7"
         >
           <div
-            className="sc-fjdhpX cXokxj"
+            className="c8"
           >
             <p>
               initiatives
@@ -268,15 +501,15 @@ exports[`Storyshots Molecules.Admire default 1`] = `
             </p>
           </div>
           <div
-            className="sc-VigVT dbgfCt"
+            className="c9"
           >
             <input
-              className="sc-jTzLTM dnHjZJ"
+              className="c10"
               step="25"
               type="range"
             />
             <span
-              className="sc-gqjmRU kBrdhZ"
+              className="c11"
               style={
                 Object {
                   "left": "50%",
@@ -294,11 +527,45 @@ exports[`Storyshots Molecules.Admire default 1`] = `
 `;
 
 exports[`Storyshots Molecules.FixedButton default 1`] = `
+.c1 {
+  border-radius: 1.25rem;
+  padding: 0 3rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  background: linear-gradient(90deg,#3ebdaa,#3fa2fc);
+  background-color: #3ebdaa;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.c1:hover {
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12), 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
+}
+
+.c0 {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  right: 2rem;
+  width: auto;
+  margin: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: right;
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 3;
+}
+
 <div
-  className="sc-kAzzGY dHWfVo"
+  className="c0"
 >
   <button
-    className="sc-bdVaJa eDyxov"
+    className="c1"
   >
     firewall
   </button>
@@ -306,14 +573,48 @@ exports[`Storyshots Molecules.FixedButton default 1`] = `
 `;
 
 exports[`Storyshots Molecules.Hero default 1`] = `
+.c2 {
+  overflow: hidden;
+  border-radius: 0.188rem;
+  border: 0.063rem solid #ccc;
+  width: 4.688rem;
+  height: 4.688rem;
+  border-radius: 50%;
+}
+
+.c3 {
+  margin-left: 0.5rem;
+  padding-top: 1rem;
+  color: #fff;
+}
+
+.c0 {
+  width: 100%;
+  min-height: 7.5rem;
+  margin-bottom: 3.125rem;
+  position: relative;
+  background: linear-gradient( 90deg, rgba(235,46,62,0.6), rgba(249,180,45,0.6) );
+  background-color: #eb2e3e;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: -30%;
+  left: 2rem;
+}
+
 <div
-  className="sc-chPdSV kVslPn"
+  className="c0"
 >
   <div
-    className="sc-kgoBCf gcorKx"
+    className="c1"
   >
     <div
-      className="sc-bxivhb dncuHx"
+      className="c2"
       height={4.688}
       width={4.688}
     >
@@ -323,7 +624,7 @@ exports[`Storyshots Molecules.Hero default 1`] = `
       />
     </div>
     <p
-      className="sc-ifAKCX bYMzBN"
+      className="c3"
     >
       solution
     </p>
@@ -332,14 +633,82 @@ exports[`Storyshots Molecules.Hero default 1`] = `
 `;
 
 exports[`Storyshots Molecules.Range default 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  width: 100%;
+}
+
+.c3 {
+  position: relative;
+  border-bottom: 0.063rem solid #eb2e3e;
+  margin-top: 1.25rem;
+  width: 100%;
+  height: 0.063rem;
+  box-sizing: border-box;
+}
+
+.c4 {
+  position: absolute;
+  border: 0.063rem solid #eb2e3e;
+  width: 1.563rem;
+  height: 1.563rem;
+  border-radius: 50%;
+  top: 50%;
+  background-color: #fff;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.c5 {
+  position: absolute;
+  top: 85%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 3;
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #555;
+}
+
 <div
-  className="sc-gzVnrw iTHlAC"
+  className="c0"
 >
   <div
-    className="sc-htoDjs kKCJWi"
+    className="c1"
   >
     <div
-      className="sc-fjdhpX cXokxj"
+      className="c2"
     >
       <p>
         Buckinghamshire
@@ -349,10 +718,10 @@ exports[`Storyshots Molecules.Range default 1`] = `
       </p>
     </div>
     <div
-      className="sc-iwsKbI bSlKSS"
+      className="c3"
     >
       <div
-        className="sc-gZMcBi lohZi"
+        className="c4"
         style={
           Object {
             "left": "50%",
@@ -360,7 +729,7 @@ exports[`Storyshots Molecules.Range default 1`] = `
         }
       />
       <span
-        className="sc-gqjmRU kBrdhZ"
+        className="c5"
         style={
           Object {
             "left": "50%",
@@ -375,14 +744,114 @@ exports[`Storyshots Molecules.Range default 1`] = `
 `;
 
 exports[`Storyshots Molecules.Range input 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  width: 100%;
+}
+
+.c5 {
+  position: absolute;
+  top: 85%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 3;
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.c3 {
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.c4 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #eb2e3e;
+  height: 0.063rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.c4::-webkit-slider-thumb {
+  background-color: #fff;
+  border: 0.063rem solid #eb2e3e;
+  width: 1.563rem;
+  height: 1.563rem;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.c4::-ms-tooltip {
+  display: none;
+}
+
+.c4::-ms-tooltip {
+  display: none;
+}
+
+.c4::-moz-focus-outer {
+  border: 0;
+}
+
+.c4::-moz-range-track {
+  height: 0;
+}
+
+.c4::-moz-range-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  width: 1.563rem;
+  height: 1.563rem;
+  border: 0.063rem solid #eb2e3e;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #555;
+}
+
 <div
-  className="sc-gzVnrw iTHlAC"
+  className="c0"
 >
   <div
-    className="sc-htoDjs kKCJWi"
+    className="c1"
   >
     <div
-      className="sc-fjdhpX cXokxj"
+      className="c2"
     >
       <p>
         synergistic
@@ -392,15 +861,15 @@ exports[`Storyshots Molecules.Range input 1`] = `
       </p>
     </div>
     <div
-      className="sc-VigVT dbgfCt"
+      className="c3"
     >
       <input
-        className="sc-jTzLTM dnHjZJ"
+        className="c4"
         step="25"
         type="range"
       />
       <span
-        className="sc-gqjmRU kBrdhZ"
+        className="c5"
         style={
           Object {
             "left": "50%",
@@ -415,14 +884,62 @@ exports[`Storyshots Molecules.Range input 1`] = `
 `;
 
 exports[`Storyshots Molecules.Rank default 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #3ebdaa;
+  border-radius: 0.188rem;
+  padding: 0.313rem;
+}
+
+.c2 {
+  overflow: hidden;
+  border-radius: 0.188rem;
+  border: 0.063rem solid #ccc;
+  width: 0.938rem;
+  height: 0.938rem;
+}
+
+.c3 {
+  margin-left: 0.5rem;
+  padding-top: 0rem;
+  color: #fff;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 span {
+  font-weight: bold;
+  margin-right: 1.875rem;
+}
+
+.c0 + .c0 {
+  margin-top: 1rem;
+}
+
 <div
-  className="sc-kGXeez jVLEQB"
+  className="c0"
 >
   <span>
     65472
   </span>
   <div
-    className="sc-htpNat fgxaRJ"
+    className="c1"
     style={
       Object {
         "width": "36%",
@@ -430,7 +947,7 @@ exports[`Storyshots Molecules.Rank default 1`] = `
     }
   >
     <div
-      className="sc-bxivhb dvtXuC"
+      className="c2"
       height={0.938}
       width={0.938}
     >
@@ -440,7 +957,7 @@ exports[`Storyshots Molecules.Rank default 1`] = `
       />
     </div>
     <p
-      className="sc-ifAKCX hWSpPf"
+      className="c3"
     >
       Focused
     </p>
@@ -450,11 +967,48 @@ exports[`Storyshots Molecules.Rank default 1`] = `
 
 exports[`Storyshots Molecules.Result default 1`] = `
 Array [
-  <div
-    className="sc-dxgOiQ hBBYRq"
+  .c0 {
+  margin: 0 auto;
+  color: #3fa2fc;
+  font-size: 1.563rem;
+  font-weight: bold;
+  width: 5rem;
+  height: 5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0.188rem solid #3fa2fc;
+  border-radius: 50%;
+}
+
+.c1 {
+  text-align: center;
+}
+
+.c1 span {
+  display: block;
+  font-size: 0.625rem;
+  font-weight: normal;
+  margin-bottom: 0.313rem;
+}
+
+<div
+    className="c0"
   >
     <div
-      className="sc-ckVGcZ jIRKzQ"
+      className="c1"
     >
       <span>
         50人中
@@ -462,8 +1016,14 @@ Array [
       10位
     </div>
   </div>,
-  <p
-    className="sc-kpOJdX QsTem"
+  .c0 {
+  margin-top: 0.938rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+<p
+    className="c0"
   >
     Orchestrator
   </p>,
@@ -471,11 +1031,309 @@ Array [
 `;
 
 exports[`Storyshots Pages.Admire default 1`] = `
+.c17 {
+  border-radius: 1.25rem;
+  padding: 0 3rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  background: linear-gradient(90deg,#3ebdaa,#3fa2fc);
+  background-color: #3ebdaa;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.c17:hover {
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12), 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
+}
+
+.c7 {
+  overflow: hidden;
+  border-radius: 0.188rem;
+  border: 0.063rem solid #ccc;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.c8 {
+  margin-left: 0.5rem;
+  padding-top: 0rem;
+}
+
+.c15 {
+  margin-left: 0.5rem;
+  padding-top: rem;
+}
+
+.c3 {
+  margin: 0 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+* + .c3 {
+  margin: 0.625rem 2rem 0;
+}
+
+.c3 > * {
+  width: 50%;
+}
+
+.c3 > * + * {
+  margin-left: 0.625rem;
+}
+
+.c4 {
+  padding: 1.875rem 1.25rem;
+  background-color: #fff;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12);
+  padding: 0 1.25rem 4.5rem;
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+  box-sizing: border-box;
+}
+
+.c9 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c10 {
+  width: 100%;
+}
+
+.c14 {
+  position: absolute;
+  top: 85%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 3;
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.c12 {
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.c13 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #eb2e3e;
+  height: 0.063rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.c13::-webkit-slider-thumb {
+  background-color: #fff;
+  border: 0.063rem solid #eb2e3e;
+  width: 1.563rem;
+  height: 1.563rem;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.c13::-ms-tooltip {
+  display: none;
+}
+
+.c13::-ms-tooltip {
+  display: none;
+}
+
+.c13::-moz-focus-outer {
+  border: 0;
+}
+
+.c13::-moz-range-track {
+  height: 0;
+}
+
+.c13::-moz-range-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  width: 1.563rem;
+  height: 1.563rem;
+  border: 0.063rem solid #eb2e3e;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #555;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.25rem;
+}
+
+.c5 > * {
+  width: 50%;
+}
+
+.c5 + .c5 {
+  border-top: 1px solid #ccc;
+}
+
+.c5 img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.625rem;
+}
+
+.c5 p {
+  font-size: 0.875rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c16 {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  right: 2rem;
+  width: auto;
+  margin: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: right;
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 3;
+}
+
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  text-align: center;
+  background-color: #000;
+  width: 40px;
+}
+
+.c1 li a {
+  color: #fff;
+  display: block;
+  padding: 0.7rem;
+}
+
+.c1 li a:hover,
+.c1 li a.active {
+  background-color: #3ebdaa;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f9f9f9;
+  min-height: 100%;
+  height: 100%;
+}
+
+@media (max-width:48rem) {
+  .c3 {
+    display: block;
+  }
+
+  .c3 > * {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .c3 > * + * {
+    margin-left: 0;
+    margin-top: .625rem;
+  }
+}
+
+@media (max-width:48rem) {
+  .c2 {
+    display: block;
+  }
+}
+
+@media (max-width:48rem) {
+  .c1 {
+    width: 100%;
+  }
+
+  .c1 ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (max-width:48rem) {
+  .c0 {
+    display: block;
+  }
+}
+
 <div
-  className="sc-hMqMXs hcIPRH"
+  className="c0"
 >
   <nav
-    className="sc-eNQAEJ bEBRlx"
+    className="c1"
   >
     <ul>
       <li>
@@ -528,22 +1386,22 @@ exports[`Storyshots Pages.Admire default 1`] = `
     </ul>
   </nav>
   <main
-    className="sc-jKJlTe eYjonN"
+    className="c2"
   >
     <div
-      className="sc-EHOje hAZEEA"
+      className="c3"
     >
       <div
-        className="sc-bZQynM iPTzAH"
+        className="c4"
       >
         <div
-          className="sc-jzJRlG eFnDJv"
+          className="c5"
         >
           <div
-            className="sc-cSHVUG hDNPdi"
+            className="c6"
           >
             <div
-              className="sc-bxivhb erSvWL"
+              className="c7"
               height={2.5}
               width={2.5}
             >
@@ -553,19 +1411,19 @@ exports[`Storyshots Pages.Admire default 1`] = `
               />
             </div>
             <p
-              className="sc-ifAKCX gEwQFi"
+              className="c8"
             >
               index
             </p>
           </div>
           <div
-            className="sc-gzVnrw iTHlAC"
+            className="c9"
           >
             <div
-              className="sc-htoDjs kKCJWi"
+              className="c10"
             >
               <div
-                className="sc-fjdhpX cXokxj"
+                className="c11"
               >
                 <p>
                   Grocery
@@ -575,15 +1433,15 @@ exports[`Storyshots Pages.Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="sc-VigVT dbgfCt"
+                className="c12"
               >
                 <input
-                  className="sc-jTzLTM dnHjZJ"
+                  className="c13"
                   step="25"
                   type="range"
                 />
                 <span
-                  className="sc-gqjmRU kBrdhZ"
+                  className="c14"
                   style={
                     Object {
                       "left": "50%",
@@ -597,13 +1455,13 @@ exports[`Storyshots Pages.Admire default 1`] = `
           </div>
         </div>
         <div
-          className="sc-jzJRlG eFnDJv"
+          className="c5"
         >
           <div
-            className="sc-cSHVUG hDNPdi"
+            className="c6"
           >
             <div
-              className="sc-bxivhb erSvWL"
+              className="c7"
               height={2.5}
               width={2.5}
             >
@@ -613,19 +1471,19 @@ exports[`Storyshots Pages.Admire default 1`] = `
               />
             </div>
             <p
-              className="sc-ifAKCX mwohH"
+              className="c15"
             >
               Incredible
             </p>
           </div>
           <div
-            className="sc-gzVnrw iTHlAC"
+            className="c9"
           >
             <div
-              className="sc-htoDjs kKCJWi"
+              className="c10"
             >
               <div
-                className="sc-fjdhpX cXokxj"
+                className="c11"
               >
                 <p>
                   District
@@ -635,15 +1493,15 @@ exports[`Storyshots Pages.Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="sc-VigVT dbgfCt"
+                className="c12"
               >
                 <input
-                  className="sc-jTzLTM dnHjZJ"
+                  className="c13"
                   step="25"
                   type="range"
                 />
                 <span
-                  className="sc-gqjmRU kBrdhZ"
+                  className="c14"
                   style={
                     Object {
                       "left": "50%",
@@ -657,13 +1515,13 @@ exports[`Storyshots Pages.Admire default 1`] = `
           </div>
         </div>
         <div
-          className="sc-jzJRlG eFnDJv"
+          className="c5"
         >
           <div
-            className="sc-cSHVUG hDNPdi"
+            className="c6"
           >
             <div
-              className="sc-bxivhb erSvWL"
+              className="c7"
               height={2.5}
               width={2.5}
             >
@@ -673,19 +1531,19 @@ exports[`Storyshots Pages.Admire default 1`] = `
               />
             </div>
             <p
-              className="sc-ifAKCX mwohH"
+              className="c15"
             >
               Borders
             </p>
           </div>
           <div
-            className="sc-gzVnrw iTHlAC"
+            className="c9"
           >
             <div
-              className="sc-htoDjs kKCJWi"
+              className="c10"
             >
               <div
-                className="sc-fjdhpX cXokxj"
+                className="c11"
               >
                 <p>
                   Plaza
@@ -695,15 +1553,15 @@ exports[`Storyshots Pages.Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="sc-VigVT dbgfCt"
+                className="c12"
               >
                 <input
-                  className="sc-jTzLTM dnHjZJ"
+                  className="c13"
                   step="25"
                   type="range"
                 />
                 <span
-                  className="sc-gqjmRU kBrdhZ"
+                  className="c14"
                   style={
                     Object {
                       "left": "50%",
@@ -717,13 +1575,13 @@ exports[`Storyshots Pages.Admire default 1`] = `
           </div>
         </div>
         <div
-          className="sc-jzJRlG eFnDJv"
+          className="c5"
         >
           <div
-            className="sc-cSHVUG hDNPdi"
+            className="c6"
           >
             <div
-              className="sc-bxivhb erSvWL"
+              className="c7"
               height={2.5}
               width={2.5}
             >
@@ -733,19 +1591,19 @@ exports[`Storyshots Pages.Admire default 1`] = `
               />
             </div>
             <p
-              className="sc-ifAKCX mwohH"
+              className="c15"
             >
               Berkshire
             </p>
           </div>
           <div
-            className="sc-gzVnrw iTHlAC"
+            className="c9"
           >
             <div
-              className="sc-htoDjs kKCJWi"
+              className="c10"
             >
               <div
-                className="sc-fjdhpX cXokxj"
+                className="c11"
               >
                 <p>
                   Vatu
@@ -755,15 +1613,15 @@ exports[`Storyshots Pages.Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="sc-VigVT dbgfCt"
+                className="c12"
               >
                 <input
-                  className="sc-jTzLTM dnHjZJ"
+                  className="c13"
                   step="25"
                   type="range"
                 />
                 <span
-                  className="sc-gqjmRU kBrdhZ"
+                  className="c14"
                   style={
                     Object {
                       "left": "50%",
@@ -777,13 +1635,13 @@ exports[`Storyshots Pages.Admire default 1`] = `
           </div>
         </div>
         <div
-          className="sc-jzJRlG eFnDJv"
+          className="c5"
         >
           <div
-            className="sc-cSHVUG hDNPdi"
+            className="c6"
           >
             <div
-              className="sc-bxivhb erSvWL"
+              className="c7"
               height={2.5}
               width={2.5}
             >
@@ -793,19 +1651,19 @@ exports[`Storyshots Pages.Admire default 1`] = `
               />
             </div>
             <p
-              className="sc-ifAKCX mwohH"
+              className="c15"
             >
               Cambridgeshire
             </p>
           </div>
           <div
-            className="sc-gzVnrw iTHlAC"
+            className="c9"
           >
             <div
-              className="sc-htoDjs kKCJWi"
+              className="c10"
             >
               <div
-                className="sc-fjdhpX cXokxj"
+                className="c11"
               >
                 <p>
                   Open-architected
@@ -815,15 +1673,15 @@ exports[`Storyshots Pages.Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="sc-VigVT dbgfCt"
+                className="c12"
               >
                 <input
-                  className="sc-jTzLTM dnHjZJ"
+                  className="c13"
                   step="25"
                   type="range"
                 />
                 <span
-                  className="sc-gqjmRU kBrdhZ"
+                  className="c14"
                   style={
                     Object {
                       "left": "50%",
@@ -837,13 +1695,13 @@ exports[`Storyshots Pages.Admire default 1`] = `
           </div>
         </div>
         <div
-          className="sc-jzJRlG eFnDJv"
+          className="c5"
         >
           <div
-            className="sc-cSHVUG hDNPdi"
+            className="c6"
           >
             <div
-              className="sc-bxivhb erSvWL"
+              className="c7"
               height={2.5}
               width={2.5}
             >
@@ -853,19 +1711,19 @@ exports[`Storyshots Pages.Admire default 1`] = `
               />
             </div>
             <p
-              className="sc-ifAKCX mwohH"
+              className="c15"
             >
               Stream
             </p>
           </div>
           <div
-            className="sc-gzVnrw iTHlAC"
+            className="c9"
           >
             <div
-              className="sc-htoDjs kKCJWi"
+              className="c10"
             >
               <div
-                className="sc-fjdhpX cXokxj"
+                className="c11"
               >
                 <p>
                   multi-byte
@@ -875,15 +1733,15 @@ exports[`Storyshots Pages.Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="sc-VigVT dbgfCt"
+                className="c12"
               >
                 <input
-                  className="sc-jTzLTM dnHjZJ"
+                  className="c13"
                   step="25"
                   type="range"
                 />
                 <span
-                  className="sc-gqjmRU kBrdhZ"
+                  className="c14"
                   style={
                     Object {
                       "left": "50%",
@@ -898,10 +1756,10 @@ exports[`Storyshots Pages.Admire default 1`] = `
         </div>
       </div>
       <div
-        className="sc-kAzzGY dHWfVo"
+        className="c16"
       >
         <button
-          className="sc-bdVaJa eDyxov"
+          className="c17"
         >
           action-items
         </button>
@@ -912,11 +1770,312 @@ exports[`Storyshots Pages.Admire default 1`] = `
 `;
 
 exports[`Storyshots Pages.Mypage default 1`] = `
+.c20 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #3ebdaa;
+  border-radius: 0.188rem;
+  padding: 0.313rem;
+}
+
+.c21 {
+  overflow: hidden;
+  border-radius: 0.188rem;
+  border: 0.063rem solid #ccc;
+  width: 0.938rem;
+  height: 0.938rem;
+}
+
+.c5 {
+  overflow: hidden;
+  border-radius: 0.188rem;
+  border: 0.063rem solid #ccc;
+  width: 4.688rem;
+  height: 4.688rem;
+  border-radius: 50%;
+}
+
+.c22 {
+  margin-left: 0.5rem;
+  padding-top: 0rem;
+  color: #fff;
+}
+
+.c6 {
+  margin-left: 0.5rem;
+  padding-top: 1rem;
+  color: #fff;
+}
+
+.c7 {
+  margin: 0 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* + .c7 {
+  margin: 0.625rem 2rem 0;
+}
+
+.c7 > * {
+  width: 50%;
+}
+
+.c7 > * + * {
+  margin-left: 0.625rem;
+}
+
+.c18 {
+  margin: 0 2rem;
+}
+
+* + .c18 {
+  margin: 0.625rem 2rem 0;
+}
+
+.c8 {
+  padding: 1.875rem 1.25rem;
+  background-color: #fff;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12);
+}
+
+.c9 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c10 {
+  width: 100%;
+}
+
+.c12 {
+  position: relative;
+  border-bottom: 0.063rem solid #eb2e3e;
+  margin-top: 1.25rem;
+  width: 100%;
+  height: 0.063rem;
+  box-sizing: border-box;
+}
+
+.c13 {
+  position: absolute;
+  border: 0.063rem solid #eb2e3e;
+  width: 1.563rem;
+  height: 1.563rem;
+  border-radius: 50%;
+  top: 50%;
+  background-color: #fff;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.c14 {
+  position: absolute;
+  top: 85%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 3;
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #555;
+}
+
+.c3 {
+  width: 100%;
+  min-height: 7.5rem;
+  margin-bottom: 3.125rem;
+  position: relative;
+  background: linear-gradient( 90deg, rgba(235,46,62,0.6), rgba(249,180,45,0.6) );
+  background-color: #eb2e3e;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: -30%;
+  left: 2rem;
+}
+
+.c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c19 span {
+  font-weight: bold;
+  margin-right: 1.875rem;
+}
+
+.c19 + .c19 {
+  margin-top: 1rem;
+}
+
+.c17 {
+  margin-top: 0.938rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.c15 {
+  margin: 0 auto;
+  color: #3fa2fc;
+  font-size: 1.563rem;
+  font-weight: bold;
+  width: 5rem;
+  height: 5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0.188rem solid #3fa2fc;
+  border-radius: 50%;
+}
+
+.c16 {
+  text-align: center;
+}
+
+.c16 span {
+  display: block;
+  font-size: 0.625rem;
+  font-weight: normal;
+  margin-bottom: 0.313rem;
+}
+
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  text-align: center;
+  background-color: #000;
+  width: 40px;
+}
+
+.c1 li a {
+  color: #fff;
+  display: block;
+  padding: 0.7rem;
+}
+
+.c1 li a:hover,
+.c1 li a.active {
+  background-color: #3ebdaa;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f9f9f9;
+  min-height: 100%;
+  height: 100%;
+}
+
+@media (max-width:48rem) {
+  .c7 {
+    display: block;
+  }
+
+  .c7 > * {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .c7 > * + * {
+    margin-left: 0;
+    margin-top: .625rem;
+  }
+}
+
+@media (max-width:48rem) {
+  .c2 {
+    display: block;
+  }
+}
+
+@media (max-width:48rem) {
+  .c1 {
+    width: 100%;
+  }
+
+  .c1 ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (max-width:48rem) {
+  .c0 {
+    display: block;
+  }
+}
+
 <div
-  className="sc-hMqMXs hcIPRH"
+  className="c0"
 >
   <nav
-    className="sc-eNQAEJ bEBRlx"
+    className="c1"
   >
     <ul>
       <li>
@@ -969,16 +2128,16 @@ exports[`Storyshots Pages.Mypage default 1`] = `
     </ul>
   </nav>
   <main
-    className="sc-jKJlTe eYjonN"
+    className="c2"
   >
     <div
-      className="sc-chPdSV kVslPn"
+      className="c3"
     >
       <div
-        className="sc-kgoBCf gcorKx"
+        className="c4"
       >
         <div
-          className="sc-bxivhb dncuHx"
+          className="c5"
           height={4.688}
           width={4.688}
         >
@@ -988,26 +2147,26 @@ exports[`Storyshots Pages.Mypage default 1`] = `
           />
         </div>
         <p
-          className="sc-ifAKCX bYMzBN"
+          className="c6"
         >
           Berkshire
         </p>
       </div>
     </div>
     <div
-      className="sc-EHOje czmVYc"
+      className="c7"
     >
       <div
-        className="sc-bZQynM pWHdu"
+        className="c8"
       >
         <div
-          className="sc-gzVnrw iTHlAC"
+          className="c9"
         >
           <div
-            className="sc-htoDjs kKCJWi"
+            className="c10"
           >
             <div
-              className="sc-fjdhpX cXokxj"
+              className="c11"
             >
               <p>
                 とても悪い
@@ -1017,10 +2176,10 @@ exports[`Storyshots Pages.Mypage default 1`] = `
               </p>
             </div>
             <div
-              className="sc-iwsKbI bSlKSS"
+              className="c12"
             >
               <div
-                className="sc-gZMcBi lohZi"
+                className="c13"
                 style={
                   Object {
                     "left": "50%",
@@ -1028,7 +2187,7 @@ exports[`Storyshots Pages.Mypage default 1`] = `
                 }
               />
               <span
-                className="sc-gqjmRU kBrdhZ"
+                className="c14"
                 style={
                   Object {
                     "left": "50%",
@@ -1042,13 +2201,13 @@ exports[`Storyshots Pages.Mypage default 1`] = `
         </div>
       </div>
       <div
-        className="sc-bZQynM pWHdu"
+        className="c8"
       >
         <div
-          className="sc-dxgOiQ hBBYRq"
+          className="c15"
         >
           <div
-            className="sc-ckVGcZ jIRKzQ"
+            className="c16"
           >
             <span>
               50人中
@@ -1057,26 +2216,26 @@ exports[`Storyshots Pages.Mypage default 1`] = `
           </div>
         </div>
         <p
-          className="sc-kpOJdX QsTem"
+          className="c17"
         >
           Pound Sterling
         </p>
       </div>
     </div>
     <div
-      className="sc-EHOje gUODBq"
+      className="c18"
     >
       <div
-        className="sc-bZQynM pWHdu"
+        className="c8"
       >
         <div
-          className="sc-kGXeez jVLEQB"
+          className="c19"
         >
           <span>
             58593
           </span>
           <div
-            className="sc-htpNat fgxaRJ"
+            className="c20"
             style={
               Object {
                 "width": "84%",
@@ -1084,7 +2243,7 @@ exports[`Storyshots Pages.Mypage default 1`] = `
             }
           >
             <div
-              className="sc-bxivhb dvtXuC"
+              className="c21"
               height={0.938}
               width={0.938}
             >
@@ -1094,20 +2253,20 @@ exports[`Storyshots Pages.Mypage default 1`] = `
               />
             </div>
             <p
-              className="sc-ifAKCX hWSpPf"
+              className="c22"
             >
               Tugrik
             </p>
           </div>
         </div>
         <div
-          className="sc-kGXeez jVLEQB"
+          className="c19"
         >
           <span>
             84234
           </span>
           <div
-            className="sc-htpNat fgxaRJ"
+            className="c20"
             style={
               Object {
                 "width": "17%",
@@ -1115,7 +2274,7 @@ exports[`Storyshots Pages.Mypage default 1`] = `
             }
           >
             <div
-              className="sc-bxivhb dvtXuC"
+              className="c21"
               height={0.938}
               width={0.938}
             >
@@ -1125,7 +2284,7 @@ exports[`Storyshots Pages.Mypage default 1`] = `
               />
             </div>
             <p
-              className="sc-ifAKCX hWSpPf"
+              className="c22"
             >
               reboot
             </p>
@@ -1138,21 +2297,118 @@ exports[`Storyshots Pages.Mypage default 1`] = `
 `;
 
 exports[`Storyshots Pages.Signin default 1`] = `
+.c4 {
+  border-radius: 1.25rem;
+  padding: 0 3rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  background: linear-gradient(90deg,#3ebdaa,#3fa2fc);
+  background-color: #3ebdaa;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: #ccc;
+}
+
+.c4:hover {
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12), 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
+}
+
+.c4:hover {
+  box-shadow: none;
+  cursor: default;
+}
+
+.c3 {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+.c0 {
+  background: #3ebdaa;
+  background: linear-gradient( 90deg, rgba(62,189,170,0.6), rgba(63,162,252,0.6) );
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  background-color: #fff;
+  padding: 3rem;
+  width: 24rem;
+  box-sizing: border-box;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.1);
+}
+
+.c1 button {
+  margin-top: 3.75rem;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  border-bottom: 0.063rem solid #ccc;
+  color: #ccc;
+}
+
+.c2 + .c2 {
+  margin-top: 1.5rem;
+}
+
+.c2 input {
+  margin-left: 0.5rem;
+}
+
+.c2 input:valid + svg {
+  color: #3ebdaa;
+}
+
 <div
-  className="sc-kEYyzF kdvxZY"
+  className="c0"
 >
   <main
-    className="sc-kkGfuU kLfjnk"
+    className="c1"
   >
     <form
       action="#"
       method="post"
     >
       <div
-        className="sc-iAyFgw gfnwqN"
+        className="c2"
       >
         <input
-          className="sc-bwzfXH gvLEdO"
+          className="c3"
           placeholder="Elliott_Hayes@gmail.com"
           type="email"
         />
@@ -1175,10 +2431,10 @@ exports[`Storyshots Pages.Signin default 1`] = `
         </svg>
       </div>
       <div
-        className="sc-iAyFgw gfnwqN"
+        className="c2"
       >
         <input
-          className="sc-bwzfXH gvLEdO"
+          className="c3"
           placeholder="Vatu"
           type="password"
         />
@@ -1201,7 +2457,7 @@ exports[`Storyshots Pages.Signin default 1`] = `
         </svg>
       </div>
       <button
-        className="sc-bdVaJa hqGIJW"
+        className="c4"
         disabled={true}
       >
         Sign in
@@ -1212,11 +2468,69 @@ exports[`Storyshots Pages.Signin default 1`] = `
 `;
 
 exports[`Storyshots Templates.Default default 1`] = `
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  text-align: center;
+  background-color: #000;
+  width: 40px;
+}
+
+.c1 li a {
+  color: #fff;
+  display: block;
+  padding: 0.7rem;
+}
+
+.c1 li a:hover,
+.c1 li a.active {
+  background-color: #3ebdaa;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f9f9f9;
+  min-height: 100%;
+  height: 100%;
+}
+
+@media (max-width:48rem) {
+  .c2 {
+    display: block;
+  }
+}
+
+@media (max-width:48rem) {
+  .c1 {
+    width: 100%;
+  }
+
+  .c1 ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (max-width:48rem) {
+  .c0 {
+    display: block;
+  }
+}
+
 <div
-  className="sc-hMqMXs hcIPRH"
+  className="c0"
 >
   <nav
-    className="sc-eNQAEJ bEBRlx"
+    className="c1"
   >
     <ul>
       <li>
@@ -1269,17 +2583,48 @@ exports[`Storyshots Templates.Default default 1`] = `
     </ul>
   </nav>
   <main
-    className="sc-jKJlTe eYjonN"
+    className="c2"
   />
 </div>
 `;
 
 exports[`Storyshots Templates.Signin default 1`] = `
+.c0 {
+  background: #3ebdaa;
+  background: linear-gradient( 90deg, rgba(62,189,170,0.6), rgba(63,162,252,0.6) );
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  background-color: #fff;
+  padding: 3rem;
+  width: 24rem;
+  box-sizing: border-box;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.1);
+}
+
+.c1 button {
+  margin-top: 3.75rem;
+  width: 100%;
+}
+
 <div
-  className="sc-hSdWYo edWGXm"
+  className="c0"
 >
   <main
-    className="sc-eHgmQL iKHgbv"
+    className="c1"
   />
 </div>
 `;
