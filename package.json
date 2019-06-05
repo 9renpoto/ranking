@@ -36,7 +36,7 @@
     "@types/node": "11.13.13",
     "@types/react-test-renderer": "16.8.1",
     "@types/storybook__addon-actions": "3.4.3",
-    "@types/storybook__addon-knobs": "4.0.5",
+    "@types/storybook__addon-knobs": "5.0.1",
     "@types/storybook__addon-storyshots": "3.4.9",
     "@types/storybook__react": "4.0.2",
     "@typescript-eslint/parser": "1.9.0",
