@@ -59,7 +59,7 @@
     "prettier-eslint-cli": "4.7.1",
     "react-test-renderer": "16.8.6",
     "rimraf": "2.6.3",
-    "stylelint": "10.0.1",
+    "stylelint": "10.1.0",
     "stylelint-config-prettier": "5.2.0",
     "stylelint-config-recommended": "2.2.0",
     "stylelint-config-styled-components": "0.1.1",
