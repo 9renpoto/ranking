@@ -9,8 +9,10 @@
     "jsx": "react",
     "lib": [
       "es6",
+      "dom",
       "esnext"
     ],
+    "types": ["react", "jest"],
     "module": "esnext",
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
