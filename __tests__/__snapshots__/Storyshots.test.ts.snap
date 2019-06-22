@@ -103,7 +103,7 @@ exports[`Storyshots Atoms.RankBar default 1`] = `
 `;
 
 exports[`Storyshots Molecules.Admire default 1`] = `
-.c4 {
+.c5 {
   overflow: hidden;
   border-radius: 0.188rem;
   border: 0.063rem solid #ccc;
@@ -111,7 +111,7 @@ exports[`Storyshots Molecules.Admire default 1`] = `
   height: 2.5rem;
 }
 
-.c5 {
+.c6 {
   margin-left: 0.5rem;
   padding-top: 0rem;
 }
@@ -139,7 +139,7 @@ exports[`Storyshots Molecules.Admire default 1`] = `
   box-sizing: border-box;
 }
 
-.c6 {
+.c7 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -155,11 +155,11 @@ exports[`Storyshots Molecules.Admire default 1`] = `
   align-items: center;
 }
 
-.c7 {
+.c8 {
   width: 100%;
 }
 
-.c11 {
+.c12 {
   position: absolute;
   top: 85%;
   -webkit-transform: translate(-50%,-50%);
@@ -170,12 +170,12 @@ exports[`Storyshots Molecules.Admire default 1`] = `
   color: #777;
 }
 
-.c9 {
+.c10 {
   margin-top: 0.5rem;
   position: relative;
 }
 
-.c10 {
+.c11 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -187,7 +187,7 @@ exports[`Storyshots Molecules.Admire default 1`] = `
   cursor: pointer;
 }
 
-.c10::-webkit-slider-thumb {
+.c11::-webkit-slider-thumb {
   background-color: #fff;
   border: 0.063rem solid #eb2e3e;
   width: 1.563rem;
@@ -197,23 +197,23 @@ exports[`Storyshots Molecules.Admire default 1`] = `
   z-index: 2;
 }
 
-.c10::-ms-tooltip {
+.c11::-ms-tooltip {
   display: none;
 }
 
-.c10::-ms-tooltip {
+.c11::-ms-tooltip {
   display: none;
 }
 
-.c10::-moz-focus-outer {
+.c11::-moz-focus-outer {
   border: 0;
 }
 
-.c10::-moz-range-track {
+.c11::-moz-range-track {
   height: 0;
 }
 
-.c10::-moz-range-thumb {
+.c11::-moz-range-thumb {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -226,7 +226,7 @@ exports[`Storyshots Molecules.Admire default 1`] = `
   z-index: 2;
 }
 
-.c8 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -239,7 +239,7 @@ exports[`Storyshots Molecules.Admire default 1`] = `
   color: #555;
 }
 
-.c2 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -247,25 +247,25 @@ exports[`Storyshots Molecules.Admire default 1`] = `
   padding: 1.25rem;
 }
 
-.c2 > * {
+.c3 > * {
   width: 50%;
 }
 
-.c2 + .c2 {
+.c3 + .c2 {
   border-top: 1px solid #ccc;
 }
 
-.c2 img {
+.c3 img {
   width: 2.5rem;
   height: 2.5rem;
   margin-right: 0.625rem;
 }
 
-.c2 p {
+.c3 p {
   font-size: 0.875rem;
 }
 
-.c3 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -283,13 +283,13 @@ exports[`Storyshots Molecules.Admire default 1`] = `
     className="c1"
   >
     <div
-      className="c2"
+      className="c2 c3"
     >
       <div
-        className="c3"
+        className="c4"
       >
         <div
-          className="c4"
+          className="c5"
           height={2.5}
           width={2.5}
         >
@@ -299,19 +299,19 @@ exports[`Storyshots Molecules.Admire default 1`] = `
           />
         </div>
         <p
-          className="c5"
+          className="c6"
         >
           monitor
         </p>
       </div>
       <div
-        className="c6"
+        className="c7"
       >
         <div
-          className="c7"
+          className="c8"
         >
           <div
-            className="c8"
+            className="c9"
           >
             <p>
               Berkshire
@@ -321,15 +321,15 @@ exports[`Storyshots Molecules.Admire default 1`] = `
             </p>
           </div>
           <div
-            className="c9"
+            className="c10"
           >
             <input
-              className="c10"
+              className="c11"
               step="25"
               type="range"
             />
             <span
-              className="c11"
+              className="c12"
               style={
                 Object {
                   "left": "50%",
@@ -343,13 +343,13 @@ exports[`Storyshots Molecules.Admire default 1`] = `
       </div>
     </div>
     <div
-      className="c2"
+      className="c2 c3"
     >
       <div
-        className="c3"
+        className="c4"
       >
         <div
-          className="c4"
+          className="c5"
           height={2.5}
           width={2.5}
         >
@@ -359,19 +359,19 @@ exports[`Storyshots Molecules.Admire default 1`] = `
           />
         </div>
         <p
-          className="c5"
+          className="c6"
         >
           Missouri
         </p>
       </div>
       <div
-        className="c6"
+        className="c7"
       >
         <div
-          className="c7"
+          className="c8"
         >
           <div
-            className="c8"
+            className="c9"
           >
             <p>
               Cotton
@@ -381,15 +381,15 @@ exports[`Storyshots Molecules.Admire default 1`] = `
             </p>
           </div>
           <div
-            className="c9"
+            className="c10"
           >
             <input
-              className="c10"
+              className="c11"
               step="25"
               type="range"
             />
             <span
-              className="c11"
+              className="c12"
               style={
                 Object {
                   "left": "50%",
@@ -403,13 +403,13 @@ exports[`Storyshots Molecules.Admire default 1`] = `
       </div>
     </div>
     <div
-      className="c2"
+      className="c2 c3"
     >
       <div
-        className="c3"
+        className="c4"
       >
         <div
-          className="c4"
+          className="c5"
           height={2.5}
           width={2.5}
         >
@@ -419,19 +419,19 @@ exports[`Storyshots Molecules.Admire default 1`] = `
           />
         </div>
         <p
-          className="c5"
+          className="c6"
         >
           help-desk
         </p>
       </div>
       <div
-        className="c6"
+        className="c7"
       >
         <div
-          className="c7"
+          className="c8"
         >
           <div
-            className="c8"
+            className="c9"
           >
             <p>
               Balanced
@@ -441,15 +441,15 @@ exports[`Storyshots Molecules.Admire default 1`] = `
             </p>
           </div>
           <div
-            className="c9"
+            className="c10"
           >
             <input
-              className="c10"
+              className="c11"
               step="25"
               type="range"
             />
             <span
-              className="c11"
+              className="c12"
               style={
                 Object {
                   "left": "50%",
@@ -463,13 +463,13 @@ exports[`Storyshots Molecules.Admire default 1`] = `
       </div>
     </div>
     <div
-      className="c2"
+      className="c2 c3"
     >
       <div
-        className="c3"
+        className="c4"
       >
         <div
-          className="c4"
+          className="c5"
           height={2.5}
           width={2.5}
         >
@@ -479,19 +479,19 @@ exports[`Storyshots Molecules.Admire default 1`] = `
           />
         </div>
         <p
-          className="c5"
+          className="c6"
         >
           deposit
         </p>
       </div>
       <div
-        className="c6"
+        className="c7"
       >
         <div
-          className="c7"
+          className="c8"
         >
           <div
-            className="c8"
+            className="c9"
           >
             <p>
               initiatives
@@ -501,15 +501,15 @@ exports[`Storyshots Molecules.Admire default 1`] = `
             </p>
           </div>
           <div
-            className="c9"
+            className="c10"
           >
             <input
-              className="c10"
+              className="c11"
               step="25"
               type="range"
             />
             <span
-              className="c11"
+              className="c12"
               style={
                 Object {
                   "left": "50%",
@@ -884,7 +884,7 @@ exports[`Storyshots Molecules.Range input 1`] = `
 `;
 
 exports[`Storyshots Molecules.Rank default 1`] = `
-.c1 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -898,7 +898,7 @@ exports[`Storyshots Molecules.Rank default 1`] = `
   padding: 0.313rem;
 }
 
-.c2 {
+.c3 {
   overflow: hidden;
   border-radius: 0.188rem;
   border: 0.063rem solid #ccc;
@@ -906,13 +906,13 @@ exports[`Storyshots Molecules.Rank default 1`] = `
   height: 0.938rem;
 }
 
-.c3 {
+.c4 {
   margin-left: 0.5rem;
   padding-top: 0rem;
   color: #fff;
 }
 
-.c0 {
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -923,23 +923,23 @@ exports[`Storyshots Molecules.Rank default 1`] = `
   align-items: center;
 }
 
-.c0 span {
+.c1 span {
   font-weight: bold;
   margin-right: 1.875rem;
 }
 
-.c0 + .c0 {
+.c1 + .c0 {
   margin-top: 1rem;
 }
 
 <div
-  className="c0"
+  className="c0 c1"
 >
   <span>
     65472
   </span>
   <div
-    className="c1"
+    className="c2"
     style={
       Object {
         "width": "36%",
@@ -947,7 +947,7 @@ exports[`Storyshots Molecules.Rank default 1`] = `
     }
   >
     <div
-      className="c2"
+      className="c3"
       height={0.938}
       width={0.938}
     >
@@ -957,7 +957,7 @@ exports[`Storyshots Molecules.Rank default 1`] = `
       />
     </div>
     <p
-      className="c3"
+      className="c4"
     >
       Focused
     </p>
@@ -1031,7 +1031,7 @@ Array [
 `;
 
 exports[`Storyshots Pages.Admire default 1`] = `
-.c17 {
+.c18 {
   border-radius: 1.25rem;
   padding: 0 3rem;
   height: 2.5rem;
@@ -1046,11 +1046,11 @@ exports[`Storyshots Pages.Admire default 1`] = `
   cursor: pointer;
 }
 
-.c17:hover {
+.c18:hover {
   box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12), 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
 }
 
-.c7 {
+.c8 {
   overflow: hidden;
   border-radius: 0.188rem;
   border: 0.063rem solid #ccc;
@@ -1058,12 +1058,12 @@ exports[`Storyshots Pages.Admire default 1`] = `
   height: 2.5rem;
 }
 
-.c8 {
+.c9 {
   margin-left: 0.5rem;
   padding-top: 0rem;
 }
 
-.c15 {
+.c16 {
   margin-left: 0.5rem;
   padding-top: rem;
 }
@@ -1103,7 +1103,7 @@ exports[`Storyshots Pages.Admire default 1`] = `
   box-sizing: border-box;
 }
 
-.c9 {
+.c10 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1119,11 +1119,11 @@ exports[`Storyshots Pages.Admire default 1`] = `
   align-items: center;
 }
 
-.c10 {
+.c11 {
   width: 100%;
 }
 
-.c14 {
+.c15 {
   position: absolute;
   top: 85%;
   -webkit-transform: translate(-50%,-50%);
@@ -1134,12 +1134,12 @@ exports[`Storyshots Pages.Admire default 1`] = `
   color: #777;
 }
 
-.c12 {
+.c13 {
   margin-top: 0.5rem;
   position: relative;
 }
 
-.c13 {
+.c14 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -1151,7 +1151,7 @@ exports[`Storyshots Pages.Admire default 1`] = `
   cursor: pointer;
 }
 
-.c13::-webkit-slider-thumb {
+.c14::-webkit-slider-thumb {
   background-color: #fff;
   border: 0.063rem solid #eb2e3e;
   width: 1.563rem;
@@ -1161,23 +1161,23 @@ exports[`Storyshots Pages.Admire default 1`] = `
   z-index: 2;
 }
 
-.c13::-ms-tooltip {
+.c14::-ms-tooltip {
   display: none;
 }
 
-.c13::-ms-tooltip {
+.c14::-ms-tooltip {
   display: none;
 }
 
-.c13::-moz-focus-outer {
+.c14::-moz-focus-outer {
   border: 0;
 }
 
-.c13::-moz-range-track {
+.c14::-moz-range-track {
   height: 0;
 }
 
-.c13::-moz-range-thumb {
+.c14::-moz-range-thumb {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -1190,7 +1190,7 @@ exports[`Storyshots Pages.Admire default 1`] = `
   z-index: 2;
 }
 
-.c11 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1203,7 +1203,7 @@ exports[`Storyshots Pages.Admire default 1`] = `
   color: #555;
 }
 
-.c5 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1211,25 +1211,25 @@ exports[`Storyshots Pages.Admire default 1`] = `
   padding: 1.25rem;
 }
 
-.c5 > * {
+.c6 > * {
   width: 50%;
 }
 
-.c5 + .c5 {
+.c6 + .c5 {
   border-top: 1px solid #ccc;
 }
 
-.c5 img {
+.c6 img {
   width: 2.5rem;
   height: 2.5rem;
   margin-right: 0.625rem;
 }
 
-.c5 p {
+.c6 p {
   font-size: 0.875rem;
 }
 
-.c6 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1240,7 +1240,7 @@ exports[`Storyshots Pages.Admire default 1`] = `
   align-items: center;
 }
 
-.c16 {
+.c17 {
   position: absolute;
   bottom: 2rem;
   left: 2rem;
@@ -1395,13 +1395,13 @@ exports[`Storyshots Pages.Admire default 1`] = `
         className="c4"
       >
         <div
-          className="c5"
+          className="c5 c6"
         >
           <div
-            className="c6"
+            className="c7"
           >
             <div
-              className="c7"
+              className="c8"
               height={2.5}
               width={2.5}
             >
@@ -1411,19 +1411,19 @@ exports[`Storyshots Pages.Admire default 1`] = `
               />
             </div>
             <p
-              className="c8"
+              className="c9"
             >
               index
             </p>
           </div>
           <div
-            className="c9"
+            className="c10"
           >
             <div
-              className="c10"
+              className="c11"
             >
               <div
-                className="c11"
+                className="c12"
               >
                 <p>
                   Grocery
@@ -1433,15 +1433,15 @@ exports[`Storyshots Pages.Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="c12"
+                className="c13"
               >
                 <input
-                  className="c13"
+                  className="c14"
                   step="25"
                   type="range"
                 />
                 <span
-                  className="c14"
+                  className="c15"
                   style={
                     Object {
                       "left": "50%",
@@ -1455,13 +1455,13 @@ exports[`Storyshots Pages.Admire default 1`] = `
           </div>
         </div>
         <div
-          className="c5"
+          className="c5 c6"
         >
           <div
-            className="c6"
+            className="c7"
           >
             <div
-              className="c7"
+              className="c8"
               height={2.5}
               width={2.5}
             >
@@ -1471,19 +1471,19 @@ exports[`Storyshots Pages.Admire default 1`] = `
               />
             </div>
             <p
-              className="c15"
+              className="c16"
             >
               Incredible
             </p>
           </div>
           <div
-            className="c9"
+            className="c10"
           >
             <div
-              className="c10"
+              className="c11"
             >
               <div
-                className="c11"
+                className="c12"
               >
                 <p>
                   District
@@ -1493,15 +1493,15 @@ exports[`Storyshots Pages.Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="c12"
+                className="c13"
               >
                 <input
-                  className="c13"
+                  className="c14"
                   step="25"
                   type="range"
                 />
                 <span
-                  className="c14"
+                  className="c15"
                   style={
                     Object {
                       "left": "50%",
@@ -1515,13 +1515,13 @@ exports[`Storyshots Pages.Admire default 1`] = `
           </div>
         </div>
         <div
-          className="c5"
+          className="c5 c6"
         >
           <div
-            className="c6"
+            className="c7"
           >
             <div
-              className="c7"
+              className="c8"
               height={2.5}
               width={2.5}
             >
@@ -1531,19 +1531,19 @@ exports[`Storyshots Pages.Admire default 1`] = `
               />
             </div>
             <p
-              className="c15"
+              className="c16"
             >
               Borders
             </p>
           </div>
           <div
-            className="c9"
+            className="c10"
           >
             <div
-              className="c10"
+              className="c11"
             >
               <div
-                className="c11"
+                className="c12"
               >
                 <p>
                   Plaza
@@ -1553,15 +1553,15 @@ exports[`Storyshots Pages.Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="c12"
+                className="c13"
               >
                 <input
-                  className="c13"
+                  className="c14"
                   step="25"
                   type="range"
                 />
                 <span
-                  className="c14"
+                  className="c15"
                   style={
                     Object {
                       "left": "50%",
@@ -1575,13 +1575,13 @@ exports[`Storyshots Pages.Admire default 1`] = `
           </div>
         </div>
         <div
-          className="c5"
+          className="c5 c6"
         >
           <div
-            className="c6"
+            className="c7"
           >
             <div
-              className="c7"
+              className="c8"
               height={2.5}
               width={2.5}
             >
@@ -1591,19 +1591,19 @@ exports[`Storyshots Pages.Admire default 1`] = `
               />
             </div>
             <p
-              className="c15"
+              className="c16"
             >
               Berkshire
             </p>
           </div>
           <div
-            className="c9"
+            className="c10"
           >
             <div
-              className="c10"
+              className="c11"
             >
               <div
-                className="c11"
+                className="c12"
               >
                 <p>
                   Vatu
@@ -1613,15 +1613,15 @@ exports[`Storyshots Pages.Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="c12"
+                className="c13"
               >
                 <input
-                  className="c13"
+                  className="c14"
                   step="25"
                   type="range"
                 />
                 <span
-                  className="c14"
+                  className="c15"
                   style={
                     Object {
                       "left": "50%",
@@ -1635,13 +1635,13 @@ exports[`Storyshots Pages.Admire default 1`] = `
           </div>
         </div>
         <div
-          className="c5"
+          className="c5 c6"
         >
           <div
-            className="c6"
+            className="c7"
           >
             <div
-              className="c7"
+              className="c8"
               height={2.5}
               width={2.5}
             >
@@ -1651,19 +1651,19 @@ exports[`Storyshots Pages.Admire default 1`] = `
               />
             </div>
             <p
-              className="c15"
+              className="c16"
             >
               Cambridgeshire
             </p>
           </div>
           <div
-            className="c9"
+            className="c10"
           >
             <div
-              className="c10"
+              className="c11"
             >
               <div
-                className="c11"
+                className="c12"
               >
                 <p>
                   Open-architected
@@ -1673,15 +1673,15 @@ exports[`Storyshots Pages.Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="c12"
+                className="c13"
               >
                 <input
-                  className="c13"
+                  className="c14"
                   step="25"
                   type="range"
                 />
                 <span
-                  className="c14"
+                  className="c15"
                   style={
                     Object {
                       "left": "50%",
@@ -1695,13 +1695,13 @@ exports[`Storyshots Pages.Admire default 1`] = `
           </div>
         </div>
         <div
-          className="c5"
+          className="c5 c6"
         >
           <div
-            className="c6"
+            className="c7"
           >
             <div
-              className="c7"
+              className="c8"
               height={2.5}
               width={2.5}
             >
@@ -1711,19 +1711,19 @@ exports[`Storyshots Pages.Admire default 1`] = `
               />
             </div>
             <p
-              className="c15"
+              className="c16"
             >
               Stream
             </p>
           </div>
           <div
-            className="c9"
+            className="c10"
           >
             <div
-              className="c10"
+              className="c11"
             >
               <div
-                className="c11"
+                className="c12"
               >
                 <p>
                   multi-byte
@@ -1733,15 +1733,15 @@ exports[`Storyshots Pages.Admire default 1`] = `
                 </p>
               </div>
               <div
-                className="c12"
+                className="c13"
               >
                 <input
-                  className="c13"
+                  className="c14"
                   step="25"
                   type="range"
                 />
                 <span
-                  className="c14"
+                  className="c15"
                   style={
                     Object {
                       "left": "50%",
@@ -1756,10 +1756,10 @@ exports[`Storyshots Pages.Admire default 1`] = `
         </div>
       </div>
       <div
-        className="c16"
+        className="c17"
       >
         <button
-          className="c17"
+          className="c18"
         >
           action-items
         </button>
@@ -1770,7 +1770,7 @@ exports[`Storyshots Pages.Admire default 1`] = `
 `;
 
 exports[`Storyshots Pages.Mypage default 1`] = `
-.c20 {
+.c21 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1784,7 +1784,7 @@ exports[`Storyshots Pages.Mypage default 1`] = `
   padding: 0.313rem;
 }
 
-.c21 {
+.c22 {
   overflow: hidden;
   border-radius: 0.188rem;
   border: 0.063rem solid #ccc;
@@ -1801,7 +1801,7 @@ exports[`Storyshots Pages.Mypage default 1`] = `
   border-radius: 50%;
 }
 
-.c22 {
+.c23 {
   margin-left: 0.5rem;
   padding-top: 0rem;
   color: #fff;
@@ -1934,7 +1934,7 @@ exports[`Storyshots Pages.Mypage default 1`] = `
   left: 2rem;
 }
 
-.c19 {
+.c20 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1945,12 +1945,12 @@ exports[`Storyshots Pages.Mypage default 1`] = `
   align-items: center;
 }
 
-.c19 span {
+.c20 span {
   font-weight: bold;
   margin-right: 1.875rem;
 }
 
-.c19 + .c19 {
+.c20 + .c19 {
   margin-top: 1rem;
 }
 
@@ -2229,13 +2229,13 @@ exports[`Storyshots Pages.Mypage default 1`] = `
         className="c8"
       >
         <div
-          className="c19"
+          className="c19 c20"
         >
           <span>
             58593
           </span>
           <div
-            className="c20"
+            className="c21"
             style={
               Object {
                 "width": "84%",
@@ -2243,7 +2243,7 @@ exports[`Storyshots Pages.Mypage default 1`] = `
             }
           >
             <div
-              className="c21"
+              className="c22"
               height={0.938}
               width={0.938}
             >
@@ -2253,20 +2253,20 @@ exports[`Storyshots Pages.Mypage default 1`] = `
               />
             </div>
             <p
-              className="c22"
+              className="c23"
             >
               Tugrik
             </p>
           </div>
         </div>
         <div
-          className="c19"
+          className="c19 c20"
         >
           <span>
             84234
           </span>
           <div
-            className="c20"
+            className="c21"
             style={
               Object {
                 "width": "17%",
@@ -2274,7 +2274,7 @@ exports[`Storyshots Pages.Mypage default 1`] = `
             }
           >
             <div
-              className="c21"
+              className="c22"
               height={0.938}
               width={0.938}
             >
@@ -2284,7 +2284,7 @@ exports[`Storyshots Pages.Mypage default 1`] = `
               />
             </div>
             <p
-              className="c22"
+              className="c23"
             >
               reboot
             </p>
@@ -2297,7 +2297,7 @@ exports[`Storyshots Pages.Mypage default 1`] = `
 `;
 
 exports[`Storyshots Pages.Signin default 1`] = `
-.c4 {
+.c5 {
   border-radius: 1.25rem;
   padding: 0 3rem;
   height: 2.5rem;
@@ -2313,16 +2313,16 @@ exports[`Storyshots Pages.Signin default 1`] = `
   background: #ccc;
 }
 
-.c4:hover {
+.c5:hover {
   box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12), 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
 }
 
-.c4:hover {
+.c5:hover {
   box-shadow: none;
   cursor: default;
 }
 
-.c3 {
+.c4 {
   width: 100%;
   border: none;
   box-sizing: border-box;
@@ -2331,7 +2331,7 @@ exports[`Storyshots Pages.Signin default 1`] = `
   font-size: 1rem;
 }
 
-.c3::-webkit-input-placeholder {
+.c4::-webkit-input-placeholder {
   color: #ccc;
 }
 
@@ -2366,7 +2366,7 @@ exports[`Storyshots Pages.Signin default 1`] = `
   width: 100%;
 }
 
-.c2 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2382,15 +2382,15 @@ exports[`Storyshots Pages.Signin default 1`] = `
   color: #ccc;
 }
 
-.c2 + .c2 {
+.c3 + .c2 {
   margin-top: 1.5rem;
 }
 
-.c2 input {
+.c3 input {
   margin-left: 0.5rem;
 }
 
-.c2 input:valid + svg {
+.c3 input:valid + svg {
   color: #3ebdaa;
 }
 
@@ -2405,10 +2405,10 @@ exports[`Storyshots Pages.Signin default 1`] = `
       method="post"
     >
       <div
-        className="c2"
+        className="c2 c3"
       >
         <input
-          className="c3"
+          className="c4"
           placeholder="Elliott_Hayes@gmail.com"
           type="email"
         />
@@ -2431,10 +2431,10 @@ exports[`Storyshots Pages.Signin default 1`] = `
         </svg>
       </div>
       <div
-        className="c2"
+        className="c2 c3"
       >
         <input
-          className="c3"
+          className="c4"
           placeholder="Vatu"
           type="password"
         />
@@ -2457,7 +2457,7 @@ exports[`Storyshots Pages.Signin default 1`] = `
         </svg>
       </div>
       <button
-        className="c4"
+        className="c5"
         disabled={true}
       >
         Sign in
