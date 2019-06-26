@@ -17,7 +17,7 @@
     "prop-types": "15.7.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "snyk": "1.185.0",
+    "snyk": "1.185.1",
     "styled-components": "4.3.2"
   },
   "devDependencies": {
