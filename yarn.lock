@@ -21,12 +21,12 @@
     eslint-plugin-promise "^4.0.0"
     eslint-plugin-standard "^4.0.0"
 
-"@9renpoto/stylelint-config@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@9renpoto/stylelint-config/-/stylelint-config-4.4.0.tgz#f26bc1247313afd8c408d528a68b5c40f80f10d6"
-  integrity sha512-yqNKvvXy78YF4jmaamEjym7HmtQ+U+H2jnTV27aGRLWF5pR4dA94JOhiVBH7rNHPxrr5FWOBjj8PY5KD4rumAQ==
+"@9renpoto/stylelint-config@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@9renpoto/stylelint-config/-/stylelint-config-5.0.0.tgz#d0433e9a888bbb187b8a2a7a551d3150fbba795f"
+  integrity sha512-W+qen6N1VJQOpMI6/26/YnNyfaxRV4EvIHNAf+aPu+iTjexuYNVDZ+RHbVju+SLQksVxvpnKpNcJOHG12KYklQ==
   dependencies:
-    stylelint-config-standard "^18.2.0"
+    stylelint-config-standard "18.3.0"
 
 "@babel/code-frame@7.0.0", "@babel/code-frame@^7.0.0":
   version "7.0.0"
@@ -13927,7 +13927,7 @@ stylelint-config-recommended@2.2.0, stylelint-config-recommended@^2.2.0:
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-2.2.0.tgz#46ab139db4a0e7151fd5f94af155512886c96d3f"
   integrity sha512-bZ+d4RiNEfmoR74KZtCKmsABdBJr4iXRiCso+6LtMJPw5rd/KnxUWTxht7TbafrTJK1YRjNgnN0iVZaJfc3xJA==
 
-stylelint-config-standard@^18.2.0:
+stylelint-config-standard@18.3.0:
   version "18.3.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-18.3.0.tgz#a2a1b788d2cf876c013feaff8ae276117a1befa7"
   integrity sha512-Tdc/TFeddjjy64LvjPau9SsfVRexmTFqUhnMBrzz07J4p2dVQtmpncRF/o8yZn8ugA3Ut43E6o1GtjX80TFytw==
