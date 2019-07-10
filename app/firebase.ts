@@ -1,5 +1,4 @@
-import * as firebase from 'firebase/app'
-import Router from 'next/router'
+import * as firebase from "firebase/app";
 
 if (!firebase.apps.length) {
   firebase.initializeApp({
@@ -8,13 +7,7 @@ if (!firebase.apps.length) {
     databaseURL: process.env.NODE_DATABASE_URL,
     projectId: process.env.NODE_PROJECT_ID,
     messagingSenderId: process.env.NODE_SENDER_ID
-  })
+  });
 }
 
-Router.onRouteChangeStart = () => {
-  if (!firebase.auth().currentUser) {
-    Router.push('/')
-  }
-}
-
-export default firebase
+export default firebase;

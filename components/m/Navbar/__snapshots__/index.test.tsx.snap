@@ -6,6 +6,7 @@ exports[`Molecules.Navbar render 1`] = `
     <li>
       <Link
         href="/mypage/bb463b8b-b76c-4f6a-9726-65ab5730b69b"
+        prefetch={true}
       >
         <a>
           <FontAwesomeIcon
