@@ -5,9 +5,9 @@
   "author": "9renpoto",
   "dependencies": {
     "@firebase/app-types": "0.4.2",
-    "@fortawesome/fontawesome-free": "5.9.0",
-    "@fortawesome/fontawesome-svg-core": "1.2.19",
-    "@fortawesome/free-solid-svg-icons": "5.9.0",
+    "@fortawesome/fontawesome-free": "5.10.0",
+    "@fortawesome/fontawesome-svg-core": "1.2.20",
+    "@fortawesome/free-solid-svg-icons": "5.10.0",
     "@fortawesome/react-fontawesome": "0.1.4",
     "@types/react-dom": "16.8.5",
     "@types/styled-components": "4.1.18",
