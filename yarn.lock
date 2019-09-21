@@ -17,10 +17,10 @@
     eslint-config-prettier "6.3.0"
     eslint-plugin-import "2.18.2"
 
-"@9renpoto/stylelint-config@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@9renpoto/stylelint-config/-/stylelint-config-5.0.0.tgz#d0433e9a888bbb187b8a2a7a551d3150fbba795f"
-  integrity sha512-W+qen6N1VJQOpMI6/26/YnNyfaxRV4EvIHNAf+aPu+iTjexuYNVDZ+RHbVju+SLQksVxvpnKpNcJOHG12KYklQ==
+"@9renpoto/stylelint-config@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@9renpoto/stylelint-config/-/stylelint-config-5.0.1.tgz#13319b4580b20f78f9be3c11cd230a4e02a353ca"
+  integrity sha512-Cb5pxOE5tEajMlPtTi041zqg/QrAk3N+JssGXCYJCal0wH2AeKm8uRqfhtm8VSV76uKfTE4/Xkn1ui2MIvxvGw==
   dependencies:
     stylelint-config-standard "18.3.0"
 

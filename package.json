@@ -22,7 +22,7 @@
   "devDependencies": {
     "@9renpoto/eslint-config": "5.0.1",
     "@9renpoto/eslint-config-react": "5.0.0",
-    "@9renpoto/stylelint-config": "5.0.0",
+    "@9renpoto/stylelint-config": "5.0.1",
     "@babel/core": "7.4.5",
     "@storybook/addon-actions": "5.1.11",
     "@storybook/addon-knobs": "5.1.11",
