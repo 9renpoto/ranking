@@ -1,8 +1,8 @@
-import React, { Children } from 'react'
 import styled from 'styled-components'
+import { Children } from 'react'
 
-export type Props = {
-  children?: React.ReactNode
+interface Props {
+  children: React.ReactNode
   fixed?: boolean
 }
 

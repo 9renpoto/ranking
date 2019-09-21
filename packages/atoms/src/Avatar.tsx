@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export type Props = {
+interface Props {
   width: number
   height: number
   isCircle?: boolean
