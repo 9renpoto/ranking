@@ -9,14 +9,9 @@
     "@fortawesome/fontawesome-svg-core": "1.2.24",
     "@fortawesome/free-solid-svg-icons": "5.11.1",
     "@fortawesome/react-fontawesome": "0.1.4",
-    "@types/react-dom": "16.9.0",
     "@types/styled-components": "4.1.19",
     "firebase": "6.6.2",
-    "graphql-request": "1.8.2",
     "next": "9.0.3",
-    "prop-types": "15.7.2",
-    "react": "16.9.0",
-    "react-dom": "16.9.0",
     "styled-components": "4.3.2"
   },
   "devDependencies": {
@@ -26,8 +21,7 @@
     "@babel/core": "7.4.5",
     "@storybook/addon-actions": "5.1.11",
     "@storybook/addon-storyshots": "5.1.11",
-    "@storybook/addons": "5.1.11",
-    "@storybook/cli": "5.1.11",
+    "@storybook/addon-viewport": "5.1.11",
     "@storybook/react": "5.1.11",
     "@types/faker": "4.1.5",
     "@types/jest": "24.0.18",
@@ -50,6 +44,8 @@
     "husky": "3.0.5",
     "jest": "24.9.0",
     "jest-styled-components": "6.3.3",
+    "lerna": "^3.16.4",
+    "lerna-changelog": "0.8.2",
     "lint-staged": "9.3.0",
     "npm-run-all": "4.1.5",
     "prettier-eslint-cli": "5.0.0",
@@ -108,10 +104,9 @@
   "private": true,
   "repository": "ssh://git@github.com/g59/rate.git",
   "scripts": {
-    "build": "run-p build:*",
-    "build:app": "tsc -m commonjs",
-    "build:storybook": "build-storybook",
-    "clean": "rimraf lib .tmp",
+    "build": "lerna run build --include-filtered-dependents",
+    "bump": "lerna version --no-git-tag-version --no-push && lerna-changelog",
+    "clean": "rimraf lib .tmp && lerna run clean && lerna clean --y",
     "coverage": "codecov -f ./coverage/lcov.info && codecov",
     "lint": "run-p lint:*",
     "lint:tsc": "tsc -p . --noEmit",
@@ -122,5 +117,9 @@
     "start": "concurrently -k 'yarn storybook' 'yarn next'",
     "storybook": "start-storybook -p 9001",
     "test": "jest"
-  }
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
 }

@@ -6,11 +6,9 @@
     "importHelpers": true,
     "jsx": "preserve",
     "lib": [
-      "es6",
       "dom",
       "esnext"
     ],
-    "types": ["react", "jest"],
     "module": "esnext",
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
@@ -19,7 +17,6 @@
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "./lib",
     "plugins": [
       {
         "name": "typescript-styled-plugin",
@@ -31,16 +28,12 @@
     "preserveConstEnums": true,
     "preserveSymlinks": true,
     "removeComments": true,
-    "sourceMap": true,
     "strict": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
     "target": "esnext"
   },
-  "include": [
-    "app"
-  ],
   "exclude": [
     "node_modules",
     "dist",

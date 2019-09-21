@@ -1,0 +1,17 @@
+{
+  "name": "@rate/atoms",
+  "version": "0.0.1",
+  "files": [
+    "lib"
+  ],
+  "main": "cjs/index.js",
+  "esnext": "lib/index.js",
+  "private": true,
+  "scripts": {
+    "build": "tsc --outDir lib && tsc -m commonjs --outDir cjs",
+    "clean": "rimraf lib cjs",
+    "dev": "tsc -p . -w",
+    "prebuild": "yarn clean"
+  },
+  "typings": "lib/index.d.ts"
+}
