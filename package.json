@@ -25,7 +25,6 @@
     "@9renpoto/stylelint-config": "5.1.0",
     "@babel/core": "7.4.5",
     "@storybook/addon-actions": "5.1.11",
-    "@storybook/addon-knobs": "5.1.11",
     "@storybook/addon-storyshots": "5.1.11",
     "@storybook/addons": "5.1.11",
     "@storybook/cli": "5.1.11",
@@ -34,7 +33,6 @@
     "@types/jest": "24.0.18",
     "@types/react-test-renderer": "16.9.0",
     "@types/storybook__addon-actions": "3.4.3",
-    "@types/storybook__addon-knobs": "5.0.4",
     "@types/storybook__addon-storyshots": "5.1.1",
     "@types/storybook__react": "4.0.2",
     "@typescript-eslint/parser": "2.3.0",
@@ -55,6 +53,7 @@
     "lint-staged": "9.3.0",
     "npm-run-all": "4.1.5",
     "prettier-eslint-cli": "5.0.0",
+    "prettier-stylelint": "0.4.2",
     "react-test-renderer": "16.9.0",
     "rimraf": "3.0.0",
     "stylelint": "11.0.0",
@@ -95,13 +94,9 @@
   },
   "license": "MIT",
   "lint-staged": {
-    "*.ts": [
+    "*.{ts,tsx}": [
       "prettier-eslint --write",
-      "git add"
-    ],
-    "*.tsx": [
-      "stylelint",
-      "prettier-eslint --write",
+      "prettier-stylelint --write",
       "git add"
     ],
     "*.{md,js}": [
