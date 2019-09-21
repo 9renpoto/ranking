@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Inner = styled.div`
+export const HeroContent = styled.div`
   display: flex;
   position: absolute;
   bottom: -30%;

@@ -1,12 +1,20 @@
 import { storiesOf } from '@storybook/react'
 import { random, image } from 'faker'
 import React from 'react'
-import { Button } from './Button'
-import { Box, Inner } from './Box'
-import { Avatar } from './Avatar'
-import { Hero } from './Hero'
-import { Name } from './User'
-import { Bar } from './Ranking'
+import { Avatar, Box, Inner, Button, Hero, Bar, Name } from '.'
+
+export function DefaultRankBar() {
+  return (
+    <Bar style={{ width: `${random.number({ max: 100 })}%` }}>
+      <Avatar width={0.938} height={0.938}>
+        <img src={image.imageUrl(300, 300)} alt={random.word()} />
+      </Avatar>
+      <Name white padding={0}>
+        {random.word()}
+      </Name>
+    </Bar>
+  )
+}
 
 storiesOf('atoms', module)
   .add('Avatar', () => <Avatar width={20} height={20} />)
@@ -18,13 +26,4 @@ storiesOf('atoms', module)
   ))
   .add('Button', () => <Button>{random.word()}</Button>)
   .add('Hero', () => <Hero>{random.words()}</Hero>)
-  .add('RankBar', () => (
-    <Bar style={{ width: `${random.number({ max: 100 })}%` }}>
-      <Avatar width={0.938} height={0.938}>
-        <img src={image.imageUrl(300, 300)} alt={random.word()} />
-      </Avatar>
-      <Name white padding={0}>
-        {random.word()}
-      </Name>
-    </Bar>
-  ))
+  .add('RankBar', () => <DefaultRankBar />)
