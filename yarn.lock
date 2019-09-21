@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@9renpoto/eslint-config-react@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@9renpoto/eslint-config-react/-/eslint-config-react-5.0.0.tgz#bc3f84e5695c79c0b951de0cb98aafd705df230a"
-  integrity sha512-GMGFd+qTiO7L9CJIrKGrKbwhdZLDABpS3njV1/+N8nzKeym5B1AFD6IFtU65qti4rc+0iAzRQsTUYpjss0PXEg==
+"@9renpoto/eslint-config-react@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@9renpoto/eslint-config-react/-/eslint-config-react-5.0.1.tgz#a1d31a6421ca7666d7e3d7ab162c40ff367e12ed"
+  integrity sha512-pv2NrpsX0pfK4T5Kvy8UNJ/Y1qM7ThWNYW65ylwGMjt4whuBP7sPMYwrF37n85CqO+8VIfn8mlUd9UYbnPXdwg==
   dependencies:
-    eslint-config-prettier "6.0.0"
+    eslint-config-prettier "6.3.0"
 
 "@9renpoto/eslint-config@5.0.1":
   version "5.0.1"
@@ -5845,13 +5845,6 @@ escodegen@^1.9.1:
     optionator "^0.8.1"
   optionalDependencies:
     source-map "~0.6.1"
-
-eslint-config-prettier@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.0.0.tgz#f429a53bde9fc7660e6353910fd996d6284d3c25"
-  integrity sha512-vDrcCFE3+2ixNT5H83g28bO/uYAwibJxerXPj+E7op4qzBCsAV36QfvdAyVOoNxKAH2Os/e01T/2x++V0LPukA==
-  dependencies:
-    get-stdin "^6.0.0"
 
 eslint-config-prettier@6.3.0:
   version "6.3.0"
