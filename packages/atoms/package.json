@@ -1,11 +1,11 @@
 {
   "name": "@rate/atoms",
   "version": "0.0.1",
+  "esnext": "lib/index.js",
   "files": [
     "lib"
   ],
   "main": "cjs/index.js",
-  "esnext": "lib/index.js",
   "private": true,
   "scripts": {
     "build": "tsc --outDir lib && tsc -m commonjs --outDir cjs",

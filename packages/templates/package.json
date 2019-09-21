@@ -1,10 +1,11 @@
 {
-  "name": "@rate/molecules",
+  "name": "@rate/templates",
   "version": "0.0.1",
-  "dependencies": {
-    "@rate/atoms": "0.0.1"
-  },
   "esnext": "lib/index.js",
+  "dependencies": {
+    "@rate/atoms": "0.0.1",
+    "@rate/molecules": "0.0.1"
+  },
   "files": [
     "lib"
   ],

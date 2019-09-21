@@ -22,7 +22,3 @@ export const Admire = styled.div`
     font-size: 0.875rem;
   }
 `
-export const Inner = styled.div`
-  display: flex;
-  align-items: center;
-`
