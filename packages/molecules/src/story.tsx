@@ -1,6 +1,5 @@
 import { storiesOf } from '@storybook/react'
 import { image, random } from 'faker'
-import React from 'react'
 import {
   Avatar,
   Box,
@@ -21,55 +20,31 @@ import {
   ResultComment
 } from '@rate/atoms'
 import { Admire, AdmireContent, Fixed, Rank, HeroContent } from './'
-import { DefaultRankBar } from '@rate/atoms/src/story'
 
-export const DefaultAdmire = () => (
-  <Admire>
-    <AdmireContent>
-      <Avatar width={2.5} height={2.5}>
-        <img src={image.imageUrl(300, 300)} alt={random.word()} />
-      </Avatar>
-      <Name padding={0}>{random.word()}</Name>
-    </AdmireContent>
-    <Range>
-      <RangeInner>
-        <RangeValuation>
-          <p>{random.word()}</p>
-          <p>{random.word()}</p>
-        </RangeValuation>
-        <EditRange>
-          <EditRangeInput type="range" step="25" />
-          <RangeValue style={{ left: '50%' }}>3</RangeValue>
-        </EditRange>
-      </RangeInner>
-    </Range>
-  </Admire>
-)
-
-export const DefaultHero = () => (
-  <Hero>
-    <HeroContent>
-      <Avatar isCircle width={4.688} height={4.688}>
-        <img src={image.imageUrl(300, 300)} alt={random.word()} />
-      </Avatar>
-      <Name white padding={1}>
-        {random.word()}
-      </Name>
-    </HeroContent>
-  </Hero>
-)
-
-export const DefaultResult = () => (
-  <>
-    <ResultRank>
-      <ResultRankInner>
-        <span>50人中</span>
-        10位
-      </ResultRankInner>
-    </ResultRank>
-    <ResultComment>{random.word()}</ResultComment>
-  </>
-)
+function DefaultAdmire() {
+  return (
+    <Admire>
+      <AdmireContent>
+        <Avatar width={2.5} height={2.5}>
+          <img src={image.imageUrl(300, 300)} alt={random.word()} />
+        </Avatar>
+        <Name padding={0}>{random.word()}</Name>
+      </AdmireContent>
+      <Range>
+        <RangeInner>
+          <RangeValuation>
+            <p>{random.word()}</p>
+            <p>{random.word()}</p>
+          </RangeValuation>
+          <EditRange>
+            <EditRangeInput type="range" step="25" />
+            <RangeValue style={{ left: '50%' }}>3</RangeValue>
+          </EditRange>
+        </RangeInner>
+      </Range>
+    </Admire>
+  )
+}
 
 storiesOf('molecules', module)
   .add('Admire', () => (
@@ -87,7 +62,18 @@ storiesOf('molecules', module)
       <Button>{random.word()}</Button>
     </Fixed>
   ))
-  .add('Hero', () => <DefaultHero />)
+  .add('Hero', () => (
+    <Hero>
+      <HeroContent>
+        <Avatar isCircle width={4.688} height={4.688}>
+          <img src={image.imageUrl(300, 300)} alt={random.word()} />
+        </Avatar>
+        <Name white padding={1}>
+          {random.word()}
+        </Name>
+      </HeroContent>
+    </Hero>
+  ))
   .add('Range', () => (
     <Range>
       <RangeInner>
@@ -119,7 +105,36 @@ storiesOf('molecules', module)
   .add('Rank', () => (
     <Rank>
       <span>{random.number()}</span>
-      <DefaultRankBar />
+      <Admire>
+        <AdmireContent>
+          <Avatar width={2.5} height={2.5}>
+            <img src={image.imageUrl(300, 300)} alt={random.word()} />
+          </Avatar>
+          <Name padding={0}>{random.word()}</Name>
+        </AdmireContent>
+        <Range>
+          <RangeInner>
+            <RangeValuation>
+              <p>{random.word()}</p>
+              <p>{random.word()}</p>
+            </RangeValuation>
+            <EditRange>
+              <EditRangeInput type="range" step="25" />
+              <RangeValue style={{ left: '50%' }}>3</RangeValue>
+            </EditRange>
+          </RangeInner>
+        </Range>
+      </Admire>
     </Rank>
   ))
-  .add('Result', () => <DefaultResult />)
+  .add('Result', () => (
+    <>
+      <ResultRank>
+        <ResultRankInner>
+          <span>50人中</span>
+          10位
+        </ResultRankInner>
+      </ResultRank>
+      <ResultComment>{random.word()}</ResultComment>
+    </>
+  ))

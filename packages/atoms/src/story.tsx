@@ -1,9 +1,8 @@
 import { storiesOf } from '@storybook/react'
 import { random, image } from 'faker'
-import React from 'react'
 import { Avatar, Box, Inner, Button, Hero, Bar, Name } from '.'
 
-export function DefaultRankBar() {
+function DefaultRankBar() {
   return (
     <Bar style={{ width: `${random.number({ max: 100 })}%` }}>
       <Avatar width={0.938} height={0.938}>

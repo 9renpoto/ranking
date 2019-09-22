@@ -12,7 +12,7 @@
   "main": "cjs/index.js",
   "private": true,
   "scripts": {
-    "build": "tsc --outDir lib && tsc -m commonjs --outDir cjs",
+    "build": "tsc -p . --outDir lib && tsc -p . -m commonjs --outDir cjs",
     "clean": "rimraf lib cjs",
     "dev": "tsc -p . -w",
     "prebuild": "yarn clean"

@@ -24,11 +24,19 @@ import {
   Range,
   RangeBar,
   RangeBarThumb,
-  Input
+  Input,
+  Hero,
+  ResultRank,
+  ResultRankInner,
+  ResultComment,
+  Bar
 } from '@rate/atoms'
-import { Admire, AdmireContent as Inner, Fixed } from '@rate/molecules'
-import { DefaultHero, DefaultResult } from '@rate/molecules/src/story'
-import { DefaultRankBar } from '@rate/atoms/src/story'
+import {
+  Admire,
+  AdmireContent as Inner,
+  Fixed,
+  HeroContent
+} from '@rate/molecules'
 import {
   Inner as SigninWrapperInner,
   Input as SigninWrapperInput,
@@ -200,7 +208,16 @@ storiesOf('pages', module)
         </ul>
       </Nav>
       <Main>
-        <DefaultHero />
+        <Hero>
+          <HeroContent>
+            <Avatar isCircle width={4.688} height={4.688}>
+              <img src={image.imageUrl(300, 300)} alt={random.word()} />
+            </Avatar>
+            <Name white padding={1}>
+              {random.word()}
+            </Name>
+          </HeroContent>
+        </Hero>
         <Box>
           <BoxInner>
             <Range>
@@ -217,13 +234,33 @@ storiesOf('pages', module)
             </Range>
           </BoxInner>
           <BoxInner>
-            <DefaultResult />
+            <ResultRank>
+              <ResultRankInner>
+                <span>50人中</span>
+                10位
+              </ResultRankInner>
+            </ResultRank>
+            <ResultComment>{random.word()}</ResultComment>
           </BoxInner>
         </Box>
         <Box>
           <BoxInner>
-            <DefaultRankBar />
-            <DefaultRankBar />
+            <Bar style={{ width: `${random.number({ max: 100 })}%` }}>
+              <Avatar width={0.938} height={0.938}>
+                <img src={image.imageUrl(300, 300)} alt={random.word()} />
+              </Avatar>
+              <Name white padding={0}>
+                {random.word()}
+              </Name>
+            </Bar>
+            <Bar style={{ width: `${random.number({ max: 100 })}%` }}>
+              <Avatar width={0.938} height={0.938}>
+                <img src={image.imageUrl(300, 300)} alt={random.word()} />
+              </Avatar>
+              <Name white padding={0}>
+                {random.word()}
+              </Name>
+            </Bar>
           </BoxInner>
         </Box>
       </Main>

@@ -2,15 +2,11 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "alwaysStrict": true,
-    "esModuleInterop": true,
-    "importHelpers": true,
-    "jsx": "react",
-    "lib": [
-      "dom",
-      "esnext"
-    ],
+    "jsx": "preserve",
+    "lib": ["dom", "es2017"],
     "module": "esnext",
     "moduleResolution": "node",
+    "noEmit": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
@@ -25,28 +21,15 @@
         }
       }
     ],
-    "preserveConstEnums": true,
-    "preserveSymlinks": true,
     "removeComments": true,
     "strict": true,
+    "strictBindCallApply": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,
-    "strictPropertyInitialization": true,
-    "target": "esnext",
-    "allowJs": true,
+    "strictPropertyInitialization": false,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "resolveJsonModule": true
-  },
-  "exclude": [
-    "node_modules",
-    "dist",
-    "**/__mocks__"
-  ],
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ]
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "esnext"
+  }
 }
