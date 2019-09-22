@@ -18,7 +18,7 @@ import {
   Name,
   Wrapper
 } from '@rate/atoms'
-import { Admire, AdmireContent as Inner, Fixed } from '@rate/molecules'
+import { AdmireContent as Inner, Fixed, Admire } from '@rate/molecules'
 
 export default () => (
   <Wrapper>
