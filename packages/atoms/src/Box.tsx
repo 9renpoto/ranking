@@ -40,7 +40,6 @@ export const Box = styled.div`
       }
     }
   `};
-
   ${props =>
     props.fixed &&
     `
@@ -55,7 +54,6 @@ export const Inner = styled.div`
   padding: 1.875rem 1.25rem;
   background-color: #fff;
   box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.12);
-
   ${(props: { fixed?: boolean }) =>
     props.fixed &&
     `

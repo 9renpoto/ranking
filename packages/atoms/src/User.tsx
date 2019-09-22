@@ -8,7 +8,6 @@ interface Props {
 export const Name = styled.p`
   margin-left: 0.5rem;
   padding-top: ${(props: Props) => props.padding}rem;
-
   ${(props: Props) =>
     props.white &&
     `

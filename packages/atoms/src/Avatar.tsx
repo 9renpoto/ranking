@@ -12,7 +12,6 @@ export const Avatar = styled.div`
   border: 0.063rem solid #ccc;
   width: ${(props: Props) => props.width}rem;
   height: ${(props: Props) => props.height}rem;
-
   ${(props: Props) =>
     props.isCircle &&
     `
