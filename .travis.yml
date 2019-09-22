@@ -9,12 +9,10 @@ matrix:
   allow_failures:
   - node_js: stable
 cache: yarn
-env:
-  matrix:
-  - CMD=test
-  - CMD=lint
-  - CMD=build
-script: npm run $CMD
+script:
+- yarn build
+- yarn lint
+- yarn $CMD
 after_success:
 - '[ "CMD" == master ] && npm run coverage'
 notifications:
