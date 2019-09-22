@@ -10,10 +10,10 @@ matrix:
   - node_js: stable
 cache: yarn
 script:
-- yarn build
-- yarn lint
-- yarn $CMD
+- npm run build
+- npm run lint
+- npm test
 after_success:
-- '[ "CMD" == master ] && npm run coverage'
+- npm run coverage
 notifications:
   email: false
