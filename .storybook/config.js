@@ -1,5 +1,5 @@
-import { configure } from '@storybook/react'
-import { addParameters } from '@storybook/react'
+const { configure } = require('@storybook/react')
+const { addParameters } = require('@storybook/react')
 
 addParameters({
   viewport: {

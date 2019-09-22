@@ -108,12 +108,7 @@
     "bump": "lerna version --no-git-tag-version --no-push && lerna-changelog",
     "clean": "rimraf lib .tmp && lerna run clean && lerna clean --y",
     "coverage": "codecov -f ./coverage/lcov.info && codecov",
-    "lint": "run-p lint:*",
-    "lint:tsc": "tsc -p . --noEmit",
-    "next": "tsc -m commonjs && node lib/server.js",
-    "preprod": "tsc -m commonjs && next build",
-    "pretest": "npm run clean",
-    "prod": "cross-env NODE_ENV=production node lib/server.js",
+    "lint": "tsc -p . --noEmit",
     "start": "concurrently -k 'yarn storybook' 'yarn next'",
     "storybook": "start-storybook -p 9001",
     "test": "jest"
