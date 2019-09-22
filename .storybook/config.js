@@ -1,5 +1,6 @@
 const { configure } = require('@storybook/react')
 const { addParameters } = require('@storybook/react')
+const requireContext = require('require-context.macro')
 
 addParameters({
   viewport: {
@@ -10,7 +11,7 @@ addParameters({
 })
 
 function loadStories() {
-  const req = require.context('../', true, /story.tsx$/)
+  const req = requireContext('../', true, /story.tsx$/)
   req.keys().forEach(filename => {
     console.warn(filename)
     return req(filename)

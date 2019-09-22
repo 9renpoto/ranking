@@ -35,7 +35,7 @@
     "@typescript-eslint/parser": "2.3.0",
     "babel-jest": "24.9.0",
     "babel-loader": "8.0.6",
-    "babel-plugin-require-context-hook": "1.0.0",
+    "babel-plugin-macros": "2.6.1",
     "codecov": "3.6.1",
     "eslint": "6.4.0",
     "eslint-plugin-jest": "22.17.0",
@@ -50,6 +50,7 @@
     "prettier-eslint-cli": "5.0.0",
     "prettier-stylelint": "0.4.2",
     "react-test-renderer": "16.9.0",
+    "require-context.macro": "1.2.1",
     "rimraf": "3.0.0",
     "stylelint": "11.0.0",
     "stylelint-config-prettier": "5.2.0",
@@ -66,15 +67,16 @@
   },
   "jest": {
     "transform": {
-      "^.+\\.{t,j}sx?$": "babel-jest"
+      "^.+\\.(ts|tsx)$": "babel-jest"
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(ts|tsx)$",
+    "cacheDirectory": ".cache/jest",
+    "coverageReporters": [
+      "lcov"
+    ],
     "collectCoverage": true,
     "setupFilesAfterEnv": [
       "jest-styled-components"
-    ],
-    "setupFiles": [
-      "./.storybook/setup.js"
     ],
     "moduleFileExtensions": [
       "ts",
@@ -107,6 +109,7 @@
     "coverage": "codecov -f ./coverage/lcov.info && codecov",
     "lint": "run-p lint:*",
     "lint:es": "eslint . --ext=ts,tsx",
+    "lint:stylelint": "stylelint '{packages,apps}/**/*.tsx'",
     "lint:tsc": "tsc -p . --noEmit",
     "start": "start-storybook -p 9001",
     "test": "jest"

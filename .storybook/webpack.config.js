@@ -4,8 +4,9 @@ module.exports = async ({ config: defaultConfig }) => {
     exclude: /node_modules/,
     loader: require.resolve('babel-loader'),
     options: {
-      plugins: ['require-context-hook'],
+      plugins: ['macros'],
       presets: [
+        '@zeit/next-typescript/babel',
         [
           'next/babel',
           {
