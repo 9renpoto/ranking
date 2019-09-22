@@ -31,7 +31,6 @@
     "@types/storybook__react": "4.0.2",
     "@typescript-eslint/parser": "2.3.0",
     "@zeit/next-typescript": "1.1.1",
-    "awesome-typescript-loader": "5.2.1",
     "babel-jest": "24.9.0",
     "babel-loader": "8.0.6",
     "babel-plugin-require-context-hook": "1.0.0",
@@ -58,6 +57,7 @@
     "stylelint-config-styled-components": "0.1.1",
     "stylelint-processor-styled-components": "1.8.0",
     "ts-jest": "24.1.0",
+    "ts-loader": "6.1.2",
     "typescript": "3.6.3",
     "typescript-styled-plugin": "0.14.0"
   },

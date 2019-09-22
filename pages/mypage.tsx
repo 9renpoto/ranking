@@ -1,25 +1,24 @@
 import { image, random } from 'faker'
-import * as React from 'react'
-import { Avatar } from '../components/a/Avatar'
-import { Box, Inner as BoxInner } from '../components/a/Box'
-import { Hero } from '../components/a/Hero'
-import { Main } from '../components/a/Main'
 import {
+  Avatar,
+  Box,
+  Inner as BoxInner,
+  Hero,
+  Main,
   Range,
   RangeBar,
   RangeBarThumb,
   RangeInner,
   RangeValuation,
-  RangeValue
-} from '../components/a/Range'
-import { Bar as RankBar } from '../components/a/Ranking'
-import { ResultComment } from '../components/a/ResultComment'
-import { ResultRank, ResultRankInner } from '../components/a/ResultRanking'
-import { Name } from '../components/a/User'
-import { Wrapper } from '../components/a/Wrapper'
-import { Inner as HeroInner } from '../components/m/Hero'
-import { Navbar } from '../components/m/Navbar'
-import { Rank } from '../components/m/Ranking'
+  RangeValue,
+  Bar as RankBar,
+  ResultComment,
+  ResultRank,
+  ResultRankInner,
+  Name,
+  Wrapper
+} from '@rate/atoms'
+import { HeroContent as HeroInner, Navbar, Rank } from '@rate/molecules'
 
 type Props = {
   url: {

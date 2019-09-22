@@ -2,6 +2,7 @@ import { faEdit, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { storiesOf } from '@storybook/react'
 import { Wrapper, Inner } from '.'
+import { Nav, Main } from '@rate/atoms'
 
 storiesOf('templates', module)
   .add('Default', () => (

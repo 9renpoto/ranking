@@ -1,19 +1,24 @@
-const { CheckerPlugin } = require('awesome-typescript-loader')
+module.exports = async ({ config: defaultConfig }) => {
+  defaultConfig.module.rules.push({
+    test: /\.(ts|tsx)$/,
+    exclude: /node_modules/,
+    loader: require.resolve('babel-loader'),
+    options: {
+      plugins: ['require-context-hook'],
+      presets: [
+        [
+          'next/babel',
+          {
+            'preset-env': {
+              modules: 'commonjs'
+            }
+          }
+        ]
+      ]
+    }
+  })
 
-module.exports = {
-  module: {
-    rules: [
-      {
-        test: /\.tsx?$/,
-        loader: 'awesome-typescript-loader'
-      }
-    ]
-  },
-  node: {
-    fs: 'empty'
-  },
-  plugins: [new CheckerPlugin()],
-  resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.jsx']
-  }
+  defaultConfig.resolve.extensions.push('.ts', '.tsx', '.jsx')
+
+  return defaultConfig
 }

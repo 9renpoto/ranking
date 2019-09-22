@@ -1,7 +1,12 @@
-import { faEdit, faUser } from '@fortawesome/free-solid-svg-icons'
+import {
+  faEdit,
+  faUser,
+  faEnvelope,
+  faUnlock
+} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { storiesOf } from '@storybook/react'
-import { image, random } from 'faker'
+import { image, random, internet } from 'faker'
 import {
   Wrapper,
   Nav,
@@ -21,7 +26,7 @@ import {
   RangeBarThumb,
   Input
 } from '@rate/atoms'
-import { Admire, Inner, Fixed } from '@rate/molecules'
+import { Admire, AdmireContent as Inner, Fixed } from '@rate/molecules'
 import { DefaultHero, DefaultResult } from '@rate/molecules/src/story'
 import { DefaultRankBar } from '@rate/atoms/src/story'
 import {
