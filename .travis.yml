@@ -3,18 +3,17 @@ language: node_js
 node_js:
 - stable
 - lts/*
+- 8
 matrix:
   fast_finish: true
   allow_failures:
   - node_js: stable
 cache: yarn
-env:
-  matrix:
-  - CMD=test
-  - CMD=lint
-  - CMD=build
-script: npm run $CMD
+script:
+- npm run build
+- npm run lint
+- npm test
 after_success:
-- '[ "CMD" == master ] && npm run coverage'
+- npm run coverage
 notifications:
   email: false

@@ -1,14 +1,18 @@
-const { configure, addDecorator } = require("@storybook/react");
-const { withKnobs } = require("@storybook/addon-knobs");
+const { configure } = require('@storybook/react')
+const { addParameters } = require('@storybook/react')
+const requireContext = require('require-context.macro')
 
-require("../components/globalStyles");
+addParameters({
+  viewport: {
+    defaultViewport: ((r = Math.random()) => {
+      return r <= 0.3 ? 'iphonex' : r <= 0.6 ? 'ipad' : ''
+    })()
+  }
+})
 
-const req = require.context("../components", true, /.stories.tsx?$/);
+function loadStories() {
+  const req = requireContext('../', true, /story.tsx$/)
+  req.keys().forEach(filename => req(filename))
+}
 
-const loadStories = () =>
-  req.keys().forEach(filename => {
-    req(filename);
-  });
-
-addDecorator(withKnobs);
-configure(loadStories, module);
+configure(loadStories, module)

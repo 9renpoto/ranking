@@ -2,26 +2,17 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "alwaysStrict": true,
-    "emitDecoratorMetadata": true,
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "importHelpers": true,
-    "jsx": "react",
-    "lib": [
-      "es6",
-      "dom",
-      "esnext"
-    ],
-    "types": ["react", "jest"],
+    "jsx": "preserve",
+    "lib": ["dom", "es2017"],
     "module": "esnext",
     "moduleResolution": "node",
+    "noEmit": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "./lib",
     "plugins": [
       {
         "name": "typescript-styled-plugin",
@@ -30,22 +21,15 @@
         }
       }
     ],
-    "preserveConstEnums": true,
-    "preserveSymlinks": true,
     "removeComments": true,
-    "sourceMap": true,
     "strict": true,
+    "strictBindCallApply": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,
-    "strictPropertyInitialization": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "target": "esnext"
-  },
-  "include": [
-    "app"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    "**/__mocks__"
-  ]
+  }
 }
