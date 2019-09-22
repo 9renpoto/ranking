@@ -1,0 +1,22 @@
+{
+  "name": "@rate/pages",
+  "version": "0.0.1",
+  "esnext": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@rate/atoms": "0.0.1",
+    "@rate/templates": "0.0.1",
+    "@rate/molecules": "0.0.1"
+  },
+  "main": "cjs/index.js",
+  "private": true,
+  "scripts": {
+    "build": "tsc --outDir lib && tsc -m commonjs --outDir cjs",
+    "clean": "rimraf lib cjs",
+    "dev": "tsc -p . -w",
+    "prebuild": "yarn clean"
+  },
+  "typings": "lib/index.d.ts"
+}

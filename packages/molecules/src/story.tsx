@@ -23,7 +23,7 @@ import {
 import { Admire, AdmireContent, Fixed, Rank, HeroContent } from './'
 import { DefaultRankBar } from '@rate/atoms/src/story'
 
-const DefaultAdmire = () => (
+export const DefaultAdmire = () => (
   <Admire>
     <AdmireContent>
       <Avatar width={2.5} height={2.5}>
@@ -46,7 +46,7 @@ const DefaultAdmire = () => (
   </Admire>
 )
 
-const DefaultHero = () => (
+export const DefaultHero = () => (
   <Hero>
     <HeroContent>
       <Avatar isCircle width={4.688} height={4.688}>
@@ -59,7 +59,7 @@ const DefaultHero = () => (
   </Hero>
 )
 
-const DefaultResult = () => (
+export const DefaultResult = () => (
   <>
     <ResultRank>
       <ResultRankInner>
