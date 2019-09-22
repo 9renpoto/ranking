@@ -1,6 +1,81 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Atoms.Button default 1`] = `
+exports[`Storyshots atoms Avatar 1`] = `
+.c0 {
+  overflow: hidden;
+  border-radius: 0.188rem;
+  border: 0.063rem solid #ccc;
+  width: 20rem;
+  height: 20rem;
+}
+
+<div
+  className="c0"
+  height={20}
+  width={20}
+/>
+`;
+
+exports[`Storyshots atoms Box 1`] = `
+.c0 {
+  margin: 0 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* + .c0 {
+  margin: 0.625rem 2rem 0;
+}
+
+.c0 > * {
+  width: 50%;
+}
+
+.c0 > * + * {
+  margin-left: 0.625rem;
+}
+
+.c1 {
+  padding: 1.875rem 1.25rem;
+  background-color: #fff;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12);
+}
+
+@media (max-width:48rem) {
+  .c0 {
+    display: block;
+  }
+
+  .c0 > * {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .c0 > * + * {
+    margin-left: 0;
+    margin-top: .625rem;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    port eyeballs Rufiyaa
+  </div>
+  <div
+    className="c1"
+  >
+    sensor users Administrator
+  </div>
+</div>
+`;
+
+exports[`Storyshots atoms Button 1`] = `
 .c0 {
   border-radius: 1.25rem;
   padding: 0 3rem;
@@ -23,31 +98,36 @@ exports[`Storyshots Atoms.Button default 1`] = `
 <button
   className="c0"
 >
-  Button
+  Metical
 </button>
 `;
 
-exports[`Storyshots Atoms.Input default 1`] = `
+exports[`Storyshots atoms Hero 1`] = `
 .c0 {
   width: 100%;
-  border: none;
-  box-sizing: border-box;
-  outline: none;
-  padding: 0.5rem;
-  font-size: 1rem;
+  min-height: 7.5rem;
+  margin-bottom: 3.125rem;
+  position: relative;
+  background: linear-gradient( 90deg, rgba(235,46,62,0.6), rgba(249,180,45,0.6) );
+  background-color: #eb2e3e;
 }
 
-.c0::-webkit-input-placeholder {
-  color: #ccc;
-}
-
-<input
+<div
   className="c0"
-  placeholder="hello"
-/>
+>
+  Cotton harness
+</div>
 `;
 
-exports[`Storyshots Atoms.RankBar default 1`] = `
+exports[`Storyshots atoms RankBar 1`] = `
+.c1 {
+  overflow: hidden;
+  border-radius: 0.188rem;
+  border: 0.063rem solid #ccc;
+  width: 0.938rem;
+  height: 0.938rem;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -62,14 +142,6 @@ exports[`Storyshots Atoms.RankBar default 1`] = `
   padding: 0.313rem;
 }
 
-.c1 {
-  overflow: hidden;
-  border-radius: 0.188rem;
-  border: 0.063rem solid #ccc;
-  width: 0.938rem;
-  height: 0.938rem;
-}
-
 .c2 {
   margin-left: 0.5rem;
   padding-top: 0rem;
@@ -80,7 +152,7 @@ exports[`Storyshots Atoms.RankBar default 1`] = `
   className="c0"
   style={
     Object {
-      "width": "70%",
+      "width": "63%",
     }
   }
 >
@@ -90,30 +162,25 @@ exports[`Storyshots Atoms.RankBar default 1`] = `
     width={0.938}
   >
     <img
-      alt="port"
+      alt="card"
       src="http://lorempixel.com/300/300"
     />
   </div>
   <p
     className="c2"
   >
-    eyeballs
+    communities
   </p>
 </div>
 `;
 
-exports[`Storyshots Molecules.Admire default 1`] = `
+exports[`Storyshots molecules Admire 1`] = `
 .c5 {
   overflow: hidden;
   border-radius: 0.188rem;
   border: 0.063rem solid #ccc;
   width: 2.5rem;
   height: 2.5rem;
-}
-
-.c6 {
-  margin-left: 0.5rem;
-  padding-top: 0rem;
 }
 
 .c0 {
@@ -239,6 +306,11 @@ exports[`Storyshots Molecules.Admire default 1`] = `
   color: #555;
 }
 
+.c6 {
+  margin-left: 0.5rem;
+  padding-top: 0rem;
+}
+
 .c3 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -294,14 +366,14 @@ exports[`Storyshots Molecules.Admire default 1`] = `
           width={2.5}
         >
           <img
-            alt="Rufiyaa"
+            alt="Handcrafted Cotton Soap"
             src="http://lorempixel.com/300/300"
           />
         </div>
         <p
           className="c6"
         >
-          monitor
+          alarm
         </p>
       </div>
       <div
@@ -314,10 +386,10 @@ exports[`Storyshots Molecules.Admire default 1`] = `
             className="c9"
           >
             <p>
-              Berkshire
+              Table
             </p>
             <p>
-              mobile
+              Computer
             </p>
           </div>
           <div
@@ -354,14 +426,14 @@ exports[`Storyshots Molecules.Admire default 1`] = `
           width={2.5}
         >
           <img
-            alt="infomediaries"
+            alt="Poland"
             src="http://lorempixel.com/300/300"
           />
         </div>
         <p
           className="c6"
         >
-          Missouri
+          Israel
         </p>
       </div>
       <div
@@ -374,10 +446,10 @@ exports[`Storyshots Molecules.Admire default 1`] = `
             className="c9"
           >
             <p>
-              Cotton
+              withdrawal
             </p>
             <p>
-              harness
+              indexing
             </p>
           </div>
           <div
@@ -414,14 +486,14 @@ exports[`Storyshots Molecules.Admire default 1`] = `
           width={2.5}
         >
           <img
-            alt="Credit Card Account"
+            alt="monitor"
             src="http://lorempixel.com/300/300"
           />
         </div>
         <p
           className="c6"
         >
-          help-desk
+          Money Market Account
         </p>
       </div>
       <div
@@ -434,10 +506,10 @@ exports[`Storyshots Molecules.Admire default 1`] = `
             className="c9"
           >
             <p>
-              Balanced
+              system
             </p>
             <p>
-              Yen
+              monitoring
             </p>
           </div>
           <div
@@ -474,14 +546,14 @@ exports[`Storyshots Molecules.Admire default 1`] = `
           width={2.5}
         >
           <img
-            alt="Credit Card Account"
+            alt="dynamic"
             src="http://lorempixel.com/300/300"
           />
         </div>
         <p
           className="c6"
         >
-          deposit
+          Enterprise-wide
         </p>
       </div>
       <div
@@ -494,10 +566,10 @@ exports[`Storyshots Molecules.Admire default 1`] = `
             className="c9"
           >
             <p>
-              initiatives
+              zero defect
             </p>
             <p>
-              Awesome
+              invoice
             </p>
           </div>
           <div
@@ -526,7 +598,7 @@ exports[`Storyshots Molecules.Admire default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Molecules.FixedButton default 1`] = `
+exports[`Storyshots molecules FixedButton 1`] = `
 .c1 {
   border-radius: 1.25rem;
   padding: 0 3rem;
@@ -567,12 +639,12 @@ exports[`Storyshots Molecules.FixedButton default 1`] = `
   <button
     className="c1"
   >
-    firewall
+    Licensed
   </button>
 </div>
 `;
 
-exports[`Storyshots Molecules.Hero default 1`] = `
+exports[`Storyshots molecules Hero 1`] = `
 .c2 {
   overflow: hidden;
   border-radius: 0.188rem;
@@ -582,12 +654,6 @@ exports[`Storyshots Molecules.Hero default 1`] = `
   border-radius: 50%;
 }
 
-.c3 {
-  margin-left: 0.5rem;
-  padding-top: 1rem;
-  color: #fff;
-}
-
 .c0 {
   width: 100%;
   min-height: 7.5rem;
@@ -595,6 +661,12 @@ exports[`Storyshots Molecules.Hero default 1`] = `
   position: relative;
   background: linear-gradient( 90deg, rgba(235,46,62,0.6), rgba(249,180,45,0.6) );
   background-color: #eb2e3e;
+}
+
+.c3 {
+  margin-left: 0.5rem;
+  padding-top: 1rem;
+  color: #fff;
 }
 
 .c1 {
@@ -619,20 +691,20 @@ exports[`Storyshots Molecules.Hero default 1`] = `
       width={4.688}
     >
       <img
-        alt="e-commerce"
+        alt="web-readiness"
         src="http://lorempixel.com/300/300"
       />
     </div>
     <p
       className="c3"
     >
-      solution
+      initiatives
     </p>
   </div>
 </div>
 `;
 
-exports[`Storyshots Molecules.Range default 1`] = `
+exports[`Storyshots molecules Range 1`] = `
 .c0 {
   position: relative;
   display: -webkit-box;
@@ -711,10 +783,10 @@ exports[`Storyshots Molecules.Range default 1`] = `
       className="c2"
     >
       <p>
-        Buckinghamshire
+        Avon
       </p>
       <p>
-        pixel
+        markets
       </p>
     </div>
     <div
@@ -743,7 +815,7 @@ exports[`Storyshots Molecules.Range default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Molecules.Range input 1`] = `
+exports[`Storyshots molecules Range/input 1`] = `
 .c0 {
   position: relative;
   display: -webkit-box;
@@ -854,10 +926,10 @@ exports[`Storyshots Molecules.Range input 1`] = `
       className="c2"
     >
       <p>
-        synergistic
+        success
       </p>
       <p>
-        e-services
+        deliverables
       </p>
     </div>
     <div
@@ -883,8 +955,147 @@ exports[`Storyshots Molecules.Range input 1`] = `
 </div>
 `;
 
-exports[`Storyshots Molecules.Rank default 1`] = `
-.c2 {
+exports[`Storyshots molecules Rank 1`] = `
+.c5 {
+  overflow: hidden;
+  border-radius: 0.188rem;
+  border: 0.063rem solid #ccc;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.c7 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c8 {
+  width: 100%;
+}
+
+.c12 {
+  position: absolute;
+  top: 85%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 3;
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.c10 {
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.c11 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #eb2e3e;
+  height: 0.063rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.c11::-webkit-slider-thumb {
+  background-color: #fff;
+  border: 0.063rem solid #eb2e3e;
+  width: 1.563rem;
+  height: 1.563rem;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.c11::-ms-tooltip {
+  display: none;
+}
+
+.c11::-ms-tooltip {
+  display: none;
+}
+
+.c11::-moz-focus-outer {
+  border: 0;
+}
+
+.c11::-moz-range-track {
+  height: 0;
+}
+
+.c11::-moz-range-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  width: 1.563rem;
+  height: 1.563rem;
+  border: 0.063rem solid #eb2e3e;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #555;
+}
+
+.c6 {
+  margin-left: 0.5rem;
+  padding-top: 0rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.25rem;
+}
+
+.c3 > * {
+  width: 50%;
+}
+
+.c3 + .c2 {
+  border-top: 1px solid #ccc;
+}
+
+.c3 img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.625rem;
+}
+
+.c3 p {
+  font-size: 0.875rem;
+}
+
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -893,23 +1104,6 @@ exports[`Storyshots Molecules.Rank default 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #3ebdaa;
-  border-radius: 0.188rem;
-  padding: 0.313rem;
-}
-
-.c3 {
-  overflow: hidden;
-  border-radius: 0.188rem;
-  border: 0.063rem solid #ccc;
-  width: 0.938rem;
-  height: 0.938rem;
-}
-
-.c4 {
-  margin-left: 0.5rem;
-  padding-top: 0rem;
-  color: #fff;
 }
 
 .c1 {
@@ -936,36 +1130,72 @@ exports[`Storyshots Molecules.Rank default 1`] = `
   className="c0 c1"
 >
   <span>
-    65472
+    89338
   </span>
   <div
-    className="c2"
-    style={
-      Object {
-        "width": "36%",
-      }
-    }
+    className="c2 c3"
   >
     <div
-      className="c3"
-      height={0.938}
-      width={0.938}
-    >
-      <img
-        alt="architect"
-        src="http://lorempixel.com/300/300"
-      />
-    </div>
-    <p
       className="c4"
     >
-      Focused
-    </p>
+      <div
+        className="c5"
+        height={2.5}
+        width={2.5}
+      >
+        <img
+          alt="Palladium"
+          src="http://lorempixel.com/300/300"
+        />
+      </div>
+      <p
+        className="c6"
+      >
+        Borders
+      </p>
+    </div>
+    <div
+      className="c7"
+    >
+      <div
+        className="c8"
+      >
+        <div
+          className="c9"
+        >
+          <p>
+            Plaza
+          </p>
+          <p>
+            Colorado
+          </p>
+        </div>
+        <div
+          className="c10"
+        >
+          <input
+            className="c11"
+            step="25"
+            type="range"
+          />
+          <span
+            className="c12"
+            style={
+              Object {
+                "left": "50%",
+              }
+            }
+          >
+            3
+          </span>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
 
-exports[`Storyshots Molecules.Result default 1`] = `
+exports[`Storyshots molecules Result 1`] = `
 Array [
   .c0 {
   margin: 0 auto;
@@ -1025,47 +1255,18 @@ Array [
 <p
     className="c0"
   >
-    Orchestrator
+    extranet
   </p>,
 ]
 `;
 
-exports[`Storyshots Pages.Admire default 1`] = `
-.c18 {
-  border-radius: 1.25rem;
-  padding: 0 3rem;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  text-align: center;
-  color: #fff;
-  font-size: 1rem;
-  background: linear-gradient(90deg,#3ebdaa,#3fa2fc);
-  background-color: #3ebdaa;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  cursor: pointer;
-}
-
-.c18:hover {
-  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12), 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
-}
-
+exports[`Storyshots pages Admire 1`] = `
 .c8 {
   overflow: hidden;
   border-radius: 0.188rem;
   border: 0.063rem solid #ccc;
   width: 2.5rem;
   height: 2.5rem;
-}
-
-.c9 {
-  margin-left: 0.5rem;
-  padding-top: 0rem;
-}
-
-.c16 {
-  margin-left: 0.5rem;
-  padding-top: rem;
 }
 
 .c3 {
@@ -1101,6 +1302,48 @@ exports[`Storyshots Pages.Admire default 1`] = `
   width: 100%;
   overflow: scroll;
   box-sizing: border-box;
+}
+
+.c18 {
+  border-radius: 1.25rem;
+  padding: 0 3rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  background: linear-gradient(90deg,#3ebdaa,#3fa2fc);
+  background-color: #3ebdaa;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.c18:hover {
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12), 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
+}
+
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  text-align: center;
+  background-color: #000;
+  width: 40px;
+}
+
+.c1 li a {
+  color: #fff;
+  display: block;
+  padding: 0.7rem;
+}
+
+.c1 li a:hover,
+.c1 li a.active {
+  background-color: #3ebdaa;
 }
 
 .c10 {
@@ -1203,6 +1446,26 @@ exports[`Storyshots Pages.Admire default 1`] = `
   color: #555;
 }
 
+.c9 {
+  margin-left: 0.5rem;
+  padding-top: 0rem;
+}
+
+.c16 {
+  margin-left: 0.5rem;
+  padding-top: rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f9f9f9;
+  min-height: 100%;
+  height: 100%;
+}
+
 .c6 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1253,39 +1516,6 @@ exports[`Storyshots Pages.Admire default 1`] = `
   border-top: 1px solid #ccc;
   background-color: #fff;
   z-index: 3;
-}
-
-.c2 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.c1 {
-  text-align: center;
-  background-color: #000;
-  width: 40px;
-}
-
-.c1 li a {
-  color: #fff;
-  display: block;
-  padding: 0.7rem;
-}
-
-.c1 li a:hover,
-.c1 li a.active {
-  background-color: #3ebdaa;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #f9f9f9;
-  min-height: 100%;
-  height: 100%;
 }
 
 @media (max-width:48rem) {
@@ -1406,14 +1636,14 @@ exports[`Storyshots Pages.Admire default 1`] = `
               width={2.5}
             >
               <img
-                alt="bypass"
+                alt="Berkshire"
                 src="http://lorempixel.com/300/300"
               />
             </div>
             <p
               className="c9"
             >
-              index
+              Vatu
             </p>
           </div>
           <div
@@ -1425,192 +1655,12 @@ exports[`Storyshots Pages.Admire default 1`] = `
               <div
                 className="c12"
               >
-                <p>
-                  Grocery
-                </p>
-                <p>
-                  Shoes
-                </p>
-              </div>
-              <div
-                className="c13"
-              >
-                <input
-                  className="c14"
-                  step="25"
-                  type="range"
-                />
-                <span
-                  className="c15"
-                  style={
-                    Object {
-                      "left": "50%",
-                    }
-                  }
-                >
-                  3
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="c5 c6"
-        >
-          <div
-            className="c7"
-          >
-            <div
-              className="c8"
-              height={2.5}
-              width={2.5}
-            >
-              <img
-                alt="Table"
-                src="http://lorempixel.com/300/300"
-              />
-            </div>
-            <p
-              className="c16"
-            >
-              Incredible
-            </p>
-          </div>
-          <div
-            className="c10"
-          >
-            <div
-              className="c11"
-            >
-              <div
-                className="c12"
-              >
-                <p>
-                  District
-                </p>
-                <p>
-                  reboot
-                </p>
-              </div>
-              <div
-                className="c13"
-              >
-                <input
-                  className="c14"
-                  step="25"
-                  type="range"
-                />
-                <span
-                  className="c15"
-                  style={
-                    Object {
-                      "left": "50%",
-                    }
-                  }
-                >
-                  3
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="c5 c6"
-        >
-          <div
-            className="c7"
-          >
-            <div
-              className="c8"
-              height={2.5}
-              width={2.5}
-            >
-              <img
-                alt="Palladium"
-                src="http://lorempixel.com/300/300"
-              />
-            </div>
-            <p
-              className="c16"
-            >
-              Borders
-            </p>
-          </div>
-          <div
-            className="c10"
-          >
-            <div
-              className="c11"
-            >
-              <div
-                className="c12"
-              >
-                <p>
-                  Plaza
-                </p>
-                <p>
-                  Colorado
-                </p>
-              </div>
-              <div
-                className="c13"
-              >
-                <input
-                  className="c14"
-                  step="25"
-                  type="range"
-                />
-                <span
-                  className="c15"
-                  style={
-                    Object {
-                      "left": "50%",
-                    }
-                  }
-                >
-                  3
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="c5 c6"
-        >
-          <div
-            className="c7"
-          >
-            <div
-              className="c8"
-              height={2.5}
-              width={2.5}
-            >
-              <img
-                alt="extranet"
-                src="http://lorempixel.com/300/300"
-              />
-            </div>
-            <p
-              className="c16"
-            >
-              Berkshire
-            </p>
-          </div>
-          <div
-            className="c10"
-          >
-            <div
-              className="c11"
-            >
-              <div
-                className="c12"
-              >
-                <p>
-                  Vatu
-                </p>
                 <p>
                   Future
                 </p>
+                <p>
+                  Sleek
+                </p>
               </div>
               <div
                 className="c13"
@@ -1646,14 +1696,14 @@ exports[`Storyshots Pages.Admire default 1`] = `
               width={2.5}
             >
               <img
-                alt="Sleek"
+                alt="Cambridgeshire"
                 src="http://lorempixel.com/300/300"
               />
             </div>
             <p
               className="c16"
             >
-              Cambridgeshire
+              Open-architected
             </p>
           </div>
           <div
@@ -1665,12 +1715,12 @@ exports[`Storyshots Pages.Admire default 1`] = `
               <div
                 className="c12"
               >
-                <p>
-                  Open-architected
-                </p>
                 <p>
                   e-markets
                 </p>
+                <p>
+                  hack
+                </p>
               </div>
               <div
                 className="c13"
@@ -1706,14 +1756,14 @@ exports[`Storyshots Pages.Admire default 1`] = `
               width={2.5}
             >
               <img
-                alt="hack"
+                alt="Stream"
                 src="http://lorempixel.com/300/300"
               />
             </div>
             <p
               className="c16"
             >
-              Stream
+              multi-byte
             </p>
           </div>
           <div
@@ -1726,10 +1776,190 @@ exports[`Storyshots Pages.Admire default 1`] = `
                 className="c12"
               >
                 <p>
-                  multi-byte
+                  intermediate
                 </p>
                 <p>
-                  intermediate
+                  action-items
+                </p>
+              </div>
+              <div
+                className="c13"
+              >
+                <input
+                  className="c14"
+                  step="25"
+                  type="range"
+                />
+                <span
+                  className="c15"
+                  style={
+                    Object {
+                      "left": "50%",
+                    }
+                  }
+                >
+                  3
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="c5 c6"
+        >
+          <div
+            className="c7"
+          >
+            <div
+              className="c8"
+              height={2.5}
+              width={2.5}
+            >
+              <img
+                alt="Home"
+                src="http://lorempixel.com/300/300"
+              />
+            </div>
+            <p
+              className="c16"
+            >
+              killer
+            </p>
+          </div>
+          <div
+            className="c10"
+          >
+            <div
+              className="c11"
+            >
+              <div
+                className="c12"
+              >
+                <p>
+                  Rwanda Franc
+                </p>
+                <p>
+                  SCSI
+                </p>
+              </div>
+              <div
+                className="c13"
+              >
+                <input
+                  className="c14"
+                  step="25"
+                  type="range"
+                />
+                <span
+                  className="c15"
+                  style={
+                    Object {
+                      "left": "50%",
+                    }
+                  }
+                >
+                  3
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="c5 c6"
+        >
+          <div
+            className="c7"
+          >
+            <div
+              className="c8"
+              height={2.5}
+              width={2.5}
+            >
+              <img
+                alt="impactful"
+                src="http://lorempixel.com/300/300"
+              />
+            </div>
+            <p
+              className="c16"
+            >
+              Radial
+            </p>
+          </div>
+          <div
+            className="c10"
+          >
+            <div
+              className="c11"
+            >
+              <div
+                className="c12"
+              >
+                <p>
+                  maximized
+                </p>
+                <p>
+                  generating
+                </p>
+              </div>
+              <div
+                className="c13"
+              >
+                <input
+                  className="c14"
+                  step="25"
+                  type="range"
+                />
+                <span
+                  className="c15"
+                  style={
+                    Object {
+                      "left": "50%",
+                    }
+                  }
+                >
+                  3
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="c5 c6"
+        >
+          <div
+            className="c7"
+          >
+            <div
+              className="c8"
+              height={2.5}
+              width={2.5}
+            >
+              <img
+                alt="national"
+                src="http://lorempixel.com/300/300"
+              />
+            </div>
+            <p
+              className="c16"
+            >
+              Sudan
+            </p>
+          </div>
+          <div
+            className="c10"
+          >
+            <div
+              className="c11"
+            >
+              <div
+                className="c12"
+              >
+                <p>
+                  Car
+                </p>
+                <p>
+                  process improvement
                 </p>
               </div>
               <div
@@ -1761,7 +1991,7 @@ exports[`Storyshots Pages.Admire default 1`] = `
         <button
           className="c18"
         >
-          action-items
+          Future
         </button>
       </div>
     </div>
@@ -1769,29 +1999,7 @@ exports[`Storyshots Pages.Admire default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Pages.Mypage default 1`] = `
-.c21 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #3ebdaa;
-  border-radius: 0.188rem;
-  padding: 0.313rem;
-}
-
-.c22 {
-  overflow: hidden;
-  border-radius: 0.188rem;
-  border: 0.063rem solid #ccc;
-  width: 0.938rem;
-  height: 0.938rem;
-}
-
+exports[`Storyshots pages Mypage 1`] = `
 .c5 {
   overflow: hidden;
   border-radius: 0.188rem;
@@ -1801,16 +2009,12 @@ exports[`Storyshots Pages.Mypage default 1`] = `
   border-radius: 50%;
 }
 
-.c23 {
-  margin-left: 0.5rem;
-  padding-top: 0rem;
-  color: #fff;
-}
-
-.c6 {
-  margin-left: 0.5rem;
-  padding-top: 1rem;
-  color: #fff;
+.c20 {
+  overflow: hidden;
+  border-radius: 0.188rem;
+  border: 0.063rem solid #ccc;
+  width: 0.938rem;
+  height: 0.938rem;
 }
 
 .c7 {
@@ -1845,6 +2049,38 @@ exports[`Storyshots Pages.Mypage default 1`] = `
   padding: 1.875rem 1.25rem;
   background-color: #fff;
   box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12);
+}
+
+.c3 {
+  width: 100%;
+  min-height: 7.5rem;
+  margin-bottom: 3.125rem;
+  position: relative;
+  background: linear-gradient( 90deg, rgba(235,46,62,0.6), rgba(249,180,45,0.6) );
+  background-color: #eb2e3e;
+}
+
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  text-align: center;
+  background-color: #000;
+  width: 40px;
+}
+
+.c1 li a {
+  color: #fff;
+  display: block;
+  padding: 0.7rem;
+}
+
+.c1 li a:hover,
+.c1 li a.active {
+  background-color: #3ebdaa;
 }
 
 .c9 {
@@ -1915,26 +2151,7 @@ exports[`Storyshots Pages.Mypage default 1`] = `
   color: #555;
 }
 
-.c3 {
-  width: 100%;
-  min-height: 7.5rem;
-  margin-bottom: 3.125rem;
-  position: relative;
-  background: linear-gradient( 90deg, rgba(235,46,62,0.6), rgba(249,180,45,0.6) );
-  background-color: #eb2e3e;
-}
-
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  bottom: -30%;
-  left: 2rem;
-}
-
-.c20 {
+.c19 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1943,15 +2160,9 @@ exports[`Storyshots Pages.Mypage default 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.c20 span {
-  font-weight: bold;
-  margin-right: 1.875rem;
-}
-
-.c20 + .c19 {
-  margin-top: 1rem;
+  background-color: #3ebdaa;
+  border-radius: 0.188rem;
+  padding: 0.313rem;
 }
 
 .c17 {
@@ -1997,27 +2208,16 @@ exports[`Storyshots Pages.Mypage default 1`] = `
   margin-bottom: 0.313rem;
 }
 
-.c2 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.c1 {
-  text-align: center;
-  background-color: #000;
-  width: 40px;
-}
-
-.c1 li a {
+.c6 {
+  margin-left: 0.5rem;
+  padding-top: 1rem;
   color: #fff;
-  display: block;
-  padding: 0.7rem;
 }
 
-.c1 li a:hover,
-.c1 li a.active {
-  background-color: #3ebdaa;
+.c21 {
+  margin-left: 0.5rem;
+  padding-top: 0rem;
+  color: #fff;
 }
 
 .c0 {
@@ -2028,6 +2228,16 @@ exports[`Storyshots Pages.Mypage default 1`] = `
   background-color: #f9f9f9;
   min-height: 100%;
   height: 100%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: -30%;
+  left: 2rem;
 }
 
 @media (max-width:48rem) {
@@ -2142,14 +2352,14 @@ exports[`Storyshots Pages.Mypage default 1`] = `
           width={4.688}
         >
           <img
-            alt="AGP"
+            alt="Mouse"
             src="http://lorempixel.com/300/300"
           />
         </div>
         <p
           className="c6"
         >
-          Berkshire
+          Borders
         </p>
       </div>
     </div>
@@ -2218,7 +2428,7 @@ exports[`Storyshots Pages.Mypage default 1`] = `
         <p
           className="c17"
         >
-          Pound Sterling
+          blue
         </p>
       </div>
     </div>
@@ -2229,66 +2439,52 @@ exports[`Storyshots Pages.Mypage default 1`] = `
         className="c8"
       >
         <div
-          className="c19 c20"
-        >
-          <span>
-            58593
-          </span>
-          <div
-            className="c21"
-            style={
-              Object {
-                "width": "84%",
-              }
+          className="c19"
+          style={
+            Object {
+              "width": "52%",
             }
+          }
+        >
+          <div
+            className="c20"
+            height={0.938}
+            width={0.938}
           >
-            <div
-              className="c22"
-              height={0.938}
-              width={0.938}
-            >
-              <img
-                alt="Money Market Account"
-                src="http://lorempixel.com/300/300"
-              />
-            </div>
-            <p
-              className="c23"
-            >
-              Tugrik
-            </p>
+            <img
+              alt="GB"
+              src="http://lorempixel.com/300/300"
+            />
           </div>
+          <p
+            className="c21"
+          >
+            Personal Loan Account
+          </p>
         </div>
         <div
-          className="c19 c20"
-        >
-          <span>
-            84234
-          </span>
-          <div
-            className="c21"
-            style={
-              Object {
-                "width": "17%",
-              }
+          className="c19"
+          style={
+            Object {
+              "width": "73%",
             }
+          }
+        >
+          <div
+            className="c20"
+            height={0.938}
+            width={0.938}
           >
-            <div
-              className="c22"
-              height={0.938}
-              width={0.938}
-            >
-              <img
-                alt="Incredible"
-                src="http://lorempixel.com/300/300"
-              />
-            </div>
-            <p
-              className="c23"
-            >
-              reboot
-            </p>
+            <img
+              alt="Supervisor"
+              src="http://lorempixel.com/300/300"
+            />
           </div>
+          <p
+            className="c21"
+          >
+            Pike
+          </p>
         </div>
       </div>
     </div>
@@ -2296,7 +2492,7 @@ exports[`Storyshots Pages.Mypage default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Pages.Signin default 1`] = `
+exports[`Storyshots pages Signin 1`] = `
 .c5 {
   border-radius: 1.25rem;
   padding: 0 3rem;
@@ -2409,7 +2605,7 @@ exports[`Storyshots Pages.Signin default 1`] = `
       >
         <input
           className="c4"
-          placeholder="Elliott_Hayes@gmail.com"
+          placeholder="Kaylie28@gmail.com"
           type="email"
         />
         <svg
@@ -2435,7 +2631,7 @@ exports[`Storyshots Pages.Signin default 1`] = `
       >
         <input
           className="c4"
-          placeholder="Vatu"
+          placeholder="Cheese"
           type="password"
         />
         <svg
@@ -2467,7 +2663,7 @@ exports[`Storyshots Pages.Signin default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Templates.Default default 1`] = `
+exports[`Storyshots templates Default 1`] = `
 .c2 {
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -2492,13 +2688,21 @@ exports[`Storyshots Templates.Default default 1`] = `
 }
 
 .c0 {
+  background: #3ebdaa;
+  background: linear-gradient( 90deg, rgba(62,189,170,0.6), rgba(63,162,252,0.6) );
+  height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background-color: #f9f9f9;
-  min-height: 100%;
-  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media (max-width:48rem) {
@@ -2517,12 +2721,6 @@ exports[`Storyshots Templates.Default default 1`] = `
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-  }
-}
-
-@media (max-width:48rem) {
-  .c0 {
-    display: block;
   }
 }
 
@@ -2588,7 +2786,7 @@ exports[`Storyshots Templates.Default default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Templates.Signin default 1`] = `
+exports[`Storyshots templates SignIn 1`] = `
 .c0 {
   background: #3ebdaa;
   background: linear-gradient( 90deg, rgba(62,189,170,0.6), rgba(63,162,252,0.6) );

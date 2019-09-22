@@ -67,14 +67,14 @@
   },
   "jest": {
     "transform": {
-      "^.+\\.(ts|tsx)$": "babel-jest"
+      "^.+\\.[t|j]sx?$": "babel-jest"
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(ts|tsx)$",
-    "cacheDirectory": ".cache/jest",
-    "coverageReporters": [
-      "lcov"
-    ],
     "collectCoverage": true,
+    "collectCoverageFrom": [
+      "packages/**/src/**/*.{ts,tsx}",
+      "apps/**/src/**/*.{ts,tsx}"
+    ],
     "setupFilesAfterEnv": [
       "jest-styled-components"
     ],
