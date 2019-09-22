@@ -11,7 +11,10 @@ addParameters({
 
 function loadStories() {
   const req = require.context('../', true, /story.tsx$/)
-  req.keys().forEach(filename => req(filename))
+  req.keys().forEach(filename => {
+    console.warn(filename)
+    return req(filename)
+  })
 }
 
 configure(loadStories, module)

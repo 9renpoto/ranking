@@ -1,7 +1,6 @@
 {
   "name": "@rate/templates",
   "version": "0.0.1",
-  "esnext": "lib/index.js",
   "dependencies": {
     "@rate/atoms": "0.0.1",
     "@rate/molecules": "0.0.1"
@@ -9,10 +8,10 @@
   "files": [
     "lib"
   ],
-  "main": "cjs/index.js",
+  "main": "lib/index.js",
   "private": true,
   "scripts": {
-    "build": "tsc -p . --outDir lib && tsc -p . -m commonjs --outDir cjs",
+    "build": "tsc -p . && tsc -p . -m commonjs --outDir cjs",
     "clean": "rimraf lib cjs",
     "dev": "tsc -p . -w",
     "prebuild": "yarn clean"
