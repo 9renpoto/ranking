@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@9renpoto/eslint-config-react@5.1.0":
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/@9renpoto/eslint-config-react/-/eslint-config-react-5.1.0.tgz#46202f5fc15980a1920c7cc720ff25102f2f32c7"
-  integrity sha512-0/WxbTiCNeDd/puhe6s/uc0I6LdedshF5iSVu/grpXUQXcF5XGwtVTblmXH0xeWwNf5qzaEl9+zr4P0lMeP60w==
+"@9renpoto/eslint-config-react@5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@9renpoto/eslint-config-react/-/eslint-config-react-5.2.0.tgz#f87eecac4ef1cfe3a87f1a70500a6ef4b9cc7e02"
+  integrity sha512-OBDDpkeiKvbbcMPagIxu9CDAwfJX7z5rcQcw0qxzbkiO3RBEoNP8yhEHlosGfue6qZtmwmPunaOAryVppKPqAA==
   dependencies:
     eslint-config-prettier "6.3.0"
 
