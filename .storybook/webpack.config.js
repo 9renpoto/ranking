@@ -6,7 +6,6 @@ module.exports = async ({ config: defaultConfig }) => {
     options: {
       plugins: ['macros'],
       presets: [
-        '@zeit/next-typescript/babel',
         [
           'next/babel',
           {
