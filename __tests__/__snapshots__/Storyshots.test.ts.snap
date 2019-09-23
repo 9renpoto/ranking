@@ -1,807 +1,103 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots atoms Avatar 1`] = `
-.c0 {
-  overflow: hidden;
-  border-radius: 0.188rem;
-  border: 0.063rem solid #ccc;
-  width: 20rem;
-  height: 20rem;
-}
-
-<div
-  className="c0"
+<ForwardRef(styled.div)
   height={20}
   width={20}
 />
 `;
 
 exports[`Storyshots atoms Box 1`] = `
-.c0 {
-  margin: 0 2rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-* + .c0 {
-  margin: 0.625rem 2rem 0;
-}
-
-.c0 > * {
-  width: 50%;
-}
-
-.c0 > * + * {
-  margin-left: 0.625rem;
-}
-
-.c1 {
-  padding: 1.875rem 1.25rem;
-  background-color: #fff;
-  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12);
-}
-
-@media (max-width:48rem) {
-  .c0 {
-    display: block;
-  }
-
-  .c0 > * {
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  .c0 > * + * {
-    margin-left: 0;
-    margin-top: .625rem;
-  }
-}
-
-<div
-  className="c0"
->
-  <div
-    className="c1"
-  >
+<ForwardRef(styled.div)>
+  <ForwardRef(styled.div)>
     port eyeballs Rufiyaa
-  </div>
-  <div
-    className="c1"
-  >
+  </ForwardRef(styled.div)>
+  <ForwardRef(styled.div)>
     sensor users Administrator
-  </div>
-</div>
+  </ForwardRef(styled.div)>
+</ForwardRef(styled.div)>
 `;
 
 exports[`Storyshots atoms Button 1`] = `
-.c0 {
-  border-radius: 1.25rem;
-  padding: 0 3rem;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  text-align: center;
-  color: #fff;
-  font-size: 1rem;
-  background: linear-gradient(90deg,#3ebdaa,#3fa2fc);
-  background-color: #3ebdaa;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  cursor: pointer;
-}
-
-.c0:hover {
-  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12), 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
-}
-
-<button
-  className="c0"
->
+<ForwardRef(styled.button)>
   Metical
-</button>
+</ForwardRef(styled.button)>
 `;
 
 exports[`Storyshots atoms Hero 1`] = `
-.c0 {
-  width: 100%;
-  min-height: 7.5rem;
-  margin-bottom: 3.125rem;
-  position: relative;
-  background: linear-gradient( 90deg, rgba(235,46,62,0.6), rgba(249,180,45,0.6) );
-  background-color: #eb2e3e;
-}
-
-<div
-  className="c0"
->
+<ForwardRef(styled.div)>
   Cotton harness
-</div>
+</ForwardRef(styled.div)>
 `;
 
-exports[`Storyshots atoms RankBar 1`] = `
-.c1 {
-  overflow: hidden;
-  border-radius: 0.188rem;
-  border: 0.063rem solid #ccc;
-  width: 0.938rem;
-  height: 0.938rem;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #3ebdaa;
-  border-radius: 0.188rem;
-  padding: 0.313rem;
-}
-
-.c2 {
-  margin-left: 0.5rem;
-  padding-top: 0rem;
-  color: #fff;
-}
-
-<div
-  className="c0"
-  style={
-    Object {
-      "width": "63%",
-    }
-  }
->
-  <div
-    className="c1"
-    height={0.938}
-    width={0.938}
-  >
-    <img
-      alt="card"
-      src="http://lorempixel.com/300/300"
-    />
-  </div>
-  <p
-    className="c2"
-  >
-    communities
-  </p>
-</div>
-`;
+exports[`Storyshots atoms RankBar 1`] = `<DefaultRankBar />`;
 
 exports[`Storyshots molecules Admire 1`] = `
-.c5 {
-  overflow: hidden;
-  border-radius: 0.188rem;
-  border: 0.063rem solid #ccc;
-  width: 2.5rem;
-  height: 2.5rem;
-}
-
-.c0 {
-  margin: 0 2rem;
-  height: 100%;
-  padding: 2rem;
-  box-sizing: border-box;
-  position: relative;
-}
-
-* + .c0 {
-  margin: 0.625rem 2rem 0;
-}
-
-.c1 {
-  padding: 1.875rem 1.25rem;
-  background-color: #fff;
-  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12);
-  padding: 0 1.25rem 4.5rem;
-  height: 100%;
-  width: 100%;
-  overflow: scroll;
-  box-sizing: border-box;
-}
-
-.c7 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c8 {
-  width: 100%;
-}
-
-.c12 {
-  position: absolute;
-  top: 85%;
-  -webkit-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  z-index: 3;
-  font-size: 0.75rem;
-  color: #777;
-}
-
-.c10 {
-  margin-top: 0.5rem;
-  position: relative;
-}
-
-.c11 {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #eb2e3e;
-  height: 0.063rem;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  cursor: pointer;
-}
-
-.c11::-webkit-slider-thumb {
-  background-color: #fff;
-  border: 0.063rem solid #eb2e3e;
-  width: 1.563rem;
-  height: 1.563rem;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
-}
-
-.c11::-ms-tooltip {
-  display: none;
-}
-
-.c11::-ms-tooltip {
-  display: none;
-}
-
-.c11::-moz-focus-outer {
-  border: 0;
-}
-
-.c11::-moz-range-track {
-  height: 0;
-}
-
-.c11::-moz-range-thumb {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #fff;
-  width: 1.563rem;
-  height: 1.563rem;
-  border: 0.063rem solid #eb2e3e;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
-}
-
-.c9 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  font-size: 0.75rem;
-  color: #555;
-}
-
-.c6 {
-  margin-left: 0.5rem;
-  padding-top: 0rem;
-}
-
-.c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 1.25rem;
-}
-
-.c3 > * {
-  width: 50%;
-}
-
-.c3 + .c2 {
-  border-top: 1px solid #ccc;
-}
-
-.c3 img {
-  width: 2.5rem;
-  height: 2.5rem;
-  margin-right: 0.625rem;
-}
-
-.c3 p {
-  font-size: 0.875rem;
-}
-
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-<div
-  className="c0"
+<ForwardRef(styled.div)
+  fixed={true}
 >
-  <div
-    className="c1"
+  <ForwardRef(styled.div)
+    fixed={true}
   >
-    <div
-      className="c2 c3"
-    >
-      <div
-        className="c4"
-      >
-        <div
-          className="c5"
-          height={2.5}
-          width={2.5}
-        >
-          <img
-            alt="Handcrafted Cotton Soap"
-            src="http://lorempixel.com/300/300"
-          />
-        </div>
-        <p
-          className="c6"
-        >
-          alarm
-        </p>
-      </div>
-      <div
-        className="c7"
-      >
-        <div
-          className="c8"
-        >
-          <div
-            className="c9"
-          >
-            <p>
-              Table
-            </p>
-            <p>
-              Computer
-            </p>
-          </div>
-          <div
-            className="c10"
-          >
-            <input
-              className="c11"
-              step="25"
-              type="range"
-            />
-            <span
-              className="c12"
-              style={
-                Object {
-                  "left": "50%",
-                }
-              }
-            >
-              3
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      className="c2 c3"
-    >
-      <div
-        className="c4"
-      >
-        <div
-          className="c5"
-          height={2.5}
-          width={2.5}
-        >
-          <img
-            alt="Poland"
-            src="http://lorempixel.com/300/300"
-          />
-        </div>
-        <p
-          className="c6"
-        >
-          Israel
-        </p>
-      </div>
-      <div
-        className="c7"
-      >
-        <div
-          className="c8"
-        >
-          <div
-            className="c9"
-          >
-            <p>
-              withdrawal
-            </p>
-            <p>
-              indexing
-            </p>
-          </div>
-          <div
-            className="c10"
-          >
-            <input
-              className="c11"
-              step="25"
-              type="range"
-            />
-            <span
-              className="c12"
-              style={
-                Object {
-                  "left": "50%",
-                }
-              }
-            >
-              3
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      className="c2 c3"
-    >
-      <div
-        className="c4"
-      >
-        <div
-          className="c5"
-          height={2.5}
-          width={2.5}
-        >
-          <img
-            alt="monitor"
-            src="http://lorempixel.com/300/300"
-          />
-        </div>
-        <p
-          className="c6"
-        >
-          Money Market Account
-        </p>
-      </div>
-      <div
-        className="c7"
-      >
-        <div
-          className="c8"
-        >
-          <div
-            className="c9"
-          >
-            <p>
-              system
-            </p>
-            <p>
-              monitoring
-            </p>
-          </div>
-          <div
-            className="c10"
-          >
-            <input
-              className="c11"
-              step="25"
-              type="range"
-            />
-            <span
-              className="c12"
-              style={
-                Object {
-                  "left": "50%",
-                }
-              }
-            >
-              3
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      className="c2 c3"
-    >
-      <div
-        className="c4"
-      >
-        <div
-          className="c5"
-          height={2.5}
-          width={2.5}
-        >
-          <img
-            alt="dynamic"
-            src="http://lorempixel.com/300/300"
-          />
-        </div>
-        <p
-          className="c6"
-        >
-          Enterprise-wide
-        </p>
-      </div>
-      <div
-        className="c7"
-      >
-        <div
-          className="c8"
-        >
-          <div
-            className="c9"
-          >
-            <p>
-              zero defect
-            </p>
-            <p>
-              invoice
-            </p>
-          </div>
-          <div
-            className="c10"
-          >
-            <input
-              className="c11"
-              step="25"
-              type="range"
-            />
-            <span
-              className="c12"
-              style={
-                Object {
-                  "left": "50%",
-                }
-              }
-            >
-              3
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+    <DefaultAdmire />
+    <DefaultAdmire />
+    <DefaultAdmire />
+    <DefaultAdmire />
+  </ForwardRef(styled.div)>
+</ForwardRef(styled.div)>
 `;
 
 exports[`Storyshots molecules FixedButton 1`] = `
-.c1 {
-  border-radius: 1.25rem;
-  padding: 0 3rem;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  text-align: center;
-  color: #fff;
-  font-size: 1rem;
-  background: linear-gradient(90deg,#3ebdaa,#3fa2fc);
-  background-color: #3ebdaa;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  cursor: pointer;
-}
-
-.c1:hover {
-  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12), 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
-}
-
-.c0 {
-  position: absolute;
-  bottom: 2rem;
-  left: 2rem;
-  right: 2rem;
-  width: auto;
-  margin: 0;
-  padding: 1rem;
-  box-sizing: border-box;
-  text-align: right;
-  border-top: 1px solid #ccc;
-  background-color: #fff;
-  z-index: 3;
-}
-
-<div
-  className="c0"
->
-  <button
-    className="c1"
-  >
-    Licensed
-  </button>
-</div>
+<ForwardRef(styled.div)>
+  <ForwardRef(styled.button)>
+    Credit Card Account
+  </ForwardRef(styled.button)>
+</ForwardRef(styled.div)>
 `;
 
 exports[`Storyshots molecules Hero 1`] = `
-.c2 {
-  overflow: hidden;
-  border-radius: 0.188rem;
-  border: 0.063rem solid #ccc;
-  width: 4.688rem;
-  height: 4.688rem;
-  border-radius: 50%;
-}
-
-.c0 {
-  width: 100%;
-  min-height: 7.5rem;
-  margin-bottom: 3.125rem;
-  position: relative;
-  background: linear-gradient( 90deg, rgba(235,46,62,0.6), rgba(249,180,45,0.6) );
-  background-color: #eb2e3e;
-}
-
-.c3 {
-  margin-left: 0.5rem;
-  padding-top: 1rem;
-  color: #fff;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  bottom: -30%;
-  left: 2rem;
-}
-
-<div
-  className="c0"
->
-  <div
-    className="c1"
-  >
-    <div
-      className="c2"
+<ForwardRef(styled.div)>
+  <ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
       height={4.688}
+      isCircle={true}
       width={4.688}
     >
       <img
-        alt="web-readiness"
+        alt="help-desk"
         src="http://lorempixel.com/300/300"
       />
-    </div>
-    <p
-      className="c3"
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.p)
+      padding={1}
+      white={true}
     >
-      initiatives
-    </p>
-  </div>
-</div>
+      Balanced
+    </ForwardRef(styled.p)>
+  </ForwardRef(styled.div)>
+</ForwardRef(styled.div)>
 `;
 
 exports[`Storyshots molecules Range 1`] = `
-.c0 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c1 {
-  width: 100%;
-}
-
-.c3 {
-  position: relative;
-  border-bottom: 0.063rem solid #eb2e3e;
-  margin-top: 1.25rem;
-  width: 100%;
-  height: 0.063rem;
-  box-sizing: border-box;
-}
-
-.c4 {
-  position: absolute;
-  border: 0.063rem solid #eb2e3e;
-  width: 1.563rem;
-  height: 1.563rem;
-  border-radius: 50%;
-  top: 50%;
-  background-color: #fff;
-  -webkit-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  z-index: 2;
-  box-sizing: border-box;
-}
-
-.c5 {
-  position: absolute;
-  top: 85%;
-  -webkit-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  z-index: 3;
-  font-size: 0.75rem;
-  color: #777;
-}
-
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  font-size: 0.75rem;
-  color: #555;
-}
-
-<div
-  className="c0"
->
-  <div
-    className="c1"
-  >
-    <div
-      className="c2"
-    >
+<ForwardRef(styled.div)>
+  <ForwardRef(styled.div)>
+    <ForwardRef(styled.div)>
       <p>
-        Avon
+        Yen
       </p>
       <p>
-        markets
+        Credit Card Account
       </p>
-    </div>
-    <div
-      className="c3"
-    >
-      <div
-        className="c4"
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)>
+      <ForwardRef(styled.div)
         style={
           Object {
             "left": "50%",
           }
         }
       />
-      <span
-        className="c5"
+      <ForwardRef(styled.span)
         style={
           Object {
             "left": "50%",
@@ -809,139 +105,29 @@ exports[`Storyshots molecules Range 1`] = `
         }
       >
         3
-      </span>
-    </div>
-  </div>
-</div>
+      </ForwardRef(styled.span)>
+    </ForwardRef(styled.div)>
+  </ForwardRef(styled.div)>
+</ForwardRef(styled.div)>
 `;
 
 exports[`Storyshots molecules Range/input 1`] = `
-.c0 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c1 {
-  width: 100%;
-}
-
-.c5 {
-  position: absolute;
-  top: 85%;
-  -webkit-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  z-index: 3;
-  font-size: 0.75rem;
-  color: #777;
-}
-
-.c3 {
-  margin-top: 0.5rem;
-  position: relative;
-}
-
-.c4 {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #eb2e3e;
-  height: 0.063rem;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  cursor: pointer;
-}
-
-.c4::-webkit-slider-thumb {
-  background-color: #fff;
-  border: 0.063rem solid #eb2e3e;
-  width: 1.563rem;
-  height: 1.563rem;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
-}
-
-.c4::-ms-tooltip {
-  display: none;
-}
-
-.c4::-ms-tooltip {
-  display: none;
-}
-
-.c4::-moz-focus-outer {
-  border: 0;
-}
-
-.c4::-moz-range-track {
-  height: 0;
-}
-
-.c4::-moz-range-thumb {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #fff;
-  width: 1.563rem;
-  height: 1.563rem;
-  border: 0.063rem solid #eb2e3e;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
-}
-
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  font-size: 0.75rem;
-  color: #555;
-}
-
-<div
-  className="c0"
->
-  <div
-    className="c1"
-  >
-    <div
-      className="c2"
-    >
+<ForwardRef(styled.div)>
+  <ForwardRef(styled.div)>
+    <ForwardRef(styled.div)>
       <p>
-        success
+        deposit
       </p>
       <p>
-        deliverables
+        initiatives
       </p>
-    </div>
-    <div
-      className="c3"
-    >
-      <input
-        className="c4"
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)>
+      <ForwardRef(styled.input)
         step="25"
         type="range"
       />
-      <span
-        className="c5"
+      <ForwardRef(styled.span)
         style={
           Object {
             "left": "50%",
@@ -949,237 +135,50 @@ exports[`Storyshots molecules Range/input 1`] = `
         }
       >
         3
-      </span>
-    </div>
-  </div>
-</div>
+      </ForwardRef(styled.span)>
+    </ForwardRef(styled.div)>
+  </ForwardRef(styled.div)>
+</ForwardRef(styled.div)>
 `;
 
 exports[`Storyshots molecules Rank 1`] = `
-.c5 {
-  overflow: hidden;
-  border-radius: 0.188rem;
-  border: 0.063rem solid #ccc;
-  width: 2.5rem;
-  height: 2.5rem;
-}
-
-.c7 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c8 {
-  width: 100%;
-}
-
-.c12 {
-  position: absolute;
-  top: 85%;
-  -webkit-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  z-index: 3;
-  font-size: 0.75rem;
-  color: #777;
-}
-
-.c10 {
-  margin-top: 0.5rem;
-  position: relative;
-}
-
-.c11 {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #eb2e3e;
-  height: 0.063rem;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  cursor: pointer;
-}
-
-.c11::-webkit-slider-thumb {
-  background-color: #fff;
-  border: 0.063rem solid #eb2e3e;
-  width: 1.563rem;
-  height: 1.563rem;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
-}
-
-.c11::-ms-tooltip {
-  display: none;
-}
-
-.c11::-ms-tooltip {
-  display: none;
-}
-
-.c11::-moz-focus-outer {
-  border: 0;
-}
-
-.c11::-moz-range-track {
-  height: 0;
-}
-
-.c11::-moz-range-thumb {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #fff;
-  width: 1.563rem;
-  height: 1.563rem;
-  border: 0.063rem solid #eb2e3e;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
-}
-
-.c9 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  font-size: 0.75rem;
-  color: #555;
-}
-
-.c6 {
-  margin-left: 0.5rem;
-  padding-top: 0rem;
-}
-
-.c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 1.25rem;
-}
-
-.c3 > * {
-  width: 50%;
-}
-
-.c3 + .c2 {
-  border-top: 1px solid #ccc;
-}
-
-.c3 img {
-  width: 2.5rem;
-  height: 2.5rem;
-  margin-right: 0.625rem;
-}
-
-.c3 p {
-  font-size: 0.875rem;
-}
-
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c1 span {
-  font-weight: bold;
-  margin-right: 1.875rem;
-}
-
-.c1 + .c0 {
-  margin-top: 1rem;
-}
-
-<div
-  className="c0 c1"
->
+<ForwardRef(styled.div)>
   <span>
-    89338
+    8372
   </span>
-  <div
-    className="c2 c3"
-  >
-    <div
-      className="c4"
-    >
-      <div
-        className="c5"
+  <ForwardRef(styled.div)>
+    <ForwardRef(styled.div)>
+      <ForwardRef(styled.div)
         height={2.5}
         width={2.5}
       >
         <img
-          alt="Palladium"
+          alt="Poland"
           src="http://lorempixel.com/300/300"
         />
-      </div>
-      <p
-        className="c6"
+      </ForwardRef(styled.div)>
+      <ForwardRef(styled.p)
+        padding={0}
       >
-        Borders
-      </p>
-    </div>
-    <div
-      className="c7"
-    >
-      <div
-        className="c8"
-      >
-        <div
-          className="c9"
-        >
+        Israel
+      </ForwardRef(styled.p)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)>
+      <ForwardRef(styled.div)>
+        <ForwardRef(styled.div)>
           <p>
-            Plaza
+            withdrawal
           </p>
           <p>
-            Colorado
+            indexing
           </p>
-        </div>
-        <div
-          className="c10"
-        >
-          <input
-            className="c11"
+        </ForwardRef(styled.div)>
+        <ForwardRef(styled.div)>
+          <ForwardRef(styled.input)
             step="25"
             type="range"
           />
-          <span
-            className="c12"
+          <ForwardRef(styled.span)
             style={
               Object {
                 "left": "50%",
@@ -1187,451 +186,293 @@ exports[`Storyshots molecules Rank 1`] = `
             }
           >
             3
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+          </ForwardRef(styled.span)>
+        </ForwardRef(styled.div)>
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+  </ForwardRef(styled.div)>
+</ForwardRef(styled.div)>
 `;
 
 exports[`Storyshots molecules Result 1`] = `
-Array [
-  .c0 {
-  margin: 0 auto;
-  color: #3fa2fc;
-  font-size: 1.563rem;
-  font-weight: bold;
-  width: 5rem;
-  height: 5rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  border: 0.188rem solid #3fa2fc;
-  border-radius: 50%;
-}
-
-.c1 {
-  text-align: center;
-}
-
-.c1 span {
-  display: block;
-  font-size: 0.625rem;
-  font-weight: normal;
-  margin-bottom: 0.313rem;
-}
-
-<div
-    className="c0"
-  >
-    <div
-      className="c1"
-    >
+<React.Fragment>
+  <ForwardRef(styled.div)>
+    <ForwardRef(styled.div)>
       <span>
         50人中
       </span>
       10位
-    </div>
-  </div>,
-  .c0 {
-  margin-top: 0.938rem;
-  font-size: 0.875rem;
-  line-height: 1.4;
-}
-
-<p
-    className="c0"
-  >
-    extranet
-  </p>,
-]
+    </ForwardRef(styled.div)>
+  </ForwardRef(styled.div)>
+  <ForwardRef(styled.p)>
+    monitor
+  </ForwardRef(styled.p)>
+</React.Fragment>
 `;
 
 exports[`Storyshots pages Admire 1`] = `
-.c8 {
-  overflow: hidden;
-  border-radius: 0.188rem;
-  border: 0.063rem solid #ccc;
-  width: 2.5rem;
-  height: 2.5rem;
-}
-
-.c3 {
-  margin: 0 2rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100%;
-  padding: 2rem;
-  box-sizing: border-box;
-  position: relative;
-}
-
-* + .c3 {
-  margin: 0.625rem 2rem 0;
-}
-
-.c3 > * {
-  width: 50%;
-}
-
-.c3 > * + * {
-  margin-left: 0.625rem;
-}
-
-.c4 {
-  padding: 1.875rem 1.25rem;
-  background-color: #fff;
-  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12);
-  padding: 0 1.25rem 4.5rem;
-  height: 100%;
-  width: 100%;
-  overflow: scroll;
-  box-sizing: border-box;
-}
-
-.c18 {
-  border-radius: 1.25rem;
-  padding: 0 3rem;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  text-align: center;
-  color: #fff;
-  font-size: 1rem;
-  background: linear-gradient(90deg,#3ebdaa,#3fa2fc);
-  background-color: #3ebdaa;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  cursor: pointer;
-}
-
-.c18:hover {
-  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12), 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
-}
-
-.c2 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.c1 {
-  text-align: center;
-  background-color: #000;
-  width: 40px;
-}
-
-.c1 li a {
-  color: #fff;
-  display: block;
-  padding: 0.7rem;
-}
-
-.c1 li a:hover,
-.c1 li a.active {
-  background-color: #3ebdaa;
-}
-
-.c10 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c11 {
-  width: 100%;
-}
-
-.c15 {
-  position: absolute;
-  top: 85%;
-  -webkit-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  z-index: 3;
-  font-size: 0.75rem;
-  color: #777;
-}
-
-.c13 {
-  margin-top: 0.5rem;
-  position: relative;
-}
-
-.c14 {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #eb2e3e;
-  height: 0.063rem;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  cursor: pointer;
-}
-
-.c14::-webkit-slider-thumb {
-  background-color: #fff;
-  border: 0.063rem solid #eb2e3e;
-  width: 1.563rem;
-  height: 1.563rem;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
-}
-
-.c14::-ms-tooltip {
-  display: none;
-}
-
-.c14::-ms-tooltip {
-  display: none;
-}
-
-.c14::-moz-focus-outer {
-  border: 0;
-}
-
-.c14::-moz-range-track {
-  height: 0;
-}
-
-.c14::-moz-range-thumb {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #fff;
-  width: 1.563rem;
-  height: 1.563rem;
-  border: 0.063rem solid #eb2e3e;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
-}
-
-.c12 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  font-size: 0.75rem;
-  color: #555;
-}
-
-.c9 {
-  margin-left: 0.5rem;
-  padding-top: 0rem;
-}
-
-.c16 {
-  margin-left: 0.5rem;
-  padding-top: rem;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #f9f9f9;
-  min-height: 100%;
-  height: 100%;
-}
-
-.c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 1.25rem;
-}
-
-.c6 > * {
-  width: 50%;
-}
-
-.c6 + .c5 {
-  border-top: 1px solid #ccc;
-}
-
-.c6 img {
-  width: 2.5rem;
-  height: 2.5rem;
-  margin-right: 0.625rem;
-}
-
-.c6 p {
-  font-size: 0.875rem;
-}
-
-.c7 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c17 {
-  position: absolute;
-  bottom: 2rem;
-  left: 2rem;
-  right: 2rem;
-  width: auto;
-  margin: 0;
-  padding: 1rem;
-  box-sizing: border-box;
-  text-align: right;
-  border-top: 1px solid #ccc;
-  background-color: #fff;
-  z-index: 3;
-}
-
-@media (max-width:48rem) {
-  .c3 {
-    display: block;
-  }
-
-  .c3 > * {
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  .c3 > * + * {
-    margin-left: 0;
-    margin-top: .625rem;
-  }
-}
-
-@media (max-width:48rem) {
-  .c2 {
-    display: block;
-  }
-}
-
-@media (max-width:48rem) {
-  .c1 {
-    width: 100%;
-  }
-
-  .c1 ul {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-@media (max-width:48rem) {
-  .c0 {
-    display: block;
-  }
-}
-
-<div
-  className="c0"
->
-  <nav
-    className="c1"
-  >
+<ForwardRef(styled.div)>
+  <ForwardRef(styled.nav)>
     <ul>
       <li>
         <a
           className="active"
           href="#"
         >
-          <svg
-            aria-hidden="true"
-            className="svg-inline--fa fa-user fa-w-14 "
-            data-icon="user"
-            data-prefix="fas"
-            focusable="false"
-            role="img"
-            style={Object {}}
-            viewBox="0 0 448 512"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
-              fill="currentColor"
-              style={Object {}}
-            />
-          </svg>
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  448,
+                  512,
+                  Array [],
+                  "f007",
+                  "M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z",
+                ],
+                "iconName": "user",
+                "prefix": "fas",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
         </a>
       </li>
       <li>
         <a
           href="#"
         >
-          <svg
-            aria-hidden="true"
-            className="svg-inline--fa fa-edit fa-w-18 "
-            data-icon="edit"
-            data-prefix="fas"
-            focusable="false"
-            role="img"
-            style={Object {}}
-            viewBox="0 0 576 512"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M402.6 83.2l90.2 90.2c3.8 3.8 3.8 10 0 13.8L274.4 405.6l-92.8 10.3c-12.4 1.4-22.9-9.1-21.5-21.5l10.3-92.8L388.8 83.2c3.8-3.8 10-3.8 13.8 0zm162-22.9l-48.8-48.8c-15.2-15.2-39.9-15.2-55.2 0l-35.4 35.4c-3.8 3.8-3.8 10 0 13.8l90.2 90.2c3.8 3.8 10 3.8 13.8 0l35.4-35.4c15.2-15.3 15.2-40 0-55.2zM384 346.2V448H64V128h229.8c3.2 0 6.2-1.3 8.5-3.5l40-40c7.6-7.6 2.2-20.5-8.5-20.5H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V306.2c0-10.7-12.9-16-20.5-8.5l-40 40c-2.2 2.3-3.5 5.3-3.5 8.5z"
-              fill="currentColor"
-              style={Object {}}
-            />
-          </svg>
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  576,
+                  512,
+                  Array [],
+                  "f044",
+                  "M402.6 83.2l90.2 90.2c3.8 3.8 3.8 10 0 13.8L274.4 405.6l-92.8 10.3c-12.4 1.4-22.9-9.1-21.5-21.5l10.3-92.8L388.8 83.2c3.8-3.8 10-3.8 13.8 0zm162-22.9l-48.8-48.8c-15.2-15.2-39.9-15.2-55.2 0l-35.4 35.4c-3.8 3.8-3.8 10 0 13.8l90.2 90.2c3.8 3.8 10 3.8 13.8 0l35.4-35.4c15.2-15.3 15.2-40 0-55.2zM384 346.2V448H64V128h229.8c3.2 0 6.2-1.3 8.5-3.5l40-40c7.6-7.6 2.2-20.5-8.5-20.5H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V306.2c0-10.7-12.9-16-20.5-8.5l-40 40c-2.2 2.3-3.5 5.3-3.5 8.5z",
+                ],
+                "iconName": "edit",
+                "prefix": "fas",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
         </a>
       </li>
     </ul>
-  </nav>
-  <main
-    className="c2"
-  >
-    <div
-      className="c3"
+  </ForwardRef(styled.nav)>
+  <ForwardRef(styled.main)>
+    <ForwardRef(styled.div)
+      fixed={true}
     >
-      <div
-        className="c4"
+      <ForwardRef(styled.div)
+        fixed={true}
       >
-        <div
-          className="c5 c6"
-        >
-          <div
-            className="c7"
-          >
-            <div
-              className="c8"
+        <ForwardRef(styled.div)>
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)
+              height={2.5}
+              width={2.5}
+            >
+              <img
+                alt="Money Market Account"
+                src="http://lorempixel.com/300/300"
+              />
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.p)
+              padding={0}
+            >
+              system
+            </ForwardRef(styled.p)>
+          </ForwardRef(styled.div)>
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              <ForwardRef(styled.div)>
+                <p>
+                  monitoring
+                </p>
+                <p>
+                  dynamic
+                </p>
+              </ForwardRef(styled.div)>
+              <ForwardRef(styled.div)>
+                <ForwardRef(styled.input)
+                  step="25"
+                  type="range"
+                />
+                <ForwardRef(styled.span)
+                  style={
+                    Object {
+                      "left": "50%",
+                    }
+                  }
+                >
+                  3
+                </ForwardRef(styled.span)>
+              </ForwardRef(styled.div)>
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>
+        </ForwardRef(styled.div)>
+        <ForwardRef(styled.div)>
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)
+              height={2.5}
+              width={2.5}
+            >
+              <img
+                alt="Enterprise-wide"
+                src="http://lorempixel.com/300/300"
+              />
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.p)>
+              zero defect
+            </ForwardRef(styled.p)>
+          </ForwardRef(styled.div)>
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              <ForwardRef(styled.div)>
+                <p>
+                  invoice
+                </p>
+                <p>
+                  Licensed
+                </p>
+              </ForwardRef(styled.div)>
+              <ForwardRef(styled.div)>
+                <ForwardRef(styled.input)
+                  step="25"
+                  type="range"
+                />
+                <ForwardRef(styled.span)
+                  style={
+                    Object {
+                      "left": "50%",
+                    }
+                  }
+                >
+                  3
+                </ForwardRef(styled.span)>
+              </ForwardRef(styled.div)>
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>
+        </ForwardRef(styled.div)>
+        <ForwardRef(styled.div)>
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)
+              height={2.5}
+              width={2.5}
+            >
+              <img
+                alt="web-readiness"
+                src="http://lorempixel.com/300/300"
+              />
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.p)>
+              initiatives
+            </ForwardRef(styled.p)>
+          </ForwardRef(styled.div)>
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              <ForwardRef(styled.div)>
+                <p>
+                  Avon
+                </p>
+                <p>
+                  markets
+                </p>
+              </ForwardRef(styled.div)>
+              <ForwardRef(styled.div)>
+                <ForwardRef(styled.input)
+                  step="25"
+                  type="range"
+                />
+                <ForwardRef(styled.span)
+                  style={
+                    Object {
+                      "left": "50%",
+                    }
+                  }
+                >
+                  3
+                </ForwardRef(styled.span)>
+              </ForwardRef(styled.div)>
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>
+        </ForwardRef(styled.div)>
+        <ForwardRef(styled.div)>
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)
+              height={2.5}
+              width={2.5}
+            >
+              <img
+                alt="success"
+                src="http://lorempixel.com/300/300"
+              />
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.p)>
+              deliverables
+            </ForwardRef(styled.p)>
+          </ForwardRef(styled.div)>
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              <ForwardRef(styled.div)>
+                <p>
+                  International
+                </p>
+                <p>
+                  Optimization
+                </p>
+              </ForwardRef(styled.div)>
+              <ForwardRef(styled.div)>
+                <ForwardRef(styled.input)
+                  step="25"
+                  type="range"
+                />
+                <ForwardRef(styled.span)
+                  style={
+                    Object {
+                      "left": "50%",
+                    }
+                  }
+                >
+                  3
+                </ForwardRef(styled.span)>
+              </ForwardRef(styled.div)>
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>
+        </ForwardRef(styled.div)>
+        <ForwardRef(styled.div)>
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)
               height={2.5}
               width={2.5}
             >
@@ -1639,39 +480,27 @@ exports[`Storyshots pages Admire 1`] = `
                 alt="Berkshire"
                 src="http://lorempixel.com/300/300"
               />
-            </div>
-            <p
-              className="c9"
-            >
-              Vatu
-            </p>
-          </div>
-          <div
-            className="c10"
-          >
-            <div
-              className="c11"
-            >
-              <div
-                className="c12"
-              >
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.p)>
+              Home Loan Account
+            </ForwardRef(styled.p)>
+          </ForwardRef(styled.div)>
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              <ForwardRef(styled.div)>
                 <p>
-                  Future
+                  Plastic
                 </p>
                 <p>
-                  Sleek
+                  initiative
                 </p>
-              </div>
-              <div
-                className="c13"
-              >
-                <input
-                  className="c14"
+              </ForwardRef(styled.div)>
+              <ForwardRef(styled.div)>
+                <ForwardRef(styled.input)
                   step="25"
                   type="range"
                 />
-                <span
-                  className="c15"
+                <ForwardRef(styled.span)
                   style={
                     Object {
                       "left": "50%",
@@ -1679,59 +508,42 @@ exports[`Storyshots pages Admire 1`] = `
                   }
                 >
                   3
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="c5 c6"
-        >
-          <div
-            className="c7"
-          >
-            <div
-              className="c8"
+                </ForwardRef(styled.span)>
+              </ForwardRef(styled.div)>
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>
+        </ForwardRef(styled.div)>
+        <ForwardRef(styled.div)>
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)
               height={2.5}
               width={2.5}
             >
               <img
-                alt="Cambridgeshire"
+                alt="infomediaries"
                 src="http://lorempixel.com/300/300"
               />
-            </div>
-            <p
-              className="c16"
-            >
-              Open-architected
-            </p>
-          </div>
-          <div
-            className="c10"
-          >
-            <div
-              className="c11"
-            >
-              <div
-                className="c12"
-              >
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.p)>
+              JSON
+            </ForwardRef(styled.p)>
+          </ForwardRef(styled.div)>
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              <ForwardRef(styled.div)>
                 <p>
-                  e-markets
+                  Configurable
                 </p>
                 <p>
-                  hack
+                  Berkshire
                 </p>
-              </div>
-              <div
-                className="c13"
-              >
-                <input
-                  className="c14"
+              </ForwardRef(styled.div)>
+              <ForwardRef(styled.div)>
+                <ForwardRef(styled.input)
                   step="25"
                   type="range"
                 />
-                <span
-                  className="c15"
+                <ForwardRef(styled.span)
                   style={
                     Object {
                       "left": "50%",
@@ -1739,665 +551,143 @@ exports[`Storyshots pages Admire 1`] = `
                   }
                 >
                   3
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="c5 c6"
-        >
-          <div
-            className="c7"
-          >
-            <div
-              className="c8"
-              height={2.5}
-              width={2.5}
-            >
-              <img
-                alt="Stream"
-                src="http://lorempixel.com/300/300"
-              />
-            </div>
-            <p
-              className="c16"
-            >
-              multi-byte
-            </p>
-          </div>
-          <div
-            className="c10"
-          >
-            <div
-              className="c11"
-            >
-              <div
-                className="c12"
-              >
-                <p>
-                  intermediate
-                </p>
-                <p>
-                  action-items
-                </p>
-              </div>
-              <div
-                className="c13"
-              >
-                <input
-                  className="c14"
-                  step="25"
-                  type="range"
-                />
-                <span
-                  className="c15"
-                  style={
-                    Object {
-                      "left": "50%",
-                    }
-                  }
-                >
-                  3
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="c5 c6"
-        >
-          <div
-            className="c7"
-          >
-            <div
-              className="c8"
-              height={2.5}
-              width={2.5}
-            >
-              <img
-                alt="Home"
-                src="http://lorempixel.com/300/300"
-              />
-            </div>
-            <p
-              className="c16"
-            >
-              killer
-            </p>
-          </div>
-          <div
-            className="c10"
-          >
-            <div
-              className="c11"
-            >
-              <div
-                className="c12"
-              >
-                <p>
-                  Rwanda Franc
-                </p>
-                <p>
-                  SCSI
-                </p>
-              </div>
-              <div
-                className="c13"
-              >
-                <input
-                  className="c14"
-                  step="25"
-                  type="range"
-                />
-                <span
-                  className="c15"
-                  style={
-                    Object {
-                      "left": "50%",
-                    }
-                  }
-                >
-                  3
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="c5 c6"
-        >
-          <div
-            className="c7"
-          >
-            <div
-              className="c8"
-              height={2.5}
-              width={2.5}
-            >
-              <img
-                alt="impactful"
-                src="http://lorempixel.com/300/300"
-              />
-            </div>
-            <p
-              className="c16"
-            >
-              Radial
-            </p>
-          </div>
-          <div
-            className="c10"
-          >
-            <div
-              className="c11"
-            >
-              <div
-                className="c12"
-              >
-                <p>
-                  maximized
-                </p>
-                <p>
-                  generating
-                </p>
-              </div>
-              <div
-                className="c13"
-              >
-                <input
-                  className="c14"
-                  step="25"
-                  type="range"
-                />
-                <span
-                  className="c15"
-                  style={
-                    Object {
-                      "left": "50%",
-                    }
-                  }
-                >
-                  3
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="c5 c6"
-        >
-          <div
-            className="c7"
-          >
-            <div
-              className="c8"
-              height={2.5}
-              width={2.5}
-            >
-              <img
-                alt="national"
-                src="http://lorempixel.com/300/300"
-              />
-            </div>
-            <p
-              className="c16"
-            >
-              Sudan
-            </p>
-          </div>
-          <div
-            className="c10"
-          >
-            <div
-              className="c11"
-            >
-              <div
-                className="c12"
-              >
-                <p>
-                  Car
-                </p>
-                <p>
-                  process improvement
-                </p>
-              </div>
-              <div
-                className="c13"
-              >
-                <input
-                  className="c14"
-                  step="25"
-                  type="range"
-                />
-                <span
-                  className="c15"
-                  style={
-                    Object {
-                      "left": "50%",
-                    }
-                  }
-                >
-                  3
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        className="c17"
-      >
-        <button
-          className="c18"
-        >
-          Future
-        </button>
-      </div>
-    </div>
-  </main>
-</div>
+                </ForwardRef(styled.span)>
+              </ForwardRef(styled.div)>
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>
+        </ForwardRef(styled.div)>
+      </ForwardRef(styled.div)>
+      <ForwardRef(styled.div)>
+        <ForwardRef(styled.button)>
+          Manager
+        </ForwardRef(styled.button)>
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+  </ForwardRef(styled.main)>
+</ForwardRef(styled.div)>
 `;
 
 exports[`Storyshots pages Mypage 1`] = `
-.c5 {
-  overflow: hidden;
-  border-radius: 0.188rem;
-  border: 0.063rem solid #ccc;
-  width: 4.688rem;
-  height: 4.688rem;
-  border-radius: 50%;
-}
-
-.c20 {
-  overflow: hidden;
-  border-radius: 0.188rem;
-  border: 0.063rem solid #ccc;
-  width: 0.938rem;
-  height: 0.938rem;
-}
-
-.c7 {
-  margin: 0 2rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-* + .c7 {
-  margin: 0.625rem 2rem 0;
-}
-
-.c7 > * {
-  width: 50%;
-}
-
-.c7 > * + * {
-  margin-left: 0.625rem;
-}
-
-.c18 {
-  margin: 0 2rem;
-}
-
-* + .c18 {
-  margin: 0.625rem 2rem 0;
-}
-
-.c8 {
-  padding: 1.875rem 1.25rem;
-  background-color: #fff;
-  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12);
-}
-
-.c3 {
-  width: 100%;
-  min-height: 7.5rem;
-  margin-bottom: 3.125rem;
-  position: relative;
-  background: linear-gradient( 90deg, rgba(235,46,62,0.6), rgba(249,180,45,0.6) );
-  background-color: #eb2e3e;
-}
-
-.c2 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.c1 {
-  text-align: center;
-  background-color: #000;
-  width: 40px;
-}
-
-.c1 li a {
-  color: #fff;
-  display: block;
-  padding: 0.7rem;
-}
-
-.c1 li a:hover,
-.c1 li a.active {
-  background-color: #3ebdaa;
-}
-
-.c9 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c10 {
-  width: 100%;
-}
-
-.c12 {
-  position: relative;
-  border-bottom: 0.063rem solid #eb2e3e;
-  margin-top: 1.25rem;
-  width: 100%;
-  height: 0.063rem;
-  box-sizing: border-box;
-}
-
-.c13 {
-  position: absolute;
-  border: 0.063rem solid #eb2e3e;
-  width: 1.563rem;
-  height: 1.563rem;
-  border-radius: 50%;
-  top: 50%;
-  background-color: #fff;
-  -webkit-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  z-index: 2;
-  box-sizing: border-box;
-}
-
-.c14 {
-  position: absolute;
-  top: 85%;
-  -webkit-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  z-index: 3;
-  font-size: 0.75rem;
-  color: #777;
-}
-
-.c11 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  font-size: 0.75rem;
-  color: #555;
-}
-
-.c19 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #3ebdaa;
-  border-radius: 0.188rem;
-  padding: 0.313rem;
-}
-
-.c17 {
-  margin-top: 0.938rem;
-  font-size: 0.875rem;
-  line-height: 1.4;
-}
-
-.c15 {
-  margin: 0 auto;
-  color: #3fa2fc;
-  font-size: 1.563rem;
-  font-weight: bold;
-  width: 5rem;
-  height: 5rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  border: 0.188rem solid #3fa2fc;
-  border-radius: 50%;
-}
-
-.c16 {
-  text-align: center;
-}
-
-.c16 span {
-  display: block;
-  font-size: 0.625rem;
-  font-weight: normal;
-  margin-bottom: 0.313rem;
-}
-
-.c6 {
-  margin-left: 0.5rem;
-  padding-top: 1rem;
-  color: #fff;
-}
-
-.c21 {
-  margin-left: 0.5rem;
-  padding-top: 0rem;
-  color: #fff;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #f9f9f9;
-  min-height: 100%;
-  height: 100%;
-}
-
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  bottom: -30%;
-  left: 2rem;
-}
-
-@media (max-width:48rem) {
-  .c7 {
-    display: block;
-  }
-
-  .c7 > * {
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  .c7 > * + * {
-    margin-left: 0;
-    margin-top: .625rem;
-  }
-}
-
-@media (max-width:48rem) {
-  .c2 {
-    display: block;
-  }
-}
-
-@media (max-width:48rem) {
-  .c1 {
-    width: 100%;
-  }
-
-  .c1 ul {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-@media (max-width:48rem) {
-  .c0 {
-    display: block;
-  }
-}
-
-<div
-  className="c0"
->
-  <nav
-    className="c1"
-  >
+<ForwardRef(styled.div)>
+  <ForwardRef(styled.nav)>
     <ul>
       <li>
         <a
           className="active"
           href="#"
         >
-          <svg
-            aria-hidden="true"
-            className="svg-inline--fa fa-user fa-w-14 "
-            data-icon="user"
-            data-prefix="fas"
-            focusable="false"
-            role="img"
-            style={Object {}}
-            viewBox="0 0 448 512"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
-              fill="currentColor"
-              style={Object {}}
-            />
-          </svg>
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  448,
+                  512,
+                  Array [],
+                  "f007",
+                  "M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z",
+                ],
+                "iconName": "user",
+                "prefix": "fas",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
         </a>
       </li>
       <li>
         <a
           href="#"
         >
-          <svg
-            aria-hidden="true"
-            className="svg-inline--fa fa-edit fa-w-18 "
-            data-icon="edit"
-            data-prefix="fas"
-            focusable="false"
-            role="img"
-            style={Object {}}
-            viewBox="0 0 576 512"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M402.6 83.2l90.2 90.2c3.8 3.8 3.8 10 0 13.8L274.4 405.6l-92.8 10.3c-12.4 1.4-22.9-9.1-21.5-21.5l10.3-92.8L388.8 83.2c3.8-3.8 10-3.8 13.8 0zm162-22.9l-48.8-48.8c-15.2-15.2-39.9-15.2-55.2 0l-35.4 35.4c-3.8 3.8-3.8 10 0 13.8l90.2 90.2c3.8 3.8 10 3.8 13.8 0l35.4-35.4c15.2-15.3 15.2-40 0-55.2zM384 346.2V448H64V128h229.8c3.2 0 6.2-1.3 8.5-3.5l40-40c7.6-7.6 2.2-20.5-8.5-20.5H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V306.2c0-10.7-12.9-16-20.5-8.5l-40 40c-2.2 2.3-3.5 5.3-3.5 8.5z"
-              fill="currentColor"
-              style={Object {}}
-            />
-          </svg>
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  576,
+                  512,
+                  Array [],
+                  "f044",
+                  "M402.6 83.2l90.2 90.2c3.8 3.8 3.8 10 0 13.8L274.4 405.6l-92.8 10.3c-12.4 1.4-22.9-9.1-21.5-21.5l10.3-92.8L388.8 83.2c3.8-3.8 10-3.8 13.8 0zm162-22.9l-48.8-48.8c-15.2-15.2-39.9-15.2-55.2 0l-35.4 35.4c-3.8 3.8-3.8 10 0 13.8l90.2 90.2c3.8 3.8 10 3.8 13.8 0l35.4-35.4c15.2-15.3 15.2-40 0-55.2zM384 346.2V448H64V128h229.8c3.2 0 6.2-1.3 8.5-3.5l40-40c7.6-7.6 2.2-20.5-8.5-20.5H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V306.2c0-10.7-12.9-16-20.5-8.5l-40 40c-2.2 2.3-3.5 5.3-3.5 8.5z",
+                ],
+                "iconName": "edit",
+                "prefix": "fas",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
         </a>
       </li>
     </ul>
-  </nav>
-  <main
-    className="c2"
-  >
-    <div
-      className="c3"
-    >
-      <div
-        className="c4"
-      >
-        <div
-          className="c5"
+  </ForwardRef(styled.nav)>
+  <ForwardRef(styled.main)>
+    <ForwardRef(styled.div)>
+      <ForwardRef(styled.div)>
+        <ForwardRef(styled.div)
           height={4.688}
+          isCircle={true}
           width={4.688}
         >
           <img
-            alt="Mouse"
+            alt="Jamaica"
             src="http://lorempixel.com/300/300"
           />
-        </div>
-        <p
-          className="c6"
+        </ForwardRef(styled.div)>
+        <ForwardRef(styled.p)
+          padding={1}
+          white={true}
         >
-          Borders
-        </p>
-      </div>
-    </div>
-    <div
-      className="c7"
-    >
-      <div
-        className="c8"
-      >
-        <div
-          className="c9"
-        >
-          <div
-            className="c10"
-          >
-            <div
-              className="c11"
-            >
+          Auto Loan Account
+        </ForwardRef(styled.p)>
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)>
+      <ForwardRef(styled.div)>
+        <ForwardRef(styled.div)>
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
               <p>
                 とても悪い
               </p>
               <p>
                 とても良い
               </p>
-            </div>
-            <div
-              className="c12"
-            >
-              <div
-                className="c13"
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              <ForwardRef(styled.div)
                 style={
                   Object {
                     "left": "50%",
                   }
                 }
               />
-              <span
-                className="c14"
+              <ForwardRef(styled.span)
                 style={
                   Object {
                     "left": "50%",
@@ -2405,424 +695,253 @@ exports[`Storyshots pages Mypage 1`] = `
                 }
               >
                 3
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        className="c8"
-      >
-        <div
-          className="c15"
-        >
-          <div
-            className="c16"
-          >
+              </ForwardRef(styled.span)>
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>
+        </ForwardRef(styled.div)>
+      </ForwardRef(styled.div)>
+      <ForwardRef(styled.div)>
+        <ForwardRef(styled.div)>
+          <ForwardRef(styled.div)>
             <span>
               50人中
             </span>
             10位
-          </div>
-        </div>
-        <p
-          className="c17"
-        >
-          blue
-        </p>
-      </div>
-    </div>
-    <div
-      className="c18"
-    >
-      <div
-        className="c8"
-      >
-        <div
-          className="c19"
+          </ForwardRef(styled.div)>
+        </ForwardRef(styled.div)>
+        <ForwardRef(styled.p)>
+          Granite
+        </ForwardRef(styled.p)>
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)>
+      <ForwardRef(styled.div)>
+        <ForwardRef(styled.div)
           style={
             Object {
-              "width": "52%",
+              "width": "83%",
             }
           }
         >
-          <div
-            className="c20"
+          <ForwardRef(styled.div)
             height={0.938}
             width={0.938}
           >
             <img
-              alt="GB"
+              alt="multi-byte"
               src="http://lorempixel.com/300/300"
             />
-          </div>
-          <p
-            className="c21"
+          </ForwardRef(styled.div)>
+          <ForwardRef(styled.p)
+            padding={0}
+            white={true}
           >
-            Personal Loan Account
-          </p>
-        </div>
-        <div
-          className="c19"
+            intermediate
+          </ForwardRef(styled.p)>
+        </ForwardRef(styled.div)>
+        <ForwardRef(styled.div)
           style={
             Object {
-              "width": "73%",
+              "width": "43%",
             }
           }
         >
-          <div
-            className="c20"
+          <ForwardRef(styled.div)
             height={0.938}
             width={0.938}
           >
             <img
-              alt="Supervisor"
+              alt="clicks-and-mortar"
               src="http://lorempixel.com/300/300"
             />
-          </div>
-          <p
-            className="c21"
+          </ForwardRef(styled.div)>
+          <ForwardRef(styled.p)
+            padding={0}
+            white={true}
           >
-            Pike
-          </p>
-        </div>
-      </div>
-    </div>
-  </main>
-</div>
+            focus group
+          </ForwardRef(styled.p)>
+        </ForwardRef(styled.div)>
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+  </ForwardRef(styled.main)>
+</ForwardRef(styled.div)>
 `;
 
 exports[`Storyshots pages Signin 1`] = `
-.c5 {
-  border-radius: 1.25rem;
-  padding: 0 3rem;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  text-align: center;
-  color: #fff;
-  font-size: 1rem;
-  background: linear-gradient(90deg,#3ebdaa,#3fa2fc);
-  background-color: #3ebdaa;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  cursor: pointer;
-  background: #ccc;
-}
-
-.c5:hover {
-  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.12), 0 0.125rem 0.125rem 0 rgba(0,0,0,0.24);
-}
-
-.c5:hover {
-  box-shadow: none;
-  cursor: default;
-}
-
-.c4 {
-  width: 100%;
-  border: none;
-  box-sizing: border-box;
-  outline: none;
-  padding: 0.5rem;
-  font-size: 1rem;
-}
-
-.c4::-webkit-input-placeholder {
-  color: #ccc;
-}
-
-.c0 {
-  background: #3ebdaa;
-  background: linear-gradient( 90deg, rgba(62,189,170,0.6), rgba(63,162,252,0.6) );
-  height: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c1 {
-  background-color: #fff;
-  padding: 3rem;
-  width: 24rem;
-  box-sizing: border-box;
-  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.1);
-}
-
-.c1 button {
-  margin-top: 3.75rem;
-  width: 100%;
-}
-
-.c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-  border-bottom: 0.063rem solid #ccc;
-  color: #ccc;
-}
-
-.c3 + .c2 {
-  margin-top: 1.5rem;
-}
-
-.c3 input {
-  margin-left: 0.5rem;
-}
-
-.c3 input:valid + svg {
-  color: #3ebdaa;
-}
-
-<div
-  className="c0"
->
-  <main
-    className="c1"
-  >
+<ForwardRef(styled.div)>
+  <ForwardRef(styled.main)>
     <form
       action="#"
       method="post"
     >
-      <div
-        className="c2 c3"
-      >
-        <input
-          className="c4"
-          placeholder="Kaylie28@gmail.com"
+      <ForwardRef(styled.div)>
+        <ForwardRef(styled.input)
+          placeholder="Marty_Parisian26@yahoo.com"
           type="email"
         />
-        <svg
-          aria-hidden="true"
-          className="svg-inline--fa fa-envelope fa-w-16 "
-          data-icon="envelope"
-          data-prefix="fas"
-          focusable="false"
-          role="img"
-          style={Object {}}
-          viewBox="0 0 512 512"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
-            fill="currentColor"
-            style={Object {}}
-          />
-        </svg>
-      </div>
-      <div
-        className="c2 c3"
-      >
-        <input
-          className="c4"
-          placeholder="Cheese"
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          fixedWidth={false}
+          flip={null}
+          icon={
+            Object {
+              "icon": Array [
+                512,
+                512,
+                Array [],
+                "f0e0",
+                "M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z",
+              ],
+              "iconName": "envelope",
+              "prefix": "fas",
+            }
+          }
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size={null}
+          spin={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+      </ForwardRef(styled.div)>
+      <ForwardRef(styled.div)>
+        <ForwardRef(styled.input)
+          placeholder="Berkshire"
           type="password"
         />
-        <svg
-          aria-hidden="true"
-          className="svg-inline--fa fa-unlock fa-w-14 "
-          data-icon="unlock"
-          data-prefix="fas"
-          focusable="false"
-          role="img"
-          style={Object {}}
-          viewBox="0 0 448 512"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M400 256H152V152.9c0-39.6 31.7-72.5 71.3-72.9 40-.4 72.7 32.1 72.7 72v16c0 13.3 10.7 24 24 24h32c13.3 0 24-10.7 24-24v-16C376 68 307.5-.3 223.5 0 139.5.3 72 69.5 72 153.5V256H48c-26.5 0-48 21.5-48 48v160c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
-            fill="currentColor"
-            style={Object {}}
-          />
-        </svg>
-      </div>
-      <button
-        className="c5"
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          fixedWidth={false}
+          flip={null}
+          icon={
+            Object {
+              "icon": Array [
+                448,
+                512,
+                Array [],
+                "f09c",
+                "M400 256H152V152.9c0-39.6 31.7-72.5 71.3-72.9 40-.4 72.7 32.1 72.7 72v16c0 13.3 10.7 24 24 24h32c13.3 0 24-10.7 24-24v-16C376 68 307.5-.3 223.5 0 139.5.3 72 69.5 72 153.5V256H48c-26.5 0-48 21.5-48 48v160c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z",
+              ],
+              "iconName": "unlock",
+              "prefix": "fas",
+            }
+          }
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size={null}
+          spin={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+      </ForwardRef(styled.div)>
+      <ForwardRef(styled.button)
         disabled={true}
       >
         Sign in
-      </button>
+      </ForwardRef(styled.button)>
     </form>
-  </main>
-</div>
+  </ForwardRef(styled.main)>
+</ForwardRef(styled.div)>
 `;
 
 exports[`Storyshots templates Default 1`] = `
-.c2 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.c1 {
-  text-align: center;
-  background-color: #000;
-  width: 40px;
-}
-
-.c1 li a {
-  color: #fff;
-  display: block;
-  padding: 0.7rem;
-}
-
-.c1 li a:hover,
-.c1 li a.active {
-  background-color: #3ebdaa;
-}
-
-.c0 {
-  background: #3ebdaa;
-  background: linear-gradient( 90deg, rgba(62,189,170,0.6), rgba(63,162,252,0.6) );
-  height: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-@media (max-width:48rem) {
-  .c2 {
-    display: block;
-  }
-}
-
-@media (max-width:48rem) {
-  .c1 {
-    width: 100%;
-  }
-
-  .c1 ul {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-<div
-  className="c0"
->
-  <nav
-    className="c1"
-  >
+<ForwardRef(styled.div)>
+  <ForwardRef(styled.nav)>
     <ul>
       <li>
         <a
           className="active"
           href="#"
         >
-          <svg
-            aria-hidden="true"
-            className="svg-inline--fa fa-user fa-w-14 "
-            data-icon="user"
-            data-prefix="fas"
-            focusable="false"
-            role="img"
-            style={Object {}}
-            viewBox="0 0 448 512"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
-              fill="currentColor"
-              style={Object {}}
-            />
-          </svg>
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  448,
+                  512,
+                  Array [],
+                  "f007",
+                  "M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z",
+                ],
+                "iconName": "user",
+                "prefix": "fas",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
         </a>
       </li>
       <li>
         <a
           href="#"
         >
-          <svg
-            aria-hidden="true"
-            className="svg-inline--fa fa-edit fa-w-18 "
-            data-icon="edit"
-            data-prefix="fas"
-            focusable="false"
-            role="img"
-            style={Object {}}
-            viewBox="0 0 576 512"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M402.6 83.2l90.2 90.2c3.8 3.8 3.8 10 0 13.8L274.4 405.6l-92.8 10.3c-12.4 1.4-22.9-9.1-21.5-21.5l10.3-92.8L388.8 83.2c3.8-3.8 10-3.8 13.8 0zm162-22.9l-48.8-48.8c-15.2-15.2-39.9-15.2-55.2 0l-35.4 35.4c-3.8 3.8-3.8 10 0 13.8l90.2 90.2c3.8 3.8 10 3.8 13.8 0l35.4-35.4c15.2-15.3 15.2-40 0-55.2zM384 346.2V448H64V128h229.8c3.2 0 6.2-1.3 8.5-3.5l40-40c7.6-7.6 2.2-20.5-8.5-20.5H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V306.2c0-10.7-12.9-16-20.5-8.5l-40 40c-2.2 2.3-3.5 5.3-3.5 8.5z"
-              fill="currentColor"
-              style={Object {}}
-            />
-          </svg>
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  576,
+                  512,
+                  Array [],
+                  "f044",
+                  "M402.6 83.2l90.2 90.2c3.8 3.8 3.8 10 0 13.8L274.4 405.6l-92.8 10.3c-12.4 1.4-22.9-9.1-21.5-21.5l10.3-92.8L388.8 83.2c3.8-3.8 10-3.8 13.8 0zm162-22.9l-48.8-48.8c-15.2-15.2-39.9-15.2-55.2 0l-35.4 35.4c-3.8 3.8-3.8 10 0 13.8l90.2 90.2c3.8 3.8 10 3.8 13.8 0l35.4-35.4c15.2-15.3 15.2-40 0-55.2zM384 346.2V448H64V128h229.8c3.2 0 6.2-1.3 8.5-3.5l40-40c7.6-7.6 2.2-20.5-8.5-20.5H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V306.2c0-10.7-12.9-16-20.5-8.5l-40 40c-2.2 2.3-3.5 5.3-3.5 8.5z",
+                ],
+                "iconName": "edit",
+                "prefix": "fas",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
         </a>
       </li>
     </ul>
-  </nav>
-  <main
-    className="c2"
-  />
-</div>
+  </ForwardRef(styled.nav)>
+  <ForwardRef(styled.main) />
+</ForwardRef(styled.div)>
 `;
 
 exports[`Storyshots templates SignIn 1`] = `
-.c0 {
-  background: #3ebdaa;
-  background: linear-gradient( 90deg, rgba(62,189,170,0.6), rgba(63,162,252,0.6) );
-  height: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c1 {
-  background-color: #fff;
-  padding: 3rem;
-  width: 24rem;
-  box-sizing: border-box;
-  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.1);
-}
-
-.c1 button {
-  margin-top: 3.75rem;
-  width: 100%;
-}
-
-<div
-  className="c0"
->
-  <main
-    className="c1"
-  />
-</div>
+<ForwardRef(styled.div)>
+  <ForwardRef(styled.main) />
+</ForwardRef(styled.div)>
 `;

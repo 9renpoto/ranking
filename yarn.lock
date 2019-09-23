@@ -12295,6 +12295,11 @@ postcss@^7.0.17, postcss@^7.0.5, postcss@^7.0.6:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
+preact-render-to-json@3.6.6:
+  version "3.6.6"
+  resolved "https://registry.yarnpkg.com/preact-render-to-json/-/preact-render-to-json-3.6.6.tgz#f67f48581912ac53fc9f4873bc6d7ce342f71c20"
+  integrity sha1-9n9IWBkSrFP8n0hzvG1840L3HCA=
+
 preact-render-to-string@5.0.6:
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-5.0.6.tgz#3e89078f78e88157a044f91914b348894cd18d03"
