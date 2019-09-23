@@ -25,8 +25,8 @@
     "styled-components": "4.4.0"
   },
   "devDependencies": {
-    "@9renpoto/eslint-config": "5.1.0",
     "@9renpoto/eslint-config-react": "5.2.0",
+    "@9renpoto/eslint-config-typescript": "5.2.0",
     "@9renpoto/stylelint-config": "5.2.0",
     "@storybook/addon-actions": "5.2.1",
     "@storybook/addon-storyshots": "5.2.1",
@@ -36,7 +36,6 @@
     "@types/jest": "24.0.18",
     "@types/react-test-renderer": "16.9.0",
     "@types/storybook__addon-storyshots": "5.1.1",
-    "@typescript-eslint/parser": "2.3.1",
     "babel-jest": "24.9.0",
     "babel-loader": "8.0.6",
     "babel-plugin-macros": "2.6.1",
