@@ -32,7 +32,7 @@
     "@types/storybook__addon-actions": "3.4.3",
     "@types/storybook__addon-storyshots": "5.1.1",
     "@types/storybook__react": "4.0.2",
-    "@typescript-eslint/parser": "2.3.0",
+    "@typescript-eslint/parser": "2.3.1",
     "babel-jest": "24.9.0",
     "babel-loader": "8.0.6",
     "babel-plugin-macros": "2.6.1",
