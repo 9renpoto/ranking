@@ -20,7 +20,7 @@ import {
 } from '@rate/atoms'
 import { HeroContent as HeroInner, Navbar, Rank } from '@rate/molecules'
 
-type Props = {
+interface Props {
   url: {
     query: {
       memberId: string
