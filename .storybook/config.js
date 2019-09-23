@@ -1,5 +1,4 @@
-const { configure } = require('@storybook/react')
-const { addParameters } = require('@storybook/react')
+const { configure, addParameters } = require('@storybook/preact')
 const requireContext = require('require-context.macro')
 
 addParameters({

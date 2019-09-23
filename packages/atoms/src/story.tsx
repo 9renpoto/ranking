@@ -1,4 +1,4 @@
-import { storiesOf } from '@storybook/react'
+import { storiesOf } from '@storybook/preact'
 import { random, image } from 'faker'
 import { Avatar, Box, Inner, Button, Hero, Bar, Name } from '.'
 

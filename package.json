@@ -3,6 +3,11 @@
   "description": "TBD",
   "version": "0.0.1",
   "author": "9renpoto",
+  "_moduleAliases": {
+    "react": "node_modules/preact/compat",
+    "react-dom": "node_modules/preact/compat",
+    "react-ssr-prepass": "node_modules/preact-ssr-prepass"
+  },
   "dependencies": {
     "@babel/core": "7.6.2",
     "@firebase/app-types": "0.4.3",
@@ -12,7 +17,11 @@
     "@fortawesome/react-fontawesome": "0.1.4",
     "@types/styled-components": "4.1.19",
     "firebase": "6.6.2",
+    "module-alias": "2.2.1",
     "next": "9.0.6",
+    "preact": "10.0.0-rc.3",
+    "preact-render-to-string": "5.0.6",
+    "preact-ssr-prepass": "1.0.0",
     "styled-components": "4.4.0"
   },
   "devDependencies": {
@@ -22,7 +31,7 @@
     "@storybook/addon-actions": "5.2.1",
     "@storybook/addon-storyshots": "5.2.1",
     "@storybook/addon-viewport": "5.2.1",
-    "@storybook/react": "5.2.1",
+    "@storybook/preact": "5.2.1",
     "@types/faker": "4.1.5",
     "@types/jest": "24.0.18",
     "@types/react-test-renderer": "16.9.0",
@@ -69,6 +78,9 @@
     "collectCoverageFrom": [
       "packages/**/src/**/*.{ts,tsx}",
       "apps/**/src/**/*.{ts,tsx}"
+    ],
+    "setupFiles": [
+      "<rootDir>/.jest/setup.js"
     ],
     "setupFilesAfterEnv": [
       "jest-styled-components"

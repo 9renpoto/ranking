@@ -5,7 +5,7 @@ import {
   faUnlock
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { storiesOf } from '@storybook/react'
+import { storiesOf } from '@storybook/preact'
 import { image, random, internet } from 'faker'
 import {
   Wrapper,
