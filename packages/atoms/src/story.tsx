@@ -1,4 +1,3 @@
-import { storiesOf } from '@storybook/preact'
 import { random, image } from 'faker'
 import { Avatar, Box, Inner, Button, Hero, Bar, Name } from '.'
 
@@ -15,14 +14,15 @@ function DefaultRankBar() {
   )
 }
 
-storiesOf('atoms', module)
-  .add('Avatar', () => <Avatar width={20} height={20} />)
-  .add('Box', () => (
-    <Box>
-      <Inner>{random.words()}</Inner>
-      <Inner>{random.words()}</Inner>
-    </Box>
-  ))
-  .add('Button', () => <Button>{random.word()}</Button>)
-  .add('Hero', () => <Hero>{random.words()}</Hero>)
-  .add('RankBar', () => <DefaultRankBar />)
+export default { title: 'atoms' }
+
+export const Avatars = () => <Avatar width={20} height={20} />
+export const Boxes = () => (
+  <Box>
+    <Inner>{random.words()}</Inner>
+    <Inner>{random.words()}</Inner>
+  </Box>
+)
+export const Buttons = () => <Button>{random.word()}</Button>
+export const Heros = () => <Hero>{random.words()}</Hero>
+export const RankBars = () => <DefaultRankBar />

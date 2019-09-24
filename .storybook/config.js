@@ -9,9 +9,4 @@ addParameters({
   }
 })
 
-function loadStories() {
-  const req = requireContext('../', true, /story.tsx$/)
-  req.keys().forEach(filename => req(filename))
-}
-
-configure(loadStories, module)
+configure(requireContext('../', true, /story.tsx$/), module)
