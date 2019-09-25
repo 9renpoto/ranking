@@ -6,7 +6,6 @@ module.exports = async ({ config: defaultConfig }) => {
     options: {
       plugins: ['macros'],
       presets: [
-        '@zeit/next-typescript/babel',
         [
           'next/babel',
           {
@@ -17,6 +16,13 @@ module.exports = async ({ config: defaultConfig }) => {
         ]
       ]
     }
+  })
+
+  defaultConfig.resolve.alias = Object.assign({}, defaultConfig.resolve.alias, {
+    react: 'preact/compat',
+    react$: 'preact/compat',
+    'react-dom': 'preact/compat',
+    'react-dom$': 'preact/compat'
   })
 
   defaultConfig.resolve.extensions.push('.ts', '.tsx', '.jsx')

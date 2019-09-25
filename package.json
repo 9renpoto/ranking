@@ -3,6 +3,11 @@
   "description": "TBD",
   "version": "0.0.1",
   "author": "9renpoto",
+  "_moduleAliases": {
+    "react": "node_modules/preact/compat",
+    "react-dom": "node_modules/preact/compat",
+    "react-ssr-prepass": "node_modules/preact-ssr-prepass"
+  },
   "dependencies": {
     "@babel/core": "7.6.2",
     "@firebase/app-types": "0.4.3",
@@ -11,28 +16,26 @@
     "@fortawesome/free-solid-svg-icons": "5.11.2",
     "@fortawesome/react-fontawesome": "0.1.4",
     "@types/styled-components": "4.1.19",
-    "@zeit/next-typescript": "1.1.1",
     "firebase": "6.6.2",
+    "module-alias": "2.2.1",
     "next": "9.0.6",
-    "react": "16.9.0",
-    "react-dom": "16.9.0",
+    "preact": "10.0.0-rc.3",
+    "preact-render-to-string": "5.0.6",
+    "preact-ssr-prepass": "1.0.0",
     "styled-components": "4.4.0"
   },
   "devDependencies": {
-    "@9renpoto/eslint-config": "5.1.0",
     "@9renpoto/eslint-config-react": "5.2.0",
+    "@9renpoto/eslint-config-typescript": "5.2.0",
     "@9renpoto/stylelint-config": "5.2.0",
     "@storybook/addon-actions": "5.2.1",
     "@storybook/addon-storyshots": "5.2.1",
     "@storybook/addon-viewport": "5.2.1",
-    "@storybook/react": "5.2.1",
+    "@storybook/preact": "5.2.1",
     "@types/faker": "4.1.5",
     "@types/jest": "24.0.18",
     "@types/react-test-renderer": "16.9.0",
-    "@types/storybook__addon-actions": "3.4.3",
     "@types/storybook__addon-storyshots": "5.1.1",
-    "@types/storybook__react": "4.0.2",
-    "@typescript-eslint/parser": "2.3.1",
     "babel-jest": "24.9.0",
     "babel-loader": "8.0.6",
     "babel-plugin-macros": "2.6.1",
@@ -47,6 +50,7 @@
     "lerna-changelog": "0.8.2",
     "lint-staged": "9.3.0",
     "npm-run-all": "4.1.5",
+    "preact-render-to-json": "3.6.6",
     "prettier-eslint-cli": "5.0.0",
     "prettier-stylelint": "0.4.2",
     "react-test-renderer": "16.9.0",
@@ -74,6 +78,9 @@
     "collectCoverageFrom": [
       "packages/**/src/**/*.{ts,tsx}",
       "apps/**/src/**/*.{ts,tsx}"
+    ],
+    "setupFiles": [
+      "<rootDir>/.jest/setup.js"
     ],
     "setupFilesAfterEnv": [
       "jest-styled-components"

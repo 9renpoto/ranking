@@ -1,19 +1,9 @@
 {
-  "parser": "@typescript-eslint/parser",
   "extends": [
-    "@9renpoto/eslint-config",
     "@9renpoto/eslint-config-react",
-    "prettier/@typescript-eslint",
-    "plugin:import/typescript"
+    "@9renpoto/eslint-config-typescript"
   ],
   "plugins": [
     "jest"
-  ],
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "modules": true
-    }
-  }
+  ]
 }

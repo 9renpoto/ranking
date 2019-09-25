@@ -2,7 +2,6 @@ import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
 import { Nav } from '@rate/atoms'
-import React from 'react'
 
 interface Props {
   memberId: string

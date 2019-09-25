@@ -1,10 +1,4 @@
 import styled from 'styled-components'
-import { Children } from 'react'
-
-interface Props {
-  children: React.ReactNode
-  fixed?: boolean
-}
 
 export const Box = styled.div`
   margin: 0 2rem;
@@ -13,34 +7,31 @@ export const Box = styled.div`
     margin: 0.625rem 2rem 0;
   }
 
-  ${(props: Props) =>
-    Children.count(props.children) === 2 &&
-    `
-    display: flex;
+  display: flex;
+
+  > * {
+    width: 50%;
+  }
+
+  > * + * {
+    margin-left: 0.625rem;
+  }
+
+  @media (max-width: 48rem) {
+    display: block;
 
     > * {
-      width: 50%;
-    }
+      width: 100%;
+      box-sizing: border-box;
 
-    > * + * {
-      margin-left: 0.625rem;
-    }
-
-    @media (max-width: 48rem) {
-      display: block;
-
-      > * {
-        width: 100%;
-        box-sizing: border-box;
-
-        + * {
-          margin-left: 0;
-          margin-top: .625rem;
-        }
+      + * {
+        margin-left: 0;
+        margin-top: 0.625rem;
       }
     }
-  `};
-  ${props =>
+  }
+
+  ${(props: { fixed?: boolean }) =>
     props.fixed &&
     `
       height: 100%;

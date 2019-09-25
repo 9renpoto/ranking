@@ -1,7 +1,6 @@
 import { faEdit, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { image, random } from 'faker'
-import React from 'react'
 import {
   Avatar,
   Box,
