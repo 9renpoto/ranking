@@ -18,7 +18,7 @@
     "@types/styled-components": "4.1.19",
     "firebase": "7.0.0",
     "module-alias": "2.2.1",
-    "next": "9.0.6",
+    "next": "9.0.7",
     "preact": "10.0.0-rc.3",
     "preact-render-to-string": "5.0.6",
     "preact-ssr-prepass": "1.0.0",
