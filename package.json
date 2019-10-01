@@ -17,7 +17,7 @@
     "@fortawesome/react-fontawesome": "0.1.5",
     "@types/styled-components": "4.1.19",
     "firebase": "7.0.0",
-    "module-alias": "2.2.1",
+    "module-alias": "2.2.2",
     "next": "9.0.7",
     "preact": "10.0.0-rc.3",
     "preact-render-to-string": "5.0.6",
