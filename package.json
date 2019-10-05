@@ -10,13 +10,11 @@
   },
   "dependencies": {
     "@babel/core": "7.6.2",
-    "@firebase/app-types": "0.4.4",
     "@fortawesome/fontawesome-free": "5.11.2",
     "@fortawesome/fontawesome-svg-core": "1.2.25",
     "@fortawesome/free-solid-svg-icons": "5.11.2",
     "@fortawesome/react-fontawesome": "0.1.5",
     "@types/styled-components": "4.1.19",
-    "firebase": "7.1.0",
     "module-alias": "2.2.2",
     "next": "9.0.7",
     "preact": "10.0.0",
@@ -34,7 +32,6 @@
     "@storybook/preact": "5.2.1",
     "@types/faker": "4.1.6",
     "@types/jest": "24.0.18",
-    "@types/react-test-renderer": "16.9.0",
     "@types/storybook__addon-storyshots": "5.1.1",
     "babel-jest": "24.9.0",
     "babel-loader": "8.0.6",
@@ -61,7 +58,6 @@
     "stylelint-config-recommended": "3.0.0",
     "stylelint-config-styled-components": "0.1.1",
     "stylelint-processor-styled-components": "1.8.0",
-    "typescript": "3.6.3",
     "typescript-styled-plugin": "0.14.0"
   },
   "husky": {
@@ -118,6 +114,7 @@
     "lint:es": "eslint . --ext=ts,tsx",
     "lint:stylelint": "stylelint '{packages,apps}/**/*.tsx'",
     "lint:tsc": "tsc -p . --noEmit",
+    "lint:prettier": "prettier --check '{packages,apps}/**/*.tsx'",
     "start": "start-storybook -p 9001",
     "test": "jest"
   },

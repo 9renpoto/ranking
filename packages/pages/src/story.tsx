@@ -49,12 +49,12 @@ export const AdmirePage = () => (
     <Nav>
       <ul>
         <li>
-          <a href="#" className="active">
+          <a href='#' className='active'>
             <FontAwesomeIcon icon={faUser} />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href='#'>
             <FontAwesomeIcon icon={faEdit} />
           </a>
         </li>
@@ -77,7 +77,7 @@ export const AdmirePage = () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -97,7 +97,7 @@ export const AdmirePage = () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -117,7 +117,7 @@ export const AdmirePage = () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -137,7 +137,7 @@ export const AdmirePage = () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -157,7 +157,7 @@ export const AdmirePage = () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -177,7 +177,7 @@ export const AdmirePage = () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -196,12 +196,12 @@ export const Mypage = () => (
     <Nav>
       <ul>
         <li>
-          <a href="#" className="active">
+          <a href='#' className='active'>
             <FontAwesomeIcon icon={faUser} />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href='#'>
             <FontAwesomeIcon icon={faEdit} />
           </a>
         </li>
@@ -269,13 +269,13 @@ export const Mypage = () => (
 export const Signin = () => (
   <SigninWrapper>
     <SigninWrapperInner>
-      <form action="#" method="post">
+      <form action='#' method='post'>
         <SigninWrapperInput>
-          <Input type="email" placeholder={internet.email()} />
+          <Input type='email' placeholder={internet.email()} />
           <FontAwesomeIcon icon={faEnvelope} />
         </SigninWrapperInput>
         <SigninWrapperInput>
-          <Input type="password" placeholder={random.word()} />
+          <Input type='password' placeholder={random.word()} />
           <FontAwesomeIcon icon={faUnlock} />
         </SigninWrapperInput>
         <Button disabled>Sign in</Button>

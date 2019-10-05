@@ -36,7 +36,7 @@ function DefaultAdmire() {
             <p>{random.word()}</p>
           </RangeValuation>
           <EditRange>
-            <EditRangeInput type="range" step="25" />
+            <EditRangeInput type='range' step='25' />
             <RangeValue style={{ left: '50%' }}>3</RangeValue>
           </EditRange>
         </RangeInner>
@@ -96,7 +96,7 @@ export const RangeInput = () => (
         <p>{random.word()}</p>
       </RangeValuation>
       <EditRange>
-        <EditRangeInput type="range" step="25" />
+        <EditRangeInput type='range' step='25' />
         <RangeValue style={{ left: '50%' }}>3</RangeValue>
       </EditRange>
     </RangeInner>
@@ -119,7 +119,7 @@ export const Ranks = () => (
             <p>{random.word()}</p>
           </RangeValuation>
           <EditRange>
-            <EditRangeInput type="range" step="25" />
+            <EditRangeInput type='range' step='25' />
             <RangeValue style={{ left: '50%' }}>3</RangeValue>
           </EditRange>
         </RangeInner>
