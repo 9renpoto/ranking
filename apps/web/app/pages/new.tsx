@@ -24,12 +24,12 @@ export default () => (
     <Nav>
       <ul>
         <li>
-          <a href="#" className="active">
+          <a href='#' className='active'>
             <FontAwesomeIcon icon={faUser} />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href='#'>
             <FontAwesomeIcon icon={faEdit} />
           </a>
         </li>
@@ -52,7 +52,7 @@ export default () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -72,7 +72,7 @@ export default () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -92,7 +92,7 @@ export default () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -112,7 +112,7 @@ export default () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -132,7 +132,7 @@ export default () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -152,7 +152,7 @@ export default () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -172,7 +172,7 @@ export default () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -192,7 +192,7 @@ export default () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -212,7 +212,7 @@ export default () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -232,7 +232,7 @@ export default () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -252,7 +252,7 @@ export default () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>
@@ -272,7 +272,7 @@ export default () => (
                   <p>{random.word()}</p>
                 </RangeValuation>
                 <EditRange>
-                  <EditRangeInput type="range" step="25" />
+                  <EditRangeInput type='range' step='25' />
                   <RangeValue style={{ left: '50%' }}>3</RangeValue>
                 </EditRange>
               </RangeInner>

@@ -10,13 +10,13 @@ import {
 export default () => (
   <SigninWrapper>
     <SigninWrapperInner>
-      <form action="#" method="post">
+      <form action='#' method='post'>
         <SigninWrapperInput>
-          <Input type="email" placeholder={'email'} />
+          <Input type='email' placeholder={'email'} />
           <FontAwesomeIcon icon={faEnvelope} />
         </SigninWrapperInput>
         <SigninWrapperInput>
-          <Input type="password" placeholder={'password'} />
+          <Input type='password' placeholder={'password'} />
           <FontAwesomeIcon icon={faUnlock} />
         </SigninWrapperInput>
       </form>

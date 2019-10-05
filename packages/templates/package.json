@@ -11,8 +11,8 @@
   "main": "lib/index.js",
   "private": true,
   "scripts": {
-    "build": "tsc -p . && tsc -p . -m commonjs --outDir cjs",
-    "clean": "rimraf lib cjs",
+    "build": "tsc -p .",
+    "clean": "rimraf lib",
     "dev": "tsc -p . -w",
     "prebuild": "yarn clean"
   },

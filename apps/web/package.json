@@ -7,17 +7,15 @@
     "@rate/pages": "0.0.1",
     "@rate/templates": "0.0.1",
     "next": "9.0.7",
-    "next-transpile-modules": "2.3.1",
-    "ts-node": "8.4.1",
-    "typescript": "3.6.3",
-    "webpack": "4.41.0"
+    "next-transpile-modules": "2.3.1"
   },
   "main": "lib/index.js",
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "run-p -l build:*",
+    "build:app": "next build app",
     "clean": "rimraf .next",
-    "dev": "tsc -p . -w",
+    "dev": "next app",
     "prebuild": "yarn clean"
   }
 }

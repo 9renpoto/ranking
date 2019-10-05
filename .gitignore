@@ -1,7 +1,7 @@
 .envrc
 lib/
-cjs/
 storybook-static/
+dist/
 
 ### https://raw.github.com/github/gitignore/086eacaaa2b9fde537315141e154631b945e1369/Node.gitignore
 

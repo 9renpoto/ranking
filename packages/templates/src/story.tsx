@@ -9,12 +9,12 @@ export const SignInDefault = () => (
     <Nav>
       <ul>
         <li>
-          <a href="#" className="active">
+          <a href='#' className='active'>
             <FontAwesomeIcon icon={faUser} />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href='#'>
             <FontAwesomeIcon icon={faEdit} />
           </a>
         </li>
