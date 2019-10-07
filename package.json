@@ -16,7 +16,7 @@
     "@fortawesome/react-fontawesome": "0.1.5",
     "@types/styled-components": "4.1.19",
     "module-alias": "2.2.2",
-    "next": "9.0.8",
+    "next": "9.1.0",
     "preact": "10.0.0",
     "preact-render-to-string": "5.0.6",
     "preact-ssr-prepass": "1.0.0",
