@@ -26,10 +26,10 @@
     eslint-plugin-import "2.18.2"
     eslint-plugin-prettier "3.1.1"
 
-"@9renpoto/stylelint-config@5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@9renpoto/stylelint-config/-/stylelint-config-5.2.0.tgz#928137c158e4df5f0e4ad1bd41b0c2a15a2679e0"
-  integrity sha512-+GnMhhy2TE4gNJZh1f03gncdd5/qnTBnFS1jHcksddPzFrQPQleiS7kNfdvYh7NXW4G5RegLsKviXg7q32P1rQ==
+"@9renpoto/stylelint-config@5.2.1":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@9renpoto/stylelint-config/-/stylelint-config-5.2.1.tgz#421284b936c6dbc5553290ccf6eec7493c74d09e"
+  integrity sha512-jkTDDlSPbRTZerbOe/tyqc7RWMFDmMdEaSflVT8Oj5IwkDB078Z6+gbFDEaiMXDFcKkxfyZvbkxlPwPied8hNA==
   dependencies:
     stylelint-config-standard "19.0.0"
 
