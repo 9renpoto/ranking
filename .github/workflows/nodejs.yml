@@ -20,9 +20,8 @@ jobs:
         run: |
           yarn install
           yarn build
-          npm run lint
-          npm test
-          npm run coverage
+          yarn lint
+          yarn test
         env:
           CI: true
       - uses: actions/checkout@master
