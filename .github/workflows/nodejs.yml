@@ -26,3 +26,7 @@ jobs:
         npm run coverage
       env:
         CI: true
+    - uses: actions/checkout@master
+    - uses: codecov/codecov-action@v1.0.2
+      with:
+        token: ${{secrets.CODECOV_TOKEN}} #required
