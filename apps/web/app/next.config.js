@@ -4,7 +4,7 @@ const withPreact = require('next-preactx-plugin')
 module.exports = withPreact(
   withTM({
     distDir: '../../dist/functions/next',
-    target: 'serverless',
+    target: 'experimental-serverless-trace',
     transpileModules: [
       '@rate/atoms',
       '@rate/molecules',
