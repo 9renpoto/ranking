@@ -27,7 +27,7 @@
     "rimraf": "3.0.0",
     "styled-components": "4.4.0",
     "typescript": "3.6.4",
-    "typescript-styled-plugin": "0.14.0"
+    "typescript-styled-plugin": "0.15.0"
   },
   "devDependencies": {
     "@9renpoto/eslint-config-react": "5.2.1",
