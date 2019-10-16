@@ -21,7 +21,6 @@ jobs:
           yarn install --production
           yarn build
           yarn install
-          yarn build
           yarn lint
           yarn test
         env:
