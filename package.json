@@ -13,7 +13,7 @@
     "@fortawesome/fontawesome-free": "5.11.2",
     "@fortawesome/fontawesome-svg-core": "1.2.25",
     "@fortawesome/free-solid-svg-icons": "5.11.2",
-    "@fortawesome/react-fontawesome": "0.1.6",
+    "@fortawesome/react-fontawesome": "0.1.7",
     "@types/styled-components": "4.1.19",
     "lerna": "3.18.1",
     "module-alias": "2.2.2",
