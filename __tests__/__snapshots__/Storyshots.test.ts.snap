@@ -1,26 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots atoms Avatars 1`] = `
-<ForwardRef(styled.div)
-  height={20}
-  width={20}
-/>
-`;
-
-exports[`Storyshots atoms Boxes 1`] = `
-<ForwardRef(styled.div)>
-  <ForwardRef(styled.div)>
-    port eyeballs Rufiyaa
-  </ForwardRef(styled.div)>
-  <ForwardRef(styled.div)>
-    sensor users Administrator
-  </ForwardRef(styled.div)>
-</ForwardRef(styled.div)>
-`;
-
 exports[`Storyshots atoms Heros 1`] = `
 <ForwardRef(styled.div)>
-  Missouri Cotton harness
+  port eyeballs Rufiyaa
 </ForwardRef(styled.div)>
 `;
 
@@ -28,37 +10,437 @@ exports[`Storyshots atoms Rank Bars 1`] = `<DefaultRankBar />`;
 
 exports[`Storyshots molecules Admires 1`] = `
 <ForwardRef(styled.div)
-  fixed={true}
+  theme={
+    Object {
+      "borders": Array [
+        0,
+        "1px solid",
+      ],
+      "breakpoints": Array [
+        "544px",
+        "768px",
+        "1012px",
+        "1280px",
+      ],
+      "colors": Object {
+        "black": "#1b1f23",
+        "blackfade15": "rgba(27, 31, 35, 0.15)",
+        "blackfade20": "rgba(27, 31, 35, 0.20)",
+        "blackfade35": "rgba(27, 31, 35, 0.35)",
+        "blackfade50": "rgba(27, 31, 35, 0.5)",
+        "blue": Array [
+          "#f1f8ff",
+          "#dbedff",
+          "#c8e1ff",
+          "#79b8ff",
+          "#2188ff",
+          "#0366d6",
+          "#005cc5",
+          "#044289",
+          "#032f62",
+          "#05264c",
+        ],
+        "bodytext": "#24292e",
+        "button": Object {
+          "activeBg": "rgb(233, 236, 239)",
+          "bg2": "rgb(239, 243, 246)",
+          "border": "rgba(27, 31, 35, 0.2)",
+          "dangerActiveBg": "rgb(181, 32, 44)",
+          "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+          "dangerHoverBgImage": "rgb(222, 68, 80)",
+          "disabledColor": "rgba(36, 41, 46, 0.4)",
+          "focusShadow": "rgba(3, 102, 214, 0.3)",
+          "hoverBg": "rgb(230, 235, 241)",
+          "outlineBlue": "rgb(3, 102, 214)",
+          "outlineShadow": "rgba(3, 102, 214, 0.4)",
+          "primaryActiveBg": "rgb(39, 159, 67)",
+          "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+          "primaryBg": "rgb(40, 167, 69)",
+          "primaryBgImage": "rgb(52, 208, 88)",
+          "primaryBorder": "rgba(27, 31, 35, 0.5)",
+          "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+          "primaryHoverBg": "rgb(38, 159, 66)",
+          "primaryHoverBgImage": "rgb(47, 203, 83)",
+          "white": "rgb(255, 255, 255)",
+        },
+        "counter": Object {
+          "bg": "rgba(27, 31, 35, 0.08)",
+        },
+        "filterList": Object {
+          "hoverBg": "#eaecef",
+        },
+        "gray": Array [
+          "#fafbfc",
+          "#f6f8fa",
+          "#e1e4e8",
+          "#d1d5da",
+          "#959da5",
+          "#6a737d",
+          "#586069",
+          "#444d56",
+          "#2f363d",
+          "#24292e",
+        ],
+        "green": Array [
+          "#f0fff4",
+          "#dcffe4",
+          "#bef5cb",
+          "#85e89d",
+          "#34d058",
+          "#28a745",
+          "#22863a",
+          "#176f2c",
+          "#165c26",
+          "#144620",
+        ],
+        "orange": Array [
+          "#fff8f2",
+          "#ffebda",
+          "#ffd1ac",
+          "#ffab70",
+          "#fb8532",
+          "#f66a0a",
+          "#e36209",
+          "#d15704",
+          "#c24e00",
+          "#a04100",
+        ],
+        "purple": Array [
+          "#f5f0ff",
+          "#e6dcfd",
+          "#d1bcf9",
+          "#b392f0",
+          "#8a63d2",
+          "#6f42c1",
+          "#5a32a3",
+          "#4c2889",
+          "#3a1d6e",
+          "#29134e",
+        ],
+        "red": Array [
+          "#ffeef0",
+          "#ffdce0",
+          "#fdaeb7",
+          "#f97583",
+          "#ea4a5a",
+          "#d73a49",
+          "#cb2431",
+          "#b31d28",
+          "#9e1c23",
+          "#86181d",
+        ],
+        "state": Object {
+          "error": "#d73a49",
+          "failure": "#d73a49",
+          "pending": "#dbab09",
+          "queued": "#dbab09",
+          "success": "#28a745",
+          "unknown": "#959da5",
+        },
+        "white": "#fff",
+        "whitefade15": "rgba(255, 255, 255, 0.15)",
+        "yellow": Array [
+          "#fffdef",
+          "#fffbdd",
+          "#fff5b1",
+          "#ffea7f",
+          "#ffdf5d",
+          "#ffd33d",
+          "#f9c513",
+          "#dbab09",
+          "#b08800",
+          "#735c0f",
+        ],
+      },
+      "fontSizes": Array [
+        12,
+        14,
+        16,
+        20,
+        24,
+        32,
+        40,
+        48,
+      ],
+      "fontWeights": Object {
+        "bold": 600,
+        "light": 300,
+        "normal": 400,
+      },
+      "fonts": Object {
+        "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+        "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+      },
+      "lineHeights": Object {
+        "condensed": 1.25,
+        "condensedUltra": 1,
+        "default": 1.5,
+      },
+      "maxWidths": Object {
+        "large": "1012px",
+        "medium": "768px",
+        "small": "544px",
+        "xlarge": "1280px",
+      },
+      "radii": Array [
+        0,
+        3,
+        6,
+      ],
+      "shadows": Object {
+        "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+        "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+        "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+        "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+        "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+        "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+      },
+      "space": Array [
+        0,
+        4,
+        8,
+        16,
+        24,
+        32,
+        40,
+        48,
+        64,
+        80,
+        96,
+        112,
+        128,
+      ],
+    }
+  }
 >
-  <ForwardRef(styled.div)
-    fixed={true}
-  >
-    <DefaultAdmire />
-    <DefaultAdmire />
-    <DefaultAdmire />
-    <DefaultAdmire />
-  </ForwardRef(styled.div)>
+  <DefaultAdmire />
+  <DefaultAdmire />
+  <DefaultAdmire />
+  <DefaultAdmire />
 </ForwardRef(styled.div)>
 `;
 
 exports[`Storyshots molecules Heros 1`] = `
 <ForwardRef(styled.div)>
   <ForwardRef(styled.div)>
-    <ForwardRef(styled.div)
+    <ForwardRef(styled.img)
+      alt=""
       height={4.688}
-      isCircle={true}
+      size={20}
+      theme={
+        Object {
+          "borders": Array [
+            0,
+            "1px solid",
+          ],
+          "breakpoints": Array [
+            "544px",
+            "768px",
+            "1012px",
+            "1280px",
+          ],
+          "colors": Object {
+            "black": "#1b1f23",
+            "blackfade15": "rgba(27, 31, 35, 0.15)",
+            "blackfade20": "rgba(27, 31, 35, 0.20)",
+            "blackfade35": "rgba(27, 31, 35, 0.35)",
+            "blackfade50": "rgba(27, 31, 35, 0.5)",
+            "blue": Array [
+              "#f1f8ff",
+              "#dbedff",
+              "#c8e1ff",
+              "#79b8ff",
+              "#2188ff",
+              "#0366d6",
+              "#005cc5",
+              "#044289",
+              "#032f62",
+              "#05264c",
+            ],
+            "bodytext": "#24292e",
+            "button": Object {
+              "activeBg": "rgb(233, 236, 239)",
+              "bg2": "rgb(239, 243, 246)",
+              "border": "rgba(27, 31, 35, 0.2)",
+              "dangerActiveBg": "rgb(181, 32, 44)",
+              "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+              "dangerHoverBgImage": "rgb(222, 68, 80)",
+              "disabledColor": "rgba(36, 41, 46, 0.4)",
+              "focusShadow": "rgba(3, 102, 214, 0.3)",
+              "hoverBg": "rgb(230, 235, 241)",
+              "outlineBlue": "rgb(3, 102, 214)",
+              "outlineShadow": "rgba(3, 102, 214, 0.4)",
+              "primaryActiveBg": "rgb(39, 159, 67)",
+              "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+              "primaryBg": "rgb(40, 167, 69)",
+              "primaryBgImage": "rgb(52, 208, 88)",
+              "primaryBorder": "rgba(27, 31, 35, 0.5)",
+              "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+              "primaryHoverBg": "rgb(38, 159, 66)",
+              "primaryHoverBgImage": "rgb(47, 203, 83)",
+              "white": "rgb(255, 255, 255)",
+            },
+            "counter": Object {
+              "bg": "rgba(27, 31, 35, 0.08)",
+            },
+            "filterList": Object {
+              "hoverBg": "#eaecef",
+            },
+            "gray": Array [
+              "#fafbfc",
+              "#f6f8fa",
+              "#e1e4e8",
+              "#d1d5da",
+              "#959da5",
+              "#6a737d",
+              "#586069",
+              "#444d56",
+              "#2f363d",
+              "#24292e",
+            ],
+            "green": Array [
+              "#f0fff4",
+              "#dcffe4",
+              "#bef5cb",
+              "#85e89d",
+              "#34d058",
+              "#28a745",
+              "#22863a",
+              "#176f2c",
+              "#165c26",
+              "#144620",
+            ],
+            "orange": Array [
+              "#fff8f2",
+              "#ffebda",
+              "#ffd1ac",
+              "#ffab70",
+              "#fb8532",
+              "#f66a0a",
+              "#e36209",
+              "#d15704",
+              "#c24e00",
+              "#a04100",
+            ],
+            "purple": Array [
+              "#f5f0ff",
+              "#e6dcfd",
+              "#d1bcf9",
+              "#b392f0",
+              "#8a63d2",
+              "#6f42c1",
+              "#5a32a3",
+              "#4c2889",
+              "#3a1d6e",
+              "#29134e",
+            ],
+            "red": Array [
+              "#ffeef0",
+              "#ffdce0",
+              "#fdaeb7",
+              "#f97583",
+              "#ea4a5a",
+              "#d73a49",
+              "#cb2431",
+              "#b31d28",
+              "#9e1c23",
+              "#86181d",
+            ],
+            "state": Object {
+              "error": "#d73a49",
+              "failure": "#d73a49",
+              "pending": "#dbab09",
+              "queued": "#dbab09",
+              "success": "#28a745",
+              "unknown": "#959da5",
+            },
+            "white": "#fff",
+            "whitefade15": "rgba(255, 255, 255, 0.15)",
+            "yellow": Array [
+              "#fffdef",
+              "#fffbdd",
+              "#fff5b1",
+              "#ffea7f",
+              "#ffdf5d",
+              "#ffd33d",
+              "#f9c513",
+              "#dbab09",
+              "#b08800",
+              "#735c0f",
+            ],
+          },
+          "fontSizes": Array [
+            12,
+            14,
+            16,
+            20,
+            24,
+            32,
+            40,
+            48,
+          ],
+          "fontWeights": Object {
+            "bold": 600,
+            "light": 300,
+            "normal": 400,
+          },
+          "fonts": Object {
+            "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+            "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+          },
+          "lineHeights": Object {
+            "condensed": 1.25,
+            "condensedUltra": 1,
+            "default": 1.5,
+          },
+          "maxWidths": Object {
+            "large": "1012px",
+            "medium": "768px",
+            "small": "544px",
+            "xlarge": "1280px",
+          },
+          "radii": Array [
+            0,
+            3,
+            6,
+          ],
+          "shadows": Object {
+            "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+            "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+            "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+            "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+            "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+            "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+          },
+          "space": Array [
+            0,
+            4,
+            8,
+            16,
+            24,
+            32,
+            40,
+            48,
+            64,
+            80,
+            96,
+            112,
+            128,
+          ],
+        }
+      }
       width={4.688}
     >
       <img
-        alt="Credit Card Account"
+        alt="monitor"
         src="http://lorempixel.com/300/300"
       />
-    </ForwardRef(styled.div)>
+    </ForwardRef(styled.img)>
     <ForwardRef(styled.p)
       padding={1}
       white={true}
     >
-      help-desk
+      Berkshire
     </ForwardRef(styled.p)>
   </ForwardRef(styled.div)>
 </ForwardRef(styled.div)>
@@ -69,10 +451,10 @@ exports[`Storyshots molecules Range Input 1`] = `
   <ForwardRef(styled.div)>
     <ForwardRef(styled.div)>
       <p>
-        Credit Card Account
+        Missouri
       </p>
       <p>
-        deposit
+        Cotton
       </p>
     </ForwardRef(styled.div)>
     <ForwardRef(styled.div)>
@@ -99,10 +481,10 @@ exports[`Storyshots molecules Ranges 1`] = `
   <ForwardRef(styled.div)>
     <ForwardRef(styled.div)>
       <p>
-        Balanced
+        mobile
       </p>
       <p>
-        Yen
+        infomediaries
       </p>
     </ForwardRef(styled.div)>
     <ForwardRef(styled.div)>
@@ -130,33 +512,237 @@ exports[`Storyshots molecules Ranges 1`] = `
 exports[`Storyshots molecules Ranks 1`] = `
 <ForwardRef(styled.div)>
   <span>
-    44025
+    40101
   </span>
   <ForwardRef(styled.div)>
     <ForwardRef(styled.div)>
-      <ForwardRef(styled.div)
+      <ForwardRef(styled.img)
+        alt=""
         height={2.5}
+        size={20}
+        theme={
+          Object {
+            "borders": Array [
+              0,
+              "1px solid",
+            ],
+            "breakpoints": Array [
+              "544px",
+              "768px",
+              "1012px",
+              "1280px",
+            ],
+            "colors": Object {
+              "black": "#1b1f23",
+              "blackfade15": "rgba(27, 31, 35, 0.15)",
+              "blackfade20": "rgba(27, 31, 35, 0.20)",
+              "blackfade35": "rgba(27, 31, 35, 0.35)",
+              "blackfade50": "rgba(27, 31, 35, 0.5)",
+              "blue": Array [
+                "#f1f8ff",
+                "#dbedff",
+                "#c8e1ff",
+                "#79b8ff",
+                "#2188ff",
+                "#0366d6",
+                "#005cc5",
+                "#044289",
+                "#032f62",
+                "#05264c",
+              ],
+              "bodytext": "#24292e",
+              "button": Object {
+                "activeBg": "rgb(233, 236, 239)",
+                "bg2": "rgb(239, 243, 246)",
+                "border": "rgba(27, 31, 35, 0.2)",
+                "dangerActiveBg": "rgb(181, 32, 44)",
+                "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+                "dangerHoverBgImage": "rgb(222, 68, 80)",
+                "disabledColor": "rgba(36, 41, 46, 0.4)",
+                "focusShadow": "rgba(3, 102, 214, 0.3)",
+                "hoverBg": "rgb(230, 235, 241)",
+                "outlineBlue": "rgb(3, 102, 214)",
+                "outlineShadow": "rgba(3, 102, 214, 0.4)",
+                "primaryActiveBg": "rgb(39, 159, 67)",
+                "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+                "primaryBg": "rgb(40, 167, 69)",
+                "primaryBgImage": "rgb(52, 208, 88)",
+                "primaryBorder": "rgba(27, 31, 35, 0.5)",
+                "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+                "primaryHoverBg": "rgb(38, 159, 66)",
+                "primaryHoverBgImage": "rgb(47, 203, 83)",
+                "white": "rgb(255, 255, 255)",
+              },
+              "counter": Object {
+                "bg": "rgba(27, 31, 35, 0.08)",
+              },
+              "filterList": Object {
+                "hoverBg": "#eaecef",
+              },
+              "gray": Array [
+                "#fafbfc",
+                "#f6f8fa",
+                "#e1e4e8",
+                "#d1d5da",
+                "#959da5",
+                "#6a737d",
+                "#586069",
+                "#444d56",
+                "#2f363d",
+                "#24292e",
+              ],
+              "green": Array [
+                "#f0fff4",
+                "#dcffe4",
+                "#bef5cb",
+                "#85e89d",
+                "#34d058",
+                "#28a745",
+                "#22863a",
+                "#176f2c",
+                "#165c26",
+                "#144620",
+              ],
+              "orange": Array [
+                "#fff8f2",
+                "#ffebda",
+                "#ffd1ac",
+                "#ffab70",
+                "#fb8532",
+                "#f66a0a",
+                "#e36209",
+                "#d15704",
+                "#c24e00",
+                "#a04100",
+              ],
+              "purple": Array [
+                "#f5f0ff",
+                "#e6dcfd",
+                "#d1bcf9",
+                "#b392f0",
+                "#8a63d2",
+                "#6f42c1",
+                "#5a32a3",
+                "#4c2889",
+                "#3a1d6e",
+                "#29134e",
+              ],
+              "red": Array [
+                "#ffeef0",
+                "#ffdce0",
+                "#fdaeb7",
+                "#f97583",
+                "#ea4a5a",
+                "#d73a49",
+                "#cb2431",
+                "#b31d28",
+                "#9e1c23",
+                "#86181d",
+              ],
+              "state": Object {
+                "error": "#d73a49",
+                "failure": "#d73a49",
+                "pending": "#dbab09",
+                "queued": "#dbab09",
+                "success": "#28a745",
+                "unknown": "#959da5",
+              },
+              "white": "#fff",
+              "whitefade15": "rgba(255, 255, 255, 0.15)",
+              "yellow": Array [
+                "#fffdef",
+                "#fffbdd",
+                "#fff5b1",
+                "#ffea7f",
+                "#ffdf5d",
+                "#ffd33d",
+                "#f9c513",
+                "#dbab09",
+                "#b08800",
+                "#735c0f",
+              ],
+            },
+            "fontSizes": Array [
+              12,
+              14,
+              16,
+              20,
+              24,
+              32,
+              40,
+              48,
+            ],
+            "fontWeights": Object {
+              "bold": 600,
+              "light": 300,
+              "normal": 400,
+            },
+            "fonts": Object {
+              "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+              "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+            },
+            "lineHeights": Object {
+              "condensed": 1.25,
+              "condensedUltra": 1,
+              "default": 1.5,
+            },
+            "maxWidths": Object {
+              "large": "1012px",
+              "medium": "768px",
+              "small": "544px",
+              "xlarge": "1280px",
+            },
+            "radii": Array [
+              0,
+              3,
+              6,
+            ],
+            "shadows": Object {
+              "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+              "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+              "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+              "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+              "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+              "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+            },
+            "space": Array [
+              0,
+              4,
+              8,
+              16,
+              24,
+              32,
+              40,
+              48,
+              64,
+              80,
+              96,
+              112,
+              128,
+            ],
+          }
+        }
         width={2.5}
       >
         <img
-          alt="Computer"
+          alt="extensible"
           src="http://lorempixel.com/300/300"
         />
-      </ForwardRef(styled.div)>
+      </ForwardRef(styled.img)>
       <ForwardRef(styled.p)
         padding={0}
       >
-        Poland
+        card
       </ForwardRef(styled.p)>
     </ForwardRef(styled.div)>
     <ForwardRef(styled.div)>
       <ForwardRef(styled.div)>
         <ForwardRef(styled.div)>
           <p>
-            Israel
+            communities
           </p>
           <p>
-            withdrawal
+            Handcrafted Cotton Soap
           </p>
         </ForwardRef(styled.div)>
         <ForwardRef(styled.div)>
@@ -191,7 +777,7 @@ exports[`Storyshots molecules Results 1`] = `
     </ForwardRef(styled.div)>
   </ForwardRef(styled.div)>
   <ForwardRef(styled.p)>
-    indexing
+    alarm
   </ForwardRef(styled.p)>
 </React.Fragment>
 `;
@@ -279,36 +865,642 @@ exports[`Storyshots pages Admire Page 1`] = `
   </ForwardRef(styled.nav)>
   <ForwardRef(styled.main)>
     <ForwardRef(styled.div)
-      fixed={true}
+      theme={
+        Object {
+          "borders": Array [
+            0,
+            "1px solid",
+          ],
+          "breakpoints": Array [
+            "544px",
+            "768px",
+            "1012px",
+            "1280px",
+          ],
+          "colors": Object {
+            "black": "#1b1f23",
+            "blackfade15": "rgba(27, 31, 35, 0.15)",
+            "blackfade20": "rgba(27, 31, 35, 0.20)",
+            "blackfade35": "rgba(27, 31, 35, 0.35)",
+            "blackfade50": "rgba(27, 31, 35, 0.5)",
+            "blue": Array [
+              "#f1f8ff",
+              "#dbedff",
+              "#c8e1ff",
+              "#79b8ff",
+              "#2188ff",
+              "#0366d6",
+              "#005cc5",
+              "#044289",
+              "#032f62",
+              "#05264c",
+            ],
+            "bodytext": "#24292e",
+            "button": Object {
+              "activeBg": "rgb(233, 236, 239)",
+              "bg2": "rgb(239, 243, 246)",
+              "border": "rgba(27, 31, 35, 0.2)",
+              "dangerActiveBg": "rgb(181, 32, 44)",
+              "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+              "dangerHoverBgImage": "rgb(222, 68, 80)",
+              "disabledColor": "rgba(36, 41, 46, 0.4)",
+              "focusShadow": "rgba(3, 102, 214, 0.3)",
+              "hoverBg": "rgb(230, 235, 241)",
+              "outlineBlue": "rgb(3, 102, 214)",
+              "outlineShadow": "rgba(3, 102, 214, 0.4)",
+              "primaryActiveBg": "rgb(39, 159, 67)",
+              "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+              "primaryBg": "rgb(40, 167, 69)",
+              "primaryBgImage": "rgb(52, 208, 88)",
+              "primaryBorder": "rgba(27, 31, 35, 0.5)",
+              "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+              "primaryHoverBg": "rgb(38, 159, 66)",
+              "primaryHoverBgImage": "rgb(47, 203, 83)",
+              "white": "rgb(255, 255, 255)",
+            },
+            "counter": Object {
+              "bg": "rgba(27, 31, 35, 0.08)",
+            },
+            "filterList": Object {
+              "hoverBg": "#eaecef",
+            },
+            "gray": Array [
+              "#fafbfc",
+              "#f6f8fa",
+              "#e1e4e8",
+              "#d1d5da",
+              "#959da5",
+              "#6a737d",
+              "#586069",
+              "#444d56",
+              "#2f363d",
+              "#24292e",
+            ],
+            "green": Array [
+              "#f0fff4",
+              "#dcffe4",
+              "#bef5cb",
+              "#85e89d",
+              "#34d058",
+              "#28a745",
+              "#22863a",
+              "#176f2c",
+              "#165c26",
+              "#144620",
+            ],
+            "orange": Array [
+              "#fff8f2",
+              "#ffebda",
+              "#ffd1ac",
+              "#ffab70",
+              "#fb8532",
+              "#f66a0a",
+              "#e36209",
+              "#d15704",
+              "#c24e00",
+              "#a04100",
+            ],
+            "purple": Array [
+              "#f5f0ff",
+              "#e6dcfd",
+              "#d1bcf9",
+              "#b392f0",
+              "#8a63d2",
+              "#6f42c1",
+              "#5a32a3",
+              "#4c2889",
+              "#3a1d6e",
+              "#29134e",
+            ],
+            "red": Array [
+              "#ffeef0",
+              "#ffdce0",
+              "#fdaeb7",
+              "#f97583",
+              "#ea4a5a",
+              "#d73a49",
+              "#cb2431",
+              "#b31d28",
+              "#9e1c23",
+              "#86181d",
+            ],
+            "state": Object {
+              "error": "#d73a49",
+              "failure": "#d73a49",
+              "pending": "#dbab09",
+              "queued": "#dbab09",
+              "success": "#28a745",
+              "unknown": "#959da5",
+            },
+            "white": "#fff",
+            "whitefade15": "rgba(255, 255, 255, 0.15)",
+            "yellow": Array [
+              "#fffdef",
+              "#fffbdd",
+              "#fff5b1",
+              "#ffea7f",
+              "#ffdf5d",
+              "#ffd33d",
+              "#f9c513",
+              "#dbab09",
+              "#b08800",
+              "#735c0f",
+            ],
+          },
+          "fontSizes": Array [
+            12,
+            14,
+            16,
+            20,
+            24,
+            32,
+            40,
+            48,
+          ],
+          "fontWeights": Object {
+            "bold": 600,
+            "light": 300,
+            "normal": 400,
+          },
+          "fonts": Object {
+            "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+            "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+          },
+          "lineHeights": Object {
+            "condensed": 1.25,
+            "condensedUltra": 1,
+            "default": 1.5,
+          },
+          "maxWidths": Object {
+            "large": "1012px",
+            "medium": "768px",
+            "small": "544px",
+            "xlarge": "1280px",
+          },
+          "radii": Array [
+            0,
+            3,
+            6,
+          ],
+          "shadows": Object {
+            "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+            "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+            "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+            "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+            "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+            "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+          },
+          "space": Array [
+            0,
+            4,
+            8,
+            16,
+            24,
+            32,
+            40,
+            48,
+            64,
+            80,
+            96,
+            112,
+            128,
+          ],
+        }
+      }
     >
       <ForwardRef(styled.div)
-        fixed={true}
+        theme={
+          Object {
+            "borders": Array [
+              0,
+              "1px solid",
+            ],
+            "breakpoints": Array [
+              "544px",
+              "768px",
+              "1012px",
+              "1280px",
+            ],
+            "colors": Object {
+              "black": "#1b1f23",
+              "blackfade15": "rgba(27, 31, 35, 0.15)",
+              "blackfade20": "rgba(27, 31, 35, 0.20)",
+              "blackfade35": "rgba(27, 31, 35, 0.35)",
+              "blackfade50": "rgba(27, 31, 35, 0.5)",
+              "blue": Array [
+                "#f1f8ff",
+                "#dbedff",
+                "#c8e1ff",
+                "#79b8ff",
+                "#2188ff",
+                "#0366d6",
+                "#005cc5",
+                "#044289",
+                "#032f62",
+                "#05264c",
+              ],
+              "bodytext": "#24292e",
+              "button": Object {
+                "activeBg": "rgb(233, 236, 239)",
+                "bg2": "rgb(239, 243, 246)",
+                "border": "rgba(27, 31, 35, 0.2)",
+                "dangerActiveBg": "rgb(181, 32, 44)",
+                "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+                "dangerHoverBgImage": "rgb(222, 68, 80)",
+                "disabledColor": "rgba(36, 41, 46, 0.4)",
+                "focusShadow": "rgba(3, 102, 214, 0.3)",
+                "hoverBg": "rgb(230, 235, 241)",
+                "outlineBlue": "rgb(3, 102, 214)",
+                "outlineShadow": "rgba(3, 102, 214, 0.4)",
+                "primaryActiveBg": "rgb(39, 159, 67)",
+                "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+                "primaryBg": "rgb(40, 167, 69)",
+                "primaryBgImage": "rgb(52, 208, 88)",
+                "primaryBorder": "rgba(27, 31, 35, 0.5)",
+                "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+                "primaryHoverBg": "rgb(38, 159, 66)",
+                "primaryHoverBgImage": "rgb(47, 203, 83)",
+                "white": "rgb(255, 255, 255)",
+              },
+              "counter": Object {
+                "bg": "rgba(27, 31, 35, 0.08)",
+              },
+              "filterList": Object {
+                "hoverBg": "#eaecef",
+              },
+              "gray": Array [
+                "#fafbfc",
+                "#f6f8fa",
+                "#e1e4e8",
+                "#d1d5da",
+                "#959da5",
+                "#6a737d",
+                "#586069",
+                "#444d56",
+                "#2f363d",
+                "#24292e",
+              ],
+              "green": Array [
+                "#f0fff4",
+                "#dcffe4",
+                "#bef5cb",
+                "#85e89d",
+                "#34d058",
+                "#28a745",
+                "#22863a",
+                "#176f2c",
+                "#165c26",
+                "#144620",
+              ],
+              "orange": Array [
+                "#fff8f2",
+                "#ffebda",
+                "#ffd1ac",
+                "#ffab70",
+                "#fb8532",
+                "#f66a0a",
+                "#e36209",
+                "#d15704",
+                "#c24e00",
+                "#a04100",
+              ],
+              "purple": Array [
+                "#f5f0ff",
+                "#e6dcfd",
+                "#d1bcf9",
+                "#b392f0",
+                "#8a63d2",
+                "#6f42c1",
+                "#5a32a3",
+                "#4c2889",
+                "#3a1d6e",
+                "#29134e",
+              ],
+              "red": Array [
+                "#ffeef0",
+                "#ffdce0",
+                "#fdaeb7",
+                "#f97583",
+                "#ea4a5a",
+                "#d73a49",
+                "#cb2431",
+                "#b31d28",
+                "#9e1c23",
+                "#86181d",
+              ],
+              "state": Object {
+                "error": "#d73a49",
+                "failure": "#d73a49",
+                "pending": "#dbab09",
+                "queued": "#dbab09",
+                "success": "#28a745",
+                "unknown": "#959da5",
+              },
+              "white": "#fff",
+              "whitefade15": "rgba(255, 255, 255, 0.15)",
+              "yellow": Array [
+                "#fffdef",
+                "#fffbdd",
+                "#fff5b1",
+                "#ffea7f",
+                "#ffdf5d",
+                "#ffd33d",
+                "#f9c513",
+                "#dbab09",
+                "#b08800",
+                "#735c0f",
+              ],
+            },
+            "fontSizes": Array [
+              12,
+              14,
+              16,
+              20,
+              24,
+              32,
+              40,
+              48,
+            ],
+            "fontWeights": Object {
+              "bold": 600,
+              "light": 300,
+              "normal": 400,
+            },
+            "fonts": Object {
+              "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+              "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+            },
+            "lineHeights": Object {
+              "condensed": 1.25,
+              "condensedUltra": 1,
+              "default": 1.5,
+            },
+            "maxWidths": Object {
+              "large": "1012px",
+              "medium": "768px",
+              "small": "544px",
+              "xlarge": "1280px",
+            },
+            "radii": Array [
+              0,
+              3,
+              6,
+            ],
+            "shadows": Object {
+              "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+              "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+              "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+              "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+              "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+              "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+            },
+            "space": Array [
+              0,
+              4,
+              8,
+              16,
+              24,
+              32,
+              40,
+              48,
+              64,
+              80,
+              96,
+              112,
+              128,
+            ],
+          }
+        }
       >
         <ForwardRef(styled.div)>
           <ForwardRef(styled.div)>
-            <ForwardRef(styled.div)
+            <ForwardRef(styled.img)
+              alt=""
               height={2.5}
+              size={20}
+              theme={
+                Object {
+                  "borders": Array [
+                    0,
+                    "1px solid",
+                  ],
+                  "breakpoints": Array [
+                    "544px",
+                    "768px",
+                    "1012px",
+                    "1280px",
+                  ],
+                  "colors": Object {
+                    "black": "#1b1f23",
+                    "blackfade15": "rgba(27, 31, 35, 0.15)",
+                    "blackfade20": "rgba(27, 31, 35, 0.20)",
+                    "blackfade35": "rgba(27, 31, 35, 0.35)",
+                    "blackfade50": "rgba(27, 31, 35, 0.5)",
+                    "blue": Array [
+                      "#f1f8ff",
+                      "#dbedff",
+                      "#c8e1ff",
+                      "#79b8ff",
+                      "#2188ff",
+                      "#0366d6",
+                      "#005cc5",
+                      "#044289",
+                      "#032f62",
+                      "#05264c",
+                    ],
+                    "bodytext": "#24292e",
+                    "button": Object {
+                      "activeBg": "rgb(233, 236, 239)",
+                      "bg2": "rgb(239, 243, 246)",
+                      "border": "rgba(27, 31, 35, 0.2)",
+                      "dangerActiveBg": "rgb(181, 32, 44)",
+                      "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+                      "dangerHoverBgImage": "rgb(222, 68, 80)",
+                      "disabledColor": "rgba(36, 41, 46, 0.4)",
+                      "focusShadow": "rgba(3, 102, 214, 0.3)",
+                      "hoverBg": "rgb(230, 235, 241)",
+                      "outlineBlue": "rgb(3, 102, 214)",
+                      "outlineShadow": "rgba(3, 102, 214, 0.4)",
+                      "primaryActiveBg": "rgb(39, 159, 67)",
+                      "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+                      "primaryBg": "rgb(40, 167, 69)",
+                      "primaryBgImage": "rgb(52, 208, 88)",
+                      "primaryBorder": "rgba(27, 31, 35, 0.5)",
+                      "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+                      "primaryHoverBg": "rgb(38, 159, 66)",
+                      "primaryHoverBgImage": "rgb(47, 203, 83)",
+                      "white": "rgb(255, 255, 255)",
+                    },
+                    "counter": Object {
+                      "bg": "rgba(27, 31, 35, 0.08)",
+                    },
+                    "filterList": Object {
+                      "hoverBg": "#eaecef",
+                    },
+                    "gray": Array [
+                      "#fafbfc",
+                      "#f6f8fa",
+                      "#e1e4e8",
+                      "#d1d5da",
+                      "#959da5",
+                      "#6a737d",
+                      "#586069",
+                      "#444d56",
+                      "#2f363d",
+                      "#24292e",
+                    ],
+                    "green": Array [
+                      "#f0fff4",
+                      "#dcffe4",
+                      "#bef5cb",
+                      "#85e89d",
+                      "#34d058",
+                      "#28a745",
+                      "#22863a",
+                      "#176f2c",
+                      "#165c26",
+                      "#144620",
+                    ],
+                    "orange": Array [
+                      "#fff8f2",
+                      "#ffebda",
+                      "#ffd1ac",
+                      "#ffab70",
+                      "#fb8532",
+                      "#f66a0a",
+                      "#e36209",
+                      "#d15704",
+                      "#c24e00",
+                      "#a04100",
+                    ],
+                    "purple": Array [
+                      "#f5f0ff",
+                      "#e6dcfd",
+                      "#d1bcf9",
+                      "#b392f0",
+                      "#8a63d2",
+                      "#6f42c1",
+                      "#5a32a3",
+                      "#4c2889",
+                      "#3a1d6e",
+                      "#29134e",
+                    ],
+                    "red": Array [
+                      "#ffeef0",
+                      "#ffdce0",
+                      "#fdaeb7",
+                      "#f97583",
+                      "#ea4a5a",
+                      "#d73a49",
+                      "#cb2431",
+                      "#b31d28",
+                      "#9e1c23",
+                      "#86181d",
+                    ],
+                    "state": Object {
+                      "error": "#d73a49",
+                      "failure": "#d73a49",
+                      "pending": "#dbab09",
+                      "queued": "#dbab09",
+                      "success": "#28a745",
+                      "unknown": "#959da5",
+                    },
+                    "white": "#fff",
+                    "whitefade15": "rgba(255, 255, 255, 0.15)",
+                    "yellow": Array [
+                      "#fffdef",
+                      "#fffbdd",
+                      "#fff5b1",
+                      "#ffea7f",
+                      "#ffdf5d",
+                      "#ffd33d",
+                      "#f9c513",
+                      "#dbab09",
+                      "#b08800",
+                      "#735c0f",
+                    ],
+                  },
+                  "fontSizes": Array [
+                    12,
+                    14,
+                    16,
+                    20,
+                    24,
+                    32,
+                    40,
+                    48,
+                  ],
+                  "fontWeights": Object {
+                    "bold": 600,
+                    "light": 300,
+                    "normal": 400,
+                  },
+                  "fonts": Object {
+                    "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+                    "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+                  },
+                  "lineHeights": Object {
+                    "condensed": 1.25,
+                    "condensedUltra": 1,
+                    "default": 1.5,
+                  },
+                  "maxWidths": Object {
+                    "large": "1012px",
+                    "medium": "768px",
+                    "small": "544px",
+                    "xlarge": "1280px",
+                  },
+                  "radii": Array [
+                    0,
+                    3,
+                    6,
+                  ],
+                  "shadows": Object {
+                    "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+                    "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+                    "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+                    "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+                    "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+                    "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+                  },
+                  "space": Array [
+                    0,
+                    4,
+                    8,
+                    16,
+                    24,
+                    32,
+                    40,
+                    48,
+                    64,
+                    80,
+                    96,
+                    112,
+                    128,
+                  ],
+                }
+              }
               width={2.5}
             >
               <img
-                alt="monitor"
+                alt="Table"
                 src="http://lorempixel.com/300/300"
               />
-            </ForwardRef(styled.div)>
+            </ForwardRef(styled.img)>
             <ForwardRef(styled.p)
               padding={0}
             >
-              Money Market Account
+              Computer
             </ForwardRef(styled.p)>
           </ForwardRef(styled.div)>
           <ForwardRef(styled.div)>
             <ForwardRef(styled.div)>
               <ForwardRef(styled.div)>
                 <p>
-                  system
+                  Poland
                 </p>
                 <p>
-                  monitoring
+                  Israel
                 </p>
               </ForwardRef(styled.div)>
               <ForwardRef(styled.div)>
@@ -331,27 +1523,231 @@ exports[`Storyshots pages Admire Page 1`] = `
         </ForwardRef(styled.div)>
         <ForwardRef(styled.div)>
           <ForwardRef(styled.div)>
-            <ForwardRef(styled.div)
+            <ForwardRef(styled.img)
+              alt=""
               height={2.5}
+              size={20}
+              theme={
+                Object {
+                  "borders": Array [
+                    0,
+                    "1px solid",
+                  ],
+                  "breakpoints": Array [
+                    "544px",
+                    "768px",
+                    "1012px",
+                    "1280px",
+                  ],
+                  "colors": Object {
+                    "black": "#1b1f23",
+                    "blackfade15": "rgba(27, 31, 35, 0.15)",
+                    "blackfade20": "rgba(27, 31, 35, 0.20)",
+                    "blackfade35": "rgba(27, 31, 35, 0.35)",
+                    "blackfade50": "rgba(27, 31, 35, 0.5)",
+                    "blue": Array [
+                      "#f1f8ff",
+                      "#dbedff",
+                      "#c8e1ff",
+                      "#79b8ff",
+                      "#2188ff",
+                      "#0366d6",
+                      "#005cc5",
+                      "#044289",
+                      "#032f62",
+                      "#05264c",
+                    ],
+                    "bodytext": "#24292e",
+                    "button": Object {
+                      "activeBg": "rgb(233, 236, 239)",
+                      "bg2": "rgb(239, 243, 246)",
+                      "border": "rgba(27, 31, 35, 0.2)",
+                      "dangerActiveBg": "rgb(181, 32, 44)",
+                      "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+                      "dangerHoverBgImage": "rgb(222, 68, 80)",
+                      "disabledColor": "rgba(36, 41, 46, 0.4)",
+                      "focusShadow": "rgba(3, 102, 214, 0.3)",
+                      "hoverBg": "rgb(230, 235, 241)",
+                      "outlineBlue": "rgb(3, 102, 214)",
+                      "outlineShadow": "rgba(3, 102, 214, 0.4)",
+                      "primaryActiveBg": "rgb(39, 159, 67)",
+                      "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+                      "primaryBg": "rgb(40, 167, 69)",
+                      "primaryBgImage": "rgb(52, 208, 88)",
+                      "primaryBorder": "rgba(27, 31, 35, 0.5)",
+                      "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+                      "primaryHoverBg": "rgb(38, 159, 66)",
+                      "primaryHoverBgImage": "rgb(47, 203, 83)",
+                      "white": "rgb(255, 255, 255)",
+                    },
+                    "counter": Object {
+                      "bg": "rgba(27, 31, 35, 0.08)",
+                    },
+                    "filterList": Object {
+                      "hoverBg": "#eaecef",
+                    },
+                    "gray": Array [
+                      "#fafbfc",
+                      "#f6f8fa",
+                      "#e1e4e8",
+                      "#d1d5da",
+                      "#959da5",
+                      "#6a737d",
+                      "#586069",
+                      "#444d56",
+                      "#2f363d",
+                      "#24292e",
+                    ],
+                    "green": Array [
+                      "#f0fff4",
+                      "#dcffe4",
+                      "#bef5cb",
+                      "#85e89d",
+                      "#34d058",
+                      "#28a745",
+                      "#22863a",
+                      "#176f2c",
+                      "#165c26",
+                      "#144620",
+                    ],
+                    "orange": Array [
+                      "#fff8f2",
+                      "#ffebda",
+                      "#ffd1ac",
+                      "#ffab70",
+                      "#fb8532",
+                      "#f66a0a",
+                      "#e36209",
+                      "#d15704",
+                      "#c24e00",
+                      "#a04100",
+                    ],
+                    "purple": Array [
+                      "#f5f0ff",
+                      "#e6dcfd",
+                      "#d1bcf9",
+                      "#b392f0",
+                      "#8a63d2",
+                      "#6f42c1",
+                      "#5a32a3",
+                      "#4c2889",
+                      "#3a1d6e",
+                      "#29134e",
+                    ],
+                    "red": Array [
+                      "#ffeef0",
+                      "#ffdce0",
+                      "#fdaeb7",
+                      "#f97583",
+                      "#ea4a5a",
+                      "#d73a49",
+                      "#cb2431",
+                      "#b31d28",
+                      "#9e1c23",
+                      "#86181d",
+                    ],
+                    "state": Object {
+                      "error": "#d73a49",
+                      "failure": "#d73a49",
+                      "pending": "#dbab09",
+                      "queued": "#dbab09",
+                      "success": "#28a745",
+                      "unknown": "#959da5",
+                    },
+                    "white": "#fff",
+                    "whitefade15": "rgba(255, 255, 255, 0.15)",
+                    "yellow": Array [
+                      "#fffdef",
+                      "#fffbdd",
+                      "#fff5b1",
+                      "#ffea7f",
+                      "#ffdf5d",
+                      "#ffd33d",
+                      "#f9c513",
+                      "#dbab09",
+                      "#b08800",
+                      "#735c0f",
+                    ],
+                  },
+                  "fontSizes": Array [
+                    12,
+                    14,
+                    16,
+                    20,
+                    24,
+                    32,
+                    40,
+                    48,
+                  ],
+                  "fontWeights": Object {
+                    "bold": 600,
+                    "light": 300,
+                    "normal": 400,
+                  },
+                  "fonts": Object {
+                    "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+                    "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+                  },
+                  "lineHeights": Object {
+                    "condensed": 1.25,
+                    "condensedUltra": 1,
+                    "default": 1.5,
+                  },
+                  "maxWidths": Object {
+                    "large": "1012px",
+                    "medium": "768px",
+                    "small": "544px",
+                    "xlarge": "1280px",
+                  },
+                  "radii": Array [
+                    0,
+                    3,
+                    6,
+                  ],
+                  "shadows": Object {
+                    "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+                    "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+                    "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+                    "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+                    "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+                    "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+                  },
+                  "space": Array [
+                    0,
+                    4,
+                    8,
+                    16,
+                    24,
+                    32,
+                    40,
+                    48,
+                    64,
+                    80,
+                    96,
+                    112,
+                    128,
+                  ],
+                }
+              }
               width={2.5}
             >
               <img
-                alt="dynamic"
+                alt="withdrawal"
                 src="http://lorempixel.com/300/300"
               />
-            </ForwardRef(styled.div)>
+            </ForwardRef(styled.img)>
             <ForwardRef(styled.p)>
-              Enterprise-wide
+              indexing
             </ForwardRef(styled.p)>
           </ForwardRef(styled.div)>
           <ForwardRef(styled.div)>
             <ForwardRef(styled.div)>
               <ForwardRef(styled.div)>
                 <p>
-                  zero defect
+                  monitor
                 </p>
                 <p>
-                  invoice
+                  Money Market Account
                 </p>
               </ForwardRef(styled.div)>
               <ForwardRef(styled.div)>
@@ -374,27 +1770,231 @@ exports[`Storyshots pages Admire Page 1`] = `
         </ForwardRef(styled.div)>
         <ForwardRef(styled.div)>
           <ForwardRef(styled.div)>
-            <ForwardRef(styled.div)
+            <ForwardRef(styled.img)
+              alt=""
               height={2.5}
+              size={20}
+              theme={
+                Object {
+                  "borders": Array [
+                    0,
+                    "1px solid",
+                  ],
+                  "breakpoints": Array [
+                    "544px",
+                    "768px",
+                    "1012px",
+                    "1280px",
+                  ],
+                  "colors": Object {
+                    "black": "#1b1f23",
+                    "blackfade15": "rgba(27, 31, 35, 0.15)",
+                    "blackfade20": "rgba(27, 31, 35, 0.20)",
+                    "blackfade35": "rgba(27, 31, 35, 0.35)",
+                    "blackfade50": "rgba(27, 31, 35, 0.5)",
+                    "blue": Array [
+                      "#f1f8ff",
+                      "#dbedff",
+                      "#c8e1ff",
+                      "#79b8ff",
+                      "#2188ff",
+                      "#0366d6",
+                      "#005cc5",
+                      "#044289",
+                      "#032f62",
+                      "#05264c",
+                    ],
+                    "bodytext": "#24292e",
+                    "button": Object {
+                      "activeBg": "rgb(233, 236, 239)",
+                      "bg2": "rgb(239, 243, 246)",
+                      "border": "rgba(27, 31, 35, 0.2)",
+                      "dangerActiveBg": "rgb(181, 32, 44)",
+                      "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+                      "dangerHoverBgImage": "rgb(222, 68, 80)",
+                      "disabledColor": "rgba(36, 41, 46, 0.4)",
+                      "focusShadow": "rgba(3, 102, 214, 0.3)",
+                      "hoverBg": "rgb(230, 235, 241)",
+                      "outlineBlue": "rgb(3, 102, 214)",
+                      "outlineShadow": "rgba(3, 102, 214, 0.4)",
+                      "primaryActiveBg": "rgb(39, 159, 67)",
+                      "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+                      "primaryBg": "rgb(40, 167, 69)",
+                      "primaryBgImage": "rgb(52, 208, 88)",
+                      "primaryBorder": "rgba(27, 31, 35, 0.5)",
+                      "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+                      "primaryHoverBg": "rgb(38, 159, 66)",
+                      "primaryHoverBgImage": "rgb(47, 203, 83)",
+                      "white": "rgb(255, 255, 255)",
+                    },
+                    "counter": Object {
+                      "bg": "rgba(27, 31, 35, 0.08)",
+                    },
+                    "filterList": Object {
+                      "hoverBg": "#eaecef",
+                    },
+                    "gray": Array [
+                      "#fafbfc",
+                      "#f6f8fa",
+                      "#e1e4e8",
+                      "#d1d5da",
+                      "#959da5",
+                      "#6a737d",
+                      "#586069",
+                      "#444d56",
+                      "#2f363d",
+                      "#24292e",
+                    ],
+                    "green": Array [
+                      "#f0fff4",
+                      "#dcffe4",
+                      "#bef5cb",
+                      "#85e89d",
+                      "#34d058",
+                      "#28a745",
+                      "#22863a",
+                      "#176f2c",
+                      "#165c26",
+                      "#144620",
+                    ],
+                    "orange": Array [
+                      "#fff8f2",
+                      "#ffebda",
+                      "#ffd1ac",
+                      "#ffab70",
+                      "#fb8532",
+                      "#f66a0a",
+                      "#e36209",
+                      "#d15704",
+                      "#c24e00",
+                      "#a04100",
+                    ],
+                    "purple": Array [
+                      "#f5f0ff",
+                      "#e6dcfd",
+                      "#d1bcf9",
+                      "#b392f0",
+                      "#8a63d2",
+                      "#6f42c1",
+                      "#5a32a3",
+                      "#4c2889",
+                      "#3a1d6e",
+                      "#29134e",
+                    ],
+                    "red": Array [
+                      "#ffeef0",
+                      "#ffdce0",
+                      "#fdaeb7",
+                      "#f97583",
+                      "#ea4a5a",
+                      "#d73a49",
+                      "#cb2431",
+                      "#b31d28",
+                      "#9e1c23",
+                      "#86181d",
+                    ],
+                    "state": Object {
+                      "error": "#d73a49",
+                      "failure": "#d73a49",
+                      "pending": "#dbab09",
+                      "queued": "#dbab09",
+                      "success": "#28a745",
+                      "unknown": "#959da5",
+                    },
+                    "white": "#fff",
+                    "whitefade15": "rgba(255, 255, 255, 0.15)",
+                    "yellow": Array [
+                      "#fffdef",
+                      "#fffbdd",
+                      "#fff5b1",
+                      "#ffea7f",
+                      "#ffdf5d",
+                      "#ffd33d",
+                      "#f9c513",
+                      "#dbab09",
+                      "#b08800",
+                      "#735c0f",
+                    ],
+                  },
+                  "fontSizes": Array [
+                    12,
+                    14,
+                    16,
+                    20,
+                    24,
+                    32,
+                    40,
+                    48,
+                  ],
+                  "fontWeights": Object {
+                    "bold": 600,
+                    "light": 300,
+                    "normal": 400,
+                  },
+                  "fonts": Object {
+                    "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+                    "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+                  },
+                  "lineHeights": Object {
+                    "condensed": 1.25,
+                    "condensedUltra": 1,
+                    "default": 1.5,
+                  },
+                  "maxWidths": Object {
+                    "large": "1012px",
+                    "medium": "768px",
+                    "small": "544px",
+                    "xlarge": "1280px",
+                  },
+                  "radii": Array [
+                    0,
+                    3,
+                    6,
+                  ],
+                  "shadows": Object {
+                    "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+                    "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+                    "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+                    "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+                    "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+                    "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+                  },
+                  "space": Array [
+                    0,
+                    4,
+                    8,
+                    16,
+                    24,
+                    32,
+                    40,
+                    48,
+                    64,
+                    80,
+                    96,
+                    112,
+                    128,
+                  ],
+                }
+              }
               width={2.5}
             >
               <img
-                alt="Licensed"
+                alt="system"
                 src="http://lorempixel.com/300/300"
               />
-            </ForwardRef(styled.div)>
+            </ForwardRef(styled.img)>
             <ForwardRef(styled.p)>
-              web-readiness
+              monitoring
             </ForwardRef(styled.p)>
           </ForwardRef(styled.div)>
           <ForwardRef(styled.div)>
             <ForwardRef(styled.div)>
               <ForwardRef(styled.div)>
                 <p>
-                  initiatives
+                  dynamic
                 </p>
                 <p>
-                  Avon
+                  Enterprise-wide
                 </p>
               </ForwardRef(styled.div)>
               <ForwardRef(styled.div)>
@@ -417,27 +2017,231 @@ exports[`Storyshots pages Admire Page 1`] = `
         </ForwardRef(styled.div)>
         <ForwardRef(styled.div)>
           <ForwardRef(styled.div)>
-            <ForwardRef(styled.div)
+            <ForwardRef(styled.img)
+              alt=""
               height={2.5}
+              size={20}
+              theme={
+                Object {
+                  "borders": Array [
+                    0,
+                    "1px solid",
+                  ],
+                  "breakpoints": Array [
+                    "544px",
+                    "768px",
+                    "1012px",
+                    "1280px",
+                  ],
+                  "colors": Object {
+                    "black": "#1b1f23",
+                    "blackfade15": "rgba(27, 31, 35, 0.15)",
+                    "blackfade20": "rgba(27, 31, 35, 0.20)",
+                    "blackfade35": "rgba(27, 31, 35, 0.35)",
+                    "blackfade50": "rgba(27, 31, 35, 0.5)",
+                    "blue": Array [
+                      "#f1f8ff",
+                      "#dbedff",
+                      "#c8e1ff",
+                      "#79b8ff",
+                      "#2188ff",
+                      "#0366d6",
+                      "#005cc5",
+                      "#044289",
+                      "#032f62",
+                      "#05264c",
+                    ],
+                    "bodytext": "#24292e",
+                    "button": Object {
+                      "activeBg": "rgb(233, 236, 239)",
+                      "bg2": "rgb(239, 243, 246)",
+                      "border": "rgba(27, 31, 35, 0.2)",
+                      "dangerActiveBg": "rgb(181, 32, 44)",
+                      "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+                      "dangerHoverBgImage": "rgb(222, 68, 80)",
+                      "disabledColor": "rgba(36, 41, 46, 0.4)",
+                      "focusShadow": "rgba(3, 102, 214, 0.3)",
+                      "hoverBg": "rgb(230, 235, 241)",
+                      "outlineBlue": "rgb(3, 102, 214)",
+                      "outlineShadow": "rgba(3, 102, 214, 0.4)",
+                      "primaryActiveBg": "rgb(39, 159, 67)",
+                      "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+                      "primaryBg": "rgb(40, 167, 69)",
+                      "primaryBgImage": "rgb(52, 208, 88)",
+                      "primaryBorder": "rgba(27, 31, 35, 0.5)",
+                      "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+                      "primaryHoverBg": "rgb(38, 159, 66)",
+                      "primaryHoverBgImage": "rgb(47, 203, 83)",
+                      "white": "rgb(255, 255, 255)",
+                    },
+                    "counter": Object {
+                      "bg": "rgba(27, 31, 35, 0.08)",
+                    },
+                    "filterList": Object {
+                      "hoverBg": "#eaecef",
+                    },
+                    "gray": Array [
+                      "#fafbfc",
+                      "#f6f8fa",
+                      "#e1e4e8",
+                      "#d1d5da",
+                      "#959da5",
+                      "#6a737d",
+                      "#586069",
+                      "#444d56",
+                      "#2f363d",
+                      "#24292e",
+                    ],
+                    "green": Array [
+                      "#f0fff4",
+                      "#dcffe4",
+                      "#bef5cb",
+                      "#85e89d",
+                      "#34d058",
+                      "#28a745",
+                      "#22863a",
+                      "#176f2c",
+                      "#165c26",
+                      "#144620",
+                    ],
+                    "orange": Array [
+                      "#fff8f2",
+                      "#ffebda",
+                      "#ffd1ac",
+                      "#ffab70",
+                      "#fb8532",
+                      "#f66a0a",
+                      "#e36209",
+                      "#d15704",
+                      "#c24e00",
+                      "#a04100",
+                    ],
+                    "purple": Array [
+                      "#f5f0ff",
+                      "#e6dcfd",
+                      "#d1bcf9",
+                      "#b392f0",
+                      "#8a63d2",
+                      "#6f42c1",
+                      "#5a32a3",
+                      "#4c2889",
+                      "#3a1d6e",
+                      "#29134e",
+                    ],
+                    "red": Array [
+                      "#ffeef0",
+                      "#ffdce0",
+                      "#fdaeb7",
+                      "#f97583",
+                      "#ea4a5a",
+                      "#d73a49",
+                      "#cb2431",
+                      "#b31d28",
+                      "#9e1c23",
+                      "#86181d",
+                    ],
+                    "state": Object {
+                      "error": "#d73a49",
+                      "failure": "#d73a49",
+                      "pending": "#dbab09",
+                      "queued": "#dbab09",
+                      "success": "#28a745",
+                      "unknown": "#959da5",
+                    },
+                    "white": "#fff",
+                    "whitefade15": "rgba(255, 255, 255, 0.15)",
+                    "yellow": Array [
+                      "#fffdef",
+                      "#fffbdd",
+                      "#fff5b1",
+                      "#ffea7f",
+                      "#ffdf5d",
+                      "#ffd33d",
+                      "#f9c513",
+                      "#dbab09",
+                      "#b08800",
+                      "#735c0f",
+                    ],
+                  },
+                  "fontSizes": Array [
+                    12,
+                    14,
+                    16,
+                    20,
+                    24,
+                    32,
+                    40,
+                    48,
+                  ],
+                  "fontWeights": Object {
+                    "bold": 600,
+                    "light": 300,
+                    "normal": 400,
+                  },
+                  "fonts": Object {
+                    "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+                    "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+                  },
+                  "lineHeights": Object {
+                    "condensed": 1.25,
+                    "condensedUltra": 1,
+                    "default": 1.5,
+                  },
+                  "maxWidths": Object {
+                    "large": "1012px",
+                    "medium": "768px",
+                    "small": "544px",
+                    "xlarge": "1280px",
+                  },
+                  "radii": Array [
+                    0,
+                    3,
+                    6,
+                  ],
+                  "shadows": Object {
+                    "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+                    "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+                    "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+                    "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+                    "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+                    "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+                  },
+                  "space": Array [
+                    0,
+                    4,
+                    8,
+                    16,
+                    24,
+                    32,
+                    40,
+                    48,
+                    64,
+                    80,
+                    96,
+                    112,
+                    128,
+                  ],
+                }
+              }
               width={2.5}
             >
               <img
-                alt="markets"
+                alt="zero defect"
                 src="http://lorempixel.com/300/300"
               />
-            </ForwardRef(styled.div)>
+            </ForwardRef(styled.img)>
             <ForwardRef(styled.p)>
-              success
+              invoice
             </ForwardRef(styled.p)>
           </ForwardRef(styled.div)>
           <ForwardRef(styled.div)>
             <ForwardRef(styled.div)>
               <ForwardRef(styled.div)>
                 <p>
-                  deliverables
+                  Licensed
                 </p>
                 <p>
-                  International
+                  web-readiness
                 </p>
               </ForwardRef(styled.div)>
               <ForwardRef(styled.div)>
@@ -460,27 +2264,231 @@ exports[`Storyshots pages Admire Page 1`] = `
         </ForwardRef(styled.div)>
         <ForwardRef(styled.div)>
           <ForwardRef(styled.div)>
-            <ForwardRef(styled.div)
+            <ForwardRef(styled.img)
+              alt=""
               height={2.5}
+              size={20}
+              theme={
+                Object {
+                  "borders": Array [
+                    0,
+                    "1px solid",
+                  ],
+                  "breakpoints": Array [
+                    "544px",
+                    "768px",
+                    "1012px",
+                    "1280px",
+                  ],
+                  "colors": Object {
+                    "black": "#1b1f23",
+                    "blackfade15": "rgba(27, 31, 35, 0.15)",
+                    "blackfade20": "rgba(27, 31, 35, 0.20)",
+                    "blackfade35": "rgba(27, 31, 35, 0.35)",
+                    "blackfade50": "rgba(27, 31, 35, 0.5)",
+                    "blue": Array [
+                      "#f1f8ff",
+                      "#dbedff",
+                      "#c8e1ff",
+                      "#79b8ff",
+                      "#2188ff",
+                      "#0366d6",
+                      "#005cc5",
+                      "#044289",
+                      "#032f62",
+                      "#05264c",
+                    ],
+                    "bodytext": "#24292e",
+                    "button": Object {
+                      "activeBg": "rgb(233, 236, 239)",
+                      "bg2": "rgb(239, 243, 246)",
+                      "border": "rgba(27, 31, 35, 0.2)",
+                      "dangerActiveBg": "rgb(181, 32, 44)",
+                      "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+                      "dangerHoverBgImage": "rgb(222, 68, 80)",
+                      "disabledColor": "rgba(36, 41, 46, 0.4)",
+                      "focusShadow": "rgba(3, 102, 214, 0.3)",
+                      "hoverBg": "rgb(230, 235, 241)",
+                      "outlineBlue": "rgb(3, 102, 214)",
+                      "outlineShadow": "rgba(3, 102, 214, 0.4)",
+                      "primaryActiveBg": "rgb(39, 159, 67)",
+                      "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+                      "primaryBg": "rgb(40, 167, 69)",
+                      "primaryBgImage": "rgb(52, 208, 88)",
+                      "primaryBorder": "rgba(27, 31, 35, 0.5)",
+                      "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+                      "primaryHoverBg": "rgb(38, 159, 66)",
+                      "primaryHoverBgImage": "rgb(47, 203, 83)",
+                      "white": "rgb(255, 255, 255)",
+                    },
+                    "counter": Object {
+                      "bg": "rgba(27, 31, 35, 0.08)",
+                    },
+                    "filterList": Object {
+                      "hoverBg": "#eaecef",
+                    },
+                    "gray": Array [
+                      "#fafbfc",
+                      "#f6f8fa",
+                      "#e1e4e8",
+                      "#d1d5da",
+                      "#959da5",
+                      "#6a737d",
+                      "#586069",
+                      "#444d56",
+                      "#2f363d",
+                      "#24292e",
+                    ],
+                    "green": Array [
+                      "#f0fff4",
+                      "#dcffe4",
+                      "#bef5cb",
+                      "#85e89d",
+                      "#34d058",
+                      "#28a745",
+                      "#22863a",
+                      "#176f2c",
+                      "#165c26",
+                      "#144620",
+                    ],
+                    "orange": Array [
+                      "#fff8f2",
+                      "#ffebda",
+                      "#ffd1ac",
+                      "#ffab70",
+                      "#fb8532",
+                      "#f66a0a",
+                      "#e36209",
+                      "#d15704",
+                      "#c24e00",
+                      "#a04100",
+                    ],
+                    "purple": Array [
+                      "#f5f0ff",
+                      "#e6dcfd",
+                      "#d1bcf9",
+                      "#b392f0",
+                      "#8a63d2",
+                      "#6f42c1",
+                      "#5a32a3",
+                      "#4c2889",
+                      "#3a1d6e",
+                      "#29134e",
+                    ],
+                    "red": Array [
+                      "#ffeef0",
+                      "#ffdce0",
+                      "#fdaeb7",
+                      "#f97583",
+                      "#ea4a5a",
+                      "#d73a49",
+                      "#cb2431",
+                      "#b31d28",
+                      "#9e1c23",
+                      "#86181d",
+                    ],
+                    "state": Object {
+                      "error": "#d73a49",
+                      "failure": "#d73a49",
+                      "pending": "#dbab09",
+                      "queued": "#dbab09",
+                      "success": "#28a745",
+                      "unknown": "#959da5",
+                    },
+                    "white": "#fff",
+                    "whitefade15": "rgba(255, 255, 255, 0.15)",
+                    "yellow": Array [
+                      "#fffdef",
+                      "#fffbdd",
+                      "#fff5b1",
+                      "#ffea7f",
+                      "#ffdf5d",
+                      "#ffd33d",
+                      "#f9c513",
+                      "#dbab09",
+                      "#b08800",
+                      "#735c0f",
+                    ],
+                  },
+                  "fontSizes": Array [
+                    12,
+                    14,
+                    16,
+                    20,
+                    24,
+                    32,
+                    40,
+                    48,
+                  ],
+                  "fontWeights": Object {
+                    "bold": 600,
+                    "light": 300,
+                    "normal": 400,
+                  },
+                  "fonts": Object {
+                    "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+                    "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+                  },
+                  "lineHeights": Object {
+                    "condensed": 1.25,
+                    "condensedUltra": 1,
+                    "default": 1.5,
+                  },
+                  "maxWidths": Object {
+                    "large": "1012px",
+                    "medium": "768px",
+                    "small": "544px",
+                    "xlarge": "1280px",
+                  },
+                  "radii": Array [
+                    0,
+                    3,
+                    6,
+                  ],
+                  "shadows": Object {
+                    "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+                    "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+                    "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+                    "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+                    "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+                    "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+                  },
+                  "space": Array [
+                    0,
+                    4,
+                    8,
+                    16,
+                    24,
+                    32,
+                    40,
+                    48,
+                    64,
+                    80,
+                    96,
+                    112,
+                    128,
+                  ],
+                }
+              }
               width={2.5}
             >
               <img
-                alt="Optimization"
+                alt="initiatives"
                 src="http://lorempixel.com/300/300"
               />
-            </ForwardRef(styled.div)>
+            </ForwardRef(styled.img)>
             <ForwardRef(styled.p)>
-              Berkshire
+              Avon
             </ForwardRef(styled.p)>
           </ForwardRef(styled.div)>
           <ForwardRef(styled.div)>
             <ForwardRef(styled.div)>
               <ForwardRef(styled.div)>
                 <p>
-                  Home Loan Account
+                  markets
                 </p>
                 <p>
-                  Plastic
+                  success
                 </p>
               </ForwardRef(styled.div)>
               <ForwardRef(styled.div)>
@@ -503,27 +2511,231 @@ exports[`Storyshots pages Admire Page 1`] = `
         </ForwardRef(styled.div)>
         <ForwardRef(styled.div)>
           <ForwardRef(styled.div)>
-            <ForwardRef(styled.div)
+            <ForwardRef(styled.img)
+              alt=""
               height={2.5}
+              size={20}
+              theme={
+                Object {
+                  "borders": Array [
+                    0,
+                    "1px solid",
+                  ],
+                  "breakpoints": Array [
+                    "544px",
+                    "768px",
+                    "1012px",
+                    "1280px",
+                  ],
+                  "colors": Object {
+                    "black": "#1b1f23",
+                    "blackfade15": "rgba(27, 31, 35, 0.15)",
+                    "blackfade20": "rgba(27, 31, 35, 0.20)",
+                    "blackfade35": "rgba(27, 31, 35, 0.35)",
+                    "blackfade50": "rgba(27, 31, 35, 0.5)",
+                    "blue": Array [
+                      "#f1f8ff",
+                      "#dbedff",
+                      "#c8e1ff",
+                      "#79b8ff",
+                      "#2188ff",
+                      "#0366d6",
+                      "#005cc5",
+                      "#044289",
+                      "#032f62",
+                      "#05264c",
+                    ],
+                    "bodytext": "#24292e",
+                    "button": Object {
+                      "activeBg": "rgb(233, 236, 239)",
+                      "bg2": "rgb(239, 243, 246)",
+                      "border": "rgba(27, 31, 35, 0.2)",
+                      "dangerActiveBg": "rgb(181, 32, 44)",
+                      "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+                      "dangerHoverBgImage": "rgb(222, 68, 80)",
+                      "disabledColor": "rgba(36, 41, 46, 0.4)",
+                      "focusShadow": "rgba(3, 102, 214, 0.3)",
+                      "hoverBg": "rgb(230, 235, 241)",
+                      "outlineBlue": "rgb(3, 102, 214)",
+                      "outlineShadow": "rgba(3, 102, 214, 0.4)",
+                      "primaryActiveBg": "rgb(39, 159, 67)",
+                      "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+                      "primaryBg": "rgb(40, 167, 69)",
+                      "primaryBgImage": "rgb(52, 208, 88)",
+                      "primaryBorder": "rgba(27, 31, 35, 0.5)",
+                      "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+                      "primaryHoverBg": "rgb(38, 159, 66)",
+                      "primaryHoverBgImage": "rgb(47, 203, 83)",
+                      "white": "rgb(255, 255, 255)",
+                    },
+                    "counter": Object {
+                      "bg": "rgba(27, 31, 35, 0.08)",
+                    },
+                    "filterList": Object {
+                      "hoverBg": "#eaecef",
+                    },
+                    "gray": Array [
+                      "#fafbfc",
+                      "#f6f8fa",
+                      "#e1e4e8",
+                      "#d1d5da",
+                      "#959da5",
+                      "#6a737d",
+                      "#586069",
+                      "#444d56",
+                      "#2f363d",
+                      "#24292e",
+                    ],
+                    "green": Array [
+                      "#f0fff4",
+                      "#dcffe4",
+                      "#bef5cb",
+                      "#85e89d",
+                      "#34d058",
+                      "#28a745",
+                      "#22863a",
+                      "#176f2c",
+                      "#165c26",
+                      "#144620",
+                    ],
+                    "orange": Array [
+                      "#fff8f2",
+                      "#ffebda",
+                      "#ffd1ac",
+                      "#ffab70",
+                      "#fb8532",
+                      "#f66a0a",
+                      "#e36209",
+                      "#d15704",
+                      "#c24e00",
+                      "#a04100",
+                    ],
+                    "purple": Array [
+                      "#f5f0ff",
+                      "#e6dcfd",
+                      "#d1bcf9",
+                      "#b392f0",
+                      "#8a63d2",
+                      "#6f42c1",
+                      "#5a32a3",
+                      "#4c2889",
+                      "#3a1d6e",
+                      "#29134e",
+                    ],
+                    "red": Array [
+                      "#ffeef0",
+                      "#ffdce0",
+                      "#fdaeb7",
+                      "#f97583",
+                      "#ea4a5a",
+                      "#d73a49",
+                      "#cb2431",
+                      "#b31d28",
+                      "#9e1c23",
+                      "#86181d",
+                    ],
+                    "state": Object {
+                      "error": "#d73a49",
+                      "failure": "#d73a49",
+                      "pending": "#dbab09",
+                      "queued": "#dbab09",
+                      "success": "#28a745",
+                      "unknown": "#959da5",
+                    },
+                    "white": "#fff",
+                    "whitefade15": "rgba(255, 255, 255, 0.15)",
+                    "yellow": Array [
+                      "#fffdef",
+                      "#fffbdd",
+                      "#fff5b1",
+                      "#ffea7f",
+                      "#ffdf5d",
+                      "#ffd33d",
+                      "#f9c513",
+                      "#dbab09",
+                      "#b08800",
+                      "#735c0f",
+                    ],
+                  },
+                  "fontSizes": Array [
+                    12,
+                    14,
+                    16,
+                    20,
+                    24,
+                    32,
+                    40,
+                    48,
+                  ],
+                  "fontWeights": Object {
+                    "bold": 600,
+                    "light": 300,
+                    "normal": 400,
+                  },
+                  "fonts": Object {
+                    "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+                    "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+                  },
+                  "lineHeights": Object {
+                    "condensed": 1.25,
+                    "condensedUltra": 1,
+                    "default": 1.5,
+                  },
+                  "maxWidths": Object {
+                    "large": "1012px",
+                    "medium": "768px",
+                    "small": "544px",
+                    "xlarge": "1280px",
+                  },
+                  "radii": Array [
+                    0,
+                    3,
+                    6,
+                  ],
+                  "shadows": Object {
+                    "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+                    "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+                    "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+                    "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+                    "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+                    "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+                  },
+                  "space": Array [
+                    0,
+                    4,
+                    8,
+                    16,
+                    24,
+                    32,
+                    40,
+                    48,
+                    64,
+                    80,
+                    96,
+                    112,
+                    128,
+                  ],
+                }
+              }
               width={2.5}
             >
               <img
-                alt="initiative"
+                alt="deliverables"
                 src="http://lorempixel.com/300/300"
               />
-            </ForwardRef(styled.div)>
+            </ForwardRef(styled.img)>
             <ForwardRef(styled.p)>
-              infomediaries
+              International
             </ForwardRef(styled.p)>
           </ForwardRef(styled.div)>
           <ForwardRef(styled.div)>
             <ForwardRef(styled.div)>
               <ForwardRef(styled.div)>
                 <p>
-                  JSON
+                  Optimization
                 </p>
                 <p>
-                  Configurable
+                  Berkshire
                 </p>
               </ForwardRef(styled.div)>
               <ForwardRef(styled.div)>
@@ -750,7 +2962,7 @@ exports[`Storyshots pages Admire Page 1`] = `
         }
         variant="medium"
       >
-        Berkshire
+        Home Loan Account
       </ForwardRef(styled.button)>
     </ForwardRef(styled.div)>
   </ForwardRef(styled.main)>
@@ -841,208 +3053,432 @@ exports[`Storyshots pages Mypage 1`] = `
   <ForwardRef(styled.main)>
     <ForwardRef(styled.div)>
       <ForwardRef(styled.div)>
-        <ForwardRef(styled.div)
+        <ForwardRef(styled.img)
+          alt=""
           height={4.688}
-          isCircle={true}
+          size={20}
+          theme={
+            Object {
+              "borders": Array [
+                0,
+                "1px solid",
+              ],
+              "breakpoints": Array [
+                "544px",
+                "768px",
+                "1012px",
+                "1280px",
+              ],
+              "colors": Object {
+                "black": "#1b1f23",
+                "blackfade15": "rgba(27, 31, 35, 0.15)",
+                "blackfade20": "rgba(27, 31, 35, 0.20)",
+                "blackfade35": "rgba(27, 31, 35, 0.35)",
+                "blackfade50": "rgba(27, 31, 35, 0.5)",
+                "blue": Array [
+                  "#f1f8ff",
+                  "#dbedff",
+                  "#c8e1ff",
+                  "#79b8ff",
+                  "#2188ff",
+                  "#0366d6",
+                  "#005cc5",
+                  "#044289",
+                  "#032f62",
+                  "#05264c",
+                ],
+                "bodytext": "#24292e",
+                "button": Object {
+                  "activeBg": "rgb(233, 236, 239)",
+                  "bg2": "rgb(239, 243, 246)",
+                  "border": "rgba(27, 31, 35, 0.2)",
+                  "dangerActiveBg": "rgb(181, 32, 44)",
+                  "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+                  "dangerHoverBgImage": "rgb(222, 68, 80)",
+                  "disabledColor": "rgba(36, 41, 46, 0.4)",
+                  "focusShadow": "rgba(3, 102, 214, 0.3)",
+                  "hoverBg": "rgb(230, 235, 241)",
+                  "outlineBlue": "rgb(3, 102, 214)",
+                  "outlineShadow": "rgba(3, 102, 214, 0.4)",
+                  "primaryActiveBg": "rgb(39, 159, 67)",
+                  "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+                  "primaryBg": "rgb(40, 167, 69)",
+                  "primaryBgImage": "rgb(52, 208, 88)",
+                  "primaryBorder": "rgba(27, 31, 35, 0.5)",
+                  "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+                  "primaryHoverBg": "rgb(38, 159, 66)",
+                  "primaryHoverBgImage": "rgb(47, 203, 83)",
+                  "white": "rgb(255, 255, 255)",
+                },
+                "counter": Object {
+                  "bg": "rgba(27, 31, 35, 0.08)",
+                },
+                "filterList": Object {
+                  "hoverBg": "#eaecef",
+                },
+                "gray": Array [
+                  "#fafbfc",
+                  "#f6f8fa",
+                  "#e1e4e8",
+                  "#d1d5da",
+                  "#959da5",
+                  "#6a737d",
+                  "#586069",
+                  "#444d56",
+                  "#2f363d",
+                  "#24292e",
+                ],
+                "green": Array [
+                  "#f0fff4",
+                  "#dcffe4",
+                  "#bef5cb",
+                  "#85e89d",
+                  "#34d058",
+                  "#28a745",
+                  "#22863a",
+                  "#176f2c",
+                  "#165c26",
+                  "#144620",
+                ],
+                "orange": Array [
+                  "#fff8f2",
+                  "#ffebda",
+                  "#ffd1ac",
+                  "#ffab70",
+                  "#fb8532",
+                  "#f66a0a",
+                  "#e36209",
+                  "#d15704",
+                  "#c24e00",
+                  "#a04100",
+                ],
+                "purple": Array [
+                  "#f5f0ff",
+                  "#e6dcfd",
+                  "#d1bcf9",
+                  "#b392f0",
+                  "#8a63d2",
+                  "#6f42c1",
+                  "#5a32a3",
+                  "#4c2889",
+                  "#3a1d6e",
+                  "#29134e",
+                ],
+                "red": Array [
+                  "#ffeef0",
+                  "#ffdce0",
+                  "#fdaeb7",
+                  "#f97583",
+                  "#ea4a5a",
+                  "#d73a49",
+                  "#cb2431",
+                  "#b31d28",
+                  "#9e1c23",
+                  "#86181d",
+                ],
+                "state": Object {
+                  "error": "#d73a49",
+                  "failure": "#d73a49",
+                  "pending": "#dbab09",
+                  "queued": "#dbab09",
+                  "success": "#28a745",
+                  "unknown": "#959da5",
+                },
+                "white": "#fff",
+                "whitefade15": "rgba(255, 255, 255, 0.15)",
+                "yellow": Array [
+                  "#fffdef",
+                  "#fffbdd",
+                  "#fff5b1",
+                  "#ffea7f",
+                  "#ffdf5d",
+                  "#ffd33d",
+                  "#f9c513",
+                  "#dbab09",
+                  "#b08800",
+                  "#735c0f",
+                ],
+              },
+              "fontSizes": Array [
+                12,
+                14,
+                16,
+                20,
+                24,
+                32,
+                40,
+                48,
+              ],
+              "fontWeights": Object {
+                "bold": 600,
+                "light": 300,
+                "normal": 400,
+              },
+              "fonts": Object {
+                "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+                "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+              },
+              "lineHeights": Object {
+                "condensed": 1.25,
+                "condensedUltra": 1,
+                "default": 1.5,
+              },
+              "maxWidths": Object {
+                "large": "1012px",
+                "medium": "768px",
+                "small": "544px",
+                "xlarge": "1280px",
+              },
+              "radii": Array [
+                0,
+                3,
+                6,
+              ],
+              "shadows": Object {
+                "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+                "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+                "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+                "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+                "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+                "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+              },
+              "space": Array [
+                0,
+                4,
+                8,
+                16,
+                24,
+                32,
+                40,
+                48,
+                64,
+                80,
+                96,
+                112,
+                128,
+              ],
+            }
+          }
           width={4.688}
         >
           <img
-            alt="Manager"
+            alt="Plastic"
             src="http://lorempixel.com/300/300"
           />
-        </ForwardRef(styled.div)>
+        </ForwardRef(styled.img)>
         <ForwardRef(styled.p)
           padding={1}
           white={true}
         >
-          Jamaica
+          initiative
         </ForwardRef(styled.p)>
       </ForwardRef(styled.div)>
     </ForwardRef(styled.div)>
-    <ForwardRef(styled.div)>
-      <ForwardRef(styled.div)>
-        <ForwardRef(styled.div)>
-          <ForwardRef(styled.div)>
-            <ForwardRef(styled.div)>
-              <p>
-                とても悪い
-              </p>
-              <p>
-                とても良い
-              </p>
-            </ForwardRef(styled.div)>
-            <ForwardRef(styled.div)>
-              <ForwardRef(styled.div)
-                style={
-                  Object {
-                    "left": "50%",
-                  }
-                }
-              />
-              <ForwardRef(styled.span)
-                style={
-                  Object {
-                    "left": "50%",
-                  }
-                }
-              >
-                3
-              </ForwardRef(styled.span)>
-            </ForwardRef(styled.div)>
-          </ForwardRef(styled.div)>
-        </ForwardRef(styled.div)>
-      </ForwardRef(styled.div)>
-      <ForwardRef(styled.div)>
-        <ForwardRef(styled.div)>
-          <ForwardRef(styled.div)>
-            <span>
-              50人中
-            </span>
-            10位
-          </ForwardRef(styled.div)>
-        </ForwardRef(styled.div)>
-        <ForwardRef(styled.p)>
-          Auto Loan Account
-        </ForwardRef(styled.p)>
-      </ForwardRef(styled.div)>
-    </ForwardRef(styled.div)>
-    <ForwardRef(styled.div)>
-      <ForwardRef(styled.div)>
-        <ForwardRef(styled.div)
-          style={
-            Object {
-              "width": "12%",
-            }
-          }
-        >
-          <ForwardRef(styled.div)
-            height={0.938}
-            width={0.938}
-          >
-            <img
-              alt="Stream"
-              src="http://lorempixel.com/300/300"
-            />
-          </ForwardRef(styled.div)>
-          <ForwardRef(styled.p)
-            padding={0}
-            white={true}
-          >
-            multi-byte
-          </ForwardRef(styled.p)>
-        </ForwardRef(styled.div)>
-        <ForwardRef(styled.div)
-          style={
-            Object {
-              "width": "28%",
-            }
-          }
-        >
-          <ForwardRef(styled.div)
-            height={0.938}
-            width={0.938}
-          >
-            <img
-              alt="Italy"
-              src="http://lorempixel.com/300/300"
-            />
-          </ForwardRef(styled.div)>
-          <ForwardRef(styled.p)
-            padding={0}
-            white={true}
-          >
-            clicks-and-mortar
-          </ForwardRef(styled.p)>
-        </ForwardRef(styled.div)>
-      </ForwardRef(styled.div)>
-    </ForwardRef(styled.div)>
-  </ForwardRef(styled.main)>
-</ForwardRef(styled.div)>
-`;
-
-exports[`Storyshots pages Signin 1`] = `
-<ForwardRef(styled.div)>
-  <ForwardRef(styled.main)>
-    <form
-      action="#"
-      method="post"
+    <ForwardRef(styled.div)
+      theme={
+        Object {
+          "borders": Array [
+            0,
+            "1px solid",
+          ],
+          "breakpoints": Array [
+            "544px",
+            "768px",
+            "1012px",
+            "1280px",
+          ],
+          "colors": Object {
+            "black": "#1b1f23",
+            "blackfade15": "rgba(27, 31, 35, 0.15)",
+            "blackfade20": "rgba(27, 31, 35, 0.20)",
+            "blackfade35": "rgba(27, 31, 35, 0.35)",
+            "blackfade50": "rgba(27, 31, 35, 0.5)",
+            "blue": Array [
+              "#f1f8ff",
+              "#dbedff",
+              "#c8e1ff",
+              "#79b8ff",
+              "#2188ff",
+              "#0366d6",
+              "#005cc5",
+              "#044289",
+              "#032f62",
+              "#05264c",
+            ],
+            "bodytext": "#24292e",
+            "button": Object {
+              "activeBg": "rgb(233, 236, 239)",
+              "bg2": "rgb(239, 243, 246)",
+              "border": "rgba(27, 31, 35, 0.2)",
+              "dangerActiveBg": "rgb(181, 32, 44)",
+              "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+              "dangerHoverBgImage": "rgb(222, 68, 80)",
+              "disabledColor": "rgba(36, 41, 46, 0.4)",
+              "focusShadow": "rgba(3, 102, 214, 0.3)",
+              "hoverBg": "rgb(230, 235, 241)",
+              "outlineBlue": "rgb(3, 102, 214)",
+              "outlineShadow": "rgba(3, 102, 214, 0.4)",
+              "primaryActiveBg": "rgb(39, 159, 67)",
+              "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+              "primaryBg": "rgb(40, 167, 69)",
+              "primaryBgImage": "rgb(52, 208, 88)",
+              "primaryBorder": "rgba(27, 31, 35, 0.5)",
+              "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+              "primaryHoverBg": "rgb(38, 159, 66)",
+              "primaryHoverBgImage": "rgb(47, 203, 83)",
+              "white": "rgb(255, 255, 255)",
+            },
+            "counter": Object {
+              "bg": "rgba(27, 31, 35, 0.08)",
+            },
+            "filterList": Object {
+              "hoverBg": "#eaecef",
+            },
+            "gray": Array [
+              "#fafbfc",
+              "#f6f8fa",
+              "#e1e4e8",
+              "#d1d5da",
+              "#959da5",
+              "#6a737d",
+              "#586069",
+              "#444d56",
+              "#2f363d",
+              "#24292e",
+            ],
+            "green": Array [
+              "#f0fff4",
+              "#dcffe4",
+              "#bef5cb",
+              "#85e89d",
+              "#34d058",
+              "#28a745",
+              "#22863a",
+              "#176f2c",
+              "#165c26",
+              "#144620",
+            ],
+            "orange": Array [
+              "#fff8f2",
+              "#ffebda",
+              "#ffd1ac",
+              "#ffab70",
+              "#fb8532",
+              "#f66a0a",
+              "#e36209",
+              "#d15704",
+              "#c24e00",
+              "#a04100",
+            ],
+            "purple": Array [
+              "#f5f0ff",
+              "#e6dcfd",
+              "#d1bcf9",
+              "#b392f0",
+              "#8a63d2",
+              "#6f42c1",
+              "#5a32a3",
+              "#4c2889",
+              "#3a1d6e",
+              "#29134e",
+            ],
+            "red": Array [
+              "#ffeef0",
+              "#ffdce0",
+              "#fdaeb7",
+              "#f97583",
+              "#ea4a5a",
+              "#d73a49",
+              "#cb2431",
+              "#b31d28",
+              "#9e1c23",
+              "#86181d",
+            ],
+            "state": Object {
+              "error": "#d73a49",
+              "failure": "#d73a49",
+              "pending": "#dbab09",
+              "queued": "#dbab09",
+              "success": "#28a745",
+              "unknown": "#959da5",
+            },
+            "white": "#fff",
+            "whitefade15": "rgba(255, 255, 255, 0.15)",
+            "yellow": Array [
+              "#fffdef",
+              "#fffbdd",
+              "#fff5b1",
+              "#ffea7f",
+              "#ffdf5d",
+              "#ffd33d",
+              "#f9c513",
+              "#dbab09",
+              "#b08800",
+              "#735c0f",
+            ],
+          },
+          "fontSizes": Array [
+            12,
+            14,
+            16,
+            20,
+            24,
+            32,
+            40,
+            48,
+          ],
+          "fontWeights": Object {
+            "bold": 600,
+            "light": 300,
+            "normal": 400,
+          },
+          "fonts": Object {
+            "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+            "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+          },
+          "lineHeights": Object {
+            "condensed": 1.25,
+            "condensedUltra": 1,
+            "default": 1.5,
+          },
+          "maxWidths": Object {
+            "large": "1012px",
+            "medium": "768px",
+            "small": "544px",
+            "xlarge": "1280px",
+          },
+          "radii": Array [
+            0,
+            3,
+            6,
+          ],
+          "shadows": Object {
+            "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+            "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+            "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+            "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+            "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+            "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+          },
+          "space": Array [
+            0,
+            4,
+            8,
+            16,
+            24,
+            32,
+            40,
+            48,
+            64,
+            80,
+            96,
+            112,
+            128,
+          ],
+        }
+      }
     >
-      <ForwardRef(styled.div)>
-        <ForwardRef(styled.input)
-          placeholder="Evalyn_Johns86@gmail.com"
-          type="email"
-        />
-        <FontAwesomeIcon
-          border={false}
-          className=""
-          fixedWidth={false}
-          flip={null}
-          icon={
-            Object {
-              "icon": Array [
-                512,
-                512,
-                Array [],
-                "f0e0",
-                "M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z",
-              ],
-              "iconName": "envelope",
-              "prefix": "fas",
-            }
-          }
-          inverse={false}
-          listItem={false}
-          mask={null}
-          pull={null}
-          pulse={false}
-          rotation={null}
-          size={null}
-          spin={false}
-          swapOpacity={false}
-          symbol={false}
-          title=""
-          transform={null}
-        />
-      </ForwardRef(styled.div)>
-      <ForwardRef(styled.div)>
-        <ForwardRef(styled.input)
-          placeholder="AGP"
-          type="password"
-        />
-        <FontAwesomeIcon
-          border={false}
-          className=""
-          fixedWidth={false}
-          flip={null}
-          icon={
-            Object {
-              "icon": Array [
-                448,
-                512,
-                Array [],
-                "f09c",
-                "M400 256H152V152.9c0-39.6 31.7-72.5 71.3-72.9 40-.4 72.7 32.1 72.7 72v16c0 13.3 10.7 24 24 24h32c13.3 0 24-10.7 24-24v-16C376 68 307.5-.3 223.5 0 139.5.3 72 69.5 72 153.5V256H48c-26.5 0-48 21.5-48 48v160c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z",
-              ],
-              "iconName": "unlock",
-              "prefix": "fas",
-            }
-          }
-          inverse={false}
-          listItem={false}
-          mask={null}
-          pull={null}
-          pulse={false}
-          rotation={null}
-          size={null}
-          spin={false}
-          swapOpacity={false}
-          symbol={false}
-          title=""
-          transform={null}
-        />
-      </ForwardRef(styled.div)>
-      <ForwardRef(styled.button)
-        disabled={true}
+      <ForwardRef(styled.div)
         theme={
           Object {
             "borders": Array [
@@ -1245,11 +3681,1119 @@ exports[`Storyshots pages Signin 1`] = `
             ],
           }
         }
-        variant="medium"
       >
-        Sign in
-      </ForwardRef(styled.button)>
-    </form>
+        <ForwardRef(styled.div)>
+          <ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              <p>
+                とても悪い
+              </p>
+              <p>
+                とても良い
+              </p>
+            </ForwardRef(styled.div)>
+            <ForwardRef(styled.div)>
+              <ForwardRef(styled.div)
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              />
+              <ForwardRef(styled.span)
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              >
+                3
+              </ForwardRef(styled.span)>
+            </ForwardRef(styled.div)>
+          </ForwardRef(styled.div)>
+        </ForwardRef(styled.div)>
+      </ForwardRef(styled.div)>
+      <ForwardRef(styled.div)
+        theme={
+          Object {
+            "borders": Array [
+              0,
+              "1px solid",
+            ],
+            "breakpoints": Array [
+              "544px",
+              "768px",
+              "1012px",
+              "1280px",
+            ],
+            "colors": Object {
+              "black": "#1b1f23",
+              "blackfade15": "rgba(27, 31, 35, 0.15)",
+              "blackfade20": "rgba(27, 31, 35, 0.20)",
+              "blackfade35": "rgba(27, 31, 35, 0.35)",
+              "blackfade50": "rgba(27, 31, 35, 0.5)",
+              "blue": Array [
+                "#f1f8ff",
+                "#dbedff",
+                "#c8e1ff",
+                "#79b8ff",
+                "#2188ff",
+                "#0366d6",
+                "#005cc5",
+                "#044289",
+                "#032f62",
+                "#05264c",
+              ],
+              "bodytext": "#24292e",
+              "button": Object {
+                "activeBg": "rgb(233, 236, 239)",
+                "bg2": "rgb(239, 243, 246)",
+                "border": "rgba(27, 31, 35, 0.2)",
+                "dangerActiveBg": "rgb(181, 32, 44)",
+                "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+                "dangerHoverBgImage": "rgb(222, 68, 80)",
+                "disabledColor": "rgba(36, 41, 46, 0.4)",
+                "focusShadow": "rgba(3, 102, 214, 0.3)",
+                "hoverBg": "rgb(230, 235, 241)",
+                "outlineBlue": "rgb(3, 102, 214)",
+                "outlineShadow": "rgba(3, 102, 214, 0.4)",
+                "primaryActiveBg": "rgb(39, 159, 67)",
+                "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+                "primaryBg": "rgb(40, 167, 69)",
+                "primaryBgImage": "rgb(52, 208, 88)",
+                "primaryBorder": "rgba(27, 31, 35, 0.5)",
+                "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+                "primaryHoverBg": "rgb(38, 159, 66)",
+                "primaryHoverBgImage": "rgb(47, 203, 83)",
+                "white": "rgb(255, 255, 255)",
+              },
+              "counter": Object {
+                "bg": "rgba(27, 31, 35, 0.08)",
+              },
+              "filterList": Object {
+                "hoverBg": "#eaecef",
+              },
+              "gray": Array [
+                "#fafbfc",
+                "#f6f8fa",
+                "#e1e4e8",
+                "#d1d5da",
+                "#959da5",
+                "#6a737d",
+                "#586069",
+                "#444d56",
+                "#2f363d",
+                "#24292e",
+              ],
+              "green": Array [
+                "#f0fff4",
+                "#dcffe4",
+                "#bef5cb",
+                "#85e89d",
+                "#34d058",
+                "#28a745",
+                "#22863a",
+                "#176f2c",
+                "#165c26",
+                "#144620",
+              ],
+              "orange": Array [
+                "#fff8f2",
+                "#ffebda",
+                "#ffd1ac",
+                "#ffab70",
+                "#fb8532",
+                "#f66a0a",
+                "#e36209",
+                "#d15704",
+                "#c24e00",
+                "#a04100",
+              ],
+              "purple": Array [
+                "#f5f0ff",
+                "#e6dcfd",
+                "#d1bcf9",
+                "#b392f0",
+                "#8a63d2",
+                "#6f42c1",
+                "#5a32a3",
+                "#4c2889",
+                "#3a1d6e",
+                "#29134e",
+              ],
+              "red": Array [
+                "#ffeef0",
+                "#ffdce0",
+                "#fdaeb7",
+                "#f97583",
+                "#ea4a5a",
+                "#d73a49",
+                "#cb2431",
+                "#b31d28",
+                "#9e1c23",
+                "#86181d",
+              ],
+              "state": Object {
+                "error": "#d73a49",
+                "failure": "#d73a49",
+                "pending": "#dbab09",
+                "queued": "#dbab09",
+                "success": "#28a745",
+                "unknown": "#959da5",
+              },
+              "white": "#fff",
+              "whitefade15": "rgba(255, 255, 255, 0.15)",
+              "yellow": Array [
+                "#fffdef",
+                "#fffbdd",
+                "#fff5b1",
+                "#ffea7f",
+                "#ffdf5d",
+                "#ffd33d",
+                "#f9c513",
+                "#dbab09",
+                "#b08800",
+                "#735c0f",
+              ],
+            },
+            "fontSizes": Array [
+              12,
+              14,
+              16,
+              20,
+              24,
+              32,
+              40,
+              48,
+            ],
+            "fontWeights": Object {
+              "bold": 600,
+              "light": 300,
+              "normal": 400,
+            },
+            "fonts": Object {
+              "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+              "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+            },
+            "lineHeights": Object {
+              "condensed": 1.25,
+              "condensedUltra": 1,
+              "default": 1.5,
+            },
+            "maxWidths": Object {
+              "large": "1012px",
+              "medium": "768px",
+              "small": "544px",
+              "xlarge": "1280px",
+            },
+            "radii": Array [
+              0,
+              3,
+              6,
+            ],
+            "shadows": Object {
+              "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+              "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+              "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+              "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+              "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+              "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+            },
+            "space": Array [
+              0,
+              4,
+              8,
+              16,
+              24,
+              32,
+              40,
+              48,
+              64,
+              80,
+              96,
+              112,
+              128,
+            ],
+          }
+        }
+      >
+        <ForwardRef(styled.div)>
+          <ForwardRef(styled.div)>
+            <span>
+              50人中
+            </span>
+            10位
+          </ForwardRef(styled.div)>
+        </ForwardRef(styled.div)>
+        <ForwardRef(styled.p)>
+          infomediaries
+        </ForwardRef(styled.p)>
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      theme={
+        Object {
+          "borders": Array [
+            0,
+            "1px solid",
+          ],
+          "breakpoints": Array [
+            "544px",
+            "768px",
+            "1012px",
+            "1280px",
+          ],
+          "colors": Object {
+            "black": "#1b1f23",
+            "blackfade15": "rgba(27, 31, 35, 0.15)",
+            "blackfade20": "rgba(27, 31, 35, 0.20)",
+            "blackfade35": "rgba(27, 31, 35, 0.35)",
+            "blackfade50": "rgba(27, 31, 35, 0.5)",
+            "blue": Array [
+              "#f1f8ff",
+              "#dbedff",
+              "#c8e1ff",
+              "#79b8ff",
+              "#2188ff",
+              "#0366d6",
+              "#005cc5",
+              "#044289",
+              "#032f62",
+              "#05264c",
+            ],
+            "bodytext": "#24292e",
+            "button": Object {
+              "activeBg": "rgb(233, 236, 239)",
+              "bg2": "rgb(239, 243, 246)",
+              "border": "rgba(27, 31, 35, 0.2)",
+              "dangerActiveBg": "rgb(181, 32, 44)",
+              "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+              "dangerHoverBgImage": "rgb(222, 68, 80)",
+              "disabledColor": "rgba(36, 41, 46, 0.4)",
+              "focusShadow": "rgba(3, 102, 214, 0.3)",
+              "hoverBg": "rgb(230, 235, 241)",
+              "outlineBlue": "rgb(3, 102, 214)",
+              "outlineShadow": "rgba(3, 102, 214, 0.4)",
+              "primaryActiveBg": "rgb(39, 159, 67)",
+              "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+              "primaryBg": "rgb(40, 167, 69)",
+              "primaryBgImage": "rgb(52, 208, 88)",
+              "primaryBorder": "rgba(27, 31, 35, 0.5)",
+              "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+              "primaryHoverBg": "rgb(38, 159, 66)",
+              "primaryHoverBgImage": "rgb(47, 203, 83)",
+              "white": "rgb(255, 255, 255)",
+            },
+            "counter": Object {
+              "bg": "rgba(27, 31, 35, 0.08)",
+            },
+            "filterList": Object {
+              "hoverBg": "#eaecef",
+            },
+            "gray": Array [
+              "#fafbfc",
+              "#f6f8fa",
+              "#e1e4e8",
+              "#d1d5da",
+              "#959da5",
+              "#6a737d",
+              "#586069",
+              "#444d56",
+              "#2f363d",
+              "#24292e",
+            ],
+            "green": Array [
+              "#f0fff4",
+              "#dcffe4",
+              "#bef5cb",
+              "#85e89d",
+              "#34d058",
+              "#28a745",
+              "#22863a",
+              "#176f2c",
+              "#165c26",
+              "#144620",
+            ],
+            "orange": Array [
+              "#fff8f2",
+              "#ffebda",
+              "#ffd1ac",
+              "#ffab70",
+              "#fb8532",
+              "#f66a0a",
+              "#e36209",
+              "#d15704",
+              "#c24e00",
+              "#a04100",
+            ],
+            "purple": Array [
+              "#f5f0ff",
+              "#e6dcfd",
+              "#d1bcf9",
+              "#b392f0",
+              "#8a63d2",
+              "#6f42c1",
+              "#5a32a3",
+              "#4c2889",
+              "#3a1d6e",
+              "#29134e",
+            ],
+            "red": Array [
+              "#ffeef0",
+              "#ffdce0",
+              "#fdaeb7",
+              "#f97583",
+              "#ea4a5a",
+              "#d73a49",
+              "#cb2431",
+              "#b31d28",
+              "#9e1c23",
+              "#86181d",
+            ],
+            "state": Object {
+              "error": "#d73a49",
+              "failure": "#d73a49",
+              "pending": "#dbab09",
+              "queued": "#dbab09",
+              "success": "#28a745",
+              "unknown": "#959da5",
+            },
+            "white": "#fff",
+            "whitefade15": "rgba(255, 255, 255, 0.15)",
+            "yellow": Array [
+              "#fffdef",
+              "#fffbdd",
+              "#fff5b1",
+              "#ffea7f",
+              "#ffdf5d",
+              "#ffd33d",
+              "#f9c513",
+              "#dbab09",
+              "#b08800",
+              "#735c0f",
+            ],
+          },
+          "fontSizes": Array [
+            12,
+            14,
+            16,
+            20,
+            24,
+            32,
+            40,
+            48,
+          ],
+          "fontWeights": Object {
+            "bold": 600,
+            "light": 300,
+            "normal": 400,
+          },
+          "fonts": Object {
+            "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+            "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+          },
+          "lineHeights": Object {
+            "condensed": 1.25,
+            "condensedUltra": 1,
+            "default": 1.5,
+          },
+          "maxWidths": Object {
+            "large": "1012px",
+            "medium": "768px",
+            "small": "544px",
+            "xlarge": "1280px",
+          },
+          "radii": Array [
+            0,
+            3,
+            6,
+          ],
+          "shadows": Object {
+            "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+            "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+            "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+            "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+            "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+            "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+          },
+          "space": Array [
+            0,
+            4,
+            8,
+            16,
+            24,
+            32,
+            40,
+            48,
+            64,
+            80,
+            96,
+            112,
+            128,
+          ],
+        }
+      }
+    >
+      <ForwardRef(styled.div)
+        theme={
+          Object {
+            "borders": Array [
+              0,
+              "1px solid",
+            ],
+            "breakpoints": Array [
+              "544px",
+              "768px",
+              "1012px",
+              "1280px",
+            ],
+            "colors": Object {
+              "black": "#1b1f23",
+              "blackfade15": "rgba(27, 31, 35, 0.15)",
+              "blackfade20": "rgba(27, 31, 35, 0.20)",
+              "blackfade35": "rgba(27, 31, 35, 0.35)",
+              "blackfade50": "rgba(27, 31, 35, 0.5)",
+              "blue": Array [
+                "#f1f8ff",
+                "#dbedff",
+                "#c8e1ff",
+                "#79b8ff",
+                "#2188ff",
+                "#0366d6",
+                "#005cc5",
+                "#044289",
+                "#032f62",
+                "#05264c",
+              ],
+              "bodytext": "#24292e",
+              "button": Object {
+                "activeBg": "rgb(233, 236, 239)",
+                "bg2": "rgb(239, 243, 246)",
+                "border": "rgba(27, 31, 35, 0.2)",
+                "dangerActiveBg": "rgb(181, 32, 44)",
+                "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+                "dangerHoverBgImage": "rgb(222, 68, 80)",
+                "disabledColor": "rgba(36, 41, 46, 0.4)",
+                "focusShadow": "rgba(3, 102, 214, 0.3)",
+                "hoverBg": "rgb(230, 235, 241)",
+                "outlineBlue": "rgb(3, 102, 214)",
+                "outlineShadow": "rgba(3, 102, 214, 0.4)",
+                "primaryActiveBg": "rgb(39, 159, 67)",
+                "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+                "primaryBg": "rgb(40, 167, 69)",
+                "primaryBgImage": "rgb(52, 208, 88)",
+                "primaryBorder": "rgba(27, 31, 35, 0.5)",
+                "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+                "primaryHoverBg": "rgb(38, 159, 66)",
+                "primaryHoverBgImage": "rgb(47, 203, 83)",
+                "white": "rgb(255, 255, 255)",
+              },
+              "counter": Object {
+                "bg": "rgba(27, 31, 35, 0.08)",
+              },
+              "filterList": Object {
+                "hoverBg": "#eaecef",
+              },
+              "gray": Array [
+                "#fafbfc",
+                "#f6f8fa",
+                "#e1e4e8",
+                "#d1d5da",
+                "#959da5",
+                "#6a737d",
+                "#586069",
+                "#444d56",
+                "#2f363d",
+                "#24292e",
+              ],
+              "green": Array [
+                "#f0fff4",
+                "#dcffe4",
+                "#bef5cb",
+                "#85e89d",
+                "#34d058",
+                "#28a745",
+                "#22863a",
+                "#176f2c",
+                "#165c26",
+                "#144620",
+              ],
+              "orange": Array [
+                "#fff8f2",
+                "#ffebda",
+                "#ffd1ac",
+                "#ffab70",
+                "#fb8532",
+                "#f66a0a",
+                "#e36209",
+                "#d15704",
+                "#c24e00",
+                "#a04100",
+              ],
+              "purple": Array [
+                "#f5f0ff",
+                "#e6dcfd",
+                "#d1bcf9",
+                "#b392f0",
+                "#8a63d2",
+                "#6f42c1",
+                "#5a32a3",
+                "#4c2889",
+                "#3a1d6e",
+                "#29134e",
+              ],
+              "red": Array [
+                "#ffeef0",
+                "#ffdce0",
+                "#fdaeb7",
+                "#f97583",
+                "#ea4a5a",
+                "#d73a49",
+                "#cb2431",
+                "#b31d28",
+                "#9e1c23",
+                "#86181d",
+              ],
+              "state": Object {
+                "error": "#d73a49",
+                "failure": "#d73a49",
+                "pending": "#dbab09",
+                "queued": "#dbab09",
+                "success": "#28a745",
+                "unknown": "#959da5",
+              },
+              "white": "#fff",
+              "whitefade15": "rgba(255, 255, 255, 0.15)",
+              "yellow": Array [
+                "#fffdef",
+                "#fffbdd",
+                "#fff5b1",
+                "#ffea7f",
+                "#ffdf5d",
+                "#ffd33d",
+                "#f9c513",
+                "#dbab09",
+                "#b08800",
+                "#735c0f",
+              ],
+            },
+            "fontSizes": Array [
+              12,
+              14,
+              16,
+              20,
+              24,
+              32,
+              40,
+              48,
+            ],
+            "fontWeights": Object {
+              "bold": 600,
+              "light": 300,
+              "normal": 400,
+            },
+            "fonts": Object {
+              "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+              "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+            },
+            "lineHeights": Object {
+              "condensed": 1.25,
+              "condensedUltra": 1,
+              "default": 1.5,
+            },
+            "maxWidths": Object {
+              "large": "1012px",
+              "medium": "768px",
+              "small": "544px",
+              "xlarge": "1280px",
+            },
+            "radii": Array [
+              0,
+              3,
+              6,
+            ],
+            "shadows": Object {
+              "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+              "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+              "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+              "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+              "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+              "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+            },
+            "space": Array [
+              0,
+              4,
+              8,
+              16,
+              24,
+              32,
+              40,
+              48,
+              64,
+              80,
+              96,
+              112,
+              128,
+            ],
+          }
+        }
+      >
+        <ForwardRef(styled.div)
+          style={
+            Object {
+              "width": "87%",
+            }
+          }
+        >
+          <ForwardRef(styled.img)
+            alt=""
+            height={0.938}
+            size={20}
+            theme={
+              Object {
+                "borders": Array [
+                  0,
+                  "1px solid",
+                ],
+                "breakpoints": Array [
+                  "544px",
+                  "768px",
+                  "1012px",
+                  "1280px",
+                ],
+                "colors": Object {
+                  "black": "#1b1f23",
+                  "blackfade15": "rgba(27, 31, 35, 0.15)",
+                  "blackfade20": "rgba(27, 31, 35, 0.20)",
+                  "blackfade35": "rgba(27, 31, 35, 0.35)",
+                  "blackfade50": "rgba(27, 31, 35, 0.5)",
+                  "blue": Array [
+                    "#f1f8ff",
+                    "#dbedff",
+                    "#c8e1ff",
+                    "#79b8ff",
+                    "#2188ff",
+                    "#0366d6",
+                    "#005cc5",
+                    "#044289",
+                    "#032f62",
+                    "#05264c",
+                  ],
+                  "bodytext": "#24292e",
+                  "button": Object {
+                    "activeBg": "rgb(233, 236, 239)",
+                    "bg2": "rgb(239, 243, 246)",
+                    "border": "rgba(27, 31, 35, 0.2)",
+                    "dangerActiveBg": "rgb(181, 32, 44)",
+                    "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+                    "dangerHoverBgImage": "rgb(222, 68, 80)",
+                    "disabledColor": "rgba(36, 41, 46, 0.4)",
+                    "focusShadow": "rgba(3, 102, 214, 0.3)",
+                    "hoverBg": "rgb(230, 235, 241)",
+                    "outlineBlue": "rgb(3, 102, 214)",
+                    "outlineShadow": "rgba(3, 102, 214, 0.4)",
+                    "primaryActiveBg": "rgb(39, 159, 67)",
+                    "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+                    "primaryBg": "rgb(40, 167, 69)",
+                    "primaryBgImage": "rgb(52, 208, 88)",
+                    "primaryBorder": "rgba(27, 31, 35, 0.5)",
+                    "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+                    "primaryHoverBg": "rgb(38, 159, 66)",
+                    "primaryHoverBgImage": "rgb(47, 203, 83)",
+                    "white": "rgb(255, 255, 255)",
+                  },
+                  "counter": Object {
+                    "bg": "rgba(27, 31, 35, 0.08)",
+                  },
+                  "filterList": Object {
+                    "hoverBg": "#eaecef",
+                  },
+                  "gray": Array [
+                    "#fafbfc",
+                    "#f6f8fa",
+                    "#e1e4e8",
+                    "#d1d5da",
+                    "#959da5",
+                    "#6a737d",
+                    "#586069",
+                    "#444d56",
+                    "#2f363d",
+                    "#24292e",
+                  ],
+                  "green": Array [
+                    "#f0fff4",
+                    "#dcffe4",
+                    "#bef5cb",
+                    "#85e89d",
+                    "#34d058",
+                    "#28a745",
+                    "#22863a",
+                    "#176f2c",
+                    "#165c26",
+                    "#144620",
+                  ],
+                  "orange": Array [
+                    "#fff8f2",
+                    "#ffebda",
+                    "#ffd1ac",
+                    "#ffab70",
+                    "#fb8532",
+                    "#f66a0a",
+                    "#e36209",
+                    "#d15704",
+                    "#c24e00",
+                    "#a04100",
+                  ],
+                  "purple": Array [
+                    "#f5f0ff",
+                    "#e6dcfd",
+                    "#d1bcf9",
+                    "#b392f0",
+                    "#8a63d2",
+                    "#6f42c1",
+                    "#5a32a3",
+                    "#4c2889",
+                    "#3a1d6e",
+                    "#29134e",
+                  ],
+                  "red": Array [
+                    "#ffeef0",
+                    "#ffdce0",
+                    "#fdaeb7",
+                    "#f97583",
+                    "#ea4a5a",
+                    "#d73a49",
+                    "#cb2431",
+                    "#b31d28",
+                    "#9e1c23",
+                    "#86181d",
+                  ],
+                  "state": Object {
+                    "error": "#d73a49",
+                    "failure": "#d73a49",
+                    "pending": "#dbab09",
+                    "queued": "#dbab09",
+                    "success": "#28a745",
+                    "unknown": "#959da5",
+                  },
+                  "white": "#fff",
+                  "whitefade15": "rgba(255, 255, 255, 0.15)",
+                  "yellow": Array [
+                    "#fffdef",
+                    "#fffbdd",
+                    "#fff5b1",
+                    "#ffea7f",
+                    "#ffdf5d",
+                    "#ffd33d",
+                    "#f9c513",
+                    "#dbab09",
+                    "#b08800",
+                    "#735c0f",
+                  ],
+                },
+                "fontSizes": Array [
+                  12,
+                  14,
+                  16,
+                  20,
+                  24,
+                  32,
+                  40,
+                  48,
+                ],
+                "fontWeights": Object {
+                  "bold": 600,
+                  "light": 300,
+                  "normal": 400,
+                },
+                "fonts": Object {
+                  "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+                  "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+                },
+                "lineHeights": Object {
+                  "condensed": 1.25,
+                  "condensedUltra": 1,
+                  "default": 1.5,
+                },
+                "maxWidths": Object {
+                  "large": "1012px",
+                  "medium": "768px",
+                  "small": "544px",
+                  "xlarge": "1280px",
+                },
+                "radii": Array [
+                  0,
+                  3,
+                  6,
+                ],
+                "shadows": Object {
+                  "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+                  "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+                  "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+                  "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+                  "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+                  "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+                },
+                "space": Array [
+                  0,
+                  4,
+                  8,
+                  16,
+                  24,
+                  32,
+                  40,
+                  48,
+                  64,
+                  80,
+                  96,
+                  112,
+                  128,
+                ],
+              }
+            }
+            width={0.938}
+          >
+            <img
+              alt="Future"
+              src="http://lorempixel.com/300/300"
+            />
+          </ForwardRef(styled.img)>
+          <ForwardRef(styled.p)
+            padding={0}
+            white={true}
+          >
+            Sleek
+          </ForwardRef(styled.p)>
+        </ForwardRef(styled.div)>
+        <ForwardRef(styled.div)
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <ForwardRef(styled.img)
+            alt=""
+            height={0.938}
+            size={20}
+            theme={
+              Object {
+                "borders": Array [
+                  0,
+                  "1px solid",
+                ],
+                "breakpoints": Array [
+                  "544px",
+                  "768px",
+                  "1012px",
+                  "1280px",
+                ],
+                "colors": Object {
+                  "black": "#1b1f23",
+                  "blackfade15": "rgba(27, 31, 35, 0.15)",
+                  "blackfade20": "rgba(27, 31, 35, 0.20)",
+                  "blackfade35": "rgba(27, 31, 35, 0.35)",
+                  "blackfade50": "rgba(27, 31, 35, 0.5)",
+                  "blue": Array [
+                    "#f1f8ff",
+                    "#dbedff",
+                    "#c8e1ff",
+                    "#79b8ff",
+                    "#2188ff",
+                    "#0366d6",
+                    "#005cc5",
+                    "#044289",
+                    "#032f62",
+                    "#05264c",
+                  ],
+                  "bodytext": "#24292e",
+                  "button": Object {
+                    "activeBg": "rgb(233, 236, 239)",
+                    "bg2": "rgb(239, 243, 246)",
+                    "border": "rgba(27, 31, 35, 0.2)",
+                    "dangerActiveBg": "rgb(181, 32, 44)",
+                    "dangerFocusShadow": "rgba(203, 36, 49, 0.4)",
+                    "dangerHoverBgImage": "rgb(222, 68, 80)",
+                    "disabledColor": "rgba(36, 41, 46, 0.4)",
+                    "focusShadow": "rgba(3, 102, 214, 0.3)",
+                    "hoverBg": "rgb(230, 235, 241)",
+                    "outlineBlue": "rgb(3, 102, 214)",
+                    "outlineShadow": "rgba(3, 102, 214, 0.4)",
+                    "primaryActiveBg": "rgb(39, 159, 67)",
+                    "primaryActiveShadow": "rgba(27, 31, 35, 0.15)",
+                    "primaryBg": "rgb(40, 167, 69)",
+                    "primaryBgImage": "rgb(52, 208, 88)",
+                    "primaryBorder": "rgba(27, 31, 35, 0.5)",
+                    "primaryFocusShadow": "rgba(52, 208, 88, 0.4)",
+                    "primaryHoverBg": "rgb(38, 159, 66)",
+                    "primaryHoverBgImage": "rgb(47, 203, 83)",
+                    "white": "rgb(255, 255, 255)",
+                  },
+                  "counter": Object {
+                    "bg": "rgba(27, 31, 35, 0.08)",
+                  },
+                  "filterList": Object {
+                    "hoverBg": "#eaecef",
+                  },
+                  "gray": Array [
+                    "#fafbfc",
+                    "#f6f8fa",
+                    "#e1e4e8",
+                    "#d1d5da",
+                    "#959da5",
+                    "#6a737d",
+                    "#586069",
+                    "#444d56",
+                    "#2f363d",
+                    "#24292e",
+                  ],
+                  "green": Array [
+                    "#f0fff4",
+                    "#dcffe4",
+                    "#bef5cb",
+                    "#85e89d",
+                    "#34d058",
+                    "#28a745",
+                    "#22863a",
+                    "#176f2c",
+                    "#165c26",
+                    "#144620",
+                  ],
+                  "orange": Array [
+                    "#fff8f2",
+                    "#ffebda",
+                    "#ffd1ac",
+                    "#ffab70",
+                    "#fb8532",
+                    "#f66a0a",
+                    "#e36209",
+                    "#d15704",
+                    "#c24e00",
+                    "#a04100",
+                  ],
+                  "purple": Array [
+                    "#f5f0ff",
+                    "#e6dcfd",
+                    "#d1bcf9",
+                    "#b392f0",
+                    "#8a63d2",
+                    "#6f42c1",
+                    "#5a32a3",
+                    "#4c2889",
+                    "#3a1d6e",
+                    "#29134e",
+                  ],
+                  "red": Array [
+                    "#ffeef0",
+                    "#ffdce0",
+                    "#fdaeb7",
+                    "#f97583",
+                    "#ea4a5a",
+                    "#d73a49",
+                    "#cb2431",
+                    "#b31d28",
+                    "#9e1c23",
+                    "#86181d",
+                  ],
+                  "state": Object {
+                    "error": "#d73a49",
+                    "failure": "#d73a49",
+                    "pending": "#dbab09",
+                    "queued": "#dbab09",
+                    "success": "#28a745",
+                    "unknown": "#959da5",
+                  },
+                  "white": "#fff",
+                  "whitefade15": "rgba(255, 255, 255, 0.15)",
+                  "yellow": Array [
+                    "#fffdef",
+                    "#fffbdd",
+                    "#fff5b1",
+                    "#ffea7f",
+                    "#ffdf5d",
+                    "#ffd33d",
+                    "#f9c513",
+                    "#dbab09",
+                    "#b08800",
+                    "#735c0f",
+                  ],
+                },
+                "fontSizes": Array [
+                  12,
+                  14,
+                  16,
+                  20,
+                  24,
+                  32,
+                  40,
+                  48,
+                ],
+                "fontWeights": Object {
+                  "bold": 600,
+                  "light": 300,
+                  "normal": 400,
+                },
+                "fonts": Object {
+                  "mono": "SFMono-Regular, Consolas, \\"Liberation Mono\\", Menlo, Courier, monospace",
+                  "normal": "-apple-system, BlinkMacSystemFont, \\"Segoe UI\\", Helvetica, Arial, sans-serif, \\"Apple Color Emoji\\", \\"Segoe UI Emoji\\", \\"Segoe UI Symbol\\"",
+                },
+                "lineHeights": Object {
+                  "condensed": 1.25,
+                  "condensedUltra": 1,
+                  "default": 1.5,
+                },
+                "maxWidths": Object {
+                  "large": "1012px",
+                  "medium": "768px",
+                  "small": "544px",
+                  "xlarge": "1280px",
+                },
+                "radii": Array [
+                  0,
+                  3,
+                  6,
+                ],
+                "shadows": Object {
+                  "extra-large": "0 10px 50px rgba(27, 31, 35, 0.07)",
+                  "formControl": "rgba(27, 31, 35, 0.075) 0px 1px 2px inset",
+                  "formControlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+                  "large": "0 1px 15px rgba(27, 31, 35, 0.15)",
+                  "medium": "0 1px 5px rgba(27, 31, 35, 0.15)",
+                  "small": "0 1px 1px rgba(27, 31, 35, 0.1)",
+                },
+                "space": Array [
+                  0,
+                  4,
+                  8,
+                  16,
+                  24,
+                  32,
+                  40,
+                  48,
+                  64,
+                  80,
+                  96,
+                  112,
+                  128,
+                ],
+              }
+            }
+            width={0.938}
+          >
+            <img
+              alt="Manager"
+              src="http://lorempixel.com/300/300"
+            />
+          </ForwardRef(styled.img)>
+          <ForwardRef(styled.p)
+            padding={0}
+            white={true}
+          >
+            Jamaica
+          </ForwardRef(styled.p)>
+        </ForwardRef(styled.div)>
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
   </ForwardRef(styled.main)>
 </ForwardRef(styled.div)>
 `;
