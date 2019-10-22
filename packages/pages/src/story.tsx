@@ -1,11 +1,10 @@
 import { faEdit, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { image, random } from 'faker'
+import { random, internet } from 'faker'
 import {
   Wrapper,
   Nav,
   Main,
-  Name,
   RangeInner,
   RangeValuation,
   EditRange,
@@ -16,11 +15,10 @@ import {
   RangeBarThumb,
   ResultRank,
   ResultRankInner,
-  ResultComment,
-  Bar
+  ResultComment
 } from '@rate/atoms'
 import { Admire, AdmireContent as Inner } from '@rate/molecules'
-import { Button, Box, Avatar } from '@primer/components'
+import { Button, Box, Avatar, ProgressBar, Text } from '@primer/components'
 
 export default { title: 'pages' }
 
@@ -45,10 +43,8 @@ export const AdmirePage = () => (
         <Box>
           <Admire>
             <Inner>
-              <Avatar width={2.5} height={2.5}>
-                <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Avatar>
-              <Name padding={0}>{random.word()}</Name>
+              <Avatar src={internet.avatar()}></Avatar>
+              <Text>{random.word()}</Text>
             </Inner>
             <Range>
               <RangeInner>
@@ -65,90 +61,8 @@ export const AdmirePage = () => (
           </Admire>
           <Admire>
             <Inner>
-              <Avatar width={2.5} height={2.5}>
-                <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Avatar>
-              <Name>{random.word()}</Name>
-            </Inner>
-            <Range>
-              <RangeInner>
-                <RangeValuation>
-                  <p>{random.word()}</p>
-                  <p>{random.word()}</p>
-                </RangeValuation>
-                <EditRange>
-                  <EditRangeInput type='range' step='25' />
-                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
-                </EditRange>
-              </RangeInner>
-            </Range>
-          </Admire>
-          <Admire>
-            <Inner>
-              <Avatar width={2.5} height={2.5}>
-                <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Avatar>
-              <Name>{random.word()}</Name>
-            </Inner>
-            <Range>
-              <RangeInner>
-                <RangeValuation>
-                  <p>{random.word()}</p>
-                  <p>{random.word()}</p>
-                </RangeValuation>
-                <EditRange>
-                  <EditRangeInput type='range' step='25' />
-                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
-                </EditRange>
-              </RangeInner>
-            </Range>
-          </Admire>
-          <Admire>
-            <Inner>
-              <Avatar width={2.5} height={2.5}>
-                <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Avatar>
-              <Name>{random.word()}</Name>
-            </Inner>
-            <Range>
-              <RangeInner>
-                <RangeValuation>
-                  <p>{random.word()}</p>
-                  <p>{random.word()}</p>
-                </RangeValuation>
-                <EditRange>
-                  <EditRangeInput type='range' step='25' />
-                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
-                </EditRange>
-              </RangeInner>
-            </Range>
-          </Admire>
-          <Admire>
-            <Inner>
-              <Avatar width={2.5} height={2.5}>
-                <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Avatar>
-              <Name>{random.word()}</Name>
-            </Inner>
-            <Range>
-              <RangeInner>
-                <RangeValuation>
-                  <p>{random.word()}</p>
-                  <p>{random.word()}</p>
-                </RangeValuation>
-                <EditRange>
-                  <EditRangeInput type='range' step='25' />
-                  <RangeValue style={{ left: '50%' }}>3</RangeValue>
-                </EditRange>
-              </RangeInner>
-            </Range>
-          </Admire>
-          <Admire>
-            <Inner>
-              <Avatar width={2.5} height={2.5}>
-                <img src={image.imageUrl(300, 300)} alt={random.word()} />
-              </Avatar>
-              <Name>{random.word()}</Name>
+              <Avatar src={internet.avatar()}></Avatar>
+              <Text>{random.word()}</Text>
             </Inner>
             <Range>
               <RangeInner>
@@ -188,12 +102,8 @@ export const Mypage = () => (
     </Nav>
     <Main>
       <Box p={4} mt={2}>
-        <Avatar width={4.688} height={4.688}>
-          <img src={image.imageUrl(300, 300)} alt={random.word()} />
-        </Avatar>
-        <Name white padding={1}>
-          {random.word()}
-        </Name>
+        <Avatar src={internet.avatar()}></Avatar>
+        <Text>{random.word()}</Text>
       </Box>
       <Box>
         <Box>
@@ -222,22 +132,14 @@ export const Mypage = () => (
       </Box>
       <Box>
         <Box>
-          <Bar style={{ width: `${random.number({ max: 100 })}%` }}>
-            <Avatar width={0.938} height={0.938}>
-              <img src={image.imageUrl(300, 300)} alt={random.word()} />
-            </Avatar>
-            <Name white padding={0}>
-              {random.word()}
-            </Name>
-          </Bar>
-          <Bar style={{ width: `${random.number({ max: 100 })}%` }}>
-            <Avatar width={0.938} height={0.938}>
-              <img src={image.imageUrl(300, 300)} alt={random.word()} />
-            </Avatar>
-            <Name white padding={0}>
-              {random.word()}
-            </Name>
-          </Bar>
+          <Avatar src={internet.avatar()}></Avatar>
+          <Text>{random.word()}</Text>
+          <ProgressBar progress={100}></ProgressBar>
+        </Box>
+        <Box>
+          <Avatar src={internet.avatar()}></Avatar>
+          <Text>{random.word()}</Text>
+          <ProgressBar progress={100}></ProgressBar>
         </Box>
       </Box>
     </Main>

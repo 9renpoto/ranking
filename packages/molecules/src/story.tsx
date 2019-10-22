@@ -1,11 +1,10 @@
-import { image, random } from 'faker'
+import { random, internet } from 'faker'
 import {
   EditRange,
   EditRangeInput,
   Range,
   RangeInner,
   RangeValue,
-  Name,
   RangeBar,
   RangeBarThumb,
   RangeValuation,
@@ -13,17 +12,15 @@ import {
   ResultRankInner,
   ResultComment
 } from '@rate/atoms'
-import { Avatar, Box } from '@primer/components'
+import { Avatar, Box, Text } from '@primer/components'
 import { Admire, AdmireContent, Rank } from './'
 
 function DefaultAdmire() {
   return (
     <Admire>
       <AdmireContent>
-        <Avatar width={2.5} height={2.5}>
-          <img src={image.imageUrl(300, 300)} alt={random.word()} />
-        </Avatar>
-        <Name padding={0}>{random.word()}</Name>
+        <Avatar src={internet.avatar()} />
+        <Text>{random.word()}</Text>
       </AdmireContent>
       <Range>
         <RangeInner>
@@ -54,12 +51,8 @@ export const Admires = () => (
 
 export const Heros = () => (
   <Box>
-    <Avatar width={4.688} height={4.688}>
-      <img src={image.imageUrl(300, 300)} alt={random.word()} />
-    </Avatar>
-    <Name white padding={1}>
-      {random.word()}
-    </Name>
+    <Avatar src={internet.avatar()} />
+    <Text>{random.word()}</Text>
   </Box>
 )
 
@@ -96,10 +89,8 @@ export const Ranks = () => (
     <span>{random.number()}</span>
     <Admire>
       <AdmireContent>
-        <Avatar width={2.5} height={2.5}>
-          <img src={image.imageUrl(300, 300)} alt={random.word()} />
-        </Avatar>
-        <Name padding={0}>{random.word()}</Name>
+        <Avatar src={internet.avatar()} />
+        <Text>{random.word()}</Text>
       </AdmireContent>
       <Range>
         <RangeInner>
