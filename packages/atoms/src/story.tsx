@@ -1,5 +1,6 @@
 import { random, image } from 'faker'
-import { Avatar, Box, Inner, Hero, Bar, Name } from '.'
+import { Avatar } from '@primer/components'
+import { Hero, Bar, Name } from '.'
 
 function DefaultRankBar() {
   return (
@@ -16,12 +17,5 @@ function DefaultRankBar() {
 
 export default { title: 'atoms' }
 
-export const Avatars = () => <Avatar width={20} height={20} />
-export const Boxes = () => (
-  <Box>
-    <Inner>{random.words()}</Inner>
-    <Inner>{random.words()}</Inner>
-  </Box>
-)
 export const Heros = () => <Hero>{random.words()}</Hero>
 export const RankBars = () => <DefaultRankBar />
