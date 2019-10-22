@@ -1,7 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots atoms Rank Bars 1`] = `
-.c1 {
+Array [
+  .c0 {
   display: inline-block;
   overflow: hidden;
   line-height: 1;
@@ -9,52 +10,47 @@ exports[`Storyshots atoms Rank Bars 1`] = `
   border-radius: 2px;
 }
 
+<img
+    alt=""
+    className="c0"
+    height={20}
+    size={20}
+    src="https://s3.amazonaws.com/uifaces/faces/twitter/xravil/128.jpg"
+    width={20}
+  />,
+  .c0 {
+  margin-right: 16px;
+}
+
+<span
+    className="c0"
+  >
+    port
+  </span>,
+  .c1 {
+  width: 43%;
+  background-color: #28a745;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #3ebdaa;
-  border-radius: 0.188rem;
-  padding: 0.313rem;
+  overflow: hidden;
+  background-color: #e1e4e8;
+  border-radius: 3px;
+  height: 8px;
 }
 
-.c2 {
-  margin-left: 0.5rem;
-  padding-top: 0rem;
-  color: #fff;
-}
-
-<div
-  className="c0"
-  style={
-    Object {
-      "width": "70%",
-    }
-  }
->
-  <img
-    alt=""
-    className="c1"
-    height={20}
-    size={20}
-    width={20}
+<span
+    className="c0"
   >
-    <img
-      alt="port"
-      src="http://lorempixel.com/300/300"
+    <span
+      className="c1"
     />
-  </img>
-  <p
-    className="c2"
-  >
-    eyeballs
-  </p>
-</div>
+  </span>,
+]
 `;
 
 exports[`Storyshots molecules Admires 1`] = `
@@ -66,7 +62,7 @@ exports[`Storyshots molecules Admires 1`] = `
   border-radius: 2px;
 }
 
-.c5 {
+.c4 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -82,11 +78,11 @@ exports[`Storyshots molecules Admires 1`] = `
   align-items: center;
 }
 
-.c6 {
+.c5 {
   width: 100%;
 }
 
-.c10 {
+.c9 {
   position: absolute;
   top: 85%;
   -webkit-transform: translate(-50%,-50%);
@@ -97,12 +93,12 @@ exports[`Storyshots molecules Admires 1`] = `
   color: #777;
 }
 
-.c8 {
+.c7 {
   margin-top: 0.5rem;
   position: relative;
 }
 
-.c9 {
+.c8 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -114,7 +110,7 @@ exports[`Storyshots molecules Admires 1`] = `
   cursor: pointer;
 }
 
-.c9::-webkit-slider-thumb {
+.c8::-webkit-slider-thumb {
   background-color: #fff;
   border: 0.063rem solid #eb2e3e;
   width: 1.563rem;
@@ -124,23 +120,23 @@ exports[`Storyshots molecules Admires 1`] = `
   z-index: 2;
 }
 
-.c9::-ms-tooltip {
+.c8::-ms-tooltip {
   display: none;
 }
 
-.c9::-ms-tooltip {
+.c8::-ms-tooltip {
   display: none;
 }
 
-.c9::-moz-focus-outer {
+.c8::-moz-focus-outer {
   border: 0;
 }
 
-.c9::-moz-range-track {
+.c8::-moz-range-track {
   height: 0;
 }
 
-.c9::-moz-range-thumb {
+.c8::-moz-range-thumb {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -153,7 +149,7 @@ exports[`Storyshots molecules Admires 1`] = `
   z-index: 2;
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -164,11 +160,6 @@ exports[`Storyshots molecules Admires 1`] = `
   justify-content: space-between;
   font-size: 0.75rem;
   color: #555;
-}
-
-.c4 {
-  margin-left: 0.5rem;
-  padding-top: 0rem;
 }
 
 .c1 {
@@ -222,45 +213,41 @@ exports[`Storyshots molecules Admires 1`] = `
         className="c3"
         height={20}
         size={20}
+        src="https://s3.amazonaws.com/uifaces/faces/twitter/giancarlon/128.jpg"
         width={20}
+      />
+      <span
+        className=""
       >
-        <img
-          alt="Rufiyaa"
-          src="http://lorempixel.com/300/300"
-        />
-      </img>
-      <p
-        className="c4"
-      >
-        monitor
-      </p>
+        Rufiyaa
+      </span>
     </div>
     <div
-      className="c5"
+      className="c4"
     >
       <div
-        className="c6"
+        className="c5"
       >
         <div
-          className="c7"
+          className="c6"
         >
+          <p>
+            monitor
+          </p>
           <p>
             Berkshire
           </p>
-          <p>
-            mobile
-          </p>
         </div>
         <div
-          className="c8"
+          className="c7"
         >
           <input
-            className="c9"
+            className="c8"
             step="25"
             type="range"
           />
           <span
-            className="c10"
+            className="c9"
             style={
               Object {
                 "left": "50%",
@@ -284,45 +271,41 @@ exports[`Storyshots molecules Admires 1`] = `
         className="c3"
         height={20}
         size={20}
+        src="https://s3.amazonaws.com/uifaces/faces/twitter/nvkznemo/128.jpg"
         width={20}
+      />
+      <span
+        className=""
       >
-        <img
-          alt="infomediaries"
-          src="http://lorempixel.com/300/300"
-        />
-      </img>
-      <p
-        className="c4"
-      >
-        Missouri
-      </p>
+        Administrator
+      </span>
     </div>
     <div
-      className="c5"
+      className="c4"
     >
       <div
-        className="c6"
+        className="c5"
       >
         <div
-          className="c7"
+          className="c6"
         >
           <p>
-            Cotton
+            Metical
           </p>
           <p>
-            harness
+            Crossing
           </p>
         </div>
         <div
-          className="c8"
+          className="c7"
         >
           <input
-            className="c9"
+            className="c8"
             step="25"
             type="range"
           />
           <span
-            className="c10"
+            className="c9"
             style={
               Object {
                 "left": "50%",
@@ -346,45 +329,41 @@ exports[`Storyshots molecules Admires 1`] = `
         className="c3"
         height={20}
         size={20}
+        src="https://s3.amazonaws.com/uifaces/faces/twitter/BroumiYoussef/128.jpg"
         width={20}
+      />
+      <span
+        className=""
       >
-        <img
-          alt="Credit Card Account"
-          src="http://lorempixel.com/300/300"
-        />
-      </img>
-      <p
-        className="c4"
-      >
-        help-desk
-      </p>
+        harness
+      </span>
     </div>
     <div
-      className="c5"
+      className="c4"
     >
       <div
-        className="c6"
+        className="c5"
       >
         <div
-          className="c7"
+          className="c6"
         >
           <p>
-            Balanced
+            Credit Card Account
           </p>
           <p>
-            Yen
+            help-desk
           </p>
         </div>
         <div
-          className="c8"
+          className="c7"
         >
           <input
-            className="c9"
+            className="c8"
             step="25"
             type="range"
           />
           <span
-            className="c10"
+            className="c9"
             style={
               Object {
                 "left": "50%",
@@ -408,45 +387,41 @@ exports[`Storyshots molecules Admires 1`] = `
         className="c3"
         height={20}
         size={20}
+        src="https://s3.amazonaws.com/uifaces/faces/twitter/namankreative/128.jpg"
         width={20}
+      />
+      <span
+        className=""
       >
-        <img
-          alt="Credit Card Account"
-          src="http://lorempixel.com/300/300"
-        />
-      </img>
-      <p
-        className="c4"
-      >
-        deposit
-      </p>
+        Handcrafted Cotton Soap
+      </span>
     </div>
     <div
-      className="c5"
+      className="c4"
     >
       <div
-        className="c6"
+        className="c5"
       >
         <div
-          className="c7"
+          className="c6"
         >
           <p>
-            initiatives
+            alarm
           </p>
           <p>
-            Awesome
+            Table
           </p>
         </div>
         <div
-          className="c8"
+          className="c7"
         >
           <input
-            className="c9"
+            className="c8"
             step="25"
             type="range"
           />
           <span
-            className="c10"
+            className="c9"
             style={
               Object {
                 "left": "50%",
@@ -471,12 +446,6 @@ exports[`Storyshots molecules Heros 1`] = `
   border-radius: 2px;
 }
 
-.c1 {
-  margin-left: 0.5rem;
-  padding-top: 1rem;
-  color: #fff;
-}
-
 <div
   className=""
 >
@@ -485,18 +454,14 @@ exports[`Storyshots molecules Heros 1`] = `
     className="c0"
     height={20}
     size={20}
+    src="https://s3.amazonaws.com/uifaces/faces/twitter/kurtinc/128.jpg"
     width={20}
+  />
+  <span
+    className=""
   >
-    <img
-      alt="firewall"
-      src="http://lorempixel.com/300/300"
-    />
-  </img>
-  <p
-    className="c1"
-  >
-    e-commerce
-  </p>
+    Awesome
+  </span>
 </div>
 `;
 
@@ -611,10 +576,10 @@ exports[`Storyshots molecules Range Input 1`] = `
       className="c2"
     >
       <p>
-        pixel
+        solution
       </p>
       <p>
-        synergistic
+        Buckinghamshire
       </p>
     </div>
     <div
@@ -719,10 +684,10 @@ exports[`Storyshots molecules Ranges 1`] = `
       className="c2"
     >
       <p>
-        solution
+        firewall
       </p>
       <p>
-        Buckinghamshire
+        e-commerce
       </p>
     </div>
     <div
@@ -758,6 +723,413 @@ exports[`Storyshots molecules Ranks 1`] = `
   line-height: 1;
   vertical-align: middle;
   border-radius: 2px;
+}
+
+.c6 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c7 {
+  width: 100%;
+}
+
+.c11 {
+  position: absolute;
+  top: 85%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 3;
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.c9 {
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.c10 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #eb2e3e;
+  height: 0.063rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.c10::-webkit-slider-thumb {
+  background-color: #fff;
+  border: 0.063rem solid #eb2e3e;
+  width: 1.563rem;
+  height: 1.563rem;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.c10::-ms-tooltip {
+  display: none;
+}
+
+.c10::-ms-tooltip {
+  display: none;
+}
+
+.c10::-moz-focus-outer {
+  border: 0;
+}
+
+.c10::-moz-range-track {
+  height: 0;
+}
+
+.c10::-moz-range-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  width: 1.563rem;
+  height: 1.563rem;
+  border: 0.063rem solid #eb2e3e;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #555;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.25rem;
+}
+
+.c3 > * {
+  width: 50%;
+}
+
+.c3 + .c2 {
+  border-top: 1px solid #ccc;
+}
+
+.c3 img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.625rem;
+}
+
+.c3 p {
+  font-size: 0.875rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 span {
+  font-weight: bold;
+  margin-right: 1.875rem;
+}
+
+.c1 + .c0 {
+  margin-top: 1rem;
+}
+
+<div
+  className="c0 c1"
+>
+  <span>
+    74029
+  </span>
+  <div
+    className="c2 c3"
+  >
+    <div
+      className="c4"
+    >
+      <img
+        alt=""
+        className="c5"
+        height={20}
+        size={20}
+        src="https://s3.amazonaws.com/uifaces/faces/twitter/kianoshp/128.jpg"
+        width={20}
+      />
+      <span
+        className=""
+      >
+        synergistic
+      </span>
+    </div>
+    <div
+      className="c6"
+    >
+      <div
+        className="c7"
+      >
+        <div
+          className="c8"
+        >
+          <p>
+            e-services
+          </p>
+          <p>
+            withdrawal
+          </p>
+        </div>
+        <div
+          className="c9"
+        >
+          <input
+            className="c10"
+            step="25"
+            type="range"
+          />
+          <span
+            className="c11"
+            style={
+              Object {
+                "left": "50%",
+              }
+            }
+          >
+            3
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots molecules Results 1`] = `
+Array [
+  .c0 {
+  margin: 0 auto;
+  color: #3fa2fc;
+  font-size: 1.563rem;
+  font-weight: bold;
+  width: 5rem;
+  height: 5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0.188rem solid #3fa2fc;
+  border-radius: 50%;
+}
+
+.c1 {
+  text-align: center;
+}
+
+.c1 span {
+  display: block;
+  font-size: 0.625rem;
+  font-weight: normal;
+  margin-bottom: 0.313rem;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <span>
+        50人中
+      </span>
+      10位
+    </div>
+  </div>,
+  .c0 {
+  margin-top: 0.938rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+<p
+    className="c0"
+  >
+    architect
+  </p>,
+]
+`;
+
+exports[`Storyshots pages Admire Page 1`] = `
+.c6 {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
+.c13 {
+  position: relative;
+  display: inline-block;
+  padding: 6px 12px;
+  color: #24292e;
+  background-color: #f6f8fa;
+  background-image: linear-gradient(-180deg,#fafbfc 0%,rgb(239,243,246) 90%);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-repeat: repeat-x;
+  background-position: -1px -1px;
+  background-size: 110% 110%;
+  border: 1px solid rgba(27,31,35,0.2);
+  border-radius: 0.25em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.c13:hover {
+  background-color: rgb(230,235,241);
+  background-image: linear-gradient(-180deg,rgb(239,243,246) 0%,rgb(230,235,241) 90%);
+  background-position: -0.5em center;
+  border-color: rgba(27,31,35,0.35);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-repeat: repeat-x;
+}
+
+.c13:active {
+  background-color: rgb(233,236,239);
+  background-image: none;
+  box-shadow: rgba(27,31,35,0.15) 0px 0.15em 0.3em inset;
+  border-color: rgba(27,31,35,0.2);
+}
+
+.c13:focus {
+  outline: none;
+  box-shadow: rgba(3,102,214,0.3) 0px 0px 0px 0.2em;
+}
+
+.c13.grouped {
+  position: relative;
+  border-right-width: 0;
+  border-radius: 0;
+}
+
+.c13.grouped:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.c13.grouped:last-child {
+  border-right-width: 1px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.c13.grouped:focus,
+.c13.grouped:active,
+.c13.grouped:hover {
+  border-right-width: 1px;
+}
+
+.c13.grouped:focus + .grouped,
+.c13.grouped:active + .grouped,
+.c13.grouped:hover + .grouped {
+  border-left-width: 0;
+}
+
+.c13:focus,
+.c13:active {
+  z-index: 1;
+}
+
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  text-align: center;
+  background-color: #000;
+  width: 40px;
+}
+
+.c1 li a {
+  color: #fff;
+  display: block;
+  padding: 0.7rem;
+}
+
+.c1 li a:hover,
+.c1 li a.active {
+  background-color: #3ebdaa;
 }
 
 .c7 {
@@ -858,432 +1230,6 @@ exports[`Storyshots molecules Ranks 1`] = `
   justify-content: space-between;
   font-size: 0.75rem;
   color: #555;
-}
-
-.c6 {
-  margin-left: 0.5rem;
-  padding-top: 0rem;
-}
-
-.c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 1.25rem;
-}
-
-.c3 > * {
-  width: 50%;
-}
-
-.c3 + .c2 {
-  border-top: 1px solid #ccc;
-}
-
-.c3 img {
-  width: 2.5rem;
-  height: 2.5rem;
-  margin-right: 0.625rem;
-}
-
-.c3 p {
-  font-size: 0.875rem;
-}
-
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c1 span {
-  font-weight: bold;
-  margin-right: 1.875rem;
-}
-
-.c1 + .c0 {
-  margin-top: 1rem;
-}
-
-<div
-  className="c0 c1"
->
-  <span>
-    41720
-  </span>
-  <div
-    className="c2 c3"
-  >
-    <div
-      className="c4"
-    >
-      <img
-        alt=""
-        className="c5"
-        height={20}
-        size={20}
-        width={20}
-      >
-        <img
-          alt="monitoring"
-          src="http://lorempixel.com/300/300"
-        />
-      </img>
-      <p
-        className="c6"
-      >
-        dynamic
-      </p>
-    </div>
-    <div
-      className="c7"
-    >
-      <div
-        className="c8"
-      >
-        <div
-          className="c9"
-        >
-          <p>
-            Enterprise-wide
-          </p>
-          <p>
-            zero defect
-          </p>
-        </div>
-        <div
-          className="c10"
-        >
-          <input
-            className="c11"
-            step="25"
-            type="range"
-          />
-          <span
-            className="c12"
-            style={
-              Object {
-                "left": "50%",
-              }
-            }
-          >
-            3
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots molecules Results 1`] = `
-Array [
-  .c0 {
-  margin: 0 auto;
-  color: #3fa2fc;
-  font-size: 1.563rem;
-  font-weight: bold;
-  width: 5rem;
-  height: 5rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  border: 0.188rem solid #3fa2fc;
-  border-radius: 50%;
-}
-
-.c1 {
-  text-align: center;
-}
-
-.c1 span {
-  display: block;
-  font-size: 0.625rem;
-  font-weight: normal;
-  margin-bottom: 0.313rem;
-}
-
-<div
-    className="c0"
-  >
-    <div
-      className="c1"
-    >
-      <span>
-        50人中
-      </span>
-      10位
-    </div>
-  </div>,
-  .c0 {
-  margin-top: 0.938rem;
-  font-size: 0.875rem;
-  line-height: 1.4;
-}
-
-<p
-    className="c0"
-  >
-    invoice
-  </p>,
-]
-`;
-
-exports[`Storyshots pages Admire Page 1`] = `
-.c6 {
-  display: inline-block;
-  overflow: hidden;
-  line-height: 1;
-  vertical-align: middle;
-  border-radius: 2px;
-}
-
-.c15 {
-  position: relative;
-  display: inline-block;
-  padding: 6px 12px;
-  color: #24292e;
-  background-color: #f6f8fa;
-  background-image: linear-gradient(-180deg,#fafbfc 0%,rgb(239,243,246) 90%);
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-repeat: repeat-x;
-  background-position: -1px -1px;
-  background-size: 110% 110%;
-  border: 1px solid rgba(27,31,35,0.2);
-  border-radius: 0.25em;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.c15:hover {
-  background-color: rgb(230,235,241);
-  background-image: linear-gradient(-180deg,rgb(239,243,246) 0%,rgb(230,235,241) 90%);
-  background-position: -0.5em center;
-  border-color: rgba(27,31,35,0.35);
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  background-repeat: repeat-x;
-}
-
-.c15:active {
-  background-color: rgb(233,236,239);
-  background-image: none;
-  box-shadow: rgba(27,31,35,0.15) 0px 0.15em 0.3em inset;
-  border-color: rgba(27,31,35,0.2);
-}
-
-.c15:focus {
-  outline: none;
-  box-shadow: rgba(3,102,214,0.3) 0px 0px 0px 0.2em;
-}
-
-.c15.grouped {
-  position: relative;
-  border-right-width: 0;
-  border-radius: 0;
-}
-
-.c15.grouped:first-child {
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-}
-
-.c15.grouped:last-child {
-  border-right-width: 1px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-}
-
-.c15.grouped:focus,
-.c15.grouped:active,
-.c15.grouped:hover {
-  border-right-width: 1px;
-}
-
-.c15.grouped:focus + .grouped,
-.c15.grouped:active + .grouped,
-.c15.grouped:hover + .grouped {
-  border-left-width: 0;
-}
-
-.c15:focus,
-.c15:active {
-  z-index: 1;
-}
-
-.c2 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.c1 {
-  text-align: center;
-  background-color: #000;
-  width: 40px;
-}
-
-.c1 li a {
-  color: #fff;
-  display: block;
-  padding: 0.7rem;
-}
-
-.c1 li a:hover,
-.c1 li a.active {
-  background-color: #3ebdaa;
-}
-
-.c8 {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c9 {
-  width: 100%;
-}
-
-.c13 {
-  position: absolute;
-  top: 85%;
-  -webkit-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  z-index: 3;
-  font-size: 0.75rem;
-  color: #777;
-}
-
-.c11 {
-  margin-top: 0.5rem;
-  position: relative;
-}
-
-.c12 {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #eb2e3e;
-  height: 0.063rem;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  cursor: pointer;
-}
-
-.c12::-webkit-slider-thumb {
-  background-color: #fff;
-  border: 0.063rem solid #eb2e3e;
-  width: 1.563rem;
-  height: 1.563rem;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
-}
-
-.c12::-ms-tooltip {
-  display: none;
-}
-
-.c12::-ms-tooltip {
-  display: none;
-}
-
-.c12::-moz-focus-outer {
-  border: 0;
-}
-
-.c12::-moz-range-track {
-  height: 0;
-}
-
-.c12::-moz-range-thumb {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #fff;
-  width: 1.563rem;
-  height: 1.563rem;
-  border: 0.063rem solid #eb2e3e;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
-}
-
-.c10 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  font-size: 0.75rem;
-  color: #555;
-}
-
-.c7 {
-  margin-left: 0.5rem;
-  padding-top: 0rem;
-}
-
-.c14 {
-  margin-left: 0.5rem;
-  padding-top: rem;
 }
 
 .c0 {
@@ -1434,45 +1380,41 @@ exports[`Storyshots pages Admire Page 1`] = `
               className="c6"
               height={20}
               size={20}
+              src="https://s3.amazonaws.com/uifaces/faces/twitter/nemanjaivanovic/128.jpg"
               width={20}
+            />
+            <span
+              className=""
             >
-              <img
-                alt="Licensed"
-                src="http://lorempixel.com/300/300"
-              />
-            </img>
-            <p
-              className="c7"
-            >
-              web-readiness
-            </p>
+              zero defect
+            </span>
           </div>
           <div
-            className="c8"
+            className="c7"
           >
             <div
-              className="c9"
+              className="c8"
             >
               <div
-                className="c10"
+                className="c9"
               >
                 <p>
-                  initiatives
+                  invoice
                 </p>
                 <p>
-                  Avon
+                  Licensed
                 </p>
               </div>
               <div
-                className="c11"
+                className="c10"
               >
                 <input
-                  className="c12"
+                  className="c11"
                   step="25"
                   type="range"
                 />
                 <span
-                  className="c13"
+                  className="c12"
                   style={
                     Object {
                       "left": "50%",
@@ -1496,293 +1438,41 @@ exports[`Storyshots pages Admire Page 1`] = `
               className="c6"
               height={20}
               size={20}
+              src="https://s3.amazonaws.com/uifaces/faces/twitter/lepinski/128.jpg"
               width={20}
+            />
+            <span
+              className=""
             >
-              <img
-                alt="markets"
-                src="http://lorempixel.com/300/300"
-              />
-            </img>
-            <p
-              className="c14"
-            >
-              success
-            </p>
+              Grocery
+            </span>
           </div>
           <div
-            className="c8"
+            className="c7"
           >
             <div
-              className="c9"
+              className="c8"
             >
               <div
-                className="c10"
+                className="c9"
               >
                 <p>
-                  deliverables
+                  Shoes
                 </p>
                 <p>
-                  International
+                  Table
                 </p>
               </div>
               <div
-                className="c11"
+                className="c10"
               >
                 <input
-                  className="c12"
+                  className="c11"
                   step="25"
                   type="range"
                 />
                 <span
-                  className="c13"
-                  style={
-                    Object {
-                      "left": "50%",
-                    }
-                  }
-                >
-                  3
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="c3 c4"
-        >
-          <div
-            className="c5"
-          >
-            <img
-              alt=""
-              className="c6"
-              height={20}
-              size={20}
-              width={20}
-            >
-              <img
-                alt="Optimization"
-                src="http://lorempixel.com/300/300"
-              />
-            </img>
-            <p
-              className="c14"
-            >
-              Berkshire
-            </p>
-          </div>
-          <div
-            className="c8"
-          >
-            <div
-              className="c9"
-            >
-              <div
-                className="c10"
-              >
-                <p>
-                  Home Loan Account
-                </p>
-                <p>
-                  Plastic
-                </p>
-              </div>
-              <div
-                className="c11"
-              >
-                <input
                   className="c12"
-                  step="25"
-                  type="range"
-                />
-                <span
-                  className="c13"
-                  style={
-                    Object {
-                      "left": "50%",
-                    }
-                  }
-                >
-                  3
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="c3 c4"
-        >
-          <div
-            className="c5"
-          >
-            <img
-              alt=""
-              className="c6"
-              height={20}
-              size={20}
-              width={20}
-            >
-              <img
-                alt="initiative"
-                src="http://lorempixel.com/300/300"
-              />
-            </img>
-            <p
-              className="c14"
-            >
-              infomediaries
-            </p>
-          </div>
-          <div
-            className="c8"
-          >
-            <div
-              className="c9"
-            >
-              <div
-                className="c10"
-              >
-                <p>
-                  JSON
-                </p>
-                <p>
-                  Configurable
-                </p>
-              </div>
-              <div
-                className="c11"
-              >
-                <input
-                  className="c12"
-                  step="25"
-                  type="range"
-                />
-                <span
-                  className="c13"
-                  style={
-                    Object {
-                      "left": "50%",
-                    }
-                  }
-                >
-                  3
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="c3 c4"
-        >
-          <div
-            className="c5"
-          >
-            <img
-              alt=""
-              className="c6"
-              height={20}
-              size={20}
-              width={20}
-            >
-              <img
-                alt="Berkshire"
-                src="http://lorempixel.com/300/300"
-              />
-            </img>
-            <p
-              className="c14"
-            >
-              Manager
-            </p>
-          </div>
-          <div
-            className="c8"
-          >
-            <div
-              className="c9"
-            >
-              <div
-                className="c10"
-              >
-                <p>
-                  Jamaica
-                </p>
-                <p>
-                  Auto Loan Account
-                </p>
-              </div>
-              <div
-                className="c11"
-              >
-                <input
-                  className="c12"
-                  step="25"
-                  type="range"
-                />
-                <span
-                  className="c13"
-                  style={
-                    Object {
-                      "left": "50%",
-                    }
-                  }
-                >
-                  3
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="c3 c4"
-        >
-          <div
-            className="c5"
-          >
-            <img
-              alt=""
-              className="c6"
-              height={20}
-              size={20}
-              width={20}
-            >
-              <img
-                alt="Granite"
-                src="http://lorempixel.com/300/300"
-              />
-            </img>
-            <p
-              className="c14"
-            >
-              synthesizing
-            </p>
-          </div>
-          <div
-            className="c8"
-          >
-            <div
-              className="c9"
-            >
-              <div
-                className="c10"
-              >
-                <p>
-                  Money Market Account
-                </p>
-                <p>
-                  Italy
-                </p>
-              </div>
-              <div
-                className="c11"
-              >
-                <input
-                  className="c12"
-                  step="25"
-                  type="range"
-                />
-                <span
-                  className="c13"
                   style={
                     Object {
                       "left": "50%",
@@ -1797,9 +1487,9 @@ exports[`Storyshots pages Admire Page 1`] = `
         </div>
       </div>
       <button
-        className="c15"
+        className="c13"
       >
-        clicks-and-mortar
+        Incredible
       </button>
     </div>
   </main>
@@ -1818,6 +1508,22 @@ exports[`Storyshots pages Mypage 1`] = `
   line-height: 1;
   vertical-align: middle;
   border-radius: 2px;
+}
+
+.c15 {
+  width: 100%;
+  background-color: #28a745;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  background-color: #e1e4e8;
+  border-radius: 3px;
+  height: 8px;
 }
 
 .c2 {
@@ -1843,7 +1549,7 @@ exports[`Storyshots pages Mypage 1`] = `
   background-color: #3ebdaa;
 }
 
-.c6 {
+.c5 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1859,11 +1565,11 @@ exports[`Storyshots pages Mypage 1`] = `
   align-items: center;
 }
 
-.c7 {
+.c6 {
   width: 100%;
 }
 
-.c9 {
+.c8 {
   position: relative;
   border-bottom: 0.063rem solid #eb2e3e;
   margin-top: 1.25rem;
@@ -1872,7 +1578,7 @@ exports[`Storyshots pages Mypage 1`] = `
   box-sizing: border-box;
 }
 
-.c10 {
+.c9 {
   position: absolute;
   border: 0.063rem solid #eb2e3e;
   width: 1.563rem;
@@ -1887,7 +1593,7 @@ exports[`Storyshots pages Mypage 1`] = `
   box-sizing: border-box;
 }
 
-.c11 {
+.c10 {
   position: absolute;
   top: 85%;
   -webkit-transform: translate(-50%,-50%);
@@ -1898,7 +1604,7 @@ exports[`Storyshots pages Mypage 1`] = `
   color: #777;
 }
 
-.c8 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1911,27 +1617,13 @@ exports[`Storyshots pages Mypage 1`] = `
   color: #555;
 }
 
-.c15 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #3ebdaa;
-  border-radius: 0.188rem;
-  padding: 0.313rem;
-}
-
-.c14 {
+.c13 {
   margin-top: 0.938rem;
   font-size: 0.875rem;
   line-height: 1.4;
 }
 
-.c12 {
+.c11 {
   margin: 0 auto;
   color: #3fa2fc;
   font-size: 1.563rem;
@@ -1957,27 +1649,15 @@ exports[`Storyshots pages Mypage 1`] = `
   border-radius: 50%;
 }
 
-.c13 {
+.c12 {
   text-align: center;
 }
 
-.c13 span {
+.c12 span {
   display: block;
   font-size: 0.625rem;
   font-weight: normal;
   margin-bottom: 0.313rem;
-}
-
-.c5 {
-  margin-left: 0.5rem;
-  padding-top: 1rem;
-  color: #fff;
-}
-
-.c16 {
-  margin-left: 0.5rem;
-  padding-top: 0rem;
-  color: #fff;
 }
 
 .c0 {
@@ -2082,18 +1762,14 @@ exports[`Storyshots pages Mypage 1`] = `
         className="c4"
         height={20}
         size={20}
+        src="https://s3.amazonaws.com/uifaces/faces/twitter/apriendeau/128.jpg"
         width={20}
+      />
+      <span
+        className=""
       >
-        <img
-          alt="focus group"
-          src="http://lorempixel.com/300/300"
-        />
-      </img>
-      <p
-        className="c5"
-      >
-        infomediaries
-      </p>
+        deliverables
+      </span>
     </div>
     <div
       className=""
@@ -2102,13 +1778,13 @@ exports[`Storyshots pages Mypage 1`] = `
         className=""
       >
         <div
-          className="c6"
+          className="c5"
         >
           <div
-            className="c7"
+            className="c6"
           >
             <div
-              className="c8"
+              className="c7"
             >
               <p>
                 とても悪い
@@ -2118,10 +1794,10 @@ exports[`Storyshots pages Mypage 1`] = `
               </p>
             </div>
             <div
-              className="c9"
+              className="c8"
             >
               <div
-                className="c10"
+                className="c9"
                 style={
                   Object {
                     "left": "50%",
@@ -2129,7 +1805,7 @@ exports[`Storyshots pages Mypage 1`] = `
                 }
               />
               <span
-                className="c11"
+                className="c10"
                 style={
                   Object {
                     "left": "50%",
@@ -2146,10 +1822,10 @@ exports[`Storyshots pages Mypage 1`] = `
         className=""
       >
         <div
-          className="c12"
+          className="c11"
         >
           <div
-            className="c13"
+            className="c12"
           >
             <span>
               50人中
@@ -2158,9 +1834,9 @@ exports[`Storyshots pages Mypage 1`] = `
           </div>
         </div>
         <p
-          className="c14"
+          className="c13"
         >
-          Vatu
+          International
         </p>
       </div>
     </div>
@@ -2170,58 +1846,50 @@ exports[`Storyshots pages Mypage 1`] = `
       <div
         className=""
       >
-        <div
-          className="c15"
-          style={
-            Object {
-              "width": "88%",
-            }
-          }
+        <img
+          alt=""
+          className="c4"
+          height={20}
+          size={20}
+          src="https://s3.amazonaws.com/uifaces/faces/twitter/ccinojasso1/128.jpg"
+          width={20}
+        />
+        <span
+          className=""
         >
-          <img
-            alt=""
-            className="c4"
-            height={20}
-            size={20}
-            width={20}
-          >
-            <img
-              alt="impactful"
-              src="http://lorempixel.com/300/300"
-            />
-          </img>
-          <p
-            className="c16"
-          >
-            Radial
-          </p>
-        </div>
-        <div
-          className="c15"
-          style={
-            Object {
-              "width": "27%",
-            }
-          }
+          Borders
+        </span>
+        <span
+          className="c14"
         >
-          <img
-            alt=""
-            className="c4"
-            height={20}
-            size={20}
-            width={20}
-          >
-            <img
-              alt="Tennessee"
-              src="http://lorempixel.com/300/300"
-            />
-          </img>
-          <p
-            className="c16"
-          >
-            Money Market Account
-          </p>
-        </div>
+          <span
+            className="c15"
+          />
+        </span>
+      </div>
+      <div
+        className=""
+      >
+        <img
+          alt=""
+          className="c4"
+          height={20}
+          size={20}
+          src="https://s3.amazonaws.com/uifaces/faces/twitter/nitinhayaran/128.jpg"
+          width={20}
+        />
+        <span
+          className=""
+        >
+          Home Loan Account
+        </span>
+        <span
+          className="c14"
+        >
+          <span
+            className="c15"
+          />
+        </span>
       </div>
     </div>
   </main>
