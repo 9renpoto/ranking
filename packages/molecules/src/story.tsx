@@ -6,7 +6,6 @@ import {
   RangeInner,
   RangeValue,
   Name,
-  Hero,
   RangeBar,
   RangeBarThumb,
   RangeValuation,
@@ -15,7 +14,7 @@ import {
   ResultComment
 } from '@rate/atoms'
 import { Avatar, Box } from '@primer/components'
-import { Admire, AdmireContent, Rank, HeroContent } from './'
+import { Admire, AdmireContent, Rank } from './'
 
 function DefaultAdmire() {
   return (
@@ -54,16 +53,14 @@ export const Admires = () => (
 )
 
 export const Heros = () => (
-  <Hero>
-    <HeroContent>
-      <Avatar width={4.688} height={4.688}>
-        <img src={image.imageUrl(300, 300)} alt={random.word()} />
-      </Avatar>
-      <Name white padding={1}>
-        {random.word()}
-      </Name>
-    </HeroContent>
-  </Hero>
+  <Box>
+    <Avatar width={4.688} height={4.688}>
+      <img src={image.imageUrl(300, 300)} alt={random.word()} />
+    </Avatar>
+    <Name white padding={1}>
+      {random.word()}
+    </Name>
+  </Box>
 )
 
 export const Ranges = () => (

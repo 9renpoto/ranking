@@ -1,4 +1,3 @@
-export * from './Hero'
 export * from './Main'
 export * from './Nav'
 export * from './Range'

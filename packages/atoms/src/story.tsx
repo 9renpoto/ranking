@@ -1,6 +1,6 @@
 import { random, image } from 'faker'
 import { Avatar } from '@primer/components'
-import { Hero, Bar, Name } from '.'
+import { Bar, Name } from '.'
 
 function DefaultRankBar() {
   return (
@@ -17,5 +17,4 @@ function DefaultRankBar() {
 
 export default { title: 'atoms' }
 
-export const Heros = () => <Hero>{random.words()}</Hero>
 export const RankBars = () => <DefaultRankBar />

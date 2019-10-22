@@ -14,13 +14,12 @@ import {
   Range,
   RangeBar,
   RangeBarThumb,
-  Hero,
   ResultRank,
   ResultRankInner,
   ResultComment,
   Bar
 } from '@rate/atoms'
-import { Admire, AdmireContent as Inner, HeroContent } from '@rate/molecules'
+import { Admire, AdmireContent as Inner } from '@rate/molecules'
 import { Button, Box, Avatar } from '@primer/components'
 
 export default { title: 'pages' }
@@ -188,16 +187,14 @@ export const Mypage = () => (
       </ul>
     </Nav>
     <Main>
-      <Hero>
-        <HeroContent>
-          <Avatar width={4.688} height={4.688}>
-            <img src={image.imageUrl(300, 300)} alt={random.word()} />
-          </Avatar>
-          <Name white padding={1}>
-            {random.word()}
-          </Name>
-        </HeroContent>
-      </Hero>
+      <Box p={4} mt={2}>
+        <Avatar width={4.688} height={4.688}>
+          <img src={image.imageUrl(300, 300)} alt={random.word()} />
+        </Avatar>
+        <Name white padding={1}>
+          {random.word()}
+        </Name>
+      </Box>
       <Box>
         <Box>
           <Range>
