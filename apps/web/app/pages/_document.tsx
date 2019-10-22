@@ -1,5 +1,4 @@
 import Document, { DocumentProps, Head, Main, NextScript } from 'next/document'
-import '../../../../globalStyles'
 
 export default class MyDocument extends Document<DocumentProps> {
   render() {

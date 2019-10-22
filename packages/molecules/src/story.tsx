@@ -9,7 +9,6 @@ import {
   RangeInner,
   RangeValue,
   Name,
-  Button,
   Hero,
   RangeBar,
   RangeBarThumb,
@@ -18,7 +17,7 @@ import {
   ResultRankInner,
   ResultComment
 } from '@rate/atoms'
-import { Admire, AdmireContent, Fixed, Rank, HeroContent } from './'
+import { Admire, AdmireContent, Rank, HeroContent } from './'
 
 function DefaultAdmire() {
   return (
@@ -57,11 +56,7 @@ export const Admires = () => (
     </BoxInner>
   </Box>
 )
-export const FixedButton = () => (
-  <Fixed>
-    <Button>{random.word()}</Button>
-  </Fixed>
-)
+
 export const Heros = () => (
   <Hero>
     <HeroContent>
@@ -74,6 +69,7 @@ export const Heros = () => (
     </HeroContent>
   </Hero>
 )
+
 export const Ranges = () => (
   <Range>
     <RangeInner>

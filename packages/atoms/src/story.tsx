@@ -1,5 +1,5 @@
 import { random, image } from 'faker'
-import { Avatar, Box, Inner, Button, Hero, Bar, Name } from '.'
+import { Avatar, Box, Inner, Hero, Bar, Name } from '.'
 
 function DefaultRankBar() {
   return (
@@ -23,6 +23,5 @@ export const Boxes = () => (
     <Inner>{random.words()}</Inner>
   </Box>
 )
-export const Buttons = () => <Button>{random.word()}</Button>
 export const Heros = () => <Hero>{random.words()}</Hero>
 export const RankBars = () => <DefaultRankBar />

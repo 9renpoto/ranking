@@ -2,6 +2,7 @@
   "name": "@rate/web",
   "version": "0.0.1",
   "dependencies": {
+    "@lingui/loader": "2.8.3",
     "@rate/atoms": "0.0.1",
     "@rate/molecules": "0.0.1",
     "@rate/pages": "0.0.1",

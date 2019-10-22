@@ -1,12 +1,10 @@
-# rate
+# ranking
 
-[![codecov](https://codecov.io/gh/g59/rate/branch/master/graph/badge.svg)](https://codecov.io/gh/g59/rate)
+[![codecov](https://codecov.io/gh/g59/rate/branch/master/graph/badge.svg)](https://codecov.io/gh/g59/ranking)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7630f217-70e6-4013-b644-3d1b0d962004/deploy-status)](https://app.netlify.com/sites/g59-rate-storybook/deploys)
-[![dependencies Status](https://david-dm.org/g59/rate/status.svg)](https://david-dm.org/g59/rate)
-[![devDependencies Status](https://david-dm.org/g59/rate/dev-status.svg)](https://david-dm.org/g59/rate?type=dev)
-[![codebeat badge](https://codebeat.co/badges/a53d7a0a-bb1d-4d01-b276-c065acf807b0)](https://codebeat.co/projects/github-com-g59-rate-master)
+[![codebeat badge](https://codebeat.co/badges/da6546aa-0042-4fd1-808c-e7bc40fda21c)](https://codebeat.co/projects/github-com-g59-ranking-master)
 
-> TBA
+![coveage graph](https://codecov.io/gh/g59/ranking/branch/master/graphs/icicle.svg)
 
 ## Table of Contents
 

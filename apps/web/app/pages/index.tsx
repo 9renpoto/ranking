@@ -1,11 +1,12 @@
 import { faEnvelope, faUnlock } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Button, Input } from '@rate/atoms'
+import { Input } from '@rate/atoms'
 import {
   Inner as SigninWrapperInner,
   Input as SigninWrapperInput,
   Wrapper as SigninWrapper
 } from '@rate/pages'
+import { Button } from '@primer/components'
 
 export default () => (
   <SigninWrapper>
