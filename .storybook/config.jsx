@@ -1,3 +1,4 @@
+const React = require('react')
 const { configure, addParameters, addDecorator } = require('@storybook/react')
 const requireContext = require('require-context.macro')
 const { theme } = require('@primer/components')
