@@ -1,8 +1,5 @@
 import { image, random } from 'faker'
 import {
-  Avatar,
-  Box,
-  Inner as BoxInner,
   EditRange,
   EditRangeInput,
   Range,
@@ -17,6 +14,7 @@ import {
   ResultRankInner,
   ResultComment
 } from '@rate/atoms'
+import { Avatar, Box } from '@primer/components'
 import { Admire, AdmireContent, Rank, HeroContent } from './'
 
 function DefaultAdmire() {
@@ -47,20 +45,18 @@ function DefaultAdmire() {
 export default { title: 'molecules' }
 
 export const Admires = () => (
-  <Box fixed>
-    <BoxInner fixed>
-      <DefaultAdmire />
-      <DefaultAdmire />
-      <DefaultAdmire />
-      <DefaultAdmire />
-    </BoxInner>
+  <Box>
+    <DefaultAdmire />
+    <DefaultAdmire />
+    <DefaultAdmire />
+    <DefaultAdmire />
   </Box>
 )
 
 export const Heros = () => (
   <Hero>
     <HeroContent>
-      <Avatar isCircle width={4.688} height={4.688}>
+      <Avatar width={4.688} height={4.688}>
         <img src={image.imageUrl(300, 300)} alt={random.word()} />
       </Avatar>
       <Name white padding={1}>

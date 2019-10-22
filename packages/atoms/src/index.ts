@@ -1,7 +1,4 @@
-export * from './Avatar'
-export * from './Box'
 export * from './Hero'
-export * from './Input'
 export * from './Main'
 export * from './Nav'
 export * from './Range'

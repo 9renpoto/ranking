@@ -1,18 +1,10 @@
-import {
-  faEdit,
-  faUser,
-  faEnvelope,
-  faUnlock
-} from '@fortawesome/free-solid-svg-icons'
+import { faEdit, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { image, random, internet } from 'faker'
+import { image, random } from 'faker'
 import {
   Wrapper,
   Nav,
   Main,
-  Box,
-  Inner as BoxInner,
-  Avatar,
   Name,
   RangeInner,
   RangeValuation,
@@ -22,7 +14,6 @@ import {
   Range,
   RangeBar,
   RangeBarThumb,
-  Input,
   Hero,
   ResultRank,
   ResultRankInner,
@@ -30,12 +21,7 @@ import {
   Bar
 } from '@rate/atoms'
 import { Admire, AdmireContent as Inner, HeroContent } from '@rate/molecules'
-import { Button } from '@primer/components'
-import {
-  Inner as SigninWrapperInner,
-  Input as SigninWrapperInput,
-  Wrapper as SigninWrapper
-} from './'
+import { Button, Box, Avatar } from '@primer/components'
 
 export default { title: 'pages' }
 
@@ -56,8 +42,8 @@ export const AdmirePage = () => (
       </ul>
     </Nav>
     <Main>
-      <Box fixed>
-        <BoxInner fixed>
+      <Box>
+        <Box>
           <Admire>
             <Inner>
               <Avatar width={2.5} height={2.5}>
@@ -178,12 +164,13 @@ export const AdmirePage = () => (
               </RangeInner>
             </Range>
           </Admire>
-        </BoxInner>
+        </Box>
         <Button>{random.word()}</Button>
       </Box>
     </Main>
   </Wrapper>
 )
+
 export const Mypage = () => (
   <Wrapper>
     <Nav>
@@ -203,7 +190,7 @@ export const Mypage = () => (
     <Main>
       <Hero>
         <HeroContent>
-          <Avatar isCircle width={4.688} height={4.688}>
+          <Avatar width={4.688} height={4.688}>
             <img src={image.imageUrl(300, 300)} alt={random.word()} />
           </Avatar>
           <Name white padding={1}>
@@ -212,7 +199,7 @@ export const Mypage = () => (
         </HeroContent>
       </Hero>
       <Box>
-        <BoxInner>
+        <Box>
           <Range>
             <RangeInner>
               <RangeValuation>
@@ -225,8 +212,8 @@ export const Mypage = () => (
               </RangeBar>
             </RangeInner>
           </Range>
-        </BoxInner>
-        <BoxInner>
+        </Box>
+        <Box>
           <ResultRank>
             <ResultRankInner>
               <span>50人中</span>
@@ -234,10 +221,10 @@ export const Mypage = () => (
             </ResultRankInner>
           </ResultRank>
           <ResultComment>{random.word()}</ResultComment>
-        </BoxInner>
+        </Box>
       </Box>
       <Box>
-        <BoxInner>
+        <Box>
           <Bar style={{ width: `${random.number({ max: 100 })}%` }}>
             <Avatar width={0.938} height={0.938}>
               <img src={image.imageUrl(300, 300)} alt={random.word()} />
@@ -254,25 +241,8 @@ export const Mypage = () => (
               {random.word()}
             </Name>
           </Bar>
-        </BoxInner>
+        </Box>
       </Box>
     </Main>
   </Wrapper>
-)
-export const Signin = () => (
-  <SigninWrapper>
-    <SigninWrapperInner>
-      <form action='#' method='post'>
-        <SigninWrapperInput>
-          <Input type='email' placeholder={internet.email()} />
-          <FontAwesomeIcon icon={faEnvelope} />
-        </SigninWrapperInput>
-        <SigninWrapperInput>
-          <Input type='password' placeholder={random.word()} />
-          <FontAwesomeIcon icon={faUnlock} />
-        </SigninWrapperInput>
-        <Button disabled>Sign in</Button>
-      </form>
-    </SigninWrapperInner>
-  </SigninWrapper>
 )
