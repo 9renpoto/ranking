@@ -1,5 +1,12 @@
-const { configure, addParameters } = require('@storybook/preact')
+const { configure, addParameters, addDecorator } = require('@storybook/react')
 const requireContext = require('require-context.macro')
+const { theme } = require('@primer/components')
+
+addDecorator(story => (
+  <ThemeProvider theme={theme}>
+    {story()}
+  </ThemeProvider>
+))
 
 addParameters({
   viewport: {
