@@ -10,6 +10,17 @@ module.exports = withPreact(
       '@rate/molecules',
       '@rate/pages',
       '@rate/templates'
-    ]
+    ],
+    webpack: (config, options) => {
+      config.module.rules.push({
+        test: /\.po/,
+        use: [
+          {
+            loader: '@lingui/loader'
+          }
+        ]
+      })
+      return config
+    }
   })
 )

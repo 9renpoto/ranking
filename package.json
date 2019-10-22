@@ -14,6 +14,8 @@
     "@fortawesome/fontawesome-svg-core": "1.2.25",
     "@fortawesome/free-solid-svg-icons": "5.11.2",
     "@fortawesome/react-fontawesome": "0.1.7",
+    "@lingui/react": "2.8.3",
+    "@primer/components": "15.0.1",
     "@types/styled-components": "4.1.19",
     "lerna": "3.18.2",
     "module-alias": "2.2.2",
@@ -33,6 +35,8 @@
     "@9renpoto/eslint-config-react": "5.2.1",
     "@9renpoto/eslint-config-typescript": "5.2.1",
     "@9renpoto/stylelint-config": "5.2.1",
+    "@lingui/cli": "2.8.3",
+    "@lingui/macro": "2.8.3",
     "@storybook/addon-actions": "5.2.5",
     "@storybook/addon-storyshots": "5.2.5",
     "@storybook/addon-viewport": "5.2.5",
@@ -40,6 +44,7 @@
     "@types/faker": "4.1.6",
     "@types/jest": "24.0.19",
     "@types/storybook__addon-storyshots": "5.1.1",
+    "babel-core": "7.0.0-bridge.0",
     "babel-jest": "24.9.0",
     "babel-loader": "8.0.6",
     "babel-plugin-macros": "2.6.1",
@@ -93,6 +98,15 @@
     ]
   },
   "license": "MIT",
+  "lingui": {
+    "sourceLocale": "en",
+    "localeDir": "./apps/web/app/locale",
+    "srcPathDirs": [
+      "./apps",
+      "./packages"
+    ],
+    "format": "po"
+  },
   "lint-staged": {
     "*.{ts,tsx}": [
       "prettier-eslint --write",
@@ -111,12 +125,11 @@
     "build": "lerna run build --include-dependents",
     "bump": "lerna version --no-git-tag-version --no-push && lerna-changelog",
     "clean": "rimraf lib .tmp && lerna run clean && lerna clean --y",
-    "lint": "run-p lint:*",
+    "lint": "run-p -l lint:*",
     "lint:es": "eslint . --ext=ts,tsx",
     "lint:prettier": "prettier --check '{packages,apps}/**/*.tsx'",
     "lint:stylelint": "stylelint '{packages,apps}/**/*.tsx'",
     "lint:tsc": "tsc -p . --noEmit",
-    "start": "start-storybook -p 9001",
     "test": "jest"
   },
   "workspaces": [

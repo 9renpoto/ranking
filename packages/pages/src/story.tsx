@@ -19,7 +19,6 @@ import {
   EditRange,
   EditRangeInput,
   RangeValue,
-  Button,
   Range,
   RangeBar,
   RangeBarThumb,
@@ -30,12 +29,8 @@ import {
   ResultComment,
   Bar
 } from '@rate/atoms'
-import {
-  Admire,
-  AdmireContent as Inner,
-  Fixed,
-  HeroContent
-} from '@rate/molecules'
+import { Admire, AdmireContent as Inner, HeroContent } from '@rate/molecules'
+import { Button } from '@primer/components'
 import {
   Inner as SigninWrapperInner,
   Input as SigninWrapperInput,
@@ -184,9 +179,7 @@ export const AdmirePage = () => (
             </Range>
           </Admire>
         </BoxInner>
-        <Fixed>
-          <Button>{random.word()}</Button>
-        </Fixed>
+        <Button>{random.word()}</Button>
       </Box>
     </Main>
   </Wrapper>
