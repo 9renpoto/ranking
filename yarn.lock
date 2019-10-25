@@ -2165,6 +2165,14 @@
   resolved "https://registry.yarnpkg.com/@lingui/babel-plugin-transform-react/-/babel-plugin-transform-react-2.8.3.tgz#a80a16b56dce69f9496ca7f9a10f7b5a77de13c3"
   integrity sha512-kozAtkaCEcCSFbiuZJzJd2febZTPaokUBuwPPKfehGp8v8MNPJK4kGarBNuKE8YOhkT6EpniZWk6Gk4HzjvfnA==
 
+"@lingui/babel-preset-react@2.8.3":
+  version "2.8.3"
+  resolved "https://registry.yarnpkg.com/@lingui/babel-preset-react/-/babel-preset-react-2.8.3.tgz#a2a1a314e38442df1644425f9da7e6c9abc77077"
+  integrity sha512-oMRE6ZTm800fUjMZ1h/O/YqzjHO5dCtr0yGXwMJ1pww4X7/zX7KE8BzS6CII9aIOrw2oQhkiCFrxTykzrHQOyA==
+  dependencies:
+    "@lingui/babel-plugin-transform-js" "2.8.3"
+    "@lingui/babel-plugin-transform-react" "2.8.3"
+
 "@lingui/cli@2.8.3":
   version "2.8.3"
   resolved "https://registry.yarnpkg.com/@lingui/cli/-/cli-2.8.3.tgz#7bd24a0e22854c8a5b22ab52e3bf382254607c4d"
@@ -3071,6 +3079,19 @@
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.3.tgz#bdfd69d61e464dcc81b25159c270d75a73c1a636"
   integrity sha512-Il2DtDVRGDcqjDtE+rF8iqg1CArehSK84HZJCT7AMITlyXRBpuPhqGLDQMowraqqu1coEaimg4ZOqggt6L6L+A==
+
+"@types/lingui__core@*":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@types/lingui__core/-/lingui__core-2.7.0.tgz#a93e53338a5a7ae5aa8cdb22ef0111d2053c6ef0"
+  integrity sha512-4gx/msI4cVlx1/RI1g6bDREZqflWh4HflMX3A5mMnvM6ymohg5SOzWk+R18N6/44ONPqOI+pcP8xjKLrI2tQhQ==
+
+"@types/lingui__react@2.8.1":
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/@types/lingui__react/-/lingui__react-2.8.1.tgz#b5955dbbc05782dd645ea8b258c8f50718306c62"
+  integrity sha512-Bsk8zW0CCcuoTc82tU0/c64HDAKf93Fd6AKvB9qJdAMzEUhum/CEc6j33HZRHP4ZavIgk8uO2tToBwMrArWcUA==
+  dependencies:
+    "@types/lingui__core" "*"
+    "@types/react" "*"
 
 "@types/minimatch@*":
   version "3.0.3"
