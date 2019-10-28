@@ -17,8 +17,8 @@
     "@lingui/babel-preset-react": "2.8.3",
     "@lingui/react": "2.8.3",
     "@primer/components": "15.0.1",
-    "@types/styled-components": "4.1.20",
     "@types/lingui__react": "2.8.1",
+    "@types/styled-components": "4.1.20",
     "lerna": "3.18.3",
     "module-alias": "2.2.2",
     "next": "9.1.1",
@@ -60,7 +60,6 @@
     "lint-staged": "9.4.2",
     "preact-render-to-json": "3.6.6",
     "prettier-eslint-cli": "5.0.0",
-    "prettier-stylelint": "0.4.2",
     "react-test-renderer": "16.11.0",
     "require-context.macro": "1.2.2",
     "stylelint": "11.1.1",
@@ -112,13 +111,17 @@
   "lint-staged": {
     "*.{ts,tsx}": [
       "prettier-eslint --write",
-      "prettier-stylelint --write",
       "git add"
     ],
     "*.{md,js}": [
       "prettier --write",
       "git add"
     ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true
   },
   "private": true,
   "repository": "ssh://git@github.com/g59/rate.git",

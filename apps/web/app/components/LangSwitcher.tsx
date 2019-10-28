@@ -1,6 +1,7 @@
 import Router from 'next/router'
 import { I18n } from '@lingui/react'
 import { t, Trans } from '@lingui/macro'
+import { FormEvent } from 'react'
 
 const availableLanguageNames = {
   en: t`English`,
@@ -10,11 +11,11 @@ const availableLanguageNames = {
 const availableLanguages = Object.keys(availableLanguageNames)
 
 export default () => {
-  function onSubmit(evt) {
+  function onSubmit(evt: FormEvent<HTMLFormElement>) {
     evt.preventDefault()
     Router.push({
       pathname: window.location.pathname,
-      query: { lang: evt.currentTarget.lang.value }
+      query: { lang: (evt.currentTarget.lang as any).value }
     })
   }
 
