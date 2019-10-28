@@ -10,7 +10,7 @@ module.exports = withPreact(
       '@rate/pages',
       '@rate/templates'
     ],
-    webpack: (config, options) => {
+    webpack: (config, { isServer }) => {
       config.module.rules.push({
         test: /\.po/,
         use: [
@@ -19,6 +19,14 @@ module.exports = withPreact(
           }
         ]
       })
+
+      if (!isServer) {
+        config.node = {
+          fs: 'empty',
+          module: 'empty'
+        }
+      }
+
       return config
     }
   })

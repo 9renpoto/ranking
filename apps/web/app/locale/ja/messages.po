@@ -13,6 +13,6 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: apps/web/app/pages/index.tsx:4
+#: apps/web/app/pages/index.tsx:5
 msgid "Hello"
 msgstr "こんにちわ"
