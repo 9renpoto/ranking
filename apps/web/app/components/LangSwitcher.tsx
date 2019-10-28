@@ -6,7 +6,7 @@ import { FormEvent } from 'react'
 const availableLanguageNames = {
   en: t`English`,
   ja: t`Japanese`
-}
+} as const
 
 const availableLanguages = Object.keys(availableLanguageNames)
 

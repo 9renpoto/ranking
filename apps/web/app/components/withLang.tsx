@@ -1,15 +1,16 @@
+import React from 'react'
 import { I18nProvider } from '@lingui/react'
 import { Catalogs } from '@lingui/core'
 
-type Props = {
+type BaseProps = {
   language: string
   catalogs?: Catalogs
 }
 
-export function withLang<P extends Props>(Component, defaultLang = 'en') {
-  return class WithLang extends React.Component {
-    static async getInitialProps(ctx: { query: { lang: string } }) {
-      const language = ctx.query.lang || defaultLang
+export function withLang<P>(Component, defaultLang = 'en') {
+  return class WithLang extends React.Component<P> {
+    static async getInitialProps(ctx: any) {
+      const language: string = ctx.query.lang || defaultLang
       const [props, catalog] = await Promise.all([
         Component.getInitialProps ? Component.getInitialProps(ctx) : {},
         import(`../locale/${language}/messages.po`).then(m => m.default)
@@ -25,7 +26,8 @@ export function withLang<P extends Props>(Component, defaultLang = 'en') {
     }
 
     render() {
-      const { language, catalogs, ...restProps } = this.props as P
+      type Props = P & BaseProps
+      const { language, catalogs, ...restProps } = this.props as Props
 
       return (
         <I18nProvider language={language} catalogs={catalogs}>
