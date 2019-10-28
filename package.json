@@ -100,6 +100,15 @@
     ]
   },
   "license": "MIT",
+  "lingui": {
+    "sourceLocale": "en",
+    "localeDir": "./apps/web/app/locale",
+    "srcPathDirs": [
+      "./apps",
+      "./packages"
+    ],
+    "format": "po"
+  },
   "lint-staged": {
     "*.{ts,tsx}": [
       "prettier-eslint --write",
@@ -111,7 +120,6 @@
       "git add"
     ]
   },
-  "main": "n/a",
   "private": true,
   "repository": "ssh://git@github.com/g59/rate.git",
   "scripts": {

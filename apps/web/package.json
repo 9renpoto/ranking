@@ -29,7 +29,7 @@
     "format": "po"
   },
   "scripts": {
-    "build": "lingui compile && next build app",
+    "build": "next build app",
     "clean": "rimraf .next",
     "dev": "next app",
     "prebuild": "yarn clean"
