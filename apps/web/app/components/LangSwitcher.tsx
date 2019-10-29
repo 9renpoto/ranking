@@ -2,11 +2,12 @@ import Router from 'next/router'
 import { I18n } from '@lingui/react'
 import { t, Trans } from '@lingui/macro'
 import { FormEvent } from 'react'
+import { MessageDescriptor } from '@lingui/core'
 
-const availableLanguageNames = {
+const availableLanguageNames: { [key: string]: MessageDescriptor } = {
   en: t`English`,
   ja: t`Japanese`
-} as const
+}
 
 const availableLanguages = Object.keys(availableLanguageNames)
 
