@@ -5,5 +5,8 @@
   ],
   "plugins": [
     "jest"
-  ]
+  ],
+  "rules": {
+    "import/no-named-as-default": 1
+  }
 }
