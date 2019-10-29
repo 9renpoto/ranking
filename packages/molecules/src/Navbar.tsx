@@ -1,5 +1,4 @@
-import { faUser } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Octicon, { Person } from '@primer/octicons-react'
 import Link from 'next/link'
 import { Nav } from '@rate/atoms'
 
@@ -13,7 +12,7 @@ export const Navbar = ({ memberId }: Props) => (
       <li>
         <Link href={`/mypage/${memberId}`}>
           <a>
-            <FontAwesomeIcon icon={faUser} />
+            <Octicon icon={Person} />
           </a>
         </Link>
       </li>

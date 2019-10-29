@@ -1,6 +1,5 @@
-import { faEdit, faUser } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { random, internet } from 'faker'
+import Octicon, { Person, Pencil } from '@primer/octicons-react'
 import {
   Wrapper,
   Nav,
@@ -28,12 +27,12 @@ export const AdmirePage = () => (
       <ul>
         <li>
           <a href='#' className='active'>
-            <FontAwesomeIcon icon={faUser} />
+            <Octicon icon={Person} />
           </a>
         </li>
         <li>
           <a href='#'>
-            <FontAwesomeIcon icon={faEdit} />
+            <Octicon icon={Pencil} />
           </a>
         </li>
       </ul>
@@ -90,12 +89,12 @@ export const Mypage = () => (
       <ul>
         <li>
           <a href='#' className='active'>
-            <FontAwesomeIcon icon={faUser} />
+            <Octicon icon={Person} />
           </a>
         </li>
         <li>
           <a href='#'>
-            <FontAwesomeIcon icon={faEdit} />
+            <Octicon icon={Pencil} />
           </a>
         </li>
       </ul>
