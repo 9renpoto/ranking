@@ -1,5 +1,4 @@
-import { faEdit, faUser } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Octicon, { Person, Pencil } from '@primer/octicons-react'
 import { Nav, Main } from '@rate/atoms'
 import { Wrapper, Inner } from '.'
 
@@ -10,12 +9,12 @@ export const SignInDefault = () => (
       <ul>
         <li>
           <a href='#' className='active'>
-            <FontAwesomeIcon icon={faUser} />
+            <Octicon icon={Person} />
           </a>
         </li>
         <li>
           <a href='#'>
-            <FontAwesomeIcon icon={faEdit} />
+            <Octicon icon={Pencil} />
           </a>
         </li>
       </ul>

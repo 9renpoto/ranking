@@ -3,20 +3,12 @@
   "description": "TBD",
   "version": "0.0.1",
   "author": "9renpoto",
-  "_moduleAliases": {
-    "react": "node_modules/preact/compat",
-    "react-dom": "node_modules/preact/compat",
-    "react-ssr-prepass": "node_modules/preact-ssr-prepass"
-  },
   "dependencies": {
     "@babel/core": "7.6.4",
-    "@fortawesome/fontawesome-free": "5.11.2",
-    "@fortawesome/fontawesome-svg-core": "1.2.25",
-    "@fortawesome/free-solid-svg-icons": "5.11.2",
-    "@fortawesome/react-fontawesome": "0.1.7",
     "@lingui/babel-preset-react": "2.8.3",
     "@lingui/react": "2.8.3",
     "@primer/components": "15.0.1",
+    "@primer/octicons-react": "9.2.0",
     "@types/lingui__react": "2.8.1",
     "@types/styled-components": "4.1.20",
     "lerna": "3.18.3",
