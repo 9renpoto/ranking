@@ -28,7 +28,7 @@
   "devDependencies": {
     "@9renpoto/eslint-config-react": "5.3.0",
     "@9renpoto/eslint-config-typescript": "5.2.1",
-    "@9renpoto/stylelint-config": "5.2.1",
+    "@9renpoto/stylelint-config": "5.3.0",
     "@lingui/cli": "2.8.3",
     "@lingui/macro": "2.8.3",
     "@storybook/addon-actions": "5.2.5",
