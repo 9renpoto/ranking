@@ -10,7 +10,7 @@
     "@primer/components": "15.0.1",
     "@primer/octicons-react": "9.2.0",
     "@types/lingui__react": "2.8.1",
-    "@types/styled-components": "4.1.21",
+    "@types/styled-components": "4.1.22",
     "lerna": "3.18.3",
     "module-alias": "2.2.2",
     "next": "9.1.2",
