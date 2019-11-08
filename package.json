@@ -43,7 +43,7 @@
     "babel-loader": "8.0.6",
     "babel-plugin-macros": "2.6.1",
     "eslint": "6.6.0",
-    "eslint-plugin-jest": "23.0.2",
+    "eslint-plugin-jest": "23.0.3",
     "faker": "4.1.0",
     "husky": "3.0.9",
     "jest": "24.9.0",
