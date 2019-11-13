@@ -1,7 +1,0 @@
-export * from './Main'
-export * from './Nav'
-export * from './Range'
-export * from './RangeValuation'
-export * from './ResultComment'
-export * from './ResultRanking'
-export * from './Wrapper'

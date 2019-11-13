@@ -1,6 +1,6 @@
 import Octicon, { Person } from '@primer/octicons-react'
 import Link from 'next/link'
-import { Nav } from '@rate/atoms'
+import { Nav } from '../atoms/Nav'
 
 interface Props {
   memberId: string

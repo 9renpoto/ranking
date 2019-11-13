@@ -1109,29 +1109,6 @@ exports[`Storyshots pages Admire Page 1`] = `
   z-index: 1;
 }
 
-.c2 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.c1 {
-  text-align: center;
-  background-color: #000;
-  width: 40px;
-}
-
-.c1 li a {
-  color: #fff;
-  display: block;
-  padding: 0.7rem;
-}
-
-.c1 li a:hover,
-.c1 li a.active {
-  background-color: #3ebdaa;
-}
-
 .c7 {
   position: relative;
   display: -webkit-box;
@@ -1232,16 +1209,6 @@ exports[`Storyshots pages Admire Page 1`] = `
   color: #555;
 }
 
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #f9f9f9;
-  min-height: 100%;
-  height: 100%;
-}
-
 .c4 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1277,6 +1244,39 @@ exports[`Storyshots pages Admire Page 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  text-align: center;
+  background-color: #000;
+  width: 40px;
+}
+
+.c1 li a {
+  color: #fff;
+  display: block;
+  padding: 0.7rem;
+}
+
+.c1 li a:hover,
+.c1 li a.active {
+  background-color: #3ebdaa;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f9f9f9;
+  min-height: 100%;
+  height: 100%;
 }
 
 @media (max-width:48rem) {
@@ -1534,29 +1534,6 @@ exports[`Storyshots pages Mypage 1`] = `
   height: 8px;
 }
 
-.c2 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.c1 {
-  text-align: center;
-  background-color: #000;
-  width: 40px;
-}
-
-.c1 li a {
-  color: #fff;
-  display: block;
-  padding: 0.7rem;
-}
-
-.c1 li a:hover,
-.c1 li a.active {
-  background-color: #3ebdaa;
-}
-
 .c5 {
   position: relative;
   display: -webkit-box;
@@ -1625,12 +1602,6 @@ exports[`Storyshots pages Mypage 1`] = `
   color: #555;
 }
 
-.c13 {
-  margin-top: 0.938rem;
-  font-size: 0.875rem;
-  line-height: 1.4;
-}
-
 .c11 {
   margin: 0 auto;
   color: #3fa2fc;
@@ -1666,6 +1637,35 @@ exports[`Storyshots pages Mypage 1`] = `
   font-size: 0.625rem;
   font-weight: normal;
   margin-bottom: 0.313rem;
+}
+
+.c13 {
+  margin-top: 0.938rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  text-align: center;
+  background-color: #000;
+  width: 40px;
+}
+
+.c1 li a {
+  color: #fff;
+  display: block;
+  padding: 0.7rem;
+}
+
+.c1 li a:hover,
+.c1 li a.active {
+  background-color: #3ebdaa;
 }
 
 .c0 {

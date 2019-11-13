@@ -1,5 +1,4 @@
 .envrc
-lib/
 storybook-static/
 dist/
 

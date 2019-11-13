@@ -2,10 +2,10 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "rootDir": "./src",
-    "outDir": "./lib",
+    "outDir": "./",
     "noEmit": false,
     "sourceMap": true,
     "declaration": true
   },
-  "exclude": ["**/*.test.ts", "**/*.test.tsx", "**/**/story.tsx", "lib", "es"]
+  "exclude": ["**/*.test.ts", "**/*.test.tsx", "**/**/story.tsx"]
 }

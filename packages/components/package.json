@@ -1,0 +1,17 @@
+{
+  "name": "@ranking/components",
+  "version": "0.0.1",
+  "files": [
+    "atoms",
+    "molecules",
+    "organisms",
+    "pages",
+    "templates"
+  ],
+  "private": true,
+  "scripts": {
+    "build": "tsc -p .",
+    "clean": "rimraf atoms molecules organisms templates pages",
+    "prebuild": "yarn clean"
+  }
+}
