@@ -1,23 +1,23 @@
 import { random, internet } from 'faker'
 import Octicon, { Person, Pencil } from '@primer/octicons-react'
+import { Button, Box, Avatar, ProgressBar, Text } from '@primer/components'
+import { RangeValuation } from '../atoms/RangeValuation'
+import { ResultComment } from '../atoms/ResultComment'
+import { Main } from '../atoms/Main'
+import { Nav } from '../atoms/Nav'
+import { Wrapper } from '../atoms/Wrapper'
+import { ResultRank, ResultRankInner } from '../atoms/ResultRanking'
 import {
-  Wrapper,
-  Nav,
-  Main,
   RangeInner,
-  RangeValuation,
   EditRange,
   EditRangeInput,
   RangeValue,
   Range,
   RangeBar,
-  RangeBarThumb,
-  ResultRank,
-  ResultRankInner,
-  ResultComment
-} from '@rate/atoms'
-import { Admire, AdmireContent as Inner } from '@rate/molecules'
-import { Button, Box, Avatar, ProgressBar, Text } from '@primer/components'
+  RangeBarThumb
+} from '../atoms/Range'
+import { Admire } from '../molecules/Admire'
+import { AdmireContent as Inner } from '../molecules/AdmireContent'
 
 export default { title: 'pages' }
 

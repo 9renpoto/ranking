@@ -1,8 +1,10 @@
 import Octicon, { Person, Pencil } from '@primer/octicons-react'
-import { Nav, Main } from '@rate/atoms'
-import { Wrapper, Inner } from '.'
+import { Nav } from '../atoms/Nav'
+import { Main } from '../atoms/Main'
+import { Wrapper, Inner } from './Signin'
 
 export default { title: 'templates' }
+
 export const SignInDefault = () => (
   <Wrapper>
     <Nav>

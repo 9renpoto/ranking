@@ -1,19 +1,20 @@
 import { random, internet } from 'faker'
+import { Avatar, Box, Text } from '@primer/components'
 import {
-  EditRange,
-  EditRangeInput,
   Range,
-  RangeInner,
-  RangeValue,
   RangeBar,
   RangeBarThumb,
-  RangeValuation,
-  ResultRank,
-  ResultRankInner,
-  ResultComment
-} from '@rate/atoms'
-import { Avatar, Box, Text } from '@primer/components'
-import { Admire, AdmireContent, Rank } from './'
+  RangeValue,
+  RangeInner,
+  EditRange,
+  EditRangeInput
+} from '../atoms/Range'
+import { RangeValuation } from '../atoms/RangeValuation'
+import { ResultRank, ResultRankInner } from '../atoms/ResultRanking'
+import { ResultComment } from '../atoms/ResultComment'
+import { Admire } from './Admire'
+import { AdmireContent } from './AdmireContent'
+import { Rank } from './Ranking'
 
 function DefaultAdmire() {
   return (
