@@ -8,7 +8,7 @@
     "@types/faker": "4.1.7",
     "@types/lingui__macro": "2.7.3",
     "@types/lingui__react": "2.8.1",
-    "babel-plugin-macros": "2.6.2",
+    "babel-plugin-macros": "2.7.0",
     "faker": "4.1.0",
     "next": "9.1.4",
     "next-preactx-plugin": "1.1.3",
