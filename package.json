@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "author": "9renpoto",
   "dependencies": {
-    "@babel/core": "7.7.2",
+    "@babel/core": "7.7.4",
     "@lingui/babel-preset-react": "2.8.3",
     "@lingui/react": "2.8.3",
     "@primer/components": "15.0.1",
