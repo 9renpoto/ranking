@@ -5,7 +5,7 @@
     "@lingui/loader": "2.8.3",
     "@lingui/macro": "2.8.3",
     "@ranking/components": "0.0.1",
-    "@types/faker": "4.1.7",
+    "@types/faker": "4.1.8",
     "@types/lingui__macro": "2.7.3",
     "@types/lingui__react": "2.8.1",
     "babel-plugin-macros": "2.7.1",
