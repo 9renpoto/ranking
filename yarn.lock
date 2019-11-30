@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@9renpoto/eslint-config-react@5.3.0":
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/@9renpoto/eslint-config-react/-/eslint-config-react-5.3.0.tgz#72049d412a79b8dcfe478e98c4b3006841066de0"
-  integrity sha512-uS0rf5oCturgUHdJ5GWd+wHmJvXgEJskWGPDA79roqgOmNULXzoDWEdRCo/P1yZza+DEsyS2f/LFY5VKTbOhdQ==
+"@9renpoto/eslint-config-react@5.4.0":
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/@9renpoto/eslint-config-react/-/eslint-config-react-5.4.0.tgz#04361f05ecc575e2d49c455dd1b5ef024480f0db"
+  integrity sha512-WZzIxt6U1LkBy3WK2G6OEfZ+6+VxgUhGAEkBAPEjP6XZvLuXHGPBINdOoV1HNAyfWolRsgtgZwknReaF49VBVQ==
   dependencies:
-    eslint-config-prettier "6.5.0"
+    eslint-config-prettier "6.7.0"
     eslint-plugin-react-hooks "2.2.0"
 
 "@9renpoto/eslint-config-typescript@5.3.0":
@@ -6579,6 +6579,13 @@ eslint-config-prettier@6.5.0:
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.5.0.tgz#aaf9a495e2a816865e541bfdbb73a65cc162b3eb"
   integrity sha512-cjXp8SbO9VFGW/Z7mbTydqS9to8Z58E5aYhj3e1+Hx7lS9s6gL5ILKNpCqZAFOVYRcSkWPFYljHrEh8QFEK5EQ==
+  dependencies:
+    get-stdin "^6.0.0"
+
+eslint-config-prettier@6.7.0:
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.7.0.tgz#9a876952e12df2b284adbd3440994bf1f39dfbb9"
+  integrity sha512-FamQVKM3jjUVwhG4hEMnbtsq7xOIDm+SY5iBPfR8gKsJoAB2IQnNF+bk1+8Fy44Nq7PPJaLvkRxILYdJWoguKQ==
   dependencies:
     get-stdin "^6.0.0"
 
