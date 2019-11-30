@@ -27,12 +27,12 @@
     eslint-plugin-import "2.18.2"
     eslint-plugin-prettier "3.1.1"
 
-"@9renpoto/stylelint-config@5.3.0":
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/@9renpoto/stylelint-config/-/stylelint-config-5.3.0.tgz#b308fd2c76ca77c725dc3295ae51a83569a29390"
-  integrity sha512-Fk+D8HlU4s8yAf+fVwka5R8n2Wv+cyxWcBCIZo5hK5n2y1cBnB8MJIMdCFOPsOz4s+wCL/pjGgRlQj7eI+yQMw==
+"@9renpoto/stylelint-config@5.4.0":
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/@9renpoto/stylelint-config/-/stylelint-config-5.4.0.tgz#2543c64fbb69da0ecce896582449fd1549fd0923"
+  integrity sha512-HGjDvDxjYlMP8yhlhmzDYp9b48jSEaRDYS7TCNcBYVuEyg4uZWpC0nYJH6cwN/G1K56fO3mft/xPSocOMMsJwg==
   dependencies:
-    stylelint-config-prettier "6.0.0"
+    stylelint-config-prettier "7.0.0"
 
 "@ampproject/toolbox-core@^1.1.1":
   version "1.1.1"
@@ -14356,11 +14356,6 @@ styled-system@5.1.2:
     "@styled-system/typography" "^5.1.2"
     "@styled-system/variant" "^5.1.2"
     object-assign "^4.1.1"
-
-stylelint-config-prettier@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-6.0.0.tgz#600aa218d8e34cf44a025903b0f60c079fd83366"
-  integrity sha512-f/BKiUAczB4KODC1w5eY6LoNgfq6QzdSnSc4ccAATKo1IfYCuG3IZwaxj/5AAxl1kyaW7kPLBOXG66O4gSIKTQ==
 
 stylelint-config-prettier@7.0.0:
   version "7.0.0"
