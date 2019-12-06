@@ -13008,10 +13008,10 @@ preact-render-to-json@3.6.6:
   resolved "https://registry.yarnpkg.com/preact-render-to-json/-/preact-render-to-json-3.6.6.tgz#f67f48581912ac53fc9f4873bc6d7ce342f71c20"
   integrity sha1-9n9IWBkSrFP8n0hzvG1840L3HCA=
 
-preact-render-to-string@5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-5.1.1.tgz#32f9eb16413a5c9fa6d9c43efe21d20697275101"
-  integrity sha512-/pmL9S7rgNnyfNPFIaf2eWJHf2Dc7kdbI5ALET2nq72KvHqjKh31M80XdEIFYUci/nq0p2QuVutnjq0Uv265bA==
+preact-render-to-string@5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-5.1.2.tgz#c7421fef79f2ecfef350daf68025a9854d103a91"
+  integrity sha512-9nfjUMUM0NrxhHCBu2zSRDuSXPL/uebZocrNHsSM2vTDxM7p70PpzaQXsV2HCIn+W3X/3BmxJ9qdx8gvi4mByw==
   dependencies:
     pretty-format "^3.8.0"
 
