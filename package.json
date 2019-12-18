@@ -36,7 +36,7 @@
     "@storybook/addon-viewport": "5.2.8",
     "@storybook/react": "5.2.8",
     "@types/faker": "4.1.8",
-    "@types/jest": "24.0.23",
+    "@types/jest": "24.0.24",
     "@types/storybook__addon-storyshots": "5.1.2",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "24.9.0",
