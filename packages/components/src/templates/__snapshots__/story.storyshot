@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileProperties templates Sign In 1`] = `
+.c0 {
+  background: #3ebdaa;
+  background: linear-gradient( 90deg, rgba(62,189,170,0.6), rgba(63,162,252,0.6) );
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  background-color: #fff;
+  padding: 3rem;
+  width: 24rem;
+  box-sizing: border-box;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.1);
+}
+
+.c1 button {
+  margin-top: 3.75rem;
+  width: 100%;
+}
+
+<div
+  className="c0"
+>
+  <main
+    className="c1"
+  />
+</div>
+`;
+
+exports[`FileProperties templates Sign In Default 1`] = `
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  text-align: center;
+  background-color: #000;
+  width: 40px;
+}
+
+.c1 li a {
+  color: #fff;
+  display: block;
+  padding: 0.7rem;
+}
+
+.c1 li a:hover,
+.c1 li a.active {
+  background-color: #3ebdaa;
+}
+
+.c0 {
+  background: #3ebdaa;
+  background: linear-gradient( 90deg, rgba(62,189,170,0.6), rgba(63,162,252,0.6) );
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width:48rem) {
+  .c2 {
+    display: block;
+  }
+}
+
+@media (max-width:48rem) {
+  .c1 {
+    width: 100%;
+  }
+
+  .c1 ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+<div
+  className="c0"
+>
+  <nav
+    className="c1"
+  >
+    <ul>
+      <li>
+        <a
+          className="active"
+          href="#"
+        >
+          <svg
+            aria-hidden="true"
+            className="octicon"
+            height={16}
+            role="img"
+            style={
+              Object {
+                "display": "inline-block",
+                "fill": "currentColor",
+                "userSelect": "none",
+                "verticalAlign": "text-bottom",
+              }
+            }
+            viewBox="0 0 12 16"
+            width={12}
+          >
+            <path
+              d="M12 14.002a.998.998 0 01-.998.998H1.001A1 1 0 010 13.999V13c0-2.633 4-4 4-4s.229-.409 0-1c-.841-.62-.944-1.59-1-4 .173-2.413 1.867-3 3-3s2.827.586 3 3c-.056 2.41-.159 3.38-1 4-.229.59 0 1 0 1s4 1.367 4 4v1.002z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a
+          href="#"
+        >
+          <svg
+            aria-hidden="true"
+            className="octicon"
+            height={16}
+            role="img"
+            style={
+              Object {
+                "display": "inline-block",
+                "fill": "currentColor",
+                "userSelect": "none",
+                "verticalAlign": "text-bottom",
+              }
+            }
+            viewBox="0 0 14 16"
+            width={14}
+          >
+            <path
+              d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 011.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <main
+    className="c2"
+  />
+</div>
+`;
