@@ -40,7 +40,7 @@
     "typescript-styled-plugin": "^0.15.0"
   },
   "devDependencies": {
-    "@9renpoto/eslint-config-react": "5.4.0",
+    "@9renpoto/eslint-config-react": "5.5.1",
     "@9renpoto/eslint-config-typescript": "5.4.0",
     "@9renpoto/stylelint-config": "5.4.0",
     "@lingui/cli": "2.9.0",
