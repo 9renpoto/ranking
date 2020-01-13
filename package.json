@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@9renpoto/eslint-config-react": "5.5.1",
-    "@9renpoto/eslint-config-typescript": "5.4.0",
+    "@9renpoto/eslint-config-typescript": "5.5.1",
     "@9renpoto/stylelint-config": "5.5.1",
     "@lingui/cli": "2.9.0",
     "@lingui/macro": "2.9.0",
