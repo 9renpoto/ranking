@@ -1,6 +1,11 @@
 .envrc
 storybook-static/
 dist/
+/packages/components/atoms/
+/packages/components/molecules/
+/packages/components/organisms/
+/packages/components/pages/
+/packages/components/templates/
 
 ### https://raw.github.com/github/gitignore/086eacaaa2b9fde537315141e154631b945e1369/Node.gitignore
 

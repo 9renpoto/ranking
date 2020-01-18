@@ -64,6 +64,7 @@
     "jest-styled-components": "7.0.0",
     "lerna-changelog": "1.0.0",
     "lint-staged": "9.5.0",
+    "moxci": "^0.1.0",
     "preact-render-to-json": "3.6.6",
     "prettier-eslint-cli": "5.0.0",
     "prettier-plugin-package": "0.3.1",
@@ -75,6 +76,18 @@
     "stylelint-config-recommended": "3.0.0",
     "stylelint-config-styled-components": "0.1.1",
     "stylelint-processor-styled-components": "1.9.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@9renpoto/eslint-config-react",
+      "@9renpoto/eslint-config-typescript"
+    ],
+    "plugins": [
+      "jest"
+    ],
+    "rules": {
+      "import/no-named-as-default": 1
+    }
   },
   "husky": {
     "hooks": {
@@ -120,6 +133,17 @@
     "semi": false,
     "singleQuote": true,
     "jsxSingleQuote": true
+  },
+  "stylelint": {
+    "processors": [
+      "stylelint-processor-styled-components"
+    ],
+    "extends": [
+      "@9renpoto/stylelint-config",
+      "stylelint-config-prettier",
+      "stylelint-config-recommended",
+      "stylelint-config-styled-components"
+    ]
   },
   "workspaces": [
     "packages/*",
