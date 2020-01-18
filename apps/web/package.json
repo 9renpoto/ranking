@@ -2,8 +2,8 @@
   "name": "@ranking/web",
   "version": "0.0.1",
   "dependencies": {
-    "@lingui/loader": "2.9.0",
-    "@lingui/macro": "2.9.0",
+    "@lingui/loader": "2.9.1",
+    "@lingui/macro": "2.9.1",
     "@ranking/components": "0.0.1",
     "@types/faker": "4.1.9",
     "@types/lingui__macro": "2.7.3",
