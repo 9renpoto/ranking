@@ -63,7 +63,7 @@
     "jest-specific-snapshot": "2.0.0",
     "jest-styled-components": "7.0.0",
     "lerna-changelog": "1.0.0",
-    "lint-staged": "9.5.0",
+    "lint-staged": "10.0.0",
     "moxci": "0.1.0",
     "preact-render-to-json": "3.6.6",
     "prettier-eslint-cli": "5.0.0",
