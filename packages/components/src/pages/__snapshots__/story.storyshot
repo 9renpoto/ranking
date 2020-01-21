@@ -95,6 +95,15 @@ exports[`FileProperties pages Admire Page 1`] = `
   z-index: 1;
 }
 
+.c13:disabled {
+  color: rgba(36,41,46,0.4);
+  background-color: #eff3f6;
+  background-image: none;
+  border-color: rgba(27,31,35,0.20);
+  box-shadow: none;
+  cursor: default;
+}
+
 .c7 {
   position: relative;
   display: -webkit-box;

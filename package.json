@@ -19,12 +19,14 @@
   },
   "dependencies": {
     "@babel/core": "^7.8.3",
-    "@lingui/babel-preset-react": "^2.9.0",
+    "@babel/preset-typescript": "^7.8.3",
     "@lingui/react": "^2.9.0",
     "@primer/components": "^15.0.1",
     "@primer/octicons-react": "^9.3.1",
     "@types/lingui__react": "^2.8.1",
     "@types/styled-components": "^4.4.2",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-lodash": "^3.3.4",
     "lerna": "^3.19.0",
     "module-alias": "^2.2.2",
     "next": "^9.1.6",
@@ -51,9 +53,10 @@
     "@storybook/react": "5.2.8",
     "@types/faker": "4.1.9",
     "@types/jest": "24.9.0",
+    "@types/jest-specific-snapshot": "^0.5.4",
+    "@types/storybook__addon-storyshots": "5.1.2",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "24.9.0",
-    "babel-loader": "8.0.6",
     "babel-plugin-macros": "2.8.0",
     "eslint": "6.8.0",
     "eslint-plugin-jest": "23.6.0",
@@ -121,12 +124,10 @@
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "prettier-eslint --write",
-      "git add"
+      "prettier-eslint --write"
     ],
     "*.{md,js,json,toml}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "prettier": {
