@@ -1,5 +1,5 @@
 module.exports = {
-  presets: ['next/babel', '@lingui/babel-preset-react'],
+  presets: ['next/babel'],
   env: {
     test: {
       plugins: ['macros']

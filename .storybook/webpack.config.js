@@ -2,20 +2,7 @@ module.exports = async ({ config: defaultConfig }) => {
   defaultConfig.module.rules.push({
     test: /\.(ts|tsx)$/,
     exclude: /node_modules/,
-    loader: require.resolve('babel-loader'),
-    options: {
-      plugins: ['macros'],
-      presets: [
-        [
-          'next/babel',
-          {
-            'preset-env': {
-              modules: 'commonjs'
-            }
-          }
-        ]
-      ]
-    }
+    loader: require('ts-loader')
   })
 
   defaultConfig.resolve.alias = Object.assign({}, defaultConfig.resolve.alias, {
