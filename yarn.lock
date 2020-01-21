@@ -10883,10 +10883,10 @@ move-concurrently@^1.0.1:
     rimraf "^2.5.4"
     run-queue "^1.0.3"
 
-moxci@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/moxci/-/moxci-0.1.0.tgz#c5b0ddb0161c482282793480d4499b1fcf51c35a"
-  integrity sha512-JU+nX6vMrfzNkT9879yifk0qei+IQXLKp0kBMZ1Ztty+xXxGbYLlSAFIL4j/dnlZwPKt7gMMvNsFrkA0luKWKQ==
+moxci@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/moxci/-/moxci-0.1.1.tgz#779240418e5376d3df280309735e9a980e370067"
+  integrity sha512-vJEuMsRG2OjiUjvn6ix/3u2Eehoo/Hdm6KJTs+vKGJrjbFYyELx1XjaWcY6yVJdxdK98JGs4AXu4Izdo3fXEww==
   dependencies:
     "@octokit/rest" "16.28.8"
     axios "^0.19.0"

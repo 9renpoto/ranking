@@ -64,7 +64,7 @@
     "jest-styled-components": "7.0.0",
     "lerna-changelog": "1.0.0",
     "lint-staged": "10.0.0",
-    "moxci": "0.1.0",
+    "moxci": "0.1.1",
     "preact-render-to-json": "3.6.6",
     "prettier-eslint-cli": "5.0.0",
     "prettier-plugin-package": "0.3.1",
