@@ -1,8 +1,24 @@
 module.exports = async ({ config: defaultConfig }) => {
   defaultConfig.module.rules.push({
-    test: /\.(ts|tsx)$/,
-    exclude: /node_modules/,
-    loader: require('ts-loader')
+    test: /\.[j|t]sx?$/,
+    use: [
+      {
+        loader: require.resolve('babel-loader'),
+        options: {
+          plugins: [
+            '@babel/plugin-proposal-class-properties',
+            '@babel/plugin-proposal-optional-chaining',
+            'macros',
+            'lodash'
+          ],
+          presets: [
+            '@babel/preset-env',
+            '@babel/preset-react',
+            '@babel/preset-typescript'
+          ]
+        }
+      }
+    ]
   })
 
   defaultConfig.resolve.alias = Object.assign({}, defaultConfig.resolve.alias, {
