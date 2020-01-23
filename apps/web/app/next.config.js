@@ -1,15 +1,9 @@
-const withTM = require('next-transpile-modules')
+const withTM = require('next-transpile-modules')(['@ranking/components'])
 const withPreact = require('next-preactx-plugin')
 
 module.exports = withPreact(
   withTM({
     distDir: '../../dist/functions/next',
-    transpileModules: [
-      '@rate/atoms',
-      '@rate/molecules',
-      '@rate/pages',
-      '@rate/templates'
-    ],
     webpack: (config, { isServer }) => {
       config.module.rules.push({
         test: /\.po/,
