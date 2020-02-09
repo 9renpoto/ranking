@@ -1,6 +1,14 @@
 {
   "name": "@ranking/web",
   "version": "0.0.1",
+  "private": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "next build app",
+    "clean": "rimraf .next",
+    "dev": "next app",
+    "prebuild": "yarn clean"
+  },
   "dependencies": {
     "@lingui/loader": "2.9.1",
     "@lingui/macro": "2.9.1",
@@ -11,14 +19,11 @@
     "babel-plugin-macros": "2.8.0",
     "faker": "4.1.0",
     "next": "9.2.1",
-    "next-preactx-plugin": "1.1.3",
     "next-transpile-modules": "3.0.2",
-    "preact": "10.3.0",
+    "preact": "10.3.1",
     "preact-render-to-string": "5.1.4",
     "preact-ssr-prepass": "1.0.1"
   },
-  "main": "lib/index.js",
-  "private": true,
   "lingui": {
     "sourceLocale": "en",
     "localeDir": "./app/locale",
@@ -27,11 +32,5 @@
       "../../../packages"
     ],
     "format": "po"
-  },
-  "scripts": {
-    "build": "next build app",
-    "clean": "rimraf .next",
-    "dev": "next app",
-    "prebuild": "yarn clean"
   }
 }
