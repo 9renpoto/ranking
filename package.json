@@ -1,9 +1,9 @@
 {
-  "name": "rate",
+  "name": "@app/ranking",
   "version": "0.0.1",
   "private": true,
   "description": "TBD",
-  "license": "MIT",
+  "license": "WTFPL",
   "repository": "ssh://git@github.com/g59/ranking.git",
   "author": "9renpoto",
   "scripts": {
