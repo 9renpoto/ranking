@@ -1,8 +1,14 @@
 module.exports = {
-  presets: ['next/babel'],
-  env: {
-    test: {
-      plugins: ['macros']
-    }
-  }
+  presets: [
+    [
+      'next/babel',
+      {
+        'preset-env': {
+          useBuiltIns: 'entry',
+          corejs: 3
+        }
+      }
+    ]
+  ],
+  plugins: ['macros', 'lodash']
 }
