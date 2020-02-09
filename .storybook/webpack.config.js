@@ -1,6 +1,3 @@
-const $ = require('core-js/es/object/get-own-property-descriptor')
-console.warn($)
-
 module.exports = async ({ config: defaultConfig }) => {
   defaultConfig.module.rules.push({
     test: /\.[j|t]sx?$/,
