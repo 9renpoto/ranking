@@ -20,7 +20,9 @@ export function withLang<P>(Component: StatelessPage, defaultLang = 'en') {
       const language =
         typeof ctx.query.lang === 'string'
           ? ctx.query.lang
-          : ctx.query.lang[0] || defaultLang
+          : ctx.query.lang
+          ? ctx.query.lang[0]
+          : defaultLang
       const [props, catalog] = await Promise.all([
         Component.getInitialProps ? Component.getInitialProps(ctx) : {},
         import(`../locale/${language}/messages.po`).then(m => m.default)
