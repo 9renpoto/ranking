@@ -13,6 +13,7 @@ import { RangeValuation } from '../atoms/RangeValuation'
 import { ResultRank, ResultRankInner } from '../atoms/ResultRanking'
 import { ResultComment } from '../atoms/ResultComment'
 import { Admire } from './Admire'
+import AppBarComponent from './AppBar'
 import { AdmireContent } from './AdmireContent'
 import { Rank } from './Ranking'
 
@@ -40,6 +41,8 @@ function DefaultAdmire() {
 }
 
 export default { title: 'molecules' }
+
+export const AppBar = () => <AppBarComponent />
 
 export const Admires = () => (
   <Box>

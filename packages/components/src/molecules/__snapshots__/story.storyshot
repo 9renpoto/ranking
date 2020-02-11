@@ -1,7 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`FileProperties molecules Admires 1`] = `
-.c3 {
+Array [
+  .c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  line-height: 1.5;
+  color: #24292e;
+}
+
+<div
+    className="c0"
+  />,
+  .c3 {
   display: inline-block;
   overflow: hidden;
   line-height: 1;
@@ -147,245 +157,287 @@ exports[`FileProperties molecules Admires 1`] = `
 }
 
 <div
-  className=""
->
-  <div
-    className="c0 c1"
+    className=""
   >
     <div
-      className="c2"
-    >
-      <img
-        alt=""
-        className="c3"
-        height={20}
-        size={20}
-        src="https://s3.amazonaws.com/uifaces/faces/twitter/giancarlon/128.jpg"
-        width={20}
-      />
-      <span
-        className=""
-      >
-        Rufiyaa
-      </span>
-    </div>
-    <div
-      className="c4"
+      className="c0 c1"
     >
       <div
-        className="c5"
+        className="c2"
+      >
+        <img
+          alt=""
+          className="c3"
+          height={20}
+          size={20}
+          src="https://s3.amazonaws.com/uifaces/faces/twitter/giancarlon/128.jpg"
+          width={20}
+        />
+        <span
+          className=""
+        >
+          Rufiyaa
+        </span>
+      </div>
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
-          <p>
-            monitor
-          </p>
-          <p>
-            Berkshire
-          </p>
-        </div>
-        <div
-          className="c7"
-        >
-          <input
-            className="c8"
-            step="25"
-            type="range"
-          />
-          <span
-            className="c9"
-            style={
-              Object {
-                "left": "50%",
-              }
-            }
+          <div
+            className="c6"
           >
-            3
-          </span>
+            <p>
+              monitor
+            </p>
+            <p>
+              Berkshire
+            </p>
+          </div>
+          <div
+            className="c7"
+          >
+            <input
+              className="c8"
+              step="25"
+              type="range"
+            />
+            <span
+              className="c9"
+              style={
+                Object {
+                  "left": "50%",
+                }
+              }
+            >
+              3
+            </span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div
-    className="c0 c1"
-  >
     <div
-      className="c2"
-    >
-      <img
-        alt=""
-        className="c3"
-        height={20}
-        size={20}
-        src="https://s3.amazonaws.com/uifaces/faces/twitter/nvkznemo/128.jpg"
-        width={20}
-      />
-      <span
-        className=""
-      >
-        Administrator
-      </span>
-    </div>
-    <div
-      className="c4"
+      className="c0 c1"
     >
       <div
-        className="c5"
+        className="c2"
+      >
+        <img
+          alt=""
+          className="c3"
+          height={20}
+          size={20}
+          src="https://s3.amazonaws.com/uifaces/faces/twitter/nvkznemo/128.jpg"
+          width={20}
+        />
+        <span
+          className=""
+        >
+          Administrator
+        </span>
+      </div>
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
-          <p>
-            Metical
-          </p>
-          <p>
-            Crossing
-          </p>
-        </div>
-        <div
-          className="c7"
-        >
-          <input
-            className="c8"
-            step="25"
-            type="range"
-          />
-          <span
-            className="c9"
-            style={
-              Object {
-                "left": "50%",
-              }
-            }
+          <div
+            className="c6"
           >
-            3
-          </span>
+            <p>
+              Metical
+            </p>
+            <p>
+              Crossing
+            </p>
+          </div>
+          <div
+            className="c7"
+          >
+            <input
+              className="c8"
+              step="25"
+              type="range"
+            />
+            <span
+              className="c9"
+              style={
+                Object {
+                  "left": "50%",
+                }
+              }
+            >
+              3
+            </span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div
-    className="c0 c1"
-  >
     <div
-      className="c2"
-    >
-      <img
-        alt=""
-        className="c3"
-        height={20}
-        size={20}
-        src="https://s3.amazonaws.com/uifaces/faces/twitter/BroumiYoussef/128.jpg"
-        width={20}
-      />
-      <span
-        className=""
-      >
-        harness
-      </span>
-    </div>
-    <div
-      className="c4"
+      className="c0 c1"
     >
       <div
-        className="c5"
+        className="c2"
+      >
+        <img
+          alt=""
+          className="c3"
+          height={20}
+          size={20}
+          src="https://s3.amazonaws.com/uifaces/faces/twitter/BroumiYoussef/128.jpg"
+          width={20}
+        />
+        <span
+          className=""
+        >
+          harness
+        </span>
+      </div>
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
-          <p>
-            Credit Card Account
-          </p>
-          <p>
-            help-desk
-          </p>
-        </div>
-        <div
-          className="c7"
-        >
-          <input
-            className="c8"
-            step="25"
-            type="range"
-          />
-          <span
-            className="c9"
-            style={
-              Object {
-                "left": "50%",
-              }
-            }
+          <div
+            className="c6"
           >
-            3
-          </span>
+            <p>
+              Credit Card Account
+            </p>
+            <p>
+              help-desk
+            </p>
+          </div>
+          <div
+            className="c7"
+          >
+            <input
+              className="c8"
+              step="25"
+              type="range"
+            />
+            <span
+              className="c9"
+              style={
+                Object {
+                  "left": "50%",
+                }
+              }
+            >
+              3
+            </span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div
-    className="c0 c1"
-  >
     <div
-      className="c2"
-    >
-      <img
-        alt=""
-        className="c3"
-        height={20}
-        size={20}
-        src="https://s3.amazonaws.com/uifaces/faces/twitter/namankreative/128.jpg"
-        width={20}
-      />
-      <span
-        className=""
-      >
-        Handcrafted Cotton Soap
-      </span>
-    </div>
-    <div
-      className="c4"
+      className="c0 c1"
     >
       <div
-        className="c5"
+        className="c2"
+      >
+        <img
+          alt=""
+          className="c3"
+          height={20}
+          size={20}
+          src="https://s3.amazonaws.com/uifaces/faces/twitter/namankreative/128.jpg"
+          width={20}
+        />
+        <span
+          className=""
+        >
+          Handcrafted Cotton Soap
+        </span>
+      </div>
+      <div
+        className="c4"
       >
         <div
-          className="c6"
+          className="c5"
         >
-          <p>
-            alarm
-          </p>
-          <p>
-            Table
-          </p>
-        </div>
-        <div
-          className="c7"
-        >
-          <input
-            className="c8"
-            step="25"
-            type="range"
-          />
-          <span
-            className="c9"
-            style={
-              Object {
-                "left": "50%",
-              }
-            }
+          <div
+            className="c6"
           >
-            3
-          </span>
+            <p>
+              alarm
+            </p>
+            <p>
+              Table
+            </p>
+          </div>
+          <div
+            className="c7"
+          >
+            <input
+              className="c8"
+              step="25"
+              type="range"
+            />
+            <span
+              className="c9"
+              style={
+                Object {
+                  "left": "50%",
+                }
+              }
+            >
+              3
+            </span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
+`;
+
+exports[`FileProperties molecules App Bar 1`] = `
+Array [
+  .c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  line-height: 1.5;
+  color: #24292e;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  padding: 24px;
+  top: 0;
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+<header
+    className=""
+  >
+    <div
+      className="c0"
+    >
+      ranking 🤔
+    </div>
+  </header>,
+]
 `;
 
 exports[`FileProperties molecules Heros 1`] = `
-.c0 {
+Array [
+  .c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  line-height: 1.5;
+  color: #24292e;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
   display: inline-block;
   overflow: hidden;
   line-height: 1;
@@ -394,26 +446,37 @@ exports[`FileProperties molecules Heros 1`] = `
 }
 
 <div
-  className=""
->
-  <img
-    alt=""
-    className="c0"
-    height={20}
-    size={20}
-    src="https://s3.amazonaws.com/uifaces/faces/twitter/kurtinc/128.jpg"
-    width={20}
-  />
-  <span
     className=""
   >
-    Awesome
-  </span>
-</div>
+    <img
+      alt=""
+      className="c0"
+      height={20}
+      size={20}
+      src="https://s3.amazonaws.com/uifaces/faces/twitter/kurtinc/128.jpg"
+      width={20}
+    />
+    <span
+      className=""
+    >
+      Awesome
+    </span>
+  </div>,
+]
 `;
 
 exports[`FileProperties molecules Range Input 1`] = `
-.c0 {
+Array [
+  .c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  line-height: 1.5;
+  color: #24292e;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -514,46 +577,57 @@ exports[`FileProperties molecules Range Input 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2"
+      className="c1"
     >
-      <p>
-        solution
-      </p>
-      <p>
-        Buckinghamshire
-      </p>
-    </div>
-    <div
-      className="c3"
-    >
-      <input
-        className="c4"
-        step="25"
-        type="range"
-      />
-      <span
-        className="c5"
-        style={
-          Object {
-            "left": "50%",
-          }
-        }
+      <div
+        className="c2"
       >
-        3
-      </span>
+        <p>
+          solution
+        </p>
+        <p>
+          Buckinghamshire
+        </p>
+      </div>
+      <div
+        className="c3"
+      >
+        <input
+          className="c4"
+          step="25"
+          type="range"
+        />
+        <span
+          className="c5"
+          style={
+            Object {
+              "left": "50%",
+            }
+          }
+        >
+          3
+        </span>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`FileProperties molecules Ranges 1`] = `
-.c0 {
+Array [
+  .c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  line-height: 1.5;
+  color: #24292e;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -622,49 +696,60 @@ exports[`FileProperties molecules Ranges 1`] = `
 }
 
 <div
-  className="c0"
->
-  <div
-    className="c1"
+    className="c0"
   >
     <div
-      className="c2"
-    >
-      <p>
-        firewall
-      </p>
-      <p>
-        e-commerce
-      </p>
-    </div>
-    <div
-      className="c3"
+      className="c1"
     >
       <div
-        className="c4"
-        style={
-          Object {
-            "left": "50%",
-          }
-        }
-      />
-      <span
-        className="c5"
-        style={
-          Object {
-            "left": "50%",
-          }
-        }
+        className="c2"
       >
-        3
-      </span>
+        <p>
+          firewall
+        </p>
+        <p>
+          e-commerce
+        </p>
+      </div>
+      <div
+        className="c3"
+      >
+        <div
+          className="c4"
+          style={
+            Object {
+              "left": "50%",
+            }
+          }
+        />
+        <span
+          className="c5"
+          style={
+            Object {
+              "left": "50%",
+            }
+          }
+        >
+          3
+        </span>
+      </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`FileProperties molecules Ranks 1`] = `
-.c5 {
+Array [
+  .c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  line-height: 1.5;
+  color: #24292e;
+}
+
+<div
+    className="c0"
+  />,
+  .c5 {
   display: inline-block;
   overflow: hidden;
   line-height: 1;
@@ -830,74 +915,84 @@ exports[`FileProperties molecules Ranks 1`] = `
 }
 
 <div
-  className="c0 c1"
->
-  <span>
-    74029
-  </span>
-  <div
-    className="c2 c3"
+    className="c0 c1"
   >
+    <span>
+      74029
+    </span>
     <div
-      className="c4"
-    >
-      <img
-        alt=""
-        className="c5"
-        height={20}
-        size={20}
-        src="https://s3.amazonaws.com/uifaces/faces/twitter/kianoshp/128.jpg"
-        width={20}
-      />
-      <span
-        className=""
-      >
-        synergistic
-      </span>
-    </div>
-    <div
-      className="c6"
+      className="c2 c3"
     >
       <div
-        className="c7"
+        className="c4"
+      >
+        <img
+          alt=""
+          className="c5"
+          height={20}
+          size={20}
+          src="https://s3.amazonaws.com/uifaces/faces/twitter/kianoshp/128.jpg"
+          width={20}
+        />
+        <span
+          className=""
+        >
+          synergistic
+        </span>
+      </div>
+      <div
+        className="c6"
       >
         <div
-          className="c8"
+          className="c7"
         >
-          <p>
-            e-services
-          </p>
-          <p>
-            withdrawal
-          </p>
-        </div>
-        <div
-          className="c9"
-        >
-          <input
-            className="c10"
-            step="25"
-            type="range"
-          />
-          <span
-            className="c11"
-            style={
-              Object {
-                "left": "50%",
-              }
-            }
+          <div
+            className="c8"
           >
-            3
-          </span>
+            <p>
+              e-services
+            </p>
+            <p>
+              withdrawal
+            </p>
+          </div>
+          <div
+            className="c9"
+          >
+            <input
+              className="c10"
+              step="25"
+              type="range"
+            />
+            <span
+              className="c11"
+              style={
+                Object {
+                  "left": "50%",
+                }
+              }
+            >
+              3
+            </span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`FileProperties molecules Results 1`] = `
 Array [
+  .c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  line-height: 1.5;
+  color: #24292e;
+}
+
+<div
+    className="c0"
+  />,
   .c0 {
   margin: 0 auto;
   color: #3fa2fc;

@@ -1,10 +1,8 @@
 import { random, internet } from 'faker'
-import Octicon, { Person, Pencil } from '@primer/octicons-react'
 import { Button, Box, Avatar, ProgressBar, Text } from '@primer/components'
 import { RangeValuation } from '../atoms/RangeValuation'
 import { ResultComment } from '../atoms/ResultComment'
 import { Main } from '../atoms/Main'
-import { Nav } from '../atoms/Nav'
 import { Wrapper } from '../atoms/Wrapper'
 import { ResultRank, ResultRankInner } from '../atoms/ResultRanking'
 import {
@@ -23,20 +21,6 @@ export default { title: 'pages' }
 
 export const AdmirePage = () => (
   <Wrapper>
-    <Nav>
-      <ul>
-        <li>
-          <a href='#' className='active'>
-            <Octicon icon={Person} />
-          </a>
-        </li>
-        <li>
-          <a href='#'>
-            <Octicon icon={Pencil} />
-          </a>
-        </li>
-      </ul>
-    </Nav>
     <Main>
       <Box>
         <Box>
@@ -85,20 +69,6 @@ export const AdmirePage = () => (
 
 export const Mypage = () => (
   <Wrapper>
-    <Nav>
-      <ul>
-        <li>
-          <a href='#' className='active'>
-            <Octicon icon={Person} />
-          </a>
-        </li>
-        <li>
-          <a href='#'>
-            <Octicon icon={Pencil} />
-          </a>
-        </li>
-      </ul>
-    </Nav>
     <Main>
       <Box p={4} mt={2}>
         <Avatar src={internet.avatar()}></Avatar>
