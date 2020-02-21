@@ -24,7 +24,7 @@
     "@primer/components": "^15.0.1",
     "@primer/octicons-react": "^9.3.1",
     "@types/lingui__react": "^2.8.1",
-    "@types/styled-components": "^4.4.2",
+    "@types/styled-components": "^5.0.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-lodash": "^3.3.4",
     "babel-plugin-macros": "2.8.0",
