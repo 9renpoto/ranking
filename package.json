@@ -70,7 +70,7 @@
     "moxci": "0.2.0",
     "prettier": "2.0.2",
     "prettier-eslint-cli": "5.0.0",
-    "prettier-plugin-package": "0.3.1",
+    "prettier-plugin-package": "1.0.0",
     "prettier-plugin-toml": "0.3.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
