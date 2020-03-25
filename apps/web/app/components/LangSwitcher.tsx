@@ -6,7 +6,7 @@ import { MessageDescriptor } from '@lingui/core'
 
 const availableLanguageNames: { [key: string]: MessageDescriptor } = {
   en: t`English`,
-  ja: t`Japanese`
+  ja: t`Japanese`,
 }
 
 const availableLanguages = Object.keys(availableLanguageNames)
@@ -16,7 +16,7 @@ export default () => {
     evt.preventDefault()
     Router.push({
       pathname: window.location.pathname,
-      query: { lang: (evt.currentTarget.lang as any).value }
+      query: { lang: (evt.currentTarget.lang as any).value },
     })
   }
 
@@ -28,10 +28,10 @@ export default () => {
             key={i18n.language}
             name='lang'
             defaultValue={availableLanguages.find(
-              lang => lang !== i18n.language
+              (lang) => lang !== i18n.language
             )}
           >
-            {availableLanguages.map(lang => (
+            {availableLanguages.map((lang) => (
               <option key={lang} value={lang} disabled={i18n.language === lang}>
                 {i18n._(availableLanguageNames[lang])}
               </option>

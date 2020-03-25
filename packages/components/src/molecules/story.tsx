@@ -7,7 +7,7 @@ import {
   RangeValue,
   RangeInner,
   EditRange,
-  EditRangeInput
+  EditRangeInput,
 } from '../atoms/Range'
 import { RangeValuation } from '../atoms/RangeValuation'
 import { ResultRank, ResultRankInner } from '../atoms/ResultRanking'

@@ -68,10 +68,8 @@
     "lerna-changelog": "1.0.1",
     "lint-staged": "10.0.9",
     "moxci": "0.2.0",
-    "prettier": "1.19.1",
-    "prettier-eslint-cli": "5.0.0",
-    "prettier-plugin-package": "0.3.1",
-    "prettier-plugin-toml": "0.3.1",
+    "prettier": "2.0.2",
+    "prettier-plugin-package": "1.0.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "require-context.macro": "1.2.2",
@@ -123,10 +121,7 @@
     "format": "po"
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
-      "prettier-eslint --write"
-    ],
-    "*.{md,js,json,toml}": [
+    "*.{ts,tsx,md,js,json}": [
       "prettier --write"
     ]
   },
