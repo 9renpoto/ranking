@@ -25,15 +25,15 @@ export function withLang<P>(Component: StatelessPage, defaultLang = 'en') {
           : defaultLang
       const [props, catalog] = await Promise.all([
         Component.getInitialProps ? Component.getInitialProps(ctx) : {},
-        import(`../locale/${language}/messages.po`).then((m) => m.default)
+        import(`../locale/${language}/messages.po`).then((m) => m.default),
       ])
 
       return {
         ...props,
         language,
         catalogs: {
-          [language]: catalog
-        }
+          [language]: catalog,
+        },
       }
     }
 

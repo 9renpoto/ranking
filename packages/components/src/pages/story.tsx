@@ -12,7 +12,7 @@ import {
   RangeValue,
   Range,
   RangeBar,
-  RangeBarThumb
+  RangeBarThumb,
 } from '../atoms/Range'
 import { Admire } from '../molecules/Admire'
 import { AdmireContent as Inner } from '../molecules/AdmireContent'
