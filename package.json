@@ -68,7 +68,7 @@
     "lerna-changelog": "1.0.1",
     "lint-staged": "10.1.2",
     "moxci": "0.2.0",
-    "prettier": "2.0.2",
+    "prettier": "2.0.3",
     "prettier-plugin-package": "1.0.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
