@@ -70,7 +70,7 @@
     "moxci": "0.2.0",
     "prettier": "2.0.4",
     "prettier-plugin-package": "1.0.0",
-    "react": "16.12.0",
+    "react": "16.13.1",
     "react-dom": "16.12.0",
     "require-context.macro": "1.2.2",
     "stylelint": "13.3.0",
