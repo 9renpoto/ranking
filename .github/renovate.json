@@ -5,8 +5,5 @@
   "major": {
     "automerge": false
   },
-  "minor": {
-    "automerge": false
-  },
   "semanticCommits": true
 }
