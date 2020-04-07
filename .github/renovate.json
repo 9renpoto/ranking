@@ -2,8 +2,5 @@
   "extends": ["config:js-lib"],
   "automerge": true,
   "labels": ["Type: Dependencies"],
-  "major": {
-    "automerge": false
-  },
   "semanticCommits": true
 }
