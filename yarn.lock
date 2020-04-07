@@ -2610,10 +2610,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@primer/components@^15.0.1":
-  version "15.2.3"
-  resolved "https://registry.yarnpkg.com/@primer/components/-/components-15.2.3.tgz#8392524850b76cf551893afec94e8e5cf1c01175"
-  integrity sha512-INFi9In2kZXCG7AExjUIc9EFiQ/DDV6liYcVJ6reQivVi2EiXczBWoY+9s6KyFPSgKN7g4vlZWp5TfwABffzcw==
+"@primer/components@^17.0.0":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@primer/components/-/components-17.0.0.tgz#4376e1a93e2b69facdec87291dce0ec5ef32ace7"
+  integrity sha512-fmErRzr94wWJ7iVrwWjIgUjRpfWAqqdz/KiB3t/m+aWFIajmpKcrmTqs7qWoC7TgEsjeuQRr2l8hx15iWMvg1A==
   dependencies:
     "@primer/octicons-react" "^9.2.0"
     "@reach/dialog" "0.3.0"
@@ -2621,6 +2621,7 @@
     "@styled-system/props" "5.1.4"
     "@styled-system/theme-get" "5.1.2"
     "@testing-library/react" "9.4.0"
+    "@types/styled-components" "^4.4.0"
     "@types/styled-system" "5.1.2"
     babel-plugin-macros "2.6.1"
     babel-polyfill "6.26.0"
@@ -3909,6 +3910,16 @@
   integrity sha512-+wSNb0JtRMg5AJ7LVTSKmVqU63TLoLXApljQekLvamAZPJnX08nmr1CmHzoniuK/ZpEJ3xErKoYQtrJWWdSw5Q==
   dependencies:
     "@storybook/react" "^5.2.0"
+
+"@types/styled-components@^4.4.0":
+  version "4.4.3"
+  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-4.4.3.tgz#74dd00ad760845a98890a8539361d8afc32059de"
+  integrity sha512-U0udeNOZBfUkJycmGJwmzun0FBt11rZy08weVQmE2xfUNAbX8AGOEWxWna2d+qAUKxKgMlcG+TZT0+K2FfDcnQ==
+  dependencies:
+    "@types/hoist-non-react-statics" "*"
+    "@types/react" "*"
+    "@types/react-native" "*"
+    csstype "^2.2.0"
 
 "@types/styled-components@^5.0.0":
   version "5.0.1"
