@@ -21,7 +21,7 @@
     "@babel/core": "^7.8.4",
     "@lingui/macro": "2.9.1",
     "@lingui/react": "^2.9.0",
-    "@primer/components": "^17.0.0",
+    "@primer/components": "^18.0.0",
     "@primer/octicons-react": "^9.3.1",
     "@types/lingui__react": "^2.8.1",
     "@types/styled-components": "^5.0.0",
