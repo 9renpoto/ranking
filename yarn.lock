@@ -2641,10 +2641,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@primer/components@^17.0.0":
-  version "17.1.1"
-  resolved "https://registry.yarnpkg.com/@primer/components/-/components-17.1.1.tgz#1d195785400116b87e9a78d138f7a24a01b207cc"
-  integrity sha512-wle6PoQqZicftRMbHviLNw9fCzeIvq0U5edgUcCyG2l/4a7fwdEocPc6CqXNR9w764jCYEfZ4FWXb8IIkWl+XQ==
+"@primer/components@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.yarnpkg.com/@primer/components/-/components-18.0.0.tgz#94833bac1a20fe8ef0e7dcc8f596ef0a8ca3a927"
+  integrity sha512-SxmGSdlOH+DBIdOTWngV9+K92gCbqWItGMjcSsefiahXvGHCFvuut8jtASdbNv5gZFs5c2ICtlhRc81BPfk00g==
   dependencies:
     "@primer/octicons-react" "^9.2.0"
     "@reach/dialog" "0.3.0"
