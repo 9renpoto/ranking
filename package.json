@@ -39,7 +39,7 @@
   "devDependencies": {
     "@9renpoto/eslint-config-react": "6.0.0",
     "@9renpoto/eslint-config-typescript": "6.0.0",
-    "@9renpoto/stylelint-config": "5.5.1",
+    "@9renpoto/stylelint-config": "6.0.0",
     "@lingui/cli": "2.9.1",
     "@storybook/addon-actions": "5.3.18",
     "@storybook/addon-storyshots": "5.3.18",
