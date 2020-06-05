@@ -27,12 +27,12 @@
     eslint-plugin-import "^2.20.1"
     eslint-plugin-prettier "^3.1.2"
 
-"@9renpoto/stylelint-config@5.5.1":
-  version "5.5.1"
-  resolved "https://registry.yarnpkg.com/@9renpoto/stylelint-config/-/stylelint-config-5.5.1.tgz#1af8dbca59b81fc00013196ba2a471b25363c466"
-  integrity sha512-thgk5ZJbqTUNkzcjGgXplxNXBrxLZDVF900jguacqDLglQbxrJGc3leQjqqJAtt+9QE4s72JdOcYKMaIbJpM4A==
+"@9renpoto/stylelint-config@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@9renpoto/stylelint-config/-/stylelint-config-6.0.0.tgz#534557e731d583756c38b40c1300eddfd87dbc20"
+  integrity sha512-M/h/T8Vss7Vkw2IPtLDxs8sMHmj2VdpiVs/NcKBbIFfLYuYSA2XH0zJKdcYAXJhDexu05xeZIzwzYoukLyd73Q==
   dependencies:
-    stylelint-config-prettier "^8.0.0"
+    stylelint-config-prettier "^8.0.1"
 
 "@ampproject/toolbox-core@^2.0.0":
   version "2.0.0"
@@ -18119,7 +18119,7 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-stylelint-config-prettier@8.0.1, stylelint-config-prettier@^8.0.0:
+stylelint-config-prettier@8.0.1, stylelint-config-prettier@^8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-8.0.1.tgz#ec7cdd7faabaff52ebfa56c28fed3d995ebb8cab"
   integrity sha512-RcjNW7MUaNVqONhJH4+rtlAE3ow/9SsAM0YWV0Lgu3dbTKdWTa/pQXRdFWgoHWpzUKn+9oBKR5x8JdH+20wmgw==
