@@ -48,7 +48,7 @@
     "@types/enzyme-adapter-react-16": "1.0.6",
     "@types/enzyme-to-json": "1.5.3",
     "@types/faker": "4.1.12",
-    "@types/jest": "26.0.2",
+    "@types/jest": "26.0.3",
     "@types/jest-specific-snapshot": "0.5.4",
     "@types/storybook__addon-storyshots": "5.1.2",
     "babel-core": "7.0.0-bridge.0",
