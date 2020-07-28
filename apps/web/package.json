@@ -19,7 +19,7 @@
     "babel-plugin-macros": "2.8.0",
     "faker": "4.1.0",
     "next": "9.5.0",
-    "next-transpile-modules": "4.0.0",
+    "next-transpile-modules": "4.0.1",
     "preact": "10.4.6",
     "preact-render-to-string": "5.1.10",
     "preact-ssr-prepass": "1.1.0"
