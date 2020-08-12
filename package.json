@@ -63,7 +63,7 @@
     "jest": "25.5.4",
     "jest-environment-enzyme": "7.1.2",
     "jest-enzyme": "7.1.2",
-    "jest-specific-snapshot": "3.0.0",
+    "jest-specific-snapshot": "4.0.0",
     "jest-styled-components": "7.0.2",
     "lerna-changelog": "1.0.1",
     "lint-staged": "10.2.11",
