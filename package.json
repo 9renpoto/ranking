@@ -64,7 +64,7 @@
     "jest-environment-enzyme": "7.1.2",
     "jest-enzyme": "7.1.2",
     "jest-specific-snapshot": "4.0.0",
-    "jest-styled-components": "7.0.2",
+    "jest-styled-components": "7.0.3",
     "lerna-changelog": "1.0.1",
     "lint-staged": "10.2.11",
     "moxci": "0.2.0",
