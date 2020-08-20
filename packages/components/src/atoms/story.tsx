@@ -1,5 +1,5 @@
-import { random, internet } from 'faker'
 import { Avatar, ProgressBar, Text } from '@primer/components'
+import { internet, random } from 'faker'
 
 export default { title: 'atoms' }
 

@@ -1,4 +1,4 @@
-import { Wrapper, Inner } from './Signin'
+import { Inner, Wrapper } from './Signin'
 
 export default { title: 'templates' }
 

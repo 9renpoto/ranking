@@ -365,7 +365,7 @@ exports[`FileProperties pages Admire Page 1`] = `
         </div>
       </div>
       <button
-        className="sc-fzokOt c12"
+        className="c12"
       >
         Incredible
       </button>
@@ -472,6 +472,12 @@ exports[`FileProperties pages Mypage 1`] = `
   color: #555;
 }
 
+.c12 {
+  margin-top: 0.938rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
 .c10 {
   margin: 0 auto;
   color: #3fa2fc;
@@ -507,12 +513,6 @@ exports[`FileProperties pages Mypage 1`] = `
   font-size: 0.625rem;
   font-weight: normal;
   margin-bottom: 0.313rem;
-}
-
-.c12 {
-  margin-top: 0.938rem;
-  font-size: 0.875rem;
-  line-height: 1.4;
 }
 
 .c1 {
