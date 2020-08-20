@@ -1,0 +1,692 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileProperties pages Admire Page 1`] = `
+.c5 {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
+.c12 {
+  position: relative;
+  display: inline-block;
+  padding: 6px 16px;
+  font-weight: 600;
+  line-height: 20px;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 14px;
+  color: #24292e;
+  background-color: #fafbfc;
+  border: 1px solid #e1e4e8;
+  box-shadow: 0px 1px 0px rgba(149,157,165,0.1),inset 0px 2px 0px rgba(255,255,255,0.25);
+}
+
+.c12:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c12:focus {
+  outline: none;
+}
+
+.c12:disabled {
+  cursor: default;
+}
+
+.c12:hover {
+  background-color: #F3F4F6;
+  box-shadow: 0px 1px 0px rgba(209,213,218,0.2),inset 0px 2px 0px rgba(255,255,255,0.1);
+}
+
+.c12:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(3,102,214,0.3);
+}
+
+.c12:active {
+  background-color: #edeff2;
+  box-shadow: inset 0px 2px 0px rgba(149,157,165,0.1);
+  border-color: #d1d5da;
+}
+
+.c12:disabled {
+  color: #959da5;
+  background-color: #fafbfc;
+  border-color: #eaecef;
+}
+
+.c6 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c7 {
+  width: 100%;
+}
+
+.c11 {
+  position: absolute;
+  top: 85%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 3;
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.c9 {
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.c10 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #eb2e3e;
+  height: 0.063rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.c10::-webkit-slider-thumb {
+  background-color: #fff;
+  border: 0.063rem solid #eb2e3e;
+  width: 1.563rem;
+  height: 1.563rem;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.c10::-ms-tooltip {
+  display: none;
+}
+
+.c10::-ms-tooltip {
+  display: none;
+}
+
+.c10::-moz-focus-outer {
+  border: 0;
+}
+
+.c10::-moz-range-track {
+  height: 0;
+}
+
+.c10::-moz-range-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  width: 1.563rem;
+  height: 1.563rem;
+  border: 0.063rem solid #eb2e3e;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #555;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.25rem;
+}
+
+.c3 > * {
+  width: 50%;
+}
+
+.c3 + .c2 {
+  border-top: 1px solid #ccc;
+}
+
+.c3 img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.625rem;
+}
+
+.c3 p {
+  font-size: 0.875rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f9f9f9;
+  min-height: 100%;
+  height: 100%;
+}
+
+@media (max-width:48rem) {
+  .c1 {
+    display: block;
+  }
+}
+
+@media (max-width:48rem) {
+  .c0 {
+    display: block;
+  }
+}
+
+<div
+  className="c0"
+>
+  <main
+    className="c1"
+  >
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className="c2 c3"
+        >
+          <div
+            className="c4"
+          >
+            <img
+              alt=""
+              className="c5"
+              height={20}
+              size={20}
+              src="https://s3.amazonaws.com/uifaces/faces/twitter/nemanjaivanovic/128.jpg"
+              width={20}
+            />
+            <span
+              className=""
+            >
+              zero defect
+            </span>
+          </div>
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              <div
+                className="c8"
+              >
+                <p>
+                  invoice
+                </p>
+                <p>
+                  Licensed
+                </p>
+              </div>
+              <div
+                className="c9"
+              >
+                <input
+                  className="c10"
+                  step="25"
+                  type="range"
+                />
+                <span
+                  className="c11"
+                  style={
+                    Object {
+                      "left": "50%",
+                    }
+                  }
+                >
+                  3
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="c2 c3"
+        >
+          <div
+            className="c4"
+          >
+            <img
+              alt=""
+              className="c5"
+              height={20}
+              size={20}
+              src="https://s3.amazonaws.com/uifaces/faces/twitter/lepinski/128.jpg"
+              width={20}
+            />
+            <span
+              className=""
+            >
+              Grocery
+            </span>
+          </div>
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              <div
+                className="c8"
+              >
+                <p>
+                  Shoes
+                </p>
+                <p>
+                  Table
+                </p>
+              </div>
+              <div
+                className="c9"
+              >
+                <input
+                  className="c10"
+                  step="25"
+                  type="range"
+                />
+                <span
+                  className="c11"
+                  style={
+                    Object {
+                      "left": "50%",
+                    }
+                  }
+                >
+                  3
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        className="sc-fzokOt c12"
+      >
+        Incredible
+      </button>
+    </div>
+  </main>
+</div>
+`;
+
+exports[`FileProperties pages Mypage 1`] = `
+.c2 {
+  padding: 24px;
+  margin-top: 8px;
+}
+
+.c3 {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
+.c14 {
+  width: 100%;
+  background-color: #28a745;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  background-color: #e1e4e8;
+  border-radius: 3px;
+  height: 8px;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  width: 100%;
+}
+
+.c7 {
+  position: relative;
+  border-bottom: 0.063rem solid #eb2e3e;
+  margin-top: 1.25rem;
+  width: 100%;
+  height: 0.063rem;
+  box-sizing: border-box;
+}
+
+.c8 {
+  position: absolute;
+  border: 0.063rem solid #eb2e3e;
+  width: 1.563rem;
+  height: 1.563rem;
+  border-radius: 50%;
+  top: 50%;
+  background-color: #fff;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.c9 {
+  position: absolute;
+  top: 85%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 3;
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #555;
+}
+
+.c10 {
+  margin: 0 auto;
+  color: #3fa2fc;
+  font-size: 1.563rem;
+  font-weight: bold;
+  width: 5rem;
+  height: 5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0.188rem solid #3fa2fc;
+  border-radius: 50%;
+}
+
+.c11 {
+  text-align: center;
+}
+
+.c11 span {
+  display: block;
+  font-size: 0.625rem;
+  font-weight: normal;
+  margin-bottom: 0.313rem;
+}
+
+.c12 {
+  margin-top: 0.938rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.c1 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f9f9f9;
+  min-height: 100%;
+  height: 100%;
+}
+
+@media (max-width:48rem) {
+  .c1 {
+    display: block;
+  }
+}
+
+@media (max-width:48rem) {
+  .c0 {
+    display: block;
+  }
+}
+
+<div
+  className="c0"
+>
+  <main
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <img
+        alt=""
+        className="c3"
+        height={20}
+        size={20}
+        src="https://s3.amazonaws.com/uifaces/faces/twitter/apriendeau/128.jpg"
+        width={20}
+      />
+      <span
+        className=""
+      >
+        deliverables
+      </span>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <div
+          className="c4"
+        >
+          <div
+            className="c5"
+          >
+            <div
+              className="c6"
+            >
+              <p>
+                とても悪い
+              </p>
+              <p>
+                とても良い
+              </p>
+            </div>
+            <div
+              className="c7"
+            >
+              <div
+                className="c8"
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              />
+              <span
+                className="c9"
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              >
+                3
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className=""
+      >
+        <div
+          className="c10"
+        >
+          <div
+            className="c11"
+          >
+            <span>
+              50人中
+            </span>
+            10位
+          </div>
+        </div>
+        <p
+          className="c12"
+        >
+          International
+        </p>
+      </div>
+    </div>
+    <div
+      className=""
+    >
+      <div
+        className=""
+      >
+        <img
+          alt=""
+          className="c3"
+          height={20}
+          size={20}
+          src="https://s3.amazonaws.com/uifaces/faces/twitter/ccinojasso1/128.jpg"
+          width={20}
+        />
+        <span
+          className=""
+        >
+          Borders
+        </span>
+        <span
+          className="c13"
+        >
+          <span
+            className="c14"
+          />
+        </span>
+      </div>
+      <div
+        className=""
+      >
+        <img
+          alt=""
+          className="c3"
+          height={20}
+          size={20}
+          src="https://s3.amazonaws.com/uifaces/faces/twitter/nitinhayaran/128.jpg"
+          width={20}
+        />
+        <span
+          className=""
+        >
+          Home Loan Account
+        </span>
+        <span
+          className="c13"
+        >
+          <span
+            className="c14"
+          />
+        </span>
+      </div>
+    </div>
+  </main>
+</div>
+`;

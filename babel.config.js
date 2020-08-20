@@ -5,10 +5,10 @@ module.exports = {
       {
         'preset-env': {
           useBuiltIns: 'entry',
-          corejs: 3
-        }
-      }
-    ]
+          corejs: 3,
+        },
+      },
+    ],
   ],
-  plugins: ['macros', 'lodash']
+  plugins: ['lodash'],
 }

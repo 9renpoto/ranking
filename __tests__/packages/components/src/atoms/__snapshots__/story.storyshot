@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileProperties atoms Rank Bars 1`] = `
+Array [
+  .c0 {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
+<img
+    alt=""
+    className="c0"
+    height={20}
+    size={20}
+    src="https://s3.amazonaws.com/uifaces/faces/twitter/xravil/128.jpg"
+    width={20}
+  />,
+  .c0 {
+  margin-right: 16px;
+}
+
+<span
+    className="c0"
+  >
+    port
+  </span>,
+  .c1 {
+  width: 43%;
+  background-color: #28a745;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  background-color: #e1e4e8;
+  border-radius: 3px;
+  height: 8px;
+}
+
+<span
+    className="c0"
+  >
+    <span
+      className="c1"
+    />
+  </span>,
+]
+`;
