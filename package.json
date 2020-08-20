@@ -65,7 +65,6 @@
     "jest-styled-components": "7.0.2",
     "lerna-changelog": "1.0.1",
     "lint-staged": "10.2.11",
-    "moxci": "0.2.0",
     "prettier": "2.0.5",
     "prettier-plugin-package": "1.0.0",
     "react": "16.13.1",
