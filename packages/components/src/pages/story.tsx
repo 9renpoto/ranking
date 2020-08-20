@@ -1,19 +1,19 @@
-import { random, internet } from 'faker'
-import { Button, Box, Avatar, ProgressBar, Text } from '@primer/components'
-import { RangeValuation } from '../atoms/RangeValuation'
-import { ResultComment } from '../atoms/ResultComment'
+import { Avatar, Box, Button, ProgressBar, Text } from '@primer/components'
+import { internet, random } from 'faker'
 import { Main } from '../atoms/Main'
-import { Wrapper } from '../atoms/Wrapper'
-import { ResultRank, ResultRankInner } from '../atoms/ResultRanking'
 import {
-  RangeInner,
   EditRange,
   EditRangeInput,
-  RangeValue,
   Range,
   RangeBar,
   RangeBarThumb,
+  RangeInner,
+  RangeValue,
 } from '../atoms/Range'
+import { RangeValuation } from '../atoms/RangeValuation'
+import { ResultComment } from '../atoms/ResultComment'
+import { ResultRank, ResultRankInner } from '../atoms/ResultRanking'
+import { Wrapper } from '../atoms/Wrapper'
 import { Admire } from '../molecules/Admire'
 import { AdmireContent as Inner } from '../molecules/AdmireContent'
 

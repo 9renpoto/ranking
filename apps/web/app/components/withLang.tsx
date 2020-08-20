@@ -1,7 +1,7 @@
-import React from 'react'
-import { I18nProvider } from '@lingui/react'
 import { Catalogs } from '@lingui/core'
+import { I18nProvider } from '@lingui/react'
 import { NextPageContext } from 'next'
+import React from 'react'
 
 type BaseProps = {
   language: string

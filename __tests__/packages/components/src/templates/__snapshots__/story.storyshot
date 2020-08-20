@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileProperties templates Sign In 1`] = `
+.c0 {
+  background: #3ebdaa;
+  background: linear-gradient( 90deg, rgba(62,189,170,0.6), rgba(63,162,252,0.6) );
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  background-color: #fff;
+  padding: 3rem;
+  width: 24rem;
+  box-sizing: border-box;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0,0,0,0.1);
+}
+
+.c1 button {
+  margin-top: 3.75rem;
+  width: 100%;
+}
+
+<div
+  className="c0"
+>
+  <main
+    className="c1"
+  />
+</div>
+`;

@@ -12,8 +12,8 @@
     "clean": "rimraf lib .tmp && lerna run clean && lerna clean --y",
     "lint": "run-p -l lint:*",
     "lint:es": "eslint . --ext=ts,tsx",
-    "lint:prettier": "prettier --check '{packages,apps}/**/*.tsx'",
-    "lint:stylelint": "stylelint '{packages,apps}/**/*.tsx'",
+    "lint:prettier": "prettier --check '{packages,apps}/**/*.{js,ts,tsx}?'",
+    "lint:stylelint": "stylelint '{packages,apps}/**/*.tsx' -s css-in-js",
     "lint:tsc": "tsc -p . --noEmit",
     "test": "jest"
   },
@@ -27,7 +27,6 @@
     "@types/styled-components": "^5.0.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-lodash": "^3.3.4",
-    "babel-plugin-macros": "2.8.0",
     "lerna": "^3.19.0",
     "next": "^9.2.1",
     "npm-run-all": "^4.1.5",
@@ -38,21 +37,20 @@
   },
   "devDependencies": {
     "@9renpoto/eslint-config-react": "7.0.3",
-    "@9renpoto/eslint-config-typescript": "6.0.0",
-    "@9renpoto/stylelint-config": "6.0.0",
+    "@9renpoto/eslint-config-typescript": "7.0.3",
+    "@9renpoto/stylelint-config": "7.0.3",
     "@lingui/cli": "2.9.1",
-    "@storybook/addon-actions": "6.0.16",
+    "@storybook/addon-essentials": "6.0.16",
     "@storybook/addon-storyshots": "6.0.16",
     "@storybook/react": "6.0.16",
     "@types/enzyme": "3.10.5",
     "@types/enzyme-adapter-react-16": "1.0.6",
     "@types/enzyme-to-json": "1.5.3",
     "@types/faker": "4.1.12",
-    "@types/jest": "26.0.7",
+    "@types/jest": "26.0.10",
     "@types/jest-specific-snapshot": "0.5.4",
-    "@types/storybook__addon-storyshots": "5.1.2",
     "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "25.5.1",
+    "babel-jest": "26.3.0",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.3",
     "enzyme-to-json": "3.5.0",
@@ -60,19 +58,18 @@
     "eslint-plugin-jest": "23.20.0",
     "faker": "4.1.0",
     "husky": "4.2.5",
-    "jest": "25.5.4",
+    "jest": "26.4.0",
     "jest-environment-enzyme": "7.1.2",
     "jest-enzyme": "7.1.2",
     "jest-specific-snapshot": "4.0.0",
-    "jest-styled-components": "7.0.2",
+    "jest-styled-components": "7.0.3",
     "lerna-changelog": "1.0.1",
     "lint-staged": "10.2.11",
-    "moxci": "0.2.0",
     "prettier": "2.0.5",
+    "prettier-plugin-organize-imports": "^1.1.1",
     "prettier-plugin-package": "1.0.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "require-context.macro": "1.2.2",
     "stylelint": "13.6.1",
     "stylelint-config-prettier": "8.0.2",
     "stylelint-config-recommended": "3.0.0",
@@ -86,10 +83,7 @@
     ],
     "plugins": [
       "jest"
-    ],
-    "rules": {
-      "import/no-named-as-default": 1
-    }
+    ]
   },
   "husky": {
     "hooks": {
@@ -121,7 +115,14 @@
     "format": "po"
   },
   "lint-staged": {
-    "*.{ts,tsx,md,js,json}": [
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.tsx": [
+      "stylelint --fix -s css-in-js"
+    ],
+    "*.{md,js,json}": [
       "prettier --write"
     ]
   },

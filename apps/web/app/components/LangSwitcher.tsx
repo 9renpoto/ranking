@@ -1,8 +1,8 @@
-import Router from 'next/router'
-import { I18n } from '@lingui/react'
-import { t, Trans } from '@lingui/macro'
-import { FormEvent } from 'react'
 import { MessageDescriptor } from '@lingui/core'
+import { t, Trans } from '@lingui/macro'
+import { I18n } from '@lingui/react'
+import Router from 'next/router'
+import { FormEvent } from 'react'
 
 const availableLanguageNames: { [key: string]: MessageDescriptor } = {
   en: t`English`,
