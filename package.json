@@ -64,7 +64,7 @@
     "jest-specific-snapshot": "4.0.0",
     "jest-styled-components": "7.0.3",
     "lerna-changelog": "1.0.1",
-    "lint-staged": "10.2.12",
+    "lint-staged": "10.2.13",
     "prettier": "2.1.0",
     "prettier-plugin-organize-imports": "1.1.1",
     "prettier-plugin-package": "1.0.0",
