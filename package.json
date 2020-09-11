@@ -70,7 +70,7 @@
     "prettier-plugin-package": "1.0.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "stylelint": "13.7.0",
+    "stylelint": "13.7.1",
     "stylelint-config-prettier": "8.0.2",
     "stylelint-config-recommended": "3.0.0",
     "stylelint-config-styled-components": "0.1.1",
