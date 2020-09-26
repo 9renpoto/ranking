@@ -14,7 +14,7 @@
     "@lingui/macro": "2.9.2",
     "@ranking/components": "0.0.1",
     "@types/faker": "5.1.0",
-    "@types/lingui__macro": "2.7.3",
+    "@types/lingui__macro": "2.7.4",
     "@types/lingui__react": "2.8.2",
     "babel-plugin-macros": "2.8.0",
     "faker": "4.1.0",
