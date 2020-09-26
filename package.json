@@ -46,7 +46,7 @@
     "@types/enzyme": "3.10.7",
     "@types/enzyme-adapter-react-16": "1.0.6",
     "@types/enzyme-to-json": "1.5.4",
-    "@types/faker": "5.1.0",
+    "@types/faker": "5.1.2",
     "@types/jest": "26.0.14",
     "@types/jest-specific-snapshot": "0.5.4",
     "babel-core": "7.0.0-bridge.0",
