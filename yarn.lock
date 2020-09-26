@@ -4083,7 +4083,15 @@
     "@types/lingui__core" "*"
     "@types/react" "*"
 
-"@types/lingui__react@2.8.2", "@types/lingui__react@^2.8.1":
+"@types/lingui__react@2.8.3":
+  version "2.8.3"
+  resolved "https://registry.yarnpkg.com/@types/lingui__react/-/lingui__react-2.8.3.tgz#0dbb380f502480b9fe1e2c4a0a9bf860364a10cf"
+  integrity sha512-MXkYBg0KrFqEBam5kthNVaVa56YhWwtFlpZIS3Xr/9CE1jGlFo8isMBzgX/2m6QzTr/x4rLQ2PdUgUMjNzdG5A==
+  dependencies:
+    "@types/lingui__core" "*"
+    "@types/react" "*"
+
+"@types/lingui__react@^2.8.1":
   version "2.8.2"
   resolved "https://registry.yarnpkg.com/@types/lingui__react/-/lingui__react-2.8.2.tgz#69970ac4d7ce7ea7dfd6b09dbe68ae75218c0861"
   integrity sha512-jED2hN4qLEG0FVmTMiwbptmAXpRxdD+Epg8SuuOUmpTaH01TaxdStqNJuS0lW3EuqzSl6D1RGA81ZtnA5N3A9A==
