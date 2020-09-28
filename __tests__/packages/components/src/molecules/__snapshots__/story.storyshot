@@ -160,13 +160,13 @@ exports[`FileProperties molecules Admires 1`] = `
         className="c3"
         height={20}
         size={20}
-        src="https://s3.amazonaws.com/uifaces/faces/twitter/giancarlon/128.jpg"
+        src="https://s3.amazonaws.com/uifaces/faces/twitter/johnsmithagency/128.jpg"
         width={20}
       />
       <span
         className=""
       >
-        Rufiyaa
+        Rico
       </span>
     </div>
     <div
@@ -178,69 +178,11 @@ exports[`FileProperties molecules Admires 1`] = `
         <div
           className="c6"
         >
-          <p>
-            monitor
-          </p>
           <p>
             Berkshire
           </p>
-        </div>
-        <div
-          className="c7"
-        >
-          <input
-            className="c8"
-            step="25"
-            type="range"
-          />
-          <span
-            className="c9"
-            style={
-              Object {
-                "left": "50%",
-              }
-            }
-          >
-            3
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    className="c0 c1"
-  >
-    <div
-      className="c2"
-    >
-      <img
-        alt=""
-        className="c3"
-        height={20}
-        size={20}
-        src="https://s3.amazonaws.com/uifaces/faces/twitter/nvkznemo/128.jpg"
-        width={20}
-      />
-      <span
-        className=""
-      >
-        Administrator
-      </span>
-    </div>
-    <div
-      className="c4"
-    >
-      <div
-        className="c5"
-      >
-        <div
-          className="c6"
-        >
           <p>
-            Metical
-          </p>
-          <p>
-            Crossing
+            Administrator
           </p>
         </div>
         <div
@@ -276,13 +218,13 @@ exports[`FileProperties molecules Admires 1`] = `
         className="c3"
         height={20}
         size={20}
-        src="https://s3.amazonaws.com/uifaces/faces/twitter/BroumiYoussef/128.jpg"
+        src="https://s3.amazonaws.com/uifaces/faces/twitter/conspirator/128.jpg"
         width={20}
       />
       <span
         className=""
       >
-        harness
+        Crossing
       </span>
     </div>
     <div
@@ -295,10 +237,10 @@ exports[`FileProperties molecules Admires 1`] = `
           className="c6"
         >
           <p>
-            Credit Card Account
+            harness
           </p>
           <p>
-            help-desk
+            card
           </p>
         </div>
         <div
@@ -340,7 +282,7 @@ exports[`FileProperties molecules Admires 1`] = `
       <span
         className=""
       >
-        Handcrafted Cotton Soap
+        Soap
       </span>
     </div>
     <div
@@ -353,10 +295,68 @@ exports[`FileProperties molecules Admires 1`] = `
           className="c6"
         >
           <p>
-            alarm
+            deposit
           </p>
           <p>
-            Table
+            Computer
+          </p>
+        </div>
+        <div
+          className="c7"
+        >
+          <input
+            className="c8"
+            step="25"
+            type="range"
+          />
+          <span
+            className="c9"
+            style={
+              Object {
+                "left": "50%",
+              }
+            }
+          >
+            3
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c0 c1"
+  >
+    <div
+      className="c2"
+    >
+      <img
+        alt=""
+        className="c3"
+        height={20}
+        size={20}
+        src="https://s3.amazonaws.com/uifaces/faces/twitter/charlesrpratt/128.jpg"
+        width={20}
+      />
+      <span
+        className=""
+      >
+        Israel
+      </span>
+    </div>
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
+      >
+        <div
+          className="c6"
+        >
+          <p>
+            solution
+          </p>
+          <p>
+            monitor
           </p>
         </div>
         <div
@@ -421,13 +421,13 @@ exports[`FileProperties molecules Heros 1`] = `
     className="c0"
     height={20}
     size={20}
-    src="https://s3.amazonaws.com/uifaces/faces/twitter/kurtinc/128.jpg"
+    src="https://s3.amazonaws.com/uifaces/faces/twitter/the_purplebunny/128.jpg"
     width={20}
   />
   <span
     className=""
   >
-    Awesome
+    system
   </span>
 </div>
 `;
@@ -543,10 +543,10 @@ exports[`FileProperties molecules Range Input 1`] = `
       className="c2"
     >
       <p>
-        solution
+        Orchestrator
       </p>
       <p>
-        Buckinghamshire
+        Licensed
       </p>
     </div>
     <div
@@ -651,10 +651,10 @@ exports[`FileProperties molecules Ranges 1`] = `
       className="c2"
     >
       <p>
-        firewall
+        withdrawal
       </p>
       <p>
-        e-commerce
+        Enterprise-wide
       </p>
     </div>
     <div
@@ -853,7 +853,7 @@ exports[`FileProperties molecules Ranks 1`] = `
   className="c0 c1"
 >
   <span>
-    74029
+    2798
   </span>
   <div
     className="c2 c3"
@@ -866,13 +866,13 @@ exports[`FileProperties molecules Ranks 1`] = `
         className="c5"
         height={20}
         size={20}
-        src="https://s3.amazonaws.com/uifaces/faces/twitter/kianoshp/128.jpg"
+        src="https://s3.amazonaws.com/uifaces/faces/twitter/bluesix/128.jpg"
         width={20}
       />
       <span
         className=""
       >
-        synergistic
+        Shoes
       </span>
     </div>
     <div
@@ -885,10 +885,10 @@ exports[`FileProperties molecules Ranks 1`] = `
           className="c8"
         >
           <p>
-            e-services
+            markets
           </p>
           <p>
-            withdrawal
+            District
           </p>
         </div>
         <div
@@ -976,7 +976,7 @@ Array [
 <p
     className="c0"
   >
-    architect
+    International
   </p>,
 ]
 `;

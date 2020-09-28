@@ -262,13 +262,13 @@ exports[`FileProperties pages Admire Page 1`] = `
               className="c5"
               height={20}
               size={20}
-              src="https://s3.amazonaws.com/uifaces/faces/twitter/nemanjaivanovic/128.jpg"
+              src="https://s3.amazonaws.com/uifaces/faces/twitter/bowbrick/128.jpg"
               width={20}
             />
             <span
               className=""
             >
-              zero defect
+              Berkshire
             </span>
           </div>
           <div
@@ -281,10 +281,10 @@ exports[`FileProperties pages Admire Page 1`] = `
                 className="c8"
               >
                 <p>
-                  invoice
+                  Colorado
                 </p>
                 <p>
-                  Licensed
+                  initiative
                 </p>
               </div>
               <div
@@ -320,13 +320,13 @@ exports[`FileProperties pages Admire Page 1`] = `
               className="c5"
               height={20}
               size={20}
-              src="https://s3.amazonaws.com/uifaces/faces/twitter/lepinski/128.jpg"
+              src="https://s3.amazonaws.com/uifaces/faces/twitter/fran_mchamy/128.jpg"
               width={20}
             />
             <span
               className=""
             >
-              Grocery
+              JSON
             </span>
           </div>
           <div
@@ -339,10 +339,10 @@ exports[`FileProperties pages Admire Page 1`] = `
                 className="c8"
               >
                 <p>
-                  Shoes
+                  Sleek
                 </p>
                 <p>
-                  Table
+                  Manager
                 </p>
               </div>
               <div
@@ -371,7 +371,7 @@ exports[`FileProperties pages Admire Page 1`] = `
       <button
         className="c12"
       >
-        Incredible
+        e-commerce
       </button>
     </div>
   </main>
@@ -561,13 +561,13 @@ exports[`FileProperties pages Mypage 1`] = `
         className="c3"
         height={20}
         size={20}
-        src="https://s3.amazonaws.com/uifaces/faces/twitter/apriendeau/128.jpg"
+        src="https://s3.amazonaws.com/uifaces/faces/twitter/erwanhesry/128.jpg"
         width={20}
       />
       <span
         className=""
       >
-        deliverables
+        Stream
       </span>
     </div>
     <div
@@ -635,7 +635,7 @@ exports[`FileProperties pages Mypage 1`] = `
         <p
           className="c12"
         >
-          International
+          Market
         </p>
       </div>
     </div>
@@ -650,13 +650,13 @@ exports[`FileProperties pages Mypage 1`] = `
           className="c3"
           height={20}
           size={20}
-          src="https://s3.amazonaws.com/uifaces/faces/twitter/ccinojasso1/128.jpg"
+          src="https://s3.amazonaws.com/uifaces/faces/twitter/lepinski/128.jpg"
           width={20}
         />
         <span
           className=""
         >
-          Borders
+          clicks-and-mortar
         </span>
         <span
           className="c13"
@@ -674,13 +674,13 @@ exports[`FileProperties pages Mypage 1`] = `
           className="c3"
           height={20}
           size={20}
-          src="https://s3.amazonaws.com/uifaces/faces/twitter/nitinhayaran/128.jpg"
+          src="https://s3.amazonaws.com/uifaces/faces/twitter/artvavs/128.jpg"
           width={20}
         />
         <span
           className=""
         >
-          Home Loan Account
+          models
         </span>
         <span
           className="c13"
