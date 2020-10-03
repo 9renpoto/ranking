@@ -40,7 +40,7 @@
     "@9renpoto/eslint-config-typescript": "7.1.0",
     "@9renpoto/stylelint-config": "7.1.0",
     "@lingui/cli": "2.9.2",
-    "@storybook/addon-essentials": "6.0.23",
+    "@storybook/addon-essentials": "6.0.25",
     "@storybook/addon-storyshots": "6.0.25",
     "@storybook/react": "6.0.25",
     "@types/enzyme": "3.10.7",
