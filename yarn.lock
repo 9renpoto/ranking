@@ -3129,14 +3129,14 @@
     "@lingui/conf" "2.9.2"
     babel-generator "^6.26.1"
 
-"@lingui/babel-plugin-extract-messages@3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@lingui/babel-plugin-extract-messages/-/babel-plugin-extract-messages-3.2.1.tgz#709b92092b18f660d66d2788be29297a7e683a59"
-  integrity sha512-lyPdBcgjZ/mlpOZD0TSduO0ORQzKsx6EKvd+i2/B+PaAwccSyZOgQtCFMK83TbprEwVhmIWQg+cLtSfXmbi1wA==
+"@lingui/babel-plugin-extract-messages@^3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@lingui/babel-plugin-extract-messages/-/babel-plugin-extract-messages-3.2.2.tgz#1f4406655fb510b06ade41aa9b960164e9358200"
+  integrity sha512-ixvFc66CeYLyuA0SvEFOT56zHJ+eXYrEfVTuwB36NE/mpbd3Q7FRE2G1imU1Z+yU+0GYe+Y2pRE96iUL5mQvRQ==
   dependencies:
     "@babel/generator" "^7.11.6"
     "@babel/runtime" "^7.11.2"
-    "@lingui/conf" "3.2.1"
+    "@lingui/conf" "^3.2.2"
     mkdirp "^1.0.4"
 
 "@lingui/babel-plugin-transform-js@2.9.2":
@@ -3179,18 +3179,18 @@
     pseudolocale "^1.1.0"
     ramda "^0.26.1"
 
-"@lingui/cli@3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@lingui/cli/-/cli-3.2.1.tgz#c77fb44b025685ee7cc764a0fb2dad18dba6a723"
-  integrity sha512-V1qeH+1XsS3FFtLlotG5b7vj04FCV8+c6D+/J4cqMAjeJHXitnofiCU4oHUs3mttM1IYLO4cf9y+xo+RM9BZBw==
+"@lingui/cli@3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@lingui/cli/-/cli-3.2.2.tgz#4a793114d7e7cc9595033cac8b5538ba30002b05"
+  integrity sha512-nsXd0u7f53dKd4GVhPePcvDMpATjpm6CCFSM9zuJMIBejacsWP3jeUyE7STJW+EoVSbDONgRsDRt9yuCQOEHKw==
   dependencies:
     "@babel/generator" "^7.11.6"
     "@babel/parser" "^7.11.5"
     "@babel/plugin-syntax-jsx" "^7.10.4"
     "@babel/runtime" "^7.11.2"
     "@babel/types" "^7.11.5"
-    "@lingui/babel-plugin-extract-messages" "3.2.1"
-    "@lingui/conf" "3.2.1"
+    "@lingui/babel-plugin-extract-messages" "^3.2.2"
+    "@lingui/conf" "^3.2.2"
     babel-plugin-macros "^2.8.0"
     bcp-47 "^1.0.7"
     chalk "^4.1.0"
@@ -3223,10 +3223,10 @@
     jest-validate "^24.8.0"
     pkg-conf "^3.1.0"
 
-"@lingui/conf@3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@lingui/conf/-/conf-3.2.1.tgz#376f6fe742c67344d319816c39ace6988e9768f4"
-  integrity sha512-V+ShdnsMuXoAKu4zFqB5fNqQX+5S0TUCzn3fJKJbaCEgdwAmbhkDXAtItoSraDTUxo0uejk+SLj69Jjb0DpE7Q==
+"@lingui/conf@^3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@lingui/conf/-/conf-3.2.2.tgz#3eb9616c0cf1a3c1a4a1ffdd548040c06ec1e962"
+  integrity sha512-h+Q0zigi5pMe4CGeZ/ba5GKGaESFK9BSfMa6RI35ZO0gWPDMi5Difj2Tfwk5l9TBAA1rE39jLIoqsrwvN5DV/Q==
   dependencies:
     "@babel/runtime" "^7.11.2"
     chalk "^4.1.0"
