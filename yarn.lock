@@ -2579,12 +2579,14 @@
     loader-utils "^1.1.0"
     ramda "^0.26.1"
 
-"@lingui/macro@2.9.2":
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/@lingui/macro/-/macro-2.9.2.tgz#bb141b9f51a347857a4e99ba1c00690c30a50081"
-  integrity sha512-IFv9h3LL/vjMz98JiDpckIsAlIcnCNuCD4+/C8KK33qGsU9MbCF+zjIztdEWlm3JlnFNm1/qIw7CkrtdoH0RpA==
+"@lingui/macro@3.2.3":
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@lingui/macro/-/macro-3.2.3.tgz#d054f9f6008b068a134d7bb3bfe87b3573c5d556"
+  integrity sha512-XcGUD8qQe8b351qGA/AyX+WKQWJu3T/r8wlXsttKoeFd7OXIitAw53L+OLc6xauM5xUssdaWo6BtOJnLw034gA==
   dependencies:
-    "@lingui/babel-plugin-transform-react" "2.9.2"
+    "@babel/runtime" "^7.11.2"
+    "@lingui/conf" "^3.2.3"
+    ramda "^0.27.1"
 
 "@lingui/react@^2.9.0":
   version "2.9.2"
