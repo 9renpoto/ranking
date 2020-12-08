@@ -39,7 +39,7 @@
     "@9renpoto/eslint-config-react": "7.3.0",
     "@9renpoto/eslint-config-typescript": "7.3.0",
     "@9renpoto/stylelint-config": "7.3.0",
-    "@lingui/cli": "3.2.3",
+    "@lingui/cli": "3.3.0",
     "@storybook/addon-essentials": "6.1.10",
     "@storybook/addon-storyshots": "6.1.10",
     "@storybook/react": "6.1.10",
