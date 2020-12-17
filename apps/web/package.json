@@ -16,7 +16,7 @@
     "@types/faker": "5.1.5",
     "@types/lingui__macro": "2.7.4",
     "@types/lingui__react": "2.8.3",
-    "babel-plugin-macros": "2.8.0",
+    "babel-plugin-macros": "3.0.1",
     "faker": "5.1.0",
     "next": "10.0.3",
     "next-transpile-modules": "4.1.0",
